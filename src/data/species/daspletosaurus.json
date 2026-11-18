@@ -1,0 +1,172 @@
+{
+  "slug": "daspletosaurus",
+  "accession": "MZ-024",
+  "scientificName": "Daspletosaurus torosus",
+  "commonName": "Frightful lizard",
+  "genus": "Daspletosaurus",
+  "epithet": "torosus",
+  "status": "Extinct",
+  "namedBy": "Russell, 1970",
+  "group": "Theropoda · Tyrannosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    77,
+    75
+  ],
+  "ageLabel": "≈77–75 Ma",
+  "region": [
+    "Canada"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The teeth and jaws are consistent with carnivory, and growth-related changes in the skull have been studied. No gut contents are known; prey choice is inferred from anatomy and from other tyrannosaurids.",
+    "evidence": "inference",
+    "refs": [
+      "primary-daspletosaurus",
+      "v19-daspletosaurus-24"
+    ]
+  },
+  "length": "≈8.5–9.5 m",
+  "mass": "≈2–3 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "daspletosaurus-living",
+  "featured": false,
+  "tagline": "A robust tyrannosaurid with a deep skull and heavy dentition. It is known from several partial skeletons and skulls.",
+  "summary": "Daspletosaurus torosus is a tyrannosaurine from the Dinosaur Park Formation of Alberta. It is known from several skeletons and a growth series, and a juvenile metatarsal informs locomotor development. The genus is central to debates about transitional species and anagenesis in tyrannosaurines.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Coelurosauria"
+    },
+    {
+      "rank": "Family",
+      "value": "Tyrannosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Daspletosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "D. torosus"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Russell, 1970. The record is known from Dinosaur Park Formation, Alberta. Several skulls and partial skeletons from Alberta and Montana.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-daspletosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several skulls and partial skeletons from Alberta and Montana.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-daspletosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Dinosaur Park Formation, Alberta records the species in the Late Cretaceous. The numeric range used here is ≈77–75 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    },
+    {
+      "title": "Growth and stratigraphic sample",
+      "body": "Several skeletons and a juvenile metatarsal inform growth and locomotion. The stratigraphic succession is central to the anagenesis debate, but the species assignments are contested.",
+      "evidence": "fossil",
+      "refs": [
+        "v19-daspletosaurus-24",
+        "v19-daspletosaurus-26"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is deep and massively constructed, with a broad postorbital region and robust teeth.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-daspletosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The behavioural evidence is skeletal: the skull and jaws indicate a large predator, but hunting method and social behaviour are inferred. The transitional-species and anagenesis debates concern taxonomy and stratigraphy, not observed behaviour.",
+    "evidence": "inference",
+    "refs": [
+      "v19-daspletosaurus-25",
+      "v19-daspletosaurus-26"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several skulls and partial skeletons from Alberta and montana. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-daspletosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-daspletosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-daspletosaurus-24",
+    "v19-daspletosaurus-25",
+    "v19-daspletosaurus-26"
+  ],
+  "related": [
+    "albertosaurus",
+    "tyrannosaurus",
+    "tarbosaurus"
+  ],
+  "confidenceNote": "The skull and postcranium are well known, but the growth series is incomplete and species-level taxonomy is contested. The anagenesis hypothesis is debated, not established.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Coastal plain and river woodland",
+  "ancientContext": "Dinosaur Park Formation, Alberta",
+  "locality": [
+    "Dinosaur Park Formation, Alberta"
+  ],
+  "researchStatus": "partially-verified"
+}

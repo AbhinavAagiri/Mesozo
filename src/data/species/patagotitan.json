@@ -1,0 +1,164 @@
+{
+  "slug": "patagotitan",
+  "accession": "MZ-077",
+  "scientificName": "Patagotitan mayorum",
+  "commonName": "Patagonian titan",
+  "genus": "Patagotitan",
+  "epithet": "mayorum",
+  "status": "Extinct",
+  "namedBy": "Carballido et al., 2017",
+  "group": "Sauropodomorpha · Titanosauridae",
+  "groupKey": "Sauropodomorpha",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Albian–Cenomanian",
+  "ageMa": [
+    101,
+    95
+  ],
+  "ageLabel": "≈101–95 Ma",
+  "region": [
+    "Argentina"
+  ],
+  "regionKeys": [
+    "South America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "Herbivory is inferred from titanosaur anatomy. No skull or gut contents are known for Patagotitan, so the plants eaten and the feeding height cannot be reconstructed directly. The diet is a group-level inference.",
+    "evidence": "inference",
+    "refs": [
+      "primary-patagotitan",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈31–37 m",
+  "mass": "≈55–70 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "patagotitan-living",
+  "featured": false,
+  "tagline": "A giant titanosaur known from several associated skeletons from a single quarry. The material is unusually complete for a giant sauropod.",
+  "summary": "A giant titanosaur known from several associated skeletons from a single quarry. The material is unusually complete for a giant sauropod.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropodomorpha"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Titanosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Patagotitan"
+    },
+    {
+      "rank": "Species",
+      "value": "P. mayorum"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Carballido et al., 2017. The holotype, MPEF-PV 3400, is a partial skeleton from a bonebed in the Cerro Barcino Formation, Chubut. The hypodigm includes at least six individuals; the mounted skeleton is composite.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-patagotitan",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several associated skeletons, including limb bones and vertebrae.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-patagotitan",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Cerro Barcino Formation, Chubut records the species in the Late Cretaceous. The numeric range used here is ≈101–95 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The presacral vertebrae are highly pneumatised, the forelimbs are long, and the femur is massive.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-patagotitan",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The bonebed contains at least six individuals, which is direct evidence of a mass accumulation. It does not demonstrate herding: drought, flood or another concentrating process could produce the same association. The mounted skeleton is composite, and no trackway or nest is known.",
+    "evidence": "inference",
+    "refs": [
+      "primary-patagotitan",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several associated skeletons, including limb bones and vertebrae. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-patagotitan",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-patagotitan",
+    "pbdb",
+    "paul2016",
+    "v19-patagotitan-143"
+  ],
+  "related": [
+    "argentinosaurus",
+    "dreadnoughtus",
+    "futalognkosaurus"
+  ],
+  "confidenceNote": "Confidence is high for the associated skeletons and the bonebed. It is low for the skull, body mass, the cause of the accumulation and any social behaviour. Body mass is estimated from incomplete material, not measured.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Riverine floodplain",
+  "ancientContext": "Cerro Barcino Formation, Chubut",
+  "locality": [
+    "Cerro Barcino Formation, Chubut"
+  ],
+  "researchStatus": "partially-verified"
+}

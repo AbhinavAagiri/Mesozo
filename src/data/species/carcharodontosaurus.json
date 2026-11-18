@@ -1,0 +1,161 @@
+{
+  "slug": "carcharodontosaurus",
+  "accession": "MZ-026",
+  "scientificName": "Carcharodontosaurus saharicus",
+  "commonName": "Shark-toothed lizard",
+  "genus": "Carcharodontosaurus",
+  "epithet": "saharicus",
+  "status": "Extinct",
+  "namedBy": "Depéret & Savornin, 1925; genus Stromer, 1931",
+  "group": "Theropoda · Carcharodontosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Cenomanian",
+  "ageMa": [
+    100,
+    94
+  ],
+  "ageLabel": "≈100–94 Ma",
+  "region": [
+    "Morocco"
+  ],
+  "regionKeys": [
+    "Africa"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The large, laterally compressed, serrated teeth are consistent with carnivory and flesh slicing. No gut contents are known; prey choice and hunting method are inferred from anatomy and biomechanics.",
+    "evidence": "inference",
+    "refs": [
+      "v19-carcharodontosaurus-32"
+    ]
+  },
+  "length": "≈12–13 m",
+  "mass": "≈6–8 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "carcharodontosaurus-living",
+  "featured": false,
+  "tagline": "A large carcharodontosaurid known from a partial skull and fragmentary postcrania. Its size is estimated from incomplete material.",
+  "summary": "Carcharodontosaurus saharicus is a large carcharodontosaurid from the Kem Kem Group of North Africa. Much of the original Egyptian material was destroyed in the Second World War, and later Moroccan and Nigerien finds supply most of the current anatomy. The skull is long and relatively lightly built, with large serrated teeth.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Tetanurae"
+    },
+    {
+      "rank": "Family",
+      "value": "Carcharodontosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Carcharodontosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "C. saharicus"
+    }
+  ],
+  "discovery": {
+    "body": "The species was first described as Megalosaurus saharicus by Depéret and Savornin in 1925 from isolated teeth from Algeria. In 1931 Ernst Stromer erected the genus Carcharodontosaurus and referred a partial skeleton from the Bahariya Formation of Egypt to the species. The name-bearing teeth are lost and much of the Egyptian material was destroyed during the Second World War; later Moroccan and Nigerien finds supply most of the current anatomy.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-carcharodontosaurus",
+      "stromer1931"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Kem Kem Group, North Africa records the species in the Late Cretaceous. The numeric range used here is ≈100–94 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    },
+    {
+      "title": "Destroyed type and referred skulls",
+      "body": "The original Egyptian material was largely destroyed during the Second World War. Later skull material from Morocco and Niger provides most of the current anatomical sample, but the species remains known from incomplete material.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-carcharodontosaurus",
+        "v19-carcharodontosaurus-32"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is long and low, with laterally compressed, serrated teeth and large maxillary sinuses.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-carcharodontosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The behavioural evidence is indirect: biomechanical modelling suggests a powerful bite and the ability to remove large pieces of flesh, but the maximum prey size it could handle is an estimate. Social behaviour is unknown.",
+    "evidence": "inference",
+    "refs": [
+      "v19-carcharodontosaurus-31"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a partial skull and fragmentary postcranial material; much of the original egyptian material was destroyed. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-carcharodontosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-carcharodontosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-carcharodontosaurus-31",
+    "v19-carcharodontosaurus-32",
+    "stromer1931"
+  ],
+  "related": [
+    "giganotosaurus",
+    "mapusaurus",
+    "acrocanthosaurus"
+  ],
+  "confidenceNote": "The original type material is destroyed or fragmentary, so the species concept depends heavily on referred material. Size and bite estimates are reconstructed from incomplete specimens.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Riverine and coastal plain",
+  "ancientContext": "Kem Kem Group, North Africa",
+  "locality": [
+    "Kem Kem Group, North Africa"
+  ],
+  "researchStatus": "partially-verified"
+}

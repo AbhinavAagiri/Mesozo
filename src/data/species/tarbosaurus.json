@@ -1,0 +1,167 @@
+{
+  "slug": "tarbosaurus",
+  "accession": "MZ-025",
+  "scientificName": "Tarbosaurus bataar",
+  "commonName": "Alarming lizard",
+  "genus": "Tarbosaurus",
+  "epithet": "bataar",
+  "status": "Extinct",
+  "namedBy": "Maleev, 1955",
+  "group": "Theropoda · Tyrannosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Maastrichtian",
+  "ageMa": [
+    70,
+    66
+  ],
+  "ageLabel": "≈70–66 Ma",
+  "region": [
+    "Mongolia"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "Carnivory is inferred from the dentition, jaw apparatus and comparisons with other tyrannosaurids. Oxygen and carbon isotopes from tooth enamel provide indirect dietary evidence, not stomach contents; the interpretation depends on the local baseline.",
+    "evidence": "inference",
+    "refs": [
+      "primary-tarbosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈10–12 m",
+  "mass": "≈4–5 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "tarbosaurus-living",
+  "featured": false,
+  "tagline": "A large Asian tyrannosaurid, closely related to Tyrannosaurus. The skull is deep but narrower than its North American relative.",
+  "summary": "A large Asian tyrannosaurid, closely related to Tyrannosaurus. The skull is deep but narrower than its North American relative.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Coelurosauria"
+    },
+    {
+      "rank": "Family",
+      "value": "Tyrannosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Tarbosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "T. bataar"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Maleev, 1955. The holotype, PIN 551-1, is a skull with a partial skeleton from the Nemegt Formation, Mongolia. Many skulls and skeletons are known, including juveniles.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-tarbosaurus",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Many skulls and skeletons, including a famous specimen at risk from commercial excavation.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-tarbosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Nemegt Formation, Gobi Desert records the species in the Late Cretaceous. The numeric range used here is ≈70–66 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull has a tall, narrow snout and a pronounced jaw joint; the postcranial skeleton is robust.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-tarbosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Juvenile skulls and tooth replacement document growth, and frontal shape changes allometrically with age. No trackway, nest or social association is known. Hunting and scavenging are inferred from anatomy, not observed.",
+    "evidence": "inference",
+    "refs": [
+      "primary-tarbosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from many skulls and skeletons, including a famous specimen at risk from commercial excavation. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-tarbosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-tarbosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-tarbosaurus-27",
+    "v19-tarbosaurus-28",
+    "v19-tarbosaurus-29",
+    "v19-tarbosaurus-30"
+  ],
+  "related": [
+    "tyrannosaurus",
+    "albertosaurus",
+    "daspletosaurus"
+  ],
+  "confidenceNote": "Confidence is high for the skull, growth series and frontal allometry. It is lower for diet, prey choice, soft tissue and social behaviour. The isotope evidence is indirect and does not identify prey species.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Riverine floodplain",
+  "ancientContext": "Nemegt Formation, Gobi Desert",
+  "locality": [
+    "Nemegt Formation, Gobi Desert"
+  ],
+  "researchStatus": "partially-verified"
+}

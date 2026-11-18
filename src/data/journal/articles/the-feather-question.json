@@ -1,0 +1,188 @@
+{
+  "id": "the-feather-question",
+  "slug": "the-feather-question",
+  "number": 3,
+  "headline": "The Feather Question",
+  "subtitle": "What the fossils actually preserve, what the family tree lets us infer, and why a quill knob matters.",
+  "standfirst": "Feathers are soft, fragile and usually absent from the fossil record. The evidence for them in dinosaurs is therefore a mixture of exceptional fossils, osteological correlates and phylogenetic inference. Keeping those categories apart is what makes the picture stronger, not weaker.",
+  "category": "anatomy",
+  "tags": [
+    "Feathers",
+    "Velociraptor",
+    "Deinonychus",
+    "Birds",
+    "Integument"
+  ],
+  "byline": "MESOZO Editorial",
+  "editorialCredit": "Research, writing and editing by the MESOZO editorial desk.",
+  "publishedAt": "2026-10-29",
+  "updatedAt": "2026-11-02",
+  "readingMinutes": 5,
+  "featured": false,
+  "hero": {
+    "variant": "type",
+    "tone": "light",
+    "label": "Integument · Evidence and inference",
+    "caption": "This story is text-led by design. The one direct feather correlate in the MESOZO fossil archive is an ulna, not a feather impression."
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "id": "not-a-feather",
+      "kicker": "01 — The object",
+      "title": "The fossil is not a feather."
+    },
+    {
+      "type": "text",
+      "dropCap": true,
+      "paragraphs": [
+        "Feathers decay. They scatter. They are eaten, weathered and compressed into films that rarely survive the journey from a living animal to a museum drawer. When a fossil does preserve integument, it is an exception that requires an exceptional explanation. [[xu2014]]",
+        "The strongest direct evidence of feathers in the MESOZO fossil archive is IGM 100/981, a Velociraptor ulna with six quill knobs. The knobs are attachment scars for large feathers on the forearm. The feathers themselves are not preserved. [[turner2007]]"
+      ]
+    },
+    {
+      "type": "diagram",
+      "variant": "feather-quill",
+      "title": "A bone that records what the feather left behind",
+      "caption": "Diagrammatic forearm and quill-knob positions after the interpretation of IGM 100/981. The drawing is not a measured reconstruction of the specimen.",
+      "refs": [
+        "turner2007"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "direct-and-inferred",
+      "kicker": "02 — The distinction",
+      "title": "Direct evidence, inferred covering."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "Deinonychus is known from skeletons, not feather impressions. Its feathers are inferred from its position in the dinosaur family tree and from the wider fossil record of feathered coelurosaurs. That inference is reasonable; it is not the same thing as a fossil of a feather. [[ostrom1969]][[xu2014]]",
+        "The distinction matters because an inference can be strong without becoming a photograph. It can tell us that a covering was likely present. It cannot, by itself, tell us its colour, its extent, its seasonal condition or how it felt."
+      ]
+    },
+    {
+      "type": "comparison",
+      "title": "Two kinds of evidence",
+      "left": {
+        "label": "Direct",
+        "title": "What is preserved",
+        "body": "Quill knobs on a Velociraptor ulna, and feathers or feather-like structures preserved in many non-avian dinosaurs. The fossil records an attachment or a body covering at a particular place and time.",
+        "points": [
+          "IGM 100/981: quill knobs on the forearm",
+          "Exceptional preservation in the wider record",
+          "Anatomy tied to a specimen"
+        ],
+        "refs": [
+          "turner2007",
+          "xu2014"
+        ]
+      },
+      "right": {
+        "label": "Inferred",
+        "title": "What is reconstructed",
+        "body": "The presence, distribution and appearance of feathers on a dinosaur known only from bones. This is a phylogenetic and anatomical argument, not an observation of the animal’s surface.",
+        "points": [
+          "Deinonychus: inferred from relatives",
+          "Extent and colour: not preserved",
+          "A model, not a photograph"
+        ],
+        "refs": [
+          "ostrom1969",
+          "xu2014"
+        ]
+      },
+      "note": "The two categories can support each other. They should not be displayed as if they were the same kind of claim."
+    },
+    {
+      "type": "image",
+      "assetId": "deinonychus-living",
+      "alt": "Life reconstruction of Deinonychus antirrhopus with a feathered body.",
+      "label": "Life reconstruction",
+      "layout": "inset",
+      "fit": "cover",
+      "caption": "A life reconstruction by Emily Willoughby. The feathering is an artistic interpretation informed by phylogeny; it is not a photograph of a fossil.",
+      "refs": [
+        "xu2014"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "before-flight",
+      "kicker": "03 — The function",
+      "title": "Feathers before flight."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "Feathers are present in dinosaurs that could not fly. Flight is one function of feathers, not their definition. The earliest feathers and feather-like structures are also found in animals whose ecology cannot be reconstructed from the integument alone. [[xu2014]]",
+        "Birds are dinosaurs. The first birds appear in the Jurassic, and their anatomy is nested within theropod dinosaurs. That relationship does not mean that every feathered dinosaur was a bird, or that feathers evolved once, in one simple line. [[xu2014]]"
+      ]
+    },
+    {
+      "type": "evidence",
+      "stance": "established",
+      "title": "What the evidence supports",
+      "body": "Feathers and feather-like structures are widespread among coelurosaurian dinosaurs and occur in forms that did not fly. Birds are a lineage within theropod dinosaurs. The direct specimen in this archive is an ulna with quill knobs.",
+      "refs": [
+        "turner2007",
+        "xu2014"
+      ]
+    },
+    {
+      "type": "evidence",
+      "stance": "interpretation",
+      "title": "What is reconstructed",
+      "body": "The full covering of Deinonychus, and the original function of the earliest feathers, are interpretations. They draw on anatomy and phylogeny but are not preserved as a single observable fact.",
+      "refs": [
+        "ostrom1969",
+        "xu2014"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "the-limit",
+      "kicker": "04 — The limit",
+      "title": "The limit of the picture."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "The absence of a feather impression is not evidence that an animal was naked. Preservation bias runs in the other direction: most organisms, and most parts of organisms, do not fossilize. A negative record can be informative, but it needs a taphonomic reason before it becomes a biological claim. [[xu2014]]",
+        "The responsible question is therefore not whether dinosaurs had feathers in general. It is which dinosaur, which part of the body, and which kind of evidence preserves the answer."
+      ]
+    },
+    {
+      "type": "pullquote",
+      "label": "The argument",
+      "text": "A quill knob is not a feather. It is evidence that a feather was attached.",
+      "attribution": "MESOZO editorial"
+    }
+  ],
+  "references": [
+    "turner2007",
+    "ostrom1969",
+    "xu2014"
+  ],
+  "relatedSpeciesIds": [
+    "velociraptor",
+    "deinonychus"
+  ],
+  "relatedPeriodIds": [
+    "jurassic",
+    "cretaceous"
+  ],
+  "relatedSpecimenIds": [
+    "igm-100-981",
+    "ypm-5205"
+  ],
+  "relatedAnatomy": [],
+  "relatedArticleIds": [
+    "deinonychus-and-the-dinosaur-renaissance",
+    "the-end-of-the-cretaceous"
+  ],
+  "readingPathIds": [
+    "feather-path"
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "slug": "borealopelta",
+  "accession": "MZ-108",
+  "scientificName": "Borealopelta markmitchelli",
+  "commonName": "Northern shield",
+  "genus": "Borealopelta",
+  "epithet": "markmitchelli",
+  "status": "Extinct",
+  "namedBy": "Brown et al., 2017",
+  "group": "Ornithischia · Nodosauridae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Aptian–Albian",
+  "ageMa": [
+    115,
+    110
+  ],
+  "ageLabel": "≈115–110 Ma",
+  "region": [
+    "Canada"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "Direct stomach contents are dominated by fern leaf tissues, with low amounts of gymnosperm material. This is direct evidence of ingested plants, but it is one meal from one individual and does not define the full diet.",
+    "evidence": "inference",
+    "refs": [
+      "primary-borealopelta",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈5.5 m",
+  "mass": "≈1.3–1.5 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "borealopelta-living",
+  "featured": false,
+  "tagline": "An exceptionally preserved nodosaurid with armour, skin and gut contents. The specimen is a carcass that washed into a marine setting.",
+  "summary": "An exceptionally preserved nodosaurid with armour, skin and gut contents. The specimen is a carcass that washed into a marine setting.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Thyreophora"
+    },
+    {
+      "rank": "Family",
+      "value": "Nodosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Borealopelta"
+    },
+    {
+      "rank": "Species",
+      "value": "B. markmitchelli"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Brown et al., 2017. The record is known from Clearwater Formation, Alberta. A single nearly complete, three-dimensionally preserved skeleton with soft tissue.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-borealopelta"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "A single nearly complete, three-dimensionally preserved skeleton with soft tissue.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-borealopelta",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Clearwater Formation, Alberta records the species in the Early Cretaceous. The numeric range used here is ≈115–110 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The body is covered in large osteoderms and a shoulder spine. The holotype preserves continuous epidermal scales, horn sheaths and organic residues; the gut contains plant material.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-borealopelta"
+      ]
+    },
+    {
+      "title": "Body plan",
+      "body": "The species is reconstructed as quadrupedal from the preserved limb skeleton and comparison with other nodosaurids; the posture is not observed.",
+      "evidence": "inference",
+      "refs": [
+        "primary-borealopelta"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The carcass was buried in marine sediment after floating from a coastal setting; this is taphonomy, not behaviour. Countershading is interpreted as camouflage against predation, but the ecological inference depends on the reconstruction of the animal's visual environment.",
+    "evidence": "inference",
+    "refs": [
+      "primary-borealopelta",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a single nearly complete, three-dimensionally preserved skeleton with soft tissue. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-borealopelta",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-borealopelta",
+    "pbdb",
+    "paul2016",
+    "v19-borealopelta-202"
+  ],
+  "related": [
+    "sauropelta",
+    "edmontonia",
+    "nodosaurus"
+  ],
+  "confidenceNote": "The holotype is a single, exceptionally preserved individual; it anchors anatomy, integument and gut contents, but population variation and behaviour are unknown. Brown et al. (2017) identified melanin and a countershaded pattern; Kalyniuk et al. (2023) found stomach contents dominated by fern leaf tissue with little gymnosperm material, implying selective feeding.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal plain and sea margin",
+  "ancientContext": "Clearwater Formation, Alberta",
+  "locality": [
+    "Clearwater Formation, Alberta"
+  ],
+  "researchStatus": "partially-verified"
+}

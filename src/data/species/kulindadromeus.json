@@ -1,0 +1,157 @@
+{
+  "slug": "kulindadromeus",
+  "accession": "MZ-109",
+  "scientificName": "Kulindadromeus zabaikalicus",
+  "commonName": "Kulinda runner",
+  "genus": "Kulindadromeus",
+  "epithet": "zabaikalicus",
+  "status": "Extinct",
+  "namedBy": "Godefroit et al., 2014",
+  "group": "Ornithischia · Uncertain",
+  "groupKey": "Ornithischia",
+  "period": "jurassic",
+  "periodLabel": "Middle Jurassic",
+  "stage": "Bathonian",
+  "ageMa": [
+    168.3,
+    166.1
+  ],
+  "ageLabel": "≈168.3–166.1 Ma",
+  "region": [
+    "Russia"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The dentition and jaw morphology indicate herbivory. No gut contents are known; the diet is inferred from anatomy.",
+    "evidence": "inference",
+    "refs": [
+      "primary-kulindadromeus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈1–1.5 m",
+  "mass": "≈2–5 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "kulindadromeus-living",
+  "featured": false,
+  "tagline": "A small basal ornithischian with filamentous and ribbon-like integument. It shows that feather-like structures were not exclusive to theropods.",
+  "summary": "A small basal ornithischian with filamentous and ribbon-like integument. It shows that feather-like structures were not exclusive to theropods.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Neornithischia"
+    },
+    {
+      "rank": "Family",
+      "value": "Uncertain"
+    },
+    {
+      "rank": "Genus",
+      "value": "Kulindadromeus"
+    },
+    {
+      "rank": "Species",
+      "value": "K. zabaikalicus"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Godefroit et al., 2014. The record is known from Ukureyskaya Formation, Transbaikalia. Several partial skeletons with integument impressions.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-kulindadromeus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several partial skeletons with integument impressions.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-kulindadromeus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Ukureyskaya Formation, Transbaikalia records the species in the Middle Jurassic. U–Pb dating of detrital zircons and monazites, combined with palynology, constrains the locality to the Bathonian, ≈168.3–166.1 Ma. The date applies to the enclosing volcaniclastic deposits, not directly to the bones.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The body bears small scales on the distal hindlimb, larger overlapping scales on the tail, monofilaments on the head and thorax, and branched feather-like structures on the humerus, femur and tibia.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-kulindadromeus"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The several partial skeletons were deposited in a lake-margin setting; they do not preserve behaviour. The integument is direct evidence of appearance, not of display or insulation.",
+    "evidence": "inference",
+    "refs": [
+      "primary-kulindadromeus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons with integument impressions. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-kulindadromeus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-kulindadromeus",
+    "pbdb",
+    "paul2016",
+    "v19-kulindadromeus-203"
+  ],
+  "related": [
+    "lesothosaurus",
+    "heterodontosaurus",
+    "scelidosaurus"
+  ],
+  "confidenceNote": "The integument is directly preserved and includes scales, monofilaments and branched feather-like structures. Cincotta et al. (2019) dated the Kulinda locality to the Bathonian, ≈168.3–166.1 Ma, older than earlier estimates. The functional and evolutionary significance of the filaments is debated; they are not simply feathers.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Temperate lake margin",
+  "ancientContext": "Ukureyskaya Formation, Transbaikalia",
+  "locality": [
+    "Ukureyskaya Formation, Transbaikalia"
+  ],
+  "researchStatus": "partially-verified"
+}

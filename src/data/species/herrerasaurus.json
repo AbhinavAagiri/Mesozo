@@ -1,0 +1,169 @@
+{
+  "slug": "herrerasaurus",
+  "accession": "MZ-037",
+  "scientificName": "Herrerasaurus ischigualastensis",
+  "commonName": "Herrera lizard",
+  "genus": "Herrerasaurus",
+  "epithet": "ischigualastensis",
+  "status": "Extinct",
+  "namedBy": "Reig, 1963",
+  "group": "Saurischia · Herrerasauridae",
+  "groupKey": "Saurischia",
+  "period": "triassic",
+  "periodLabel": "Late Triassic",
+  "stage": "Carnian",
+  "ageMa": [
+    231.4,
+    228
+  ],
+  "ageLabel": "≈231.4–228 Ma",
+  "region": [
+    "Argentina"
+  ],
+  "regionKeys": [
+    "South America"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The long, low skull, curved serrated teeth and jaw articulation indicate carnivory. No gut contents are known, so the prey taken and whether the animal hunted or scavenged remain unknown.",
+    "evidence": "inference",
+    "refs": [
+      "primary-herrerasaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈5–6 m",
+  "mass": "≈200–300 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "herrerasaurus-living",
+  "featured": false,
+  "tagline": "An early saurischian with a long, low skull and predatory dentition. Its exact position outside or within Theropoda has been debated.",
+  "summary": "An early saurischian with a long, low skull and predatory dentition. Its exact position outside or within Theropoda has been debated.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Herrerasauria"
+    },
+    {
+      "rank": "Family",
+      "value": "Herrerasauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Herrerasaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "H. ischigualastensis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Reig, 1963. The record is known from Ischigualasto Formation, San Juan. Several partial skeletons, including a nearly complete skull and postcranium.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-herrerasaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several skulls and partial skeletons are known from the Ischigualasto Formation of San Juan, Argentina. The material samples the skull, forelimb and postcranium.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-herrerasaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Ischigualasto Formation, San Juan records the species in the Late Triassic. The numeric range used here is ≈231.4–228 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is long and low, with large, curved, serrated teeth and a jaw articulation that permits a wide gape. The forelimb is short but powerfully built, with a mobile shoulder and a grasping hand.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-herrerasaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No direct evidence of social, nesting or parental behaviour. The seasonal river plain is habitat context, not a behavioural record.",
+    "evidence": "inference",
+    "refs": [
+      "primary-herrerasaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons, including a nearly complete skull and postcranium. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-herrerasaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-herrerasaurus",
+    "pbdb",
+    "paul2016",
+    "v19-herrerasaurus-56",
+    "v19-herrerasaurus-57",
+    "v19-herrerasaurus-58"
+  ],
+  "related": [
+    "eoraptor",
+    "coelophysis",
+    "plateosaurus"
+  ],
+  "confidenceNote": "Herrerasaurus is known from several skulls and skeletons from the Ischigualasto Formation, approximately 231–228 Ma. Its skull and forelimb anatomy are well sampled, but its position inside or outside Theropoda is contested. No gut contents are known.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Seasonal river plain",
+  "ancientContext": "Ischigualasto Formation, San Juan",
+  "locality": [
+    "Ischigualasto Formation, San Juan"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Herrerasaurus ischigualastensis was one of the earliest dinosaurs, living in the [Late Triassic](/deep-time?period=triassic) of Argentina about 231–228 million years ago. It was a lightly built, long-legged predator with a long, low skull.",
+    "paragraphs": [
+      "Several skulls and skeletons are known from the Ischigualasto Formation. The skull has large, curved, serrated teeth, and the forelimb is short but powerfully built, with a mobile shoulder and a grasping hand. These features are consistent with a predatory lifestyle.",
+      "Its evolutionary position is debated: some analyses place it inside Theropoda, others outside it among the earliest saurischians. No gut contents are known, so its prey and hunting behaviour remain unknown."
+    ],
+    "takeaway": "An early dinosaur that sits near the base of the saurischian family tree — exactly where is still argued."
+  }
+}

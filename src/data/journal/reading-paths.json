@@ -1,0 +1,59 @@
+[
+  {
+    "id": "spinosaurus-path",
+    "title": "The Spinosaurus problem, in three movements",
+    "description": "Begin with the animal, then examine how its reconstruction is built, then return to the world that preserved it.",
+    "steps": [
+      {
+        "articleId": "the-spinosaurus-problem",
+        "label": "What the fossil record can and cannot settle"
+      },
+      {
+        "articleId": "reconstructing-an-extinct-animal",
+        "label": "How missing anatomy becomes a working model"
+      },
+      {
+        "articleId": "the-shape-of-ancient-worlds",
+        "label": "What the rocks say about the rivers and coasts"
+      }
+    ]
+  },
+  {
+    "id": "feather-path",
+    "title": "From feathers to birds, without a straight line",
+    "description": "Follow the evidence from an ulna with quill knobs to a broader argument about dinosaur integument and the survival of birds.",
+    "steps": [
+      {
+        "articleId": "the-feather-question",
+        "label": "Separate direct evidence from inference"
+      },
+      {
+        "articleId": "deinonychus-and-the-dinosaur-renaissance",
+        "label": "See how one skeleton changed the argument"
+      },
+      {
+        "articleId": "the-end-of-the-cretaceous",
+        "label": "Learn which dinosaurs did not disappear"
+      }
+    ]
+  },
+  {
+    "id": "deep-time-path",
+    "title": "Deep time is a reading method",
+    "description": "Move across the Paleozoic and the Mesozoic, then look at how field evidence is used to reconstruct an ancient world.",
+    "steps": [
+      {
+        "articleId": "a-world-before-the-dinosaurs",
+        "label": "Start before the first dinosaur"
+      },
+      {
+        "articleId": "the-end-of-the-cretaceous",
+        "label": "Read a boundary in the rock"
+      },
+      {
+        "articleId": "the-shape-of-ancient-worlds",
+        "label": "Reconstruct an environment from fragments"
+      }
+    ]
+  }
+]

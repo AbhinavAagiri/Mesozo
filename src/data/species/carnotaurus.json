@@ -1,0 +1,187 @@
+{
+  "slug": "carnotaurus",
+  "scientificName": "Carnotaurus sastrei",
+  "commonName": "Meat-eating bull",
+  "namedBy": "Bonaparte, 1985",
+  "group": "Theropoda · Abelisauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Maastrichtian",
+  "ageMa": [
+    71.7,
+    66
+  ],
+  "ageLabel": "≈72–66 Ma (formation age)",
+  "region": [
+    "Argentina"
+  ],
+  "regionKeys": [
+    "South America"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "length": "≈7.5–8 m",
+  "mass": "≈1.5–2.1 t (estimate)",
+  "sizeNote": "Carnotaurus is known from a single exceptionally preserved individual. Length is based on that skeleton; mass estimates vary with the reconstruction and the method used.",
+  "image": "carnotaurus-living",
+  "featured": false,
+  "tagline": "A lightly built Patagonian predator with two horns above the eyes and an unusually well-preserved skin.",
+  "summary": "Carnotaurus sastrei is an abelisaurid from the Late Cretaceous of Patagonia. It is known from one exceptionally complete skeleton that preserves impressions of the skin. The skull is short and deep, with a pair of horns above the eyes, while the forelimbs are extremely reduced. Its horns have been interpreted as display structures, weapons, or both; the skin shows a scaly covering, not feathers.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ceratosauria"
+    },
+    {
+      "rank": "Family",
+      "value": "Abelisauridae"
+    },
+    {
+      "rank": "Subfamily",
+      "value": "Carnotaurinae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Carnotaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "C. sastrei"
+    }
+  ],
+  "discovery": {
+    "body": "José Bonaparte's expedition recovered the skeleton in Chubut, Patagonia, in the mid-1980s. Bonaparte named Carnotaurus sastrei in 1985 and described it more fully with Novas and Coria in 1990. The specimen is the only known individual and preserves extensive skin impressions, making it one of the most informative abelisaurids.",
+    "evidence": "fossil",
+    "refs": [
+      "bonaparte1985",
+      "bonaparte1990",
+      "clyde2021"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "One exceptionally preserved skeleton",
+      "body": "The known specimen includes a nearly complete skull and much of the postcranial skeleton, with impressions of the skin. The skeleton is compressed but articulated enough to document the animal's proportions. No second individual is known with certainty.",
+      "evidence": "fossil",
+      "refs": [
+        "bonaparte1990"
+      ]
+    },
+    {
+      "title": "Horns and skull",
+      "body": "The skull is short and deep, with a pair of stout horns above the eyes and a heavily built snout. The horns are bony cores that would have been covered in keratin in life. Their function is not directly preserved.",
+      "evidence": "fossil",
+      "refs": [
+        "bonaparte1990"
+      ]
+    },
+    {
+      "title": "Skin impressions",
+      "body": "Skin impressions from the body show a scaly surface with small, rounded scales and larger feature scales in some areas. They provide direct evidence for the integument of this animal. They do not preserve colour.",
+      "evidence": "fossil",
+      "refs": [
+        "bonaparte1990"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Skull and horns",
+      "body": "The skull is deep and short, with strong jaw muscles and a blunt snout. The paired frontal horns are the most distinctive feature. They may have been used in display, combat or species recognition; the skeleton alone cannot settle the question.",
+      "evidence": "inference",
+      "refs": [
+        "bonaparte1990",
+        "nhmCarnotaurus"
+      ]
+    },
+    {
+      "title": "Forelimbs",
+      "body": "The forelimbs are remarkably short and slender, with reduced digits. They could not have reached far in front of the body. Their function, if any, is unclear; they are not evidence of a particular hunting style.",
+      "evidence": "fossil",
+      "refs": [
+        "bonaparte1990"
+      ]
+    },
+    {
+      "title": "Hindlimbs and tail",
+      "body": "The hindlimbs are long and the tail is deep and muscular. The animal is reconstructed as a fast-running biped. Limb proportions support an active predator, but speed estimates depend on the model used.",
+      "evidence": "inference",
+      "refs": [
+        "bonaparte1990",
+        "mazzetta2004"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Carnotaurus was a predator, but its hunting behaviour is reconstructed from anatomy rather than observed. The horns may have been used in display or combat; the short arms were not adapted for grasping large prey. The skin impressions show a scaly body. There is no direct evidence of social hunting, parental care or vocalisation.",
+    "evidence": "inference",
+    "refs": [
+      "bonaparte1990",
+      "nhmCarnotaurus"
+    ]
+  },
+  "reconstruction": {
+    "body": "The first life restoration, produced for the Natural History Museum of Los Angeles County, used the preserved skin to reconstruct a scaly, horned predator. Later reconstructions have varied the horn covering, the amount of soft tissue on the skull and the animal's posture. The colour is unknown, and the image in this archive is a reconstruction rather than a photograph.",
+    "evidence": "reconstruction",
+    "refs": [
+      "bonaparte1990"
+    ]
+  },
+  "references": [
+    "bonaparte1985",
+    "bonaparte1990",
+    "mazzetta2004",
+    "nhmCarnotaurus",
+    "clyde2021"
+  ],
+  "related": [
+    "tyrannosaurus",
+    "allosaurus",
+    "spinosaurus"
+  ],
+  "confidenceNote": "The skeleton and scaly skin are exceptionally well preserved for an abelisaurid. The 1985 naming note and the 1990 monograph are separate publications; the monograph is the detailed anatomical description. The specimen has not been directly dated: the range here is that of the fossil-bearing La Colonia Formation, whose base is younger than about 71.7 Ma and which extends to the Cretaceous–Paleogene boundary. The function of the horns, the arms and the hunting method are inferred. The species is known from one individual, so individual variation is unknown.",
+  "updated": "2026-11-17",
+  "dietEvidence": {
+    "body": "The skull and teeth are those of a carnivore, and the animal is reconstructed as a predator. No stomach contents or feeding traces are known. The diet is inferred from anatomy and from the broader theropod record, not from direct evidence at the site.",
+    "evidence": "inference",
+    "refs": [
+      "bonaparte1990"
+    ]
+  },
+  "sizeRefs": [
+    "bonaparte1990",
+    "mazzetta2004"
+  ],
+  "genus": "Carnotaurus",
+  "epithet": "sastrei",
+  "status": "Extinct",
+  "accession": "MZ-005",
+  "added": "2026-11-15",
+  "locomotion": "Bipedal",
+  "habitat": "Coastal plain and river floodplain",
+  "ancientContext": "Late Cretaceous Patagonia",
+  "locality": [
+    "La Colonia Formation, Chubut, Argentina"
+  ]
+}

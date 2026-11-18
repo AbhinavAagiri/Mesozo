@@ -1,0 +1,171 @@
+{
+  "slug": "chasmosaurus",
+  "accession": "MZ-060",
+  "scientificName": "Chasmosaurus belli",
+  "commonName": "Opening lizard",
+  "genus": "Chasmosaurus",
+  "epithet": "belli",
+  "status": "Extinct",
+  "namedBy": "Lambe, 1902",
+  "group": "Ornithischia · Ceratopsidae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    77,
+    75
+  ],
+  "ageLabel": "≈77–75 Ma",
+  "region": [
+    "Canada"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The beak and dentition are consistent with herbivory. No gut contents are known; the plants eaten and feeding height are inferred from anatomy and comparisons with other ceratopsids.",
+    "evidence": "inference",
+    "refs": [
+      "lambe1902",
+      "lambe1914"
+    ]
+  },
+  "length": "≈4.5–5.5 m",
+  "mass": "≈2–3 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "chasmosaurus-living",
+  "featured": false,
+  "tagline": "A chasmosaurine with a long, fenestrated frill and relatively short brow horns. The frill is thin bone; its display function is inferred.",
+  "summary": "Chasmosaurus belli is a chasmosaurine ceratopsid from the Dinosaur Park Formation of Alberta. The species was named as Monoclonius belli in 1902 and moved to the new genus Chasmosaurus in 1914. It has a long, fenestrated frill, short brow horns and preserved skin impressions; claims of sexual dimorphism have been re-examined and are not strongly supported.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Marginocephalia"
+    },
+    {
+      "rank": "Family",
+      "value": "Ceratopsidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Chasmosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "C. belli"
+    }
+  ],
+  "discovery": {
+    "body": "Lawrence Lambe named the species Monoclonius belli in 1902 from a partial parietal, CMN 0491, from the Dinosaur Park Formation of Alberta. In 1914 he erected the genus Chasmosaurus for it after the earlier name Protorosaurus proved preoccupied. The species epithet honours collector Walter Bell; the genus name refers to the large openings in the frill.",
+    "evidence": "fossil",
+    "refs": [
+      "lambe1902",
+      "lambe1914"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several skulls and partial skeletons from Alberta.",
+      "evidence": "fossil",
+      "refs": [
+        "lambe1902",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Dinosaur Park Formation, Alberta records the species in the Late Cretaceous. The numeric range used here is ≈77–75 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    },
+    {
+      "title": "Naming history and type",
+      "body": "The holotype is a partial parietal, CMN 0491. Lambe named the species Monoclonius belli in 1902 and erected Chasmosaurus in 1914. Later specimens include skulls and skin impressions.",
+      "evidence": "fossil",
+      "refs": [
+        "lambe1902",
+        "lambe1914"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The frill is large and open, with a scalloped margin, and the brow horns are short.",
+      "evidence": "fossil",
+      "refs": [
+        "lambe1902",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The long frill and short brow horns are usually interpreted as display or species-recognition structures, but their function is not demonstrated. A re-evaluation of the postcranium found the evidence for sexual dimorphism weak or inconsistent. Social behaviour is unknown.",
+    "evidence": "debate",
+    "refs": [
+      "v19-chasmosaurus-109",
+      "v19-chasmosaurus-111"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several skulls and partial skeletons from Alberta. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "lambe1902",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "lambe1902",
+    "pbdb",
+    "paul2016",
+    "v19-chasmosaurus-109",
+    "v19-chasmosaurus-110",
+    "v19-chasmosaurus-111",
+    "v19-chasmosaurus-112",
+    "lambe1914"
+  ],
+  "related": [
+    "pentaceratops",
+    "kosmoceratops",
+    "triceratops"
+  ],
+  "confidenceNote": "The skull and frill are well known from several specimens, and skin impressions are preserved. Frill function and sexual dimorphism are unresolved. The species has a complicated nomenclatural history and should be cited as Chasmosaurus belli (Lambe, 1902).",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Dinosaur Park Formation, Alberta",
+  "locality": [
+    "Dinosaur Park Formation, Alberta"
+  ],
+  "researchStatus": "partially-verified"
+}

@@ -1,0 +1,158 @@
+{
+  "slug": "edmontonia",
+  "accession": "MZ-046",
+  "scientificName": "Edmontonia rugosidens",
+  "commonName": "Edmonton lizard",
+  "genus": "Edmontonia",
+  "epithet": "rugosidens",
+  "status": "Extinct",
+  "namedBy": "Gilmore, 1930",
+  "group": "Ornithischia · Nodosauridae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    78.2,
+    74.6
+  ],
+  "ageLabel": "≈78.2–74.6 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The narrow beak and small leaf-shaped teeth are consistent with selective low browsing. No gut contents are known, and the plants eaten are not preserved.",
+    "evidence": "inference",
+    "refs": [
+      "primary-edmontonia",
+      "v19-edmontonia-80"
+    ]
+  },
+  "length": "≈5.5–6.5 m",
+  "mass": "≈2–3 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "edmontonia-living",
+  "featured": false,
+  "tagline": "A nodosaurid with large shoulder spines and a narrow, toothless beak. It lacked a tail club.",
+  "summary": "A nodosaurid with large shoulder spines and a narrow, toothless beak. It lacked a tail club.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Thyreophora"
+    },
+    {
+      "rank": "Family",
+      "value": "Nodosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Edmontonia"
+    },
+    {
+      "rank": "Species",
+      "value": "E. rugosidens"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Charles Gilmore in 1930 as Palaeoscincus rugosidens, from the Two Medicine Formation of Montana. The holotype, USNM 11868, is a skull and partial postcranial skeleton with armour. Loris Russell transferred the species to Edmontonia in 1940.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-edmontonia",
+      "russell1940"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "USNM 11868 preserves a complete skull, lower jaw, atlas–axis, additional cervical and dorsal vertebrae, caudal vertebrae, sacrum, pelvis elements, ribs and about fifty dermal ossifications. Referred specimens add skull and armour anatomy but require separate assessment.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-edmontonia"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "The type is from the Two Medicine Formation of Glacier County, Montana, calibrated to the late Campanian, approximately 78.2–74.6 Ma. Referred Dinosaur Park Formation material is younger and not part of the type horizon.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-edmontonia",
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is narrow and the body is covered in bony plates; large spines project from the shoulder region.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-edmontonia",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Herbivory is inferred from the narrow beak and small leaf-shaped teeth. The armour is usually interpreted as defensive, but no interaction with a predator is preserved. Social and migratory behaviour are unknown.",
+    "evidence": "inference",
+    "refs": [
+      "primary-edmontonia",
+      "v19-edmontonia-80"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons and skulls from alberta and Montana. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-edmontonia",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-edmontonia",
+    "pbdb",
+    "paul2016",
+    "v19-edmontonia-80",
+    "russell1940"
+  ],
+  "related": [
+    "sauropelta",
+    "nodosaurus",
+    "euoplocephalus"
+  ],
+  "confidenceNote": "The type is a well-preserved skull and partial skeleton from the Two Medicine Formation, but referred specimens and species boundaries need revision. No soft tissue or gut contents are known, and the defensive function of the armour is inferred.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal plain woodland",
+  "ancientContext": "Two Medicine Formation, Montana",
+  "locality": [
+    "Two Medicine Formation, Glacier County, Montana"
+  ],
+  "researchStatus": "partially-verified"
+}

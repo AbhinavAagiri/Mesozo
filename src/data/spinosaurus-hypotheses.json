@@ -1,0 +1,57 @@
+[
+  {
+    "id": "aquatic",
+    "name": "Semiaquatic pursuit predator",
+    "status": "Proposed, contested",
+    "claim": "Spinosaurus spent substantial time in water, possibly swimming after fish, with a paddle tail and dense bones providing propulsion and buoyancy control.",
+    "support": [
+      "Dense limb and axial bones have been interpreted as ballast for subaqueous foraging.",
+      "The distal tail has tall neural spines and long chevrons, producing a broad paddle.",
+      "The long, narrow snout and conical teeth resemble those of fish-eating crocodilians.",
+      "Fish remains occur in the same deposits, and the snout is well suited to capturing slippery prey."
+    ],
+    "criticism": [
+      "The skeleton is highly pneumatic; buoyancy may have made habitual diving difficult.",
+      "The hind limbs are short and the forelimbs are not obviously adapted for aquatic propulsion.",
+      "Bone-density methods and their statistical treatment have been criticised.",
+      "A swimming animal would leave a distinctive taphonomic and sedimentological signal that is not clearly established."
+    ],
+    "refs": ["ibrahim2014", "ibrahim2020", "fabbri2022", "myhrvold2024"]
+  },
+  {
+    "id": "shoreline",
+    "name": "Shoreline generalist",
+    "status": "Proposed, contested",
+    "claim": "Spinosaurus was primarily a terrestrial animal that hunted and scavenged along rivers and coastlines, wading in shallow water rather than pursuit-swimming.",
+    "support": [
+      "The skeleton retains features associated with terrestrial weight support.",
+      "A pneumatic skeleton would have been buoyant and unstable in deep water.",
+      "The long snout could be used to strike at fish from the water’s edge.",
+      "The deposits preserve a range of terrestrial and aquatic organisms, not a deep-water assemblage."
+    ],
+    "criticism": [
+      "The extremely short hind limbs and long torso are unusual for a purely terrestrial theropod.",
+      "The tail paddle is difficult to explain without some aquatic function.",
+      "Dense bones are not expected in a fully terrestrial animal.",
+      "The ecological role of the animal remains poorly constrained by direct evidence."
+    ],
+    "refs": ["honeholtz2021", "sereno2022"]
+  },
+  {
+    "id": "posture",
+    "name": "Quadrupedal or bipedal?",
+    "status": "Unresolved",
+    "claim": "The 2014 reconstruction proposed a quadrupedal animal with a forward-shifted centre of mass. Later work argued for a more conventional bipedal stance.",
+    "support": [
+      "Short hind limbs and a long torso shift the centre of mass forward.",
+      "The forelimbs are robust and could, in principle, bear weight.",
+      "Quadrupedality is rare among theropods but not impossible."
+    ],
+    "criticism": [
+      "The forelimb joints and hand morphology are not obviously adapted for habitual quadrupedal walking.",
+      "Trackways that might record Spinosaurus are not confidently associated with the animal.",
+      "The centre-of-mass reconstruction depends on the soft-tissue model used."
+    ],
+    "refs": ["ibrahim2014", "sereno2022", "honeholtz2021"]
+  }
+]

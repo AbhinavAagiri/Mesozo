@@ -1,0 +1,234 @@
+{
+  "id": "the-spinosaurus-problem",
+  "slug": "the-spinosaurus-problem",
+  "number": 1,
+  "headline": "The Spinosaurus Problem",
+  "subtitle": "A long-snouted predator, a lost type specimen and a debate that keeps returning to the same bones.",
+  "standfirst": "Spinosaurus is not one fossil. It is a collection of fragments, a lost type, a reconstructed skeleton and a long argument about how much of an animal can be inferred from anatomy. The disagreement is not a failure of the science; it is the science at work.",
+  "category": "debates",
+  "tags": [
+    "Spinosaurus",
+    "Fossil record",
+    "Aquatic adaptation",
+    "Scientific debate",
+    "Reconstruction"
+  ],
+  "byline": "MESOZO Editorial",
+  "editorialCredit": "Research, writing and editing by the MESOZO editorial desk.",
+  "publishedAt": "2026-11-12",
+  "updatedAt": "2026-11-15",
+  "readingMinutes": 6,
+  "featured": true,
+  "hero": {
+    "variant": "cover",
+    "tone": "dark",
+    "label": "Life reconstruction · not fossil evidence",
+    "assetId": "spinosaurus-living",
+    "alt": "Life reconstruction of Spinosaurus aegyptiacus in lateral view, with a long snout, tall dorsal sail and a long tail.",
+    "caption": "Digital life reconstruction by Gustavo Monroy-Becerril. This is an artistic reconstruction of an animal known from fragmentary fossils, not a photograph of a specimen.",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "id": "the-material",
+      "kicker": "01 — The material",
+      "title": "The animal is assembled from parts."
+    },
+    {
+      "type": "text",
+      "dropCap": true,
+      "paragraphs": [
+        "The name Spinosaurus aegyptiacus was erected by Ernst Stromer in 1915 for material collected at the Bahariya Oasis in Egypt between 1912 and 1914. The holotype, BSP 1912 VIII 19, was a partial skeleton with jaw fragments, teeth, vertebrae, ribs and gastralia — not a complete animal, and without the limbs. A second partial skeleton, ‘Spinosaurus B’, preserved limb material and was described by Stromer in 1934. The tall neural spines were already present in the holotype; the 1934 plates made the anatomy more widely visible. [[stromer1915]][[stromer1934]][[evers2015]]",
+        "The Munich collections that held the type were destroyed in 1944. Later researchers have had to work from Stromer’s published descriptions, surviving images and casts. The loss does not erase the animal, but it changes what can be checked. [[ibrahim2014]]",
+        "A partial skull from Morocco, MSNM V4047, gave researchers a much better view of the rostrum, the terminal rosette and the openings of the skull. It is a referred specimen, not the lost type. [[dalsasso2005]]"
+      ]
+    },
+    {
+      "type": "gallery",
+      "title": "Three views of a lost animal",
+      "images": [
+        {
+          "assetId": "spinosaurus-plate-1934",
+          "alt": "Black-and-white plate of bones of ‘Spinosaurus B’, published by Ernst Stromer in 1934.",
+          "label": "Historical plate",
+          "caption": "Stromer’s 1934 plates of ‘Spinosaurus B’, a separate partial skeleton — not the holotype. The original bones were later lost."
+        },
+        {
+          "assetId": "spinosaurus-mandible-1915",
+          "alt": "Line drawing of the lower jaw of Spinosaurus published by Ernst Stromer in 1915.",
+          "label": "Historical drawing",
+          "caption": "Stromer’s 1915 drawing of the mandible. A drawing is evidence of what was observed, not the fossil itself."
+        },
+        {
+          "assetId": "spinosaurus-jaw-1919",
+          "alt": "Historical illustration of a Spinosaurus jaw after Othenio Abel, 1919.",
+          "label": "Historical illustration",
+          "caption": "A later illustrated jaw, after Abel (1919). The image belongs to the history of interpretation as well as the history of the fossil."
+        }
+      ],
+      "refs": [
+        "stromer1915",
+        "stromer1934"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "what-bones-support",
+      "kicker": "02 — The evidence",
+      "title": "What the bones can support."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "The long, narrow rostrum and conical teeth are osteologically real. They are compatible with a fish-focused diet, but they do not identify a hunting method. A snout can be read as a trap, a probe or a specialization for gripping slippery prey; the bones alone do not choose between those possibilities. [[dalsasso2005]]",
+        "The dorsal neural spines are also bone. What covered them, and what the sail did, is not preserved. Display, thermoregulation, stability and hydrodynamic function have all been proposed; none is established by the spines alone. [[stromer1934]][[bailey1997]][[honeholtz2021]]"
+      ]
+    },
+    {
+      "type": "evidence",
+      "stance": "established",
+      "title": "What is secure",
+      "body": "Spinosaurus had a long, narrow snout, conical teeth, elongated dorsal neural spines and a partial skeleton from the Kem Kem Group that was proposed as a neotype. The skeleton includes a distal tail with tall neural spines and elongated chevrons. The neotype designation itself is disputed.",
+      "refs": [
+        "stromer1934",
+        "dalsasso2005",
+        "ibrahim2014",
+        "evers2015",
+        "ibrahim2020"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "tail-argument",
+      "kicker": "03 — The turn",
+      "title": "The tail enters the argument."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "In 2014, Ibrahim and colleagues described FSAC-KK 11888 from the Kem Kem Group and proposed it as a neotype; Evers and colleagues rejected that designation in 2015. The authors argued for semiaquatic adaptations, including dense limb bones and a relatively short-legged body. [[ibrahim2014]][[evers2015]]",
+        "In 2020, the same research programme described a distal tail with tall neural spines and long chevrons. The authors argued that its reconstructed shape could generate thrust in water. The tail is genuinely unusual; the inference from shape to habitual swimming is a separate step. [[ibrahim2020]]"
+      ]
+    },
+    {
+      "type": "image",
+      "assetId": "spinosaurus-skeletal-2020",
+      "alt": "Composite skeletal reconstruction of Spinosaurus with long snout, tall dorsal spines and a paddle-shaped tail.",
+      "label": "Composite skeletal reconstruction",
+      "layout": "full",
+      "fit": "contain",
+      "caption": "Skeletal reconstruction after Ibrahim et al. 2020, drawn by Marco Auditore. The plate combines several individuals and reconstructs missing parts; it is not a photograph of one skeleton.",
+      "refs": [
+        "ibrahim2020"
+      ]
+    },
+    {
+      "type": "comparison",
+      "title": "Two readings of the same anatomy",
+      "left": {
+        "label": "Reading one",
+        "title": "A specialist at the water’s edge",
+        "body": "The long snout and conical teeth are used to argue for fish capture, while the body is read as a shoreline hunter rather than a habitual swimmer. Dense bones and a paddle-like tail are treated as compatible with an aquatic life, not proof of one.",
+        "points": [
+          "Feeding from margins and shallow water",
+          "Tail as a possible but not necessarily habitual swimming aid",
+          "Functional interpretation separated from fossil presence"
+        ],
+        "refs": [
+          "honeholtz2021",
+          "sereno2022"
+        ]
+      },
+      "right": {
+        "label": "Reading two",
+        "title": "A predator that swam",
+        "body": "The 2014 and 2020 papers argued for a body and tail that could function in water, not merely beside it. The reconstruction is presented as a testable model of buoyancy, trim and propulsion.",
+        "points": [
+          "Dense bones and a low body",
+          "A tail capable of generating thrust",
+          "A semiaquatic ecology"
+        ],
+        "refs": [
+          "ibrahim2014",
+          "ibrahim2020"
+        ]
+      },
+      "note": "Both readings begin with the same bones. The disagreement concerns what the bones permit, not whether the fossils exist."
+    },
+    {
+      "type": "evidence",
+      "stance": "debate",
+      "title": "What is not settled",
+      "body": "The 2021 review, 2022 critique and 2024 reanalysis disagree about ecology, limb posture and the statistical use of bone compactness. The latest paper is not a final verdict; it is another argument in a live exchange.",
+      "refs": [
+        "honeholtz2021",
+        "sereno2022",
+        "myhrvold2024"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "what-would-settle",
+      "kicker": "04 — The test",
+      "title": "What would actually settle it?"
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "More associated material would help: a skeleton with more of the skull, forelimbs and tail in one individual, documented in place. So would independent evidence from sedimentology, taphonomy, functional morphology and biomechanics. Those lines can converge, but they can also be read differently. [[ibrahim2014]][[honeholtz2021]]",
+        "The productive question is not which reconstruction looks most convincing. It is which claim is doing the work, what evidence supports it, and what discovery would change it. On the present record, the degree of aquatic specialization remains open. [[sereno2022]][[myhrvold2024]]"
+      ]
+    },
+    {
+      "type": "pullquote",
+      "label": "The argument",
+      "text": "The animal is not the reconstruction. The reconstruction is an argument about the animal.",
+      "attribution": "MESOZO editorial"
+    }
+  ],
+  "references": [
+    "stromer1915",
+    "stromer1934",
+    "dalsasso2005",
+    "ibrahim2014",
+    "evers2015",
+    "ibrahim2020",
+    "honeholtz2021",
+    "sereno2022",
+    "myhrvold2024",
+    "bailey1997"
+  ],
+  "relatedSpeciesIds": [
+    "spinosaurus"
+  ],
+  "relatedPeriodIds": [
+    "cretaceous"
+  ],
+  "relatedSpecimenIds": [
+    "bsp-1912-viii-19",
+    "msnm-v4047",
+    "fsac-kk-11888"
+  ],
+  "relatedAnatomy": [
+    {
+      "speciesId": "spinosaurus",
+      "structureIds": [
+        "rostrum",
+        "dentition",
+        "dorsal-spines",
+        "hindlimb",
+        "caudal-series",
+        "bone-microstructure"
+      ]
+    }
+  ],
+  "relatedArticleIds": [
+    "reconstructing-an-extinct-animal",
+    "the-shape-of-ancient-worlds"
+  ],
+  "readingPathIds": [
+    "spinosaurus-path"
+  ]
+}

@@ -1,0 +1,94 @@
+/* MESOZO — Stratigraphic Modernism
+   Colour is geological: chalk and bone surfaces, ink strata, mineral accents.
+   No gradients, no glass. Flat fields, hairlines, specimen typography. */
+
+:root {
+  /* Surfaces */
+  --chalk: #f2f0e8;
+  --bone: #e4ddcc;
+  --bone-deep: #d7cdb7;
+  --ink: #171817;
+  --ink-soft: #1f211d;
+  --ink-raised: #292b26;
+
+  /* Accents */
+  --fossil: #a7a397;
+  --fossil-deep: #646157;
+  --orange: #d65b36;
+  --orange-ink: #a13f20;
+  --orange-on-dark: #f08a68;
+  --vermilion: #a83b29;
+  --slate: #596b78;
+
+  /* Legacy aliases kept so shared utilities keep working */
+  --paper: var(--chalk);
+  --paper-deep: var(--bone);
+  --ink-mute: #4c4f46;
+  --line: rgb(23 24 23 / 0.16);
+  --line-strong: rgb(23 24 23 / 0.36);
+  --line-light: rgb(242 240 232 / 0.2);
+  /* The editorial pages use these names; keep one source for both. */
+  --rule: var(--line);
+  --rule-strong: var(--line-strong);
+
+  /* Type */
+  --font-display: 'Instrument Serif', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  --font-serif: 'Instrument Serif', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  --font-sans: 'Archivo Variable', Archivo, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: ui-monospace, 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace;
+
+  --step--2: 0.625rem;
+  --step--1: 0.6875rem;
+  --step-0: 0.875rem;
+  --step-1: 1rem;
+  --step-2: clamp(1.1rem, 0.98rem + 0.45vw, 1.35rem);
+  --step-3: clamp(1.5rem, 1.1rem + 1.5vw, 2.4rem);
+  --step-4: clamp(2.2rem, 1.2rem + 4vw, 4.6rem);
+
+  /* Geological atlas — shared semantic palette for the V24 visual system.
+     These are additions; the existing editorial pages keep their own aliases. */
+  --geo-carbon: #1b1d19;
+  --geo-graphite: #242720;
+  --geo-shale: #33372f;
+  --geo-mineral: #8f9386;
+  --geo-limestone: #d8d2c2;
+  --geo-bone: #e7e1d4;
+  --geo-paper: #f1ede3;
+  --geo-ink: #1b1c18;
+  --geo-ivory: #f3efe5;
+  --geo-rust: #a75538;
+  --geo-rust-bright: #c67a59;
+  --geo-copper: #87432e;
+  --geo-ochre: #a48b59;
+  --geo-sage: #67776a;
+  --geo-rule-dark: rgb(243 239 229 / 0.16);
+  --geo-rule-dark-strong: rgb(243 239 229 / 0.3);
+  --geo-rule-light: rgb(27 28 24 / 0.14);
+  --geo-rule-light-strong: rgb(27 28 24 / 0.32);
+  --geo-shadow: 0 18px 40px rgb(12 13 11 / 0.18);
+  --geo-speckle-image: url('/assets/img/texture/speckled-granite.jpg');
+
+  --step-5: clamp(3rem, 1rem + 7.5vw, 8rem);
+  --step-mega: clamp(3.6rem, 0.4rem + 12vw, 12rem);
+  --text-micro: 0.625rem;
+  --text-label: 0.6875rem;
+  --text-caption: 0.75rem;
+
+  /* Space */
+  --gutter: clamp(1.25rem, 3.2vw, 3.25rem);
+  --header-h: 4.75rem;
+  --section-pad: clamp(4.5rem, 9vw, 9.5rem);
+  --max: 1600px;
+  --max-reading: 68ch;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-inout: cubic-bezier(0.76, 0, 0.24, 1);
+  --dur: 0.6s;
+}
+
+@media (max-width: 760px) {
+  :root {
+    --header-h: 4rem;
+  }
+}

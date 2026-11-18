@@ -1,0 +1,170 @@
+{
+  "slug": "velociraptor",
+  "scientificName": "Velociraptor mongoliensis",
+  "commonName": "Swift seizer",
+  "namedBy": "Osborn, 1924",
+  "group": "Theropoda · Dromaeosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    75,
+    71
+  ],
+  "ageLabel": "≈75–71 Ma",
+  "region": [
+    "Mongolia",
+    "China"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "length": "≈2 m",
+  "mass": "≈15–20 kg",
+  "sizeNote": "Velociraptor was roughly the size of a large turkey or a small dog, not the human-sized predator of popular films. The larger film 'raptors' are modelled on Deinonychus.",
+  "image": "velociraptor-living",
+  "fossilImage": "velociraptor-skull",
+  "featured": false,
+  "tagline": "A small, feathered dromaeosaur from the Gobi Desert, and the animal most often misrepresented by its film namesakes.",
+  "summary": "Velociraptor mongoliensis is a small dromaeosaurid from the Campanian of Mongolia and northern China. It is known from numerous skulls and skeletons, including specimens preserving quill knobs on the forearm. Its feathers are direct evidence; its celebrated pack-hunting reputation is not.",
+  "taxonomy": [
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Coelurosauria"
+    },
+    {
+      "rank": "Family",
+      "value": "Dromaeosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Velociraptor"
+    },
+    {
+      "rank": "Species",
+      "value": "V. mongoliensis"
+    }
+  ],
+  "discovery": {
+    "body": "The American Museum of Natural History's Central Asiatic Expeditions found the first specimens at the Flaming Cliffs of the Djadochta Formation in 1923. Henry Fairfield Osborn named Velociraptor mongoliensis in 1924. Later fieldwork produced many more individuals, including complete skulls and articulated skeletons.",
+    "evidence": "fossil",
+    "refs": [
+      "osborn1924"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Skulls and skeletons",
+      "body": "Velociraptor skulls are long, low and narrow, with a slightly upturned snout. The postcranial skeleton is lightly built, with long legs, a stiffened tail and a large sickle-shaped claw on the second toe. Several specimens are known from the Djadochta Formation.",
+      "evidence": "fossil",
+      "refs": [
+        "osborn1924"
+      ]
+    },
+    {
+      "title": "Quill knobs",
+      "body": "One exceptionally preserved ulna carries a row of regularly spaced bumps interpreted as quill knobs, the attachment points for large remiges. This is direct osteological evidence that Velociraptor had feathers on its forearms. The feathers themselves are not preserved in this specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "turner2007"
+      ]
+    },
+    {
+      "title": "Growth and variation",
+      "body": "Multiple specimens span a range of sizes. Some differences once treated as species-level variation are now interpreted as growth or individual variation, but the sample is not large enough to settle every case.",
+      "evidence": "inference",
+      "refs": [
+        "turner2007"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Skull and teeth",
+      "body": "The skull is slender with large orbits and a narrow snout. Teeth are small, recurved and serrated. The jaw is relatively weak compared with a large tyrannosaur; Velociraptor was a small-prey specialist, not a bone-crusher.",
+      "evidence": "fossil",
+      "refs": [
+        "osborn1924"
+      ]
+    },
+    {
+      "title": "Feathers",
+      "body": "Quill knobs on the posterior ulna show that the forearm bore large secondary feathers. The rest of the body was probably covered in filamentous plumage, as in other dromaeosaurs, but direct preservation is limited. Velociraptor could not fly; the feathers may have been used for display, insulation or balance.",
+      "evidence": "inference",
+      "refs": [
+        "turner2007"
+      ]
+    },
+    {
+      "title": "Sickle claw and tail",
+      "body": "The second toe bears an enlarged, curved claw. Its function — pinning prey, climbing, or hooking into a carcass — is debated. The tail is stiffened by long bony tendons, giving it a rod-like quality that may have aided balance during rapid turns.",
+      "evidence": "inference",
+      "refs": [
+        "osborn1924"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Velociraptor is often depicted as a pack hunter, but the evidence is indirect. Multiple individuals at a site can reflect a group, a trap, or a chance accumulation. There is no direct fossil evidence of coordinated hunting in this species. The feathers are direct evidence for display or thermoregulation; the hunting method is inferred from anatomy and comparison with living predators.",
+    "evidence": "contested",
+    "refs": [
+      "turner2007",
+      "osborn1924"
+    ]
+  },
+  "reconstruction": {
+    "body": "Osborn's 1924 reconstruction was a sleek, scaly biped. From the 1990s onward, phylogenetic evidence placed Velociraptor within a feathered clade, and the 2007 quill knobs confirmed that at least the forearms bore large feathers. The film 'raptors' of the 1990s were much larger, scaly and exaggerated; they are popular-culture creatures, not reconstructions of Velociraptor.",
+    "evidence": "reconstruction",
+    "refs": [
+      "osborn1924",
+      "turner2007"
+    ]
+  },
+  "references": [
+    "osborn1924",
+    "turner2007",
+    "roach2007"
+  ],
+  "related": [
+    "deinonychus",
+    "allosaurus"
+  ],
+  "confidenceNote": "The skeleton and quill knobs are well documented. Turner et al. (2007) identified quill knobs on the posterior ulna as direct evidence of large secondary feathers; the animal was flightless. Sickle-claw function and hunting behaviour are inferences. Coordinated pack hunting is not demonstrated, and size is frequently exaggerated in popular media.",
+  "updated": "2026-11-17",
+  "dietEvidence": {
+    "body": "Small, recurved, serrated teeth and a lightly built skull are consistent with a predator of small vertebrates and possibly eggs. Direct stomach contents are not known. The popular image of Velociraptor as a large-game hunter is not supported by its size.",
+    "evidence": "inference",
+    "refs": [
+      "osborn1924"
+    ]
+  },
+  "sizeRefs": [
+    "turner2007"
+  ],
+  "genus": "Velociraptor",
+  "epithet": "mongoliensis",
+  "status": "Extinct",
+  "added": "2026-11-13",
+  "accession": "MZ-012",
+  "locomotion": "Bipedal",
+  "habitat": "Arid dunes and ephemeral watercourses",
+  "ancientContext": "Djadochta Formation, Gobi Desert",
+  "locality": [
+    "Flaming Cliffs, Ömnögovi, Mongolia"
+  ]
+}

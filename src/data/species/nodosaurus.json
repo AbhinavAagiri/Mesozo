@@ -1,0 +1,168 @@
+{
+  "slug": "nodosaurus",
+  "accession": "MZ-048",
+  "scientificName": "Nodosaurus textilis",
+  "commonName": "Knobbed lizard",
+  "genus": "Nodosaurus",
+  "epithet": "textilis",
+  "status": "Extinct",
+  "namedBy": "Marsh, 1889",
+  "group": "Ornithischia · Nodosauridae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Cenomanian",
+  "ageMa": [
+    100,
+    97
+  ],
+  "ageLabel": "≈100–97 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The skull is unknown, so direct dietary evidence is unavailable. Herbivory is inferred from the animal's relationships and the preserved postcranial anatomy.",
+    "evidence": "inference",
+    "refs": [
+      "primary-nodosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈4.5–5.5 m",
+  "mass": "≈1–1.5 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "nodosaurus-living",
+  "featured": false,
+  "tagline": "A nodosaurid known from a partial skeleton with bony armour. The original material is fragmentary and the animal’s proportions are reconstructed.",
+  "summary": "A nodosaurid known from a partial skeleton with bony armour. The original material is fragmentary and the animal’s proportions are reconstructed.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Thyreophora"
+    },
+    {
+      "rank": "Family",
+      "value": "Nodosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Nodosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "N. textilis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Marsh, 1889. The type and only well-established specimen is YPM 1815, a partial postcranial skeleton from the Frontier Formation (Belle Fourche Member) at Como Bluff, Wyoming. The skull is unknown.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-nodosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "YPM 1815 includes dorsal and caudal vertebrae, ribs, part of the pelvis, fragmentary forelimbs, a partial hindlimb and osteoderms. The skull is not known, so cranial anatomy and diet cannot be directly observed.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-nodosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Frontier Formation (Belle Fourche Member), Como Bluff, Wyoming records the species in the Late Cretaceous. The numeric range used here is ≈100–97 Ma, an occurrence estimate rather than a direct date on the specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The body armour consists of keeled plates and low spines, including a sacral shield. The osteoderms are preserved, but their complete arrangement and the animal's live profile are reconstructed.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-nodosaurus",
+        "v19-nodosaurus-82",
+        "pbdb"
+      ]
+    },
+    {
+      "title": "Body plan",
+      "body": "The species is reconstructed as quadrupedal from the preserved limb bones and comparison with other nodosaurids; the posture is not observed.",
+      "evidence": "inference",
+      "refs": [
+        "primary-nodosaurus",
+        "v19-nodosaurus-82"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No direct behavioural evidence. Quadrupedality is inferred from limb anatomy. Armour function is inferred, not observed.",
+    "evidence": "inference",
+    "refs": [
+      "primary-nodosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a partial postcranial skeleton with armour; the skull is not well represented. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-nodosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-nodosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-nodosaurus-82"
+  ],
+  "related": [
+    "sauropelta",
+    "edmontonia",
+    "polacanthus"
+  ],
+  "confidenceNote": "The species is known from one partial postcranial skeleton, YPM 1815, from the Frontier Formation (Belle Fourche Member) at Como Bluff, Wyoming; the skull is unknown. The formation was corrected from the Mowry Shale. Size, armour arrangement and body proportions are reconstructed from a fragmentary specimen and comparisons with relatives.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Marginal marine coastal plain",
+  "ancientContext": "Frontier Formation (Belle Fourche Member), Como Bluff, Wyoming",
+  "locality": [
+    "Frontier Formation (Belle Fourche Member), Como Bluff, Wyoming"
+  ],
+  "researchStatus": "partially-verified"
+}

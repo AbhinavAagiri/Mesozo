@@ -1,0 +1,176 @@
+{
+  "slug": "triceratops",
+  "scientificName": "Triceratops horridus",
+  "commonName": "Three-horned face",
+  "namedBy": "Marsh, 1889",
+  "group": "Ornithischia · Ceratopsidae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Maastrichtian",
+  "ageMa": [
+    68,
+    66
+  ],
+  "ageLabel": "68–66 Ma",
+  "region": [
+    "United States",
+    "Canada"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "length": "≈8–9 m",
+  "mass": "≈6–10 t (estimate)",
+  "sizeNote": "Mass is estimated from mounted skeletons and scale models. The largest skulls are around 2 m long, among the largest of any land animal.",
+  "image": "triceratops-living",
+  "fossilImage": "triceratops-skull",
+  "featured": true,
+  "tagline": "A horned herbivore of the latest Cretaceous, built around one of the largest skulls in the fossil record.",
+  "summary": "Triceratops is known from abundant skull material from the final two million years of the Cretaceous in western North America. Its three horns and broad frill are unmistakable, but their function — display, combat, species recognition, or several at once — is still debated. The growth series also fuels a long-running argument about whether Torosaurus is a separate genus or an old Triceratops.",
+  "taxonomy": [
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ceratopsia"
+    },
+    {
+      "rank": "Family",
+      "value": "Ceratopsidae"
+    },
+    {
+      "rank": "Subfamily",
+      "value": "Chasmosaurinae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Triceratops"
+    },
+    {
+      "rank": "Species",
+      "value": "T. horridus"
+    }
+  ],
+  "discovery": {
+    "body": "The first specimen was a skull fragment collected near Denver in 1887 by George Lyman Cannon. O. C. Marsh named Triceratops in 1889. Later quarrying produced complete skulls and associated skeletons, and the genus is now represented by dozens of individuals, including juveniles.",
+    "evidence": "fossil",
+    "refs": [
+      "marsh1889"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Skulls and horns",
+      "body": "Triceratops skulls are abundant and often well preserved. They carry a short nasal horn, two long brow horns and a solid frill. The horns are bone with a keratin sheath that is not preserved; their true length in life is therefore unknown.",
+      "evidence": "fossil",
+      "refs": [
+        "marsh1889",
+        "farke2009"
+      ]
+    },
+    {
+      "title": "Ontogeny",
+      "body": "Juvenile skulls differ markedly from adults: the horns and frill change shape and proportion through growth. This ontogenetic series is central to the debate over Torosaurus, which some researchers interpret as the mature form of Triceratops.",
+      "evidence": "fossil",
+      "refs": [
+        "horner2006"
+      ]
+    },
+    {
+      "title": "Evidence of combat",
+      "body": "Some skulls preserve healed injuries and puncture marks consistent with horn-to-body contact. This supports the use of horns in combat, but does not exclude display or species recognition as additional functions.",
+      "evidence": "inference",
+      "refs": [
+        "farke2009"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Horns and frill",
+      "body": "The brow horns are large, curved and positioned above the eyes; the nasal horn is shorter. The frill is a bony extension of the skull roof, not a separate shield. Its blood vessels and surface texture have been used to argue for display, but soft-tissue colour is unknown.",
+      "evidence": "inference",
+      "refs": [
+        "farke2009",
+        "horner2006"
+      ]
+    },
+    {
+      "title": "Beak and teeth",
+      "body": "The snout ends in a keratinous beak, and the jaws carry densely packed dental batteries with hundreds of teeth. Wear patterns are consistent with shearing plant material close to the ground.",
+      "evidence": "fossil",
+      "refs": [
+        "marsh1889"
+      ]
+    },
+    {
+      "title": "Body",
+      "body": "Triceratops was heavily built, with a deep ribcage and stout limbs. The forelimbs were shorter than the hindlimbs, giving a slightly sloping back. Skin impressions show large scales, but the colour and any filamentous covering are unknown.",
+      "evidence": "fossil",
+      "refs": [
+        "bell2022"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Horn use in combat is supported by lesion-rate comparisons, not by healed injuries alone. Display is plausible given the size and vascularity of the frill. Whether Triceratops formed herds is less clear: some bonebeds contain multiple individuals, but such accumulations can form without social groups. Nests and eggs are not known for certain. Claims about herding or defensive circles are inferences, not observations.",
+    "evidence": "inference",
+    "refs": [
+      "farke2009",
+      "horner2006"
+    ]
+  },
+  "reconstruction": {
+    "body": "Marsh's original reconstructions established the three-horned, frilled silhouette. Later work focused on growth and variation, producing the Torosaurus debate: Horner and Goodwin (2006) argued that Torosaurus skulls are mature Triceratops, while Longrich and Field (2012) argued that the two genera are distinct. The question remains open. Reconstructions that show a specific horn curvature or frill colour are artistic choices within that uncertainty.",
+    "evidence": "reconstruction",
+    "refs": [
+      "horner2006",
+      "longrich2012"
+    ]
+  },
+  "references": [
+    "marsh1889",
+    "farke2009",
+    "horner2006",
+    "longrich2012",
+    "bell2022",
+    "derooij2022"
+  ],
+  "related": [
+    "tyrannosaurus",
+    "ankylosaurus"
+  ],
+  "confidenceNote": "The skull anatomy and growth series are well documented. Farke et al. (2009) found a higher rate of squamosal lesions in Triceratops than in Centrosaurus, a pattern consistent with combat, but this is a statistical inference, not an observed fight. Horner & Goodwin (2006) documented four cranial growth stages. The Torosaurus synonymy question is genuinely contested; Longrich & Field (2012) argued that Torosaurus is distinct.",
+  "updated": "2026-11-17",
+  "dietEvidence": {
+    "body": "The keratinous beak and densely packed dental batteries indicate a herbivorous diet. Wear patterns are consistent with cropping vegetation close to the ground. The exact plants eaten are unknown; no gut contents have been described.",
+    "evidence": "inference",
+    "refs": [
+      "marsh1889"
+    ]
+  },
+  "sizeRefs": [
+    "marsh1889",
+    "horner2006"
+  ],
+  "genus": "Triceratops",
+  "epithet": "horridus",
+  "status": "Extinct",
+  "added": "2026-11-13",
+  "accession": "MZ-010",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal floodplain",
+  "ancientContext": "Hell Creek and Lance formations, western North America",
+  "locality": [
+    "Hell Creek Formation, Montana, United States"
+  ]
+}

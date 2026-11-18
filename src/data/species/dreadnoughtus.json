@@ -1,0 +1,174 @@
+{
+  "slug": "dreadnoughtus",
+  "accession": "MZ-078",
+  "scientificName": "Dreadnoughtus schrani",
+  "commonName": "Fear nothing",
+  "genus": "Dreadnoughtus",
+  "epithet": "schrani",
+  "status": "Extinct",
+  "namedBy": "Lacovara et al., 2014",
+  "group": "Sauropodomorpha · Titanosauridae",
+  "groupKey": "Sauropodomorpha",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian–Maastrichtian",
+  "ageMa": [
+    76,
+    70
+  ],
+  "ageLabel": "≈76–70 Ma",
+  "region": [
+    "Argentina"
+  ],
+  "regionKeys": [
+    "South America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The skull is represented only by a maxilla fragment and a tooth. Herbivory is inferred from titanosaur anatomy; no gut contents are known, and the plants eaten cannot be identified.",
+    "evidence": "inference",
+    "refs": [
+      "primary-dreadnoughtus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈22–26 m",
+  "mass": "≈22–38 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "dreadnoughtus-living",
+  "featured": false,
+  "tagline": "A large titanosaur known from two partial skeletons with a relatively complete appendicular skeleton. The body mass is estimated from limb proportions.",
+  "summary": "A large titanosaur known from two partial skeletons with a relatively complete appendicular skeleton. The body mass is estimated from limb proportions.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropodomorpha"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Titanosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Dreadnoughtus"
+    },
+    {
+      "rank": "Species",
+      "value": "D. schrani"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Lacovara et al., 2014. The record is known from Cerro Fortaleza Formation, Santa Cruz. Two partial skeletons from the same locality, including a major part of the appendicular skeleton.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-dreadnoughtus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The holotype, MPM-PV 1156, is a partially articulated skeleton preserving much of the appendicular skeleton and tail; the paratype, MPM-PV 3546, is a smaller partial postcranial skeleton from the same locality.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-dreadnoughtus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Cerro Fortaleza Formation, Santa Cruz records the species in the Late Cretaceous. The numeric range used here is ≈76–70 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The dorsal vertebrae are extensively pneumatised, the limb girdles are robust, and the tail includes 32 caudal vertebrae. The skull is represented by a maxilla fragment and a tooth.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-dreadnoughtus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No direct evidence of social or parental behaviour. The two skeletons were buried together, but that is a taphonomic association, not proof that the animals lived as a herd.",
+    "evidence": "inference",
+    "refs": [
+      "primary-dreadnoughtus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from two partial skeletons from the same locality, including a major part of the appendicular skeleton. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-dreadnoughtus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-dreadnoughtus",
+    "pbdb",
+    "paul2016",
+    "v19-dreadnoughtus-144",
+    "v19-dreadnoughtus-145",
+    "v19-dreadnoughtus-146",
+    "v19-dreadnoughtus-147"
+  ],
+  "related": [
+    "argentinosaurus",
+    "patagotitan",
+    "puertasaurus"
+  ],
+  "confidenceNote": "The holotype, MPM-PV 1156, preserves about 45% of the skeleton, including much of the appendicular skeleton, pelvis, tail and a maxilla fragment; the paratype is MPM-PV 3546. The skull is almost unknown. Body mass is reconstructed from limb dimensions and body volume, and published estimates vary.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Riverine floodplain",
+  "ancientContext": "Cerro Fortaleza Formation, Santa Cruz",
+  "locality": [
+    "Cerro Fortaleza Formation, Santa Cruz"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Dreadnoughtus schrani was a giant titanosaur from the [Late Cretaceous](/deep-time?period=cretaceous) of Patagonia. It is one of the most completely known giant sauropods, even though its skull is still almost unknown.",
+    "paragraphs": [
+      "The holotype preserves about 45% of the skeleton, including much of the limbs, pelvis and tail. That is exceptional for a sauropod of this size, and it gives palaeontologists a detailed view of the appendicular anatomy. A second, smaller skeleton was found at the same site.",
+      "Body mass has been estimated in different ways, with published figures varying substantially. The animal was certainly enormous, but “22–38 tonnes” is a modelled range, not a reading from a scale. Its plant diet is inferred from other titanosaurs, and there is no direct evidence of its behaviour."
+    ],
+    "takeaway": "A giant known from an unusually complete body skeleton — but still without a usable skull."
+  }
+}

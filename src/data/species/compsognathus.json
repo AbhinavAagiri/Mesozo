@@ -1,0 +1,173 @@
+{
+  "slug": "compsognathus",
+  "accession": "MZ-021",
+  "scientificName": "Compsognathus longipes",
+  "commonName": "Elegant jaw",
+  "genus": "Compsognathus",
+  "epithet": "longipes",
+  "status": "Extinct",
+  "namedBy": "Wagner, 1859",
+  "group": "Theropoda · Compsognathidae",
+  "groupKey": "Theropoda",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Kimmeridgian–Tithonian",
+  "ageMa": [
+    152,
+    148
+  ],
+  "ageLabel": "≈152–148 Ma",
+  "region": [
+    "Germany"
+  ],
+  "regionKeys": [
+    "Europe"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "A small lizard is preserved in the abdominal cavity of the German holotype. It was redescribed as Schoenesmahl dyspepsia in 2018. This is direct evidence of at least one meal; the rest of the diet is inferred.",
+    "evidence": "direct",
+    "refs": [
+      "conrad2018"
+    ]
+  },
+  "length": "≈1.2–1.4 m",
+  "mass": "≈2.5–3.5 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "compsognathus-living",
+  "featured": false,
+  "tagline": "A small, lightly built coelurosaur known from two relatively complete skeletons. It is often used as a body-size comparison for early tetanurans.",
+  "summary": "Compsognathus longipes is a small compsognathid from the Solnhofen Limestone of Bavaria, known from a German holotype and a larger French specimen. A lizard is preserved in the holotype’s abdominal cavity, providing direct evidence of diet. The hand is reduced, and its digital count has been disputed.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Coelurosauria"
+    },
+    {
+      "rank": "Family",
+      "value": "Compsognathidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Compsognathus"
+    },
+    {
+      "rank": "Species",
+      "value": "C. longipes"
+    }
+  ],
+  "discovery": {
+    "body": "Johann A. Wagner named Compsognathus longipes in 1859 from the Solnhofen Limestone of Bavaria and published a fuller description in 1861. The German holotype, BSP AS I 563, preserves a lizard in its abdominal cavity. A larger French specimen from Canjuers was once named C. corallestris but is now referred to C. longipes.",
+    "evidence": "fossil",
+    "refs": [
+      "wagner1859",
+      "primary-compsognathus",
+      "conrad2018"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Two nearly complete skeletons; the German holotype preserves a lizard in its abdominal cavity. Possible skin structures on the French specimen’s tail are disputed, and no feathers are preserved.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-compsognathus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Solnhofen Limestone, Bavaria records the species in the Late Jurassic. The numeric range used here is ≈152–148 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    },
+    {
+      "title": "Gut content",
+      "body": "A lizard skeleton is preserved in the abdominal cavity of the German holotype. The specimen was redescribed as Schoenesmahl dyspepsia in 2018, making it a direct record of at least one meal.",
+      "evidence": "fossil",
+      "refs": [
+        "conrad2018"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is small and lightly built, the forelimbs are short, and the tail is long and slender.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-compsognathus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The behavioural record is limited to the gut content and preservation. The animal was a small bipedal predator, but hunting method, social behaviour and home range are unknown. The hand’s reduced digital count is anatomical, not behavioural, evidence.",
+    "evidence": "inference",
+    "refs": [
+      "v19-compsognathus-18",
+      "conrad2018"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from two nearly complete skeletons, one with preserved integument impressions. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-compsognathus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-compsognathus",
+    "pbdb",
+    "paul2016",
+    "v19-compsognathus-17",
+    "v19-compsognathus-18",
+    "conrad2018",
+    "wagner1859"
+  ],
+  "related": [
+    "sinosauropteryx",
+    "dilong",
+    "guanlong"
+  ],
+  "confidenceNote": "Two well-preserved skeletons provide most of the anatomy. The gut content records one meal, not the full diet. The integument is poorly known, and the hand’s digital identity is reconstructed.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Lagoonal archipelago",
+  "ancientContext": "Solnhofen Limestone, Bavaria",
+  "locality": [
+    "Solnhofen Limestone, Bavaria"
+  ],
+  "researchStatus": "partially-verified"
+}

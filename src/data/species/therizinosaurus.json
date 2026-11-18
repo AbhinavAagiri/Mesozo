@@ -1,0 +1,174 @@
+{
+  "slug": "therizinosaurus",
+  "accession": "MZ-018",
+  "scientificName": "Therizinosaurus cheloniformis",
+  "commonName": "Scythe lizard",
+  "genus": "Therizinosaurus",
+  "epithet": "cheloniformis",
+  "status": "Extinct",
+  "namedBy": "Maleev, 1954",
+  "group": "Theropoda · Therizinosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Maastrichtian",
+  "ageMa": [
+    70,
+    66
+  ],
+  "ageLabel": "≈70–66 Ma",
+  "region": [
+    "Mongolia"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore · inferred",
+  "dietEvidence": {
+    "body": "No skull or gut contents are known. Herbivory is inferred from related therizinosaurs with plant-processing dentitions and, in some cases, gastroliths; it is not a direct observation for Therizinosaurus.",
+    "evidence": "inference",
+    "refs": [
+      "primary-therizinosaurus",
+      "pbdb",
+      "paul2016",
+      "v20-zanno2010"
+    ]
+  },
+  "length": "≈9–10 m",
+  "mass": "≈3–5 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "therizinosaurus-living",
+  "featured": false,
+  "tagline": "A large therizinosaur known mainly from enormous manual claws and fragmentary postcranial material. Its diet is inferred as herbivorous, but the direct evidence is limited.",
+  "summary": "A large therizinosaur known mainly from enormous manual claws and fragmentary postcranial material. Its diet is inferred as herbivorous, but the direct evidence is limited.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Maniraptora"
+    },
+    {
+      "rank": "Family",
+      "value": "Therizinosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Therizinosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "T. cheloniformis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Maleev, 1954. The record is known from the Nemegt Formation, Gobi Desert. The holotype, PIN 551-483, preserves fragmentary postcranial material and isolated manual unguals; no skull is known. Referred forelimb and hindlimb material has been described from the same formation.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-therizinosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The holotype, PIN 551-483, preserves fragmentary postcranial material and isolated manual unguals. Referred forelimb and hindlimb material has been described, but the hypodigm remains incomplete.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-therizinosaurus",
+        "pbdb",
+        "paul2016",
+        "v20-zanno2010"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Nemegt Formation, Gobi Desert records the species in the Late Cretaceous. The numeric range used here is ≈70–66 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The manual unguals are exceptionally large and curved. Referred forelimb and pelvic material indicates a bulky, short-legged body, but no skull is known.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-therizinosaurus",
+        "pbdb",
+        "paul2016",
+        "v20-zanno2010"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No direct evidence of behaviour. The enormous manual claws are preserved; their function in feeding, defence or display is unresolved. No nesting or social evidence is known.",
+    "evidence": "inference",
+    "refs": [
+      "primary-therizinosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from fragmentary postcranial material and isolated claws; no skull is known. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-therizinosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-therizinosaurus",
+    "v20-zanno2010",
+    "pbdb",
+    "paul2016"
+  ],
+  "related": [
+    "nothronychus",
+    "falcarius",
+    "beipiaosaurus"
+  ],
+  "confidenceNote": "The holotype, PIN 551-483, preserves fragmentary postcranial material and isolated manual unguals; no skull is known. Herbivory is inferred from the wider therizinosaur record, not from this species’ jaws or gut contents. No integument is preserved.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Riverine woodland and floodplain",
+  "ancientContext": "Nemegt Formation, Gobi Desert",
+  "locality": [
+    "Nemegt Formation, Gobi Desert"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Therizinosaurus cheloniformis was a huge therizinosaur from the [Late Cretaceous](/deep-time?period=cretaceous) of Mongolia. It is known mainly from enormous manual claws and fragmentary postcranial material; no skull has been found.",
+    "paragraphs": [
+      "The claws are among the largest of any known animal. Referred forelimb and hindlimb material suggests a bulky, short-legged body, but the animal’s exact proportions are reconstructed from incomplete remains. Herbivory is inferred from the wider therizinosaur record, not from this species’ jaws or gut contents.",
+      "No feathers are preserved, so the presence of a covering is unknown. The function of the claws — feeding, defence or display — is unresolved. The dossier below is deliberately cautious about a dinosaur known from so little."
+    ],
+    "takeaway": "A giant therizinosaur known mostly from its claws, with no skull to tell us what it ate."
+  }
+}

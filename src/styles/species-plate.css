@@ -1,0 +1,162 @@
+/* An unillustrated database record. This is deliberately a document, not a
+   reconstruction: rules, accession data and an initial, with no invented
+   silhouette. */
+.species-plate {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 4 / 3;
+  min-height: 0;
+  padding: clamp(0.8rem, 2vw, 1.45rem);
+  overflow: hidden;
+  border: 1px solid var(--rule);
+  background:
+    linear-gradient(90deg, transparent calc(50% - 0.5px), var(--rule) 50%, transparent calc(50% + 0.5px)),
+    repeating-linear-gradient(0deg, transparent 0 11px, rgb(23 24 23 / 0.035) 11px 12px),
+    var(--bone);
+  color: var(--ink);
+}
+
+.species-plate::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, rgb(23 24 23 / 0.04), transparent 28%),
+    repeating-linear-gradient(90deg, transparent 0 23px, rgb(23 24 23 / 0.035) 23px 24px);
+  mix-blend-mode: multiply;
+}
+
+.species-plate__rule {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: var(--rule);
+  opacity: 0.65;
+}
+
+.species-plate__group,
+.species-plate__period,
+.species-plate__meta,
+.species-plate__note {
+  position: relative;
+  z-index: 1;
+  font-size: 0.48rem;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--fossil-deep);
+}
+
+.species-plate__group {
+  align-self: flex-start;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--rule-strong);
+}
+
+.species-plate__initial {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -52%);
+  font-size: clamp(4.5rem, 9vw, 9.5rem);
+  line-height: 0.8;
+  color: rgb(23 24 23 / 0.13);
+  pointer-events: none;
+  user-select: none;
+}
+
+.species-plate__period {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, 2.6rem);
+  white-space: nowrap;
+  color: var(--fossil-deep);
+}
+
+.species-plate__meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: baseline;
+  padding-top: 0.55rem;
+  border-top: 1px solid var(--rule);
+}
+
+.species-plate__note {
+  max-width: 18ch;
+  text-align: right;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  color: var(--fossil);
+}
+
+/* Thumbnail variant: used in related records, lineage pickers and ledgers. */
+.species-plate--thumb {
+  display: grid;
+  place-items: center;
+  aspect-ratio: auto;
+  min-height: 100%;
+  padding: 0;
+  border: 0;
+  background: var(--bone);
+}
+
+.species-plate--thumb::before,
+.species-plate--thumb .species-plate__rule,
+.species-plate--thumb .species-plate__group,
+.species-plate--thumb .species-plate__period,
+.species-plate--thumb .species-plate__meta,
+.species-plate--thumb .species-plate__note {
+  display: none;
+}
+
+.species-plate--thumb .species-plate__initial {
+  position: static;
+  transform: none;
+  font-size: 1.45rem;
+  color: var(--fossil-deep);
+}
+
+/* Hero variant: a quieter, larger document plate. */
+.species-plate--hero {
+  aspect-ratio: auto;
+  min-height: clamp(16rem, 42vw, 34rem);
+  padding: clamp(1.2rem, 3vw, 2.4rem);
+}
+
+.species-plate--hero .species-plate__initial {
+  font-size: clamp(7rem, 16vw, 18rem);
+}
+
+.species-plate--hero .species-plate__period {
+  transform: translate(-50%, 4.3rem);
+}
+
+.archive-card__figure--record {
+  padding: 0;
+  background: var(--bone);
+}
+
+.archive-card__figure--record .species-plate {
+  border: 0;
+}
+
+@media (max-width: 700px) {
+  .species-plate__note {
+    max-width: 14ch;
+  }
+
+  .species-plate--hero {
+    min-height: 17rem;
+  }
+}

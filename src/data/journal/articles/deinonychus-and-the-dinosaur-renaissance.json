@@ -1,0 +1,197 @@
+{
+  "id": "deinonychus-and-the-dinosaur-renaissance",
+  "slug": "deinonychus-and-the-dinosaur-renaissance",
+  "number": 4,
+  "headline": "Deinonychus and the Dinosaur Renaissance",
+  "subtitle": "One Montana theropod, one landmark monograph and a change in how dinosaurs were imagined.",
+  "standfirst": "Deinonychus antirrhopus is a small-ish predatory dinosaur from the Early Cretaceous of western North America. Its importance is not that it was the first active dinosaur, or the first bird-like one. It is that a detailed skeleton gave researchers a new anatomical case to argue from.",
+  "category": "paleontology",
+  "tags": [
+    "Deinonychus",
+    "Dinosaur Renaissance",
+    "Fieldwork",
+    "Predatory behaviour",
+    "Birds"
+  ],
+  "byline": "MESOZO Editorial",
+  "editorialCredit": "Research, writing and editing by the MESOZO editorial desk.",
+  "publishedAt": "2026-10-15",
+  "readingMinutes": 5,
+  "featured": false,
+  "hero": {
+    "variant": "cover",
+    "tone": "bone",
+    "label": "Museum specimen · Deinonychus skull",
+    "assetId": "deinonychus-skull",
+    "alt": "Mounted skull of Deinonychus antirrhopus in lateral view, with a long narrow snout and small teeth.",
+    "caption": "Deinonychus skull, Royal Ontario Museum. Photograph by Rob Hurson, CC BY-SA 2.0.",
+    "fit": "cover",
+    "position": "50% 50%"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "id": "a-quarry-and-a-monograph",
+      "kicker": "01 — The discovery",
+      "title": "A quarry, a monograph, a change in emphasis."
+    },
+    {
+      "type": "text",
+      "dropCap": true,
+      "paragraphs": [
+        "Barnum Brown collected fragmentary remains in southern Montana in 1931, but the material was not described as a new genus. From 1964 onward, John Ostrom’s Yale Peabody Museum expeditions recovered multiple individuals from the Cloverly Formation. Ostrom named Deinonychus antirrhopus in 1969. [[ostrom1969]]",
+        "The type specimen, YPM 5205, is not a complete animal. It is a collection of bones with a history: quarry, excavation, preparation, comparison and publication. Its significance was built through that work, not discovered whole in the ground. [[ostrom1969]]"
+      ]
+    },
+    {
+      "type": "specimen",
+      "specimenId": "ypm-5205",
+      "note": "The holotype of Deinonychus antirrhopus, and the subject of Ostrom’s 1969 monograph."
+    },
+    {
+      "type": "heading",
+      "id": "argument-from-anatomy",
+      "kicker": "02 — The case",
+      "title": "The anatomy of an active animal."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "Ostrom’s monograph described a theropod with a lightly built skull, grasping hands and an enlarged second pedal claw. He argued that the animal’s anatomy was consistent with an active, bird-like creature rather than a slow, sprawling reptile. [[ostrom1969]]",
+        "The argument did not rest on the sickle claw alone. It drew on the whole skeleton: the proportions of the limbs, the structure of the hip and the bird-like features of the hand and foot. The monograph gave a broad anatomical case that later researchers could test, extend or dispute. [[ostrom1969]][[fowler2011]]"
+      ]
+    },
+    {
+      "type": "annotation",
+      "title": "A fossil is not a behaviour",
+      "body": "A joint can constrain movement. A claw can suggest a function. Neither can record what an animal did on a particular afternoon. Behaviour has to be inferred from anatomy, trace fossils, associations and comparison with living animals — and each of those lines has limits.",
+      "refs": [
+        "ostrom1969",
+        "fowler2011"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "the-renaissance",
+      "kicker": "03 — The context",
+      "title": "What the Renaissance changed."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "The phrase Dinosaur Renaissance describes a broader mid-twentieth-century reassessment of dinosaur activity, growth and relationship to birds. Ostrom’s work became a touchstone for that shift, but it was not the sole cause of it. The change came through many researchers, specimens and arguments, not one heroic discovery. [[ostrom1969]]",
+        "The important shift was methodological as well as imaginative. Dinosaurs were increasingly treated as animals whose anatomy could be compared with living birds and crocodilians, rather than as symbols of a failed evolutionary experiment."
+      ]
+    },
+    {
+      "type": "comparison",
+      "title": "What changed in the reading of the animal",
+      "left": {
+        "label": "A common older image",
+        "title": "Slow, cold and sprawling",
+        "body": "A popular mid-century image treated large dinosaurs as sluggish reptiles, with posture and behaviour modelled on crocodiles or lizards. It was an image, not a single scientific consensus.",
+        "points": [
+          "Low activity assumed",
+          "Bird-like anatomy treated as superficial",
+          "Behaviour inferred from a narrow modern analogue"
+        ]
+      },
+      "right": {
+        "label": "The anatomical case",
+        "title": "Active, bird-related, arguable",
+        "body": "Ostrom’s description made the bird-like details of the skeleton part of a detailed functional argument. It did not prove a single metabolic rate or behaviour, but it changed the questions researchers could ask.",
+        "points": [
+          "Detailed comparative anatomy",
+          "Birds as close living relatives",
+          "Physiology and behaviour opened to testing"
+        ],
+        "refs": [
+          "ostrom1969",
+          "fowler2011"
+        ]
+      },
+      "note": "The contrast is a history of interpretations, not a scoreboard. Older researchers were not uniformly wrong, and newer reconstructions are not automatically right."
+    },
+    {
+      "type": "heading",
+      "id": "the-pack-problem",
+      "kicker": "04 — The behaviour",
+      "title": "The pack-hunting problem."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "Multiple Deinonychus individuals have been found associated with the larger herbivorous dinosaur Tenontosaurus. Ostrom and later authors considered cooperative hunting a plausible explanation for the association. A plausible explanation is not the same as a documented behaviour. [[maxwell1995]]",
+        "Roach and Brinkman reviewed the evidence for gregariousness and cooperative pack hunting in Deinonychus and other non-avian theropods. They cautioned that a bonebed association does not demonstrate a coordinated pack. Scavenging, a predator trap, a drought accumulation or independent individuals drawn to a carcass could produce a similar pattern. [[roach2007]]"
+      ]
+    },
+    {
+      "type": "evidence",
+      "stance": "debate",
+      "title": "What the assemblage can say",
+      "body": "The association is real. The behaviour behind it is not uniquely determined. Cooperative hunting remains a hypothesis, not a fact to be repeated because it makes a better illustration.",
+      "refs": [
+        "maxwell1995",
+        "roach2007"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "why-it-still-matters",
+      "kicker": "05 — The afterlife",
+      "title": "Why this fossil still matters."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "Deinonychus is not Velociraptor. They are different genera, separated by geography and time, even though both are dromaeosaurids. The popular confusion says more about the reach of a film franchise than about the fossil record. [[turner2007]]",
+        "The wider importance of Deinonychus lies in the connection it helped make visible: the same anatomical tradition that produced birds also produced non-flying predatory dinosaurs. Feathers are part of that story, but they are not a single answer to every question about the animal. [[ostrom1969]][[xu2014]]"
+      ]
+    },
+    {
+      "type": "image",
+      "assetId": "deinonychus-living",
+      "alt": "Life reconstruction of Deinonychus antirrhopus with a feathered body and raised sickle claw.",
+      "label": "Life reconstruction",
+      "layout": "full",
+      "fit": "cover",
+      "caption": "A life reconstruction by Emily Willoughby. It is an interpretation of the animal’s appearance, not a photograph of YPM 5205 or of any fossil.",
+      "refs": [
+        "ostrom1969",
+        "xu2014"
+      ]
+    },
+    {
+      "type": "pullquote",
+      "label": "The argument",
+      "text": "One good skeleton can change a question without answering it.",
+      "attribution": "MESOZO editorial"
+    }
+  ],
+  "references": [
+    "ostrom1969",
+    "maxwell1995",
+    "roach2007",
+    "turner2007",
+    "fowler2011",
+    "xu2014"
+  ],
+  "relatedSpeciesIds": [
+    "deinonychus",
+    "velociraptor"
+  ],
+  "relatedPeriodIds": [
+    "cretaceous"
+  ],
+  "relatedSpecimenIds": [
+    "ypm-5205"
+  ],
+  "relatedAnatomy": [],
+  "relatedArticleIds": [
+    "the-feather-question",
+    "reconstructing-an-extinct-animal"
+  ],
+  "readingPathIds": [
+    "feather-path"
+  ]
+}

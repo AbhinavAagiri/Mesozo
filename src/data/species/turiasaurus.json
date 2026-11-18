@@ -1,0 +1,172 @@
+{
+  "slug": "turiasaurus",
+  "accession": "MZ-089",
+  "scientificName": "Turiasaurus riodevensis",
+  "commonName": "Turia lizard",
+  "genus": "Turiasaurus",
+  "epithet": "riodevensis",
+  "status": "Extinct",
+  "namedBy": "Royo-Torres et al., 2006",
+  "group": "Sauropodomorpha · Turiasauria",
+  "groupKey": "Sauropodomorpha",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Tithonian",
+  "ageMa": [
+    150,
+    145
+  ],
+  "ageLabel": "≈150–145 Ma",
+  "region": [
+    "Spain"
+  ],
+  "regionKeys": [
+    "Europe"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The large, spatulate teeth indicate herbivory. No gut contents are known; the plants eaten and the feeding height are inferred from anatomy.",
+    "evidence": "inference",
+    "refs": [
+      "primary-turiasaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈30–37 m",
+  "mass": "≈40–50 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "turiasaurus-living",
+  "featured": false,
+  "tagline": "A very large sauropod from Europe, known from a partial skeleton and referred teeth. Its size is estimated from limb bones.",
+  "summary": "A very large sauropod from Europe, known from a partial skeleton and referred teeth. Its size is estimated from limb bones.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropodomorpha"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Turiasauria"
+    },
+    {
+      "rank": "Genus",
+      "value": "Turiasaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "T. riodevensis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Royo-Torres et al., 2006. The record is known from Villar del Arzobispo Formation, Teruel. A partial skeleton and isolated teeth from Spain.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-turiasaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The hypodigm includes a partial skeleton and isolated teeth from the Villar del Arzobispo Formation, Teruel. The skeleton is incomplete, and size estimates depend on reconstructed missing parts.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-turiasaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Villar del Arzobispo Formation, Teruel records the species in the Late Jurassic. The numeric range used here is ≈150–145 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The humerus is massive, the teeth are large and spatulate, and the appendicular skeleton is robust. The skull is known from referred material.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-turiasaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No direct evidence of social or migratory behaviour. A 2024 study proposed that large foraging migrations could help explain the animal’s size, but the hypothesis is not based on tracked individuals.",
+    "evidence": "inference",
+    "refs": [
+      "primary-turiasaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a partial skeleton and isolated teeth from Spain. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-turiasaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-turiasaurus",
+    "pbdb",
+    "paul2016",
+    "v19-turiasaurus-165",
+    "v19-turiasaurus-166"
+  ],
+  "related": [
+    "jobaria",
+    "camarasaurus",
+    "brachiosaurus"
+  ],
+  "confidenceNote": "Turiasaurus is known from a partial skeleton and isolated teeth from the Villar del Arzobispo Formation of Teruel, Spain. It is one of the largest known European sauropods, but the size estimates depend on reconstruction. A 2024 migration hypothesis is comparative and untested.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal floodplain",
+  "ancientContext": "Villar del Arzobispo Formation, Teruel",
+  "locality": [
+    "Villar del Arzobispo Formation, Teruel"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Turiasaurus riodevensis was one of the largest sauropods ever found in Europe. It lived in the [Late Jurassic](/deep-time?period=jurassic) of what is now Spain and is known from a partial skeleton and isolated teeth.",
+    "paragraphs": [
+      "The humerus is massive, the teeth are large and spatulate, and the appendicular skeleton is robust. Length estimates of 30–37 m and mass estimates of 40–50 tonnes depend on reconstructing missing parts, so they are not measurements.",
+      "Its plant diet is inferred from the teeth. A 2024 study proposed that large foraging migrations could help explain its size, but the hypothesis is comparative and has not been tested with direct evidence of migration. No gut contents are known."
+    ],
+    "takeaway": "A huge European sauropod known from an incomplete skeleton."
+  }
+}

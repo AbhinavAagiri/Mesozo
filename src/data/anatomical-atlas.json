@@ -1,0 +1,785 @@
+{
+  "version": "1.0",
+  "updated": "2026-11-15",
+  "statement": "A fossil is evidence. An anatomical reconstruction is an interpretation of that evidence.",
+  "evidenceKey": [
+    {
+      "id": "fossil",
+      "label": "Fossil evidence",
+      "shortLabel": "Fossil",
+      "body": "Observed in preserved bone, teeth or impressions. The fossil may be fragmentary, reconstructed, or a cast of lost material."
+    },
+    {
+      "id": "reconstruction",
+      "label": "Anatomical reconstruction",
+      "shortLabel": "Reconstruction",
+      "body": "An anatomical arrangement built from preserved elements and comparison with other animals. It is not a photograph of the whole organism."
+    },
+    {
+      "id": "interpretation",
+      "label": "Functional interpretation",
+      "shortLabel": "Interpretation",
+      "body": "A proposed function or behaviour inferred from structure. It can be tested against living animals and biomechanics, but function is not directly fossilised."
+    },
+    {
+      "id": "debate",
+      "label": "Scientific debate",
+      "shortLabel": "Debate",
+      "body": "A question where published interpretations conflict, or where the available evidence does not choose between them. The disagreement is part of the record."
+    }
+  ],
+  "categories": [
+    { "id": "skull", "label": "Skull and sensory anatomy", "shortLabel": "Skull" },
+    { "id": "axial", "label": "Axial skeleton", "shortLabel": "Axial" },
+    { "id": "forelimb", "label": "Forelimb", "shortLabel": "Forelimb" },
+    { "id": "hindlimb", "label": "Hindlimb and pelvis", "shortLabel": "Hindlimb" },
+    { "id": "other", "label": "Internal evidence", "shortLabel": "Internal" }
+  ],
+  "cases": [
+    {
+      "id": "spinosaurus-atlas",
+      "speciesId": "spinosaurus",
+      "caseLabel": "Case 01",
+      "status": "Flagship study",
+      "scope": "full-body",
+      "scopeLabel": "Full skeleton · 11 structures",
+      "intro": "A composite skeleton, read at the scale of the whole animal. The bony plate is the evidence; every smooth outline around it is an argument.",
+      "plate": {
+        "assetId": "spinosaurus-skeletal-2020",
+        "title": "Spinosaurus aegyptiacus — composite skeletal reconstruction",
+        "alt": "Skeletal reconstruction of Spinosaurus aegyptiacus in lateral view, with a long snout, tall dorsal spines and a paddle-shaped tail.",
+        "caption": "Skeletal reconstruction after Ibrahim et al. 2020, drawing by Marco Auditore, CC BY 4.0. A composite reconstruction, not a single excavated skeleton.",
+        "note": "The plate combines several individuals. The locator overlay is diagrammatic: it marks a region of the reconstruction, not a measured point on one fossil.",
+        "width": 1512,
+        "height": 618
+      },
+      "views": [
+        {
+          "id": "full",
+          "label": "Full skeleton",
+          "shortLabel": "Full",
+          "note": "The whole composite plate, with every locatable structure.",
+          "scale": 1,
+          "focusX": 50,
+          "focusY": 50,
+          "structureIds": [
+            "rostrum",
+            "dentition",
+            "cranial-openings",
+            "cervical-series",
+            "dorsal-spines",
+            "dorsal-ribs",
+            "forelimb",
+            "pelvis",
+            "hindlimb",
+            "caudal-series"
+          ]
+        },
+        {
+          "id": "skull",
+          "label": "Skull",
+          "shortLabel": "Skull",
+          "note": "Rostrum, dentition and cranial openings. The skull is reconstructed from incomplete material.",
+          "scale": 2.45,
+          "focusX": 6.5,
+          "focusY": 74.5,
+          "structureIds": ["rostrum", "dentition", "cranial-openings"]
+        },
+        {
+          "id": "axial",
+          "label": "Axial & sail",
+          "shortLabel": "Axial",
+          "note": "Neck, trunk and the elongated neural spines. The soft-tissue sail is not preserved.",
+          "scale": 1.55,
+          "focusX": 43,
+          "focusY": 43,
+          "structureIds": ["cervical-series", "dorsal-spines", "dorsal-ribs"]
+        },
+        {
+          "id": "forelimb",
+          "label": "Forelimb",
+          "shortLabel": "Forelimb",
+          "note": "The short, robust forelimb and its enlarged claws.",
+          "scale": 2.75,
+          "focusX": 31,
+          "focusY": 78,
+          "structureIds": ["forelimb"]
+        },
+        {
+          "id": "hindlimb",
+          "label": "Pelvis & hindlimb",
+          "shortLabel": "Hindlimb",
+          "note": "The hip and hind limb, where the posture debate is anchored.",
+          "scale": 2.25,
+          "focusX": 53,
+          "focusY": 66,
+          "structureIds": ["pelvis", "hindlimb"]
+        },
+        {
+          "id": "tail",
+          "label": "Tail",
+          "shortLabel": "Tail",
+          "note": "Distal caudal vertebrae and chevrons, the bony core of the paddle-like profile.",
+          "scale": 2.1,
+          "focusX": 82,
+          "focusY": 63,
+          "structureIds": ["caudal-series"]
+        }
+      ],
+      "defaultView": "full",
+      "defaultStructure": "dorsal-spines",
+      "structures": [
+        {
+          "id": "rostrum",
+          "name": "Rostrum and terminal rosette",
+          "shortName": "Rostrum",
+          "category": "skull",
+          "summary": "The snout is long, low and narrow, ending in a rosette of enlarged teeth.",
+          "observation": {
+            "body": "MSNM V4047 preserves a partial skull with a long, laterally compressed rostrum and an expanded terminal rosette. The external nares are set far back, behind the snout tip. The specimen is incomplete, and the skull in the plate is reconstructed.",
+            "refs": ["dalsasso2005", "stromer1915"]
+          },
+          "reconstruction": {
+            "body": "The posterior skull outline is reconstructed by comparison with other spinosaurids, especially Irritator. The reconstruction is an anatomical argument, not a tracing of one complete fossil.",
+            "refs": ["dalsasso2005"]
+          },
+          "function": {
+            "body": "A long rostrum and terminal rosette are consistent with capturing and gripping fish. The shape alone does not establish whether Spinosaurus hunted underwater, at the waterline, or from shore.",
+            "refs": ["dalsasso2005", "honeholtz2021"]
+          },
+          "debate": {
+            "body": "Diet is better supported than hunting method. Fish remains occur in the same deposits; direct stomach contents are not known.",
+            "refs": ["honeholtz2021", "sereno2022"]
+          },
+          "primaryEvidence": "fossil",
+          "locator": { "x": 8.8, "y": 74.5, "radius": 4.6 },
+          "views": ["full", "skull"],
+          "primaryView": "skull",
+          "specimens": ["msnm-v4047", "bsp-1912-viii-19"],
+          "relatedStructures": ["dentition", "cranial-openings"],
+          "softTissue": false,
+          "legacy": { "label": "Skull", "order": 1 }
+        },
+        {
+          "id": "dentition",
+          "name": "Dentition",
+          "shortName": "Teeth",
+          "category": "skull",
+          "summary": "Conical, slightly recurved teeth line the jaws; the largest sit at the snout tip.",
+          "observation": {
+            "body": "The dentition includes enlarged premaxillary teeth in the terminal rosette and smaller conical teeth behind it. The crowns are slightly recurved. Teeth are shed and replaced, so isolated teeth are common in the deposits.",
+            "refs": ["dalsasso2005", "stromer1915"]
+          },
+          "function": {
+            "body": "Conical teeth are compatible with piercing and holding slippery prey. Tooth form alone cannot demonstrate a fish diet, and the teeth do not distinguish active pursuit from shoreline hunting or scavenging.",
+            "refs": ["dalsasso2005", "honeholtz2021"]
+          },
+          "debate": {
+            "body": "The teeth are direct fossil evidence. The behaviour they are used to explain is an inference, not a preserved action.",
+            "refs": ["honeholtz2021"]
+          },
+          "primaryEvidence": "fossil",
+          "locator": { "x": 3.4, "y": 77, "radius": 3.8 },
+          "views": ["full", "skull"],
+          "primaryView": "skull",
+          "specimens": ["msnm-v4047", "bsp-1912-viii-19"],
+          "relatedStructures": ["rostrum"],
+          "softTissue": false,
+          "legacy": { "label": "Teeth", "order": 2 }
+        },
+        {
+          "id": "cranial-openings",
+          "name": "Cranial openings",
+          "shortName": "Orbit & nares",
+          "category": "skull",
+          "summary": "The orbit, external nares and antorbital opening frame a lightly built skull.",
+          "observation": {
+            "body": "The external nares are retracted far back on the snout. The orbit and antorbital opening are large. Their preserved margins provide direct evidence of the openings, but the complete skull outline depends on reconstruction.",
+            "refs": ["dalsasso2005"]
+          },
+          "reconstruction": {
+            "body": "The atlas does not reconstruct a braincase or sensory soft tissue. The available material does not provide a complete, directly comparable braincase for this case.",
+            "refs": ["dalsasso2005"]
+          },
+          "function": {
+            "body": "Large openings reduce skull mass and frame the jaw musculature. They do not, by themselves, reveal the size of the eye, the sense of smell, or other sensory capabilities.",
+            "refs": ["dalsasso2005"]
+          },
+          "primaryEvidence": "fossil",
+          "locator": { "x": 10.6, "y": 70, "radius": 3.4 },
+          "views": ["full", "skull"],
+          "primaryView": "skull",
+          "specimens": ["msnm-v4047"],
+          "relatedStructures": ["rostrum", "dentition"],
+          "softTissue": false
+        },
+        {
+          "id": "cervical-series",
+          "name": "Cervical vertebrae",
+          "shortName": "Neck",
+          "category": "axial",
+          "summary": "The neck vertebrae set the long skull forward of the shoulders.",
+          "observation": {
+            "body": "Cervical vertebrae are known from the proposed neotype and referred material. They form the axial link between the skull and trunk. The curve of the neck in the plate is a reconstruction, not a preserved posture, and the proposed neotype’s referral is disputed.",
+            "refs": ["ibrahim2014", "sereno2022"]
+          },
+          "reconstruction": {
+            "body": "The complete neck curve is drawn from preserved vertebrae and comparison. Bone does not record the habitual resting angle of the living neck.",
+            "refs": ["sereno2022"]
+          },
+          "function": {
+            "body": "The neck positions and supports the long skull. Its range of motion is inferred from joint surfaces and comparative anatomy.",
+            "refs": ["ibrahim2014", "sereno2022"]
+          },
+          "primaryEvidence": "fossil",
+          "locator": { "x": 15, "y": 67, "radius": 4.4 },
+          "views": ["full", "axial"],
+          "primaryView": "axial",
+          "specimens": ["fsac-kk-11888"],
+          "relatedStructures": ["dorsal-spines", "dorsal-ribs"],
+          "softTissue": false
+        },
+        {
+          "id": "dorsal-spines",
+          "name": "Elongated dorsal neural spines",
+          "shortName": "Neural spines",
+          "category": "axial",
+          "summary": "Tall neural spines rise from the dorsal vertebrae and form the bony core of the sail.",
+          "observation": {
+            "body": "The elongated neural spines are bone, preserved in the holotype and in later material. In large individuals some exceed a metre in height. They are extensions of individual vertebrae, not a separate skeleton.",
+            "refs": ["stromer1934", "ibrahim2014"]
+          },
+          "reconstruction": {
+            "body": "The soft-tissue envelope between the spines is not preserved. The smooth sail in the plate is an interpretation of outline, thickness and colour, not a fossil impression.",
+            "refs": ["stromer1934", "honeholtz2021"]
+          },
+          "function": {
+            "body": "Proposed functions include display, thermoregulation and hydrodynamic stability. These are hypotheses about soft tissue and behaviour, not observations of the fossil.",
+            "refs": ["bailey1997", "honeholtz2021"]
+          },
+          "debate": {
+            "body": "No single function is established. The spines themselves are uncontroversial; the role of the sail is not. A taller structure can be a signal, a radiator, a stabiliser, or several things at once.",
+            "refs": ["bailey1997", "honeholtz2021", "sereno2022"]
+          },
+          "primaryEvidence": "debate",
+          "locator": { "x": 44.2, "y": 16, "radius": 9.5 },
+          "views": ["full", "axial"],
+          "primaryView": "axial",
+          "specimens": ["bsp-1912-viii-19", "fsac-kk-11888"],
+          "relatedStructures": ["cervical-series", "dorsal-ribs"],
+          "softTissue": false,
+          "legacy": { "label": "Sail", "order": 3 }
+        },
+        {
+          "id": "dorsal-ribs",
+          "name": "Dorsal ribs and trunk",
+          "shortName": "Ribcage",
+          "category": "axial",
+          "summary": "A deep ribcage surrounded the lungs and viscera.",
+          "observation": {
+            "body": "Dorsal ribs are preserved, and the plate reconstructs a deep trunk. The full three-dimensional width of the ribcage and the position of internal organs are not directly preserved.",
+            "refs": ["ibrahim2014"]
+          },
+          "reconstruction": {
+            "body": "The trunk outline is inferred from rib curvature, articulated material and comparison, then drawn in side view. The plate is not a cross-section.",
+            "refs": ["ibrahim2014", "sereno2022"]
+          },
+          "function": {
+            "body": "The trunk supports the body and houses the respiratory system. Lung volume and respiratory efficiency cannot be measured from this plate.",
+            "refs": ["ibrahim2014", "sereno2022"]
+          },
+          "primaryEvidence": "fossil",
+          "locator": { "x": 37.5, "y": 63, "radius": 6.5 },
+          "views": ["full", "axial"],
+          "primaryView": "axial",
+          "specimens": ["fsac-kk-11888"],
+          "relatedStructures": ["cervical-series", "dorsal-spines"],
+          "softTissue": false
+        },
+        {
+          "id": "forelimb",
+          "name": "Forelimb skeleton",
+          "shortName": "Forelimb",
+          "category": "forelimb",
+          "summary": "Short, robust forelimbs end in enlarged claws.",
+          "observation": {
+            "body": "The forelimb includes a robust humerus and forearm bones; the manus bears enlarged claws. Limb elements are known from the proposed neotype and referred material, although the articulation in the plate is reconstructed and the specimen’s referral is disputed.",
+            "refs": ["ibrahim2014", "sereno2022"]
+          },
+          "reconstruction": {
+            "body": "The pose and joint cartilage are inferred. The short proportion of the arm relative to the trunk is measured from bones, not invented by the drawing.",
+            "refs": ["ibrahim2014", "sereno2022"]
+          },
+          "function": {
+            "body": "Possible roles include gripping prey, stabilising a carcass, or contacting the ground in a quadrupedal pose. The claws are compatible with grasping; they do not demonstrate a particular behaviour.",
+            "refs": ["ibrahim2014", "sereno2022"]
+          },
+          "debate": {
+            "body": "The 2014 reconstruction proposed a partly quadrupedal posture. Later work argued for a more conventional bipedal stance. The forelimb's habitual use is unresolved.",
+            "refs": ["ibrahim2014", "sereno2022", "honeholtz2021"]
+          },
+          "primaryEvidence": "fossil",
+          "locator": { "x": 31.2, "y": 80, "radius": 4 },
+          "views": ["full", "forelimb"],
+          "primaryView": "forelimb",
+          "specimens": ["fsac-kk-11888"],
+          "relatedStructures": ["pelvis", "hindlimb"],
+          "softTissue": false,
+          "legacy": { "label": "Forelimb", "order": 4 }
+        },
+        {
+          "id": "pelvis",
+          "name": "Pelvis",
+          "shortName": "Pelvis",
+          "category": "hindlimb",
+          "summary": "The pelvis anchors the hind limbs and tail.",
+          "observation": {
+            "body": "Pelvic material is known from the proposed neotype. The iliac blade is part of the hip region reconstructed in the plate. Its orientation and the animal's centre of mass are central to the posture debate, and the specimen’s referral is disputed.",
+            "refs": ["ibrahim2014", "sereno2022"]
+          },
+          "reconstruction": {
+            "body": "The complete pelvis is reconstructed from preserved elements and comparison. Cartilage and soft tissue are not preserved.",
+            "refs": ["ibrahim2014"]
+          },
+          "function": {
+            "body": "The pelvis transfers load between the axial column and hind limbs. The angle of the hip affects how the legs can be posed and loaded.",
+            "refs": ["sereno2022"]
+          },
+          "debate": {
+            "body": "Whether the hind limbs habitually carried the body in a bipedal stance, or the forelimbs also bore weight, remains contested.",
+            "refs": ["ibrahim2014", "sereno2022", "honeholtz2021"]
+          },
+          "primaryEvidence": "fossil",
+          "locator": { "x": 50, "y": 47.5, "radius": 5 },
+          "views": ["full", "hindlimb"],
+          "primaryView": "hindlimb",
+          "specimens": ["fsac-kk-11888"],
+          "relatedStructures": ["hindlimb", "caudal-series"],
+          "softTissue": false
+        },
+        {
+          "id": "hindlimb",
+          "name": "Hindlimb skeleton",
+          "shortName": "Hindlimb",
+          "category": "hindlimb",
+          "summary": "The hind limbs are short relative to the trunk, with robust limb bones.",
+          "observation": {
+            "body": "The femur, tibia, fibula and foot bones are represented in the proposed neotype. The hind limb is short compared with the trunk, a proportion measured from the skeleton. The walking pose in the plate is reconstructed, and the specimen’s referral is disputed.",
+            "refs": ["ibrahim2014", "sereno2022"]
+          },
+          "reconstruction": {
+            "body": "Joint cartilage, muscle mass and the resting angles of the knee and ankle are inferred. The bones alone do not fix a walking posture.",
+            "refs": ["ibrahim2014", "sereno2022"]
+          },
+          "function": {
+            "body": "The limbs support the body on land and could contribute to propulsion in water. Their exact role in each setting is debated.",
+            "refs": ["ibrahim2014", "ibrahim2020", "sereno2022"]
+          },
+          "debate": {
+            "body": "Bone density and limb proportions have been used to argue for aquatic life. Critics question the inference from density to behaviour and reconstruct a more terrestrial animal.",
+            "refs": ["fabbri2022", "myhrvold2024", "sereno2022"]
+          },
+          "primaryEvidence": "fossil",
+          "locator": { "x": 55.5, "y": 71, "radius": 6 },
+          "views": ["full", "hindlimb"],
+          "primaryView": "hindlimb",
+          "specimens": ["fsac-kk-11888"],
+          "relatedStructures": ["pelvis", "bone-microstructure"],
+          "softTissue": false,
+          "legacy": { "label": "Hind limb", "order": 5 }
+        },
+        {
+          "id": "caudal-series",
+          "name": "Caudal vertebrae and chevrons",
+          "shortName": "Tail",
+          "category": "axial",
+          "summary": "Tall distal neural spines and long chevrons produce a paddle-like tail profile.",
+          "observation": {
+            "body": "The distal caudal vertebrae preserve tall neural spines and elongated chevrons. Together they form a deep, paddle-like bony profile. The tail is known from a partial, disarticulated specimen and reconstructed in the plate.",
+            "refs": ["ibrahim2020", "sereno2022"]
+          },
+          "reconstruction": {
+            "body": "The flexible fin-like envelope around the bones is reconstructed; no soft-tissue outline is preserved. The full length and curvature of the tail are also inferred.",
+            "refs": ["ibrahim2020"]
+          },
+          "function": {
+            "body": "Ibrahim and colleagues found that the reconstructed tail shape generates more thrust in water than the tails they compared. That supports a plausible swimming function; it does not prove habitual aquatic locomotion.",
+            "refs": ["ibrahim2020"]
+          },
+          "debate": {
+            "body": "Sereno and colleagues dispute the aquatic reconstruction and emphasise buoyancy, limb proportions and terrestrial capability. The bony tail shape is shared evidence; its ecological use is contested.",
+            "refs": ["sereno2022", "honeholtz2021"]
+          },
+          "primaryEvidence": "debate",
+          "locator": { "x": 83.5, "y": 61.5, "radius": 5.5 },
+          "views": ["full", "tail"],
+          "primaryView": "tail",
+          "specimens": ["fsac-kk-11888"],
+          "relatedStructures": ["pelvis", "hindlimb"],
+          "softTissue": false,
+          "legacy": { "label": "Tail", "order": 6 }
+        },
+        {
+          "id": "bone-microstructure",
+          "name": "Limb-bone microstructure",
+          "shortName": "Bone density",
+          "category": "other",
+          "summary": "Internal bone structure is evidence for density, but not a direct record of lifestyle.",
+          "observation": {
+            "body": "Cross-sections and CT data from limb bones have been used to estimate bone compactness. This is internal evidence and cannot be located on an external skeletal plate.",
+            "refs": ["ibrahim2014", "fabbri2022"]
+          },
+          "reconstruction": {
+            "body": "Bone-density estimates depend on sampling, scanning and models. A whole-body density profile is an inference built from those samples.",
+            "refs": ["fabbri2022", "myhrvold2024"]
+          },
+          "function": {
+            "body": "Elevated bone density can affect buoyancy and trim in water, but density alone does not establish swimming ability or habitat.",
+            "refs": ["ibrahim2014", "fabbri2022", "honeholtz2021"]
+          },
+          "debate": {
+            "body": "A 2024 critique argued that the compactness dataset and pFDA analysis do not support the aquatic inference. The debate concerns method and interpretation, not whether the bones exist.",
+            "refs": ["myhrvold2024", "sereno2022"]
+          },
+          "primaryEvidence": "debate",
+          "views": [],
+          "specimens": ["fsac-kk-11888"],
+          "relatedStructures": ["hindlimb"],
+          "softTissue": false
+        }
+      ],
+      "adaptations": [
+        {
+          "id": "feeding",
+          "kind": "feeding",
+          "title": "A trap, not a copy of a crocodile",
+          "summary": "The long rostrum and conical teeth are compatible with gripping fish. They do not reveal whether the animal pursued prey underwater or hunted from the margin.",
+          "structureIds": ["rostrum", "dentition"],
+          "evidence": "interpretation",
+          "refs": ["dalsasso2005", "honeholtz2021"]
+        },
+        {
+          "id": "tail-propulsion",
+          "kind": "locomotion",
+          "title": "A tail that could push water",
+          "summary": "The paddle-shaped distal tail is osteologically real. Experimental models show that the reconstructed shape can produce thrust; whether it was used habitually is debated.",
+          "structureIds": ["caudal-series", "hindlimb"],
+          "evidence": "debate",
+          "refs": ["ibrahim2020", "sereno2022"]
+        },
+        {
+          "id": "buoyancy",
+          "kind": "support",
+          "title": "Density is not a behaviour",
+          "summary": "Dense limb bones may affect buoyancy and trim, but sampling and statistical methods are contested. Density cannot decide how the animal spent its day.",
+          "structureIds": ["bone-microstructure", "hindlimb"],
+          "evidence": "debate",
+          "refs": ["fabbri2022", "myhrvold2024", "sereno2022"]
+        },
+        {
+          "id": "sail-function",
+          "kind": "display",
+          "title": "The sail, without a script",
+          "summary": "Elongated neural spines are bone. The soft-tissue envelope and its function — display, thermoregulation, stability — are not preserved.",
+          "structureIds": ["dorsal-spines"],
+          "evidence": "debate",
+          "refs": ["bailey1997", "honeholtz2021"]
+        },
+        {
+          "id": "posture",
+          "kind": "posture",
+          "title": "Four feet or two?",
+          "summary": "Forelimb and limb proportions have been used to argue for a partly quadrupedal stance. Later work reconstructs a more bipedal animal. The pose is a model.",
+          "structureIds": ["forelimb", "pelvis", "hindlimb"],
+          "evidence": "debate",
+          "refs": ["ibrahim2014", "sereno2022"]
+        }
+      ],
+      "specimens": [
+        {
+          "id": "bsp-1912-viii-19",
+          "identifier": "BSP 1912 VIII 19",
+          "status": "Holotype — lost",
+          "material": "Jaw fragments, teeth, vertebrae, ribs and gastralia; the limbs are not preserved in the holotype.",
+          "locality": "Bahariya Oasis, Egypt",
+          "repository": "Munich collections — destroyed 1944",
+          "refs": ["stromer1915", "stromer1934"]
+        },
+        {
+          "id": "msnm-v4047",
+          "identifier": "MSNM V4047",
+          "status": "Referred specimen",
+          "material": "Partial skull, including the rostrum and terminal rosette.",
+          "locality": "Kem Kem Group, Morocco",
+          "repository": "Museo di Storia Naturale di Milano",
+          "refs": ["dalsasso2005"]
+        },
+        {
+          "id": "fsac-kk-11888",
+          "identifier": "FSAC-KK 11888",
+          "status": "Proposed neotype — partial skeleton (disputed)",
+          "material": "Partial skeleton preserving skull and jaw fragments, limb bones and caudal vertebrae.",
+          "locality": "Kem Kem Group, Morocco",
+          "repository": "FSAC collections, Casablanca",
+          "refs": ["ibrahim2014", "ibrahim2020"]
+        }
+      ],
+      "limits": [
+        "No complete Spinosaurus skeleton or skull is known; the plate is a composite reconstruction after Ibrahim et al. 2020.",
+        "Locators are diagrammatic. They mark a region, not a measured point on a fossil.",
+        "Soft-tissue anatomy, colour and behaviour are not preserved in the available material.",
+        "The atlas does not resolve whether Spinosaurus was a habitual swimmer, a shoreline hunter, or something between."
+      ]
+    },
+    {
+      "id": "tyrannosaurus-atlas",
+      "speciesId": "tyrannosaurus",
+      "caseLabel": "Case 02",
+      "status": "Skull study",
+      "scope": "skull",
+      "scopeLabel": "Skull only · 4 structures",
+      "intro": "A Spinosaurus skull, examined at the scale of the feeding apparatus. The photographed skull is a privately held Moroccan specimen, not the Milan specimen MSNM V4047; it is used as a visual reference only. This case is deliberately partial: no licensed full-body skeletal plate is available.",
+      "plate": {
+        "assetId": "tyrannosaurus-skull",
+        "title": "Tyrannosaurus rex — skull cast",
+        "alt": "Photograph of a Tyrannosaurus rex skull cast in lateral view, with the jaws open and the mounted skeleton visible behind it.",
+        "caption": "Skull cast of Tyrannosaurus rex. Photograph by Gary Todd, CC0, via Wikimedia Commons. The source does not state a specimen number.",
+        "note": "This is a photograph of a cast in a museum setting, not a measured anatomical drawing. Hotspot positions are diagrammatic.",
+        "width": 1600,
+        "height": 1067
+      },
+      "views": [
+        {
+          "id": "skull",
+          "label": "Skull, lateral",
+          "shortLabel": "Skull",
+          "note": "The whole cast, with the four documented regions.",
+          "scale": 1.12,
+          "focusX": 50,
+          "focusY": 48,
+          "structureIds": ["trex-cranium", "trex-jaws", "trex-dentition", "trex-orbit"]
+        },
+        {
+          "id": "jaws",
+          "label": "Jaws & teeth",
+          "shortLabel": "Jaws",
+          "note": "The lower jaw, tooth row and the muscles that closed the jaws.",
+          "scale": 1.55,
+          "focusX": 45,
+          "focusY": 56,
+          "structureIds": ["trex-jaws", "trex-dentition"]
+        },
+        {
+          "id": "orbit",
+          "label": "Cranium & orbit",
+          "shortLabel": "Orbit",
+          "note": "The skull roof, orbit and cranial openings.",
+          "scale": 1.7,
+          "focusX": 62,
+          "focusY": 34,
+          "structureIds": ["trex-cranium", "trex-orbit"]
+        }
+      ],
+      "defaultView": "skull",
+      "defaultStructure": "trex-cranium",
+      "structures": [
+        {
+          "id": "trex-cranium",
+          "name": "Cranium and skull roof",
+          "shortName": "Cranium",
+          "category": "skull",
+          "summary": "A deep, robust skull with a narrow snout and an expanded posterior region.",
+          "observation": {
+            "body": "The skull is deep and heavily built, with a narrow snout and a broad posterior region. Multiple T. rex skulls are known, but this photograph does not state which specimen the cast represents.",
+            "refs": ["osborn1905", "carr2020"]
+          },
+          "reconstruction": {
+            "body": "The cast reproduces the external skull. It does not preserve the full internal braincase, cranial nerves or sensory soft tissue.",
+            "refs": ["carr2020"]
+          },
+          "function": {
+            "body": "The expanded posterior skull provides space for jaw muscles. Its proportions are consistent with a powerful bite, but the exact force is modelled rather than measured from a living animal.",
+            "refs": ["rayfield2001", "carr2020"]
+          },
+          "primaryEvidence": "fossil",
+          "locator": { "x": 57.5, "y": 33, "radius": 13 },
+          "views": ["skull", "orbit"],
+          "primaryView": "orbit",
+          "specimens": [],
+          "relatedStructures": ["trex-jaws", "trex-orbit"],
+          "softTissue": false
+        },
+        {
+          "id": "trex-jaws",
+          "name": "Jaws and jaw musculature",
+          "shortName": "Jaws",
+          "category": "skull",
+          "summary": "A deep lower jaw and expanded jaw muscles supported a forceful bite.",
+          "observation": {
+            "body": "The lower jaw is robust and the tooth row is set in thick bone. The skull preserves broad surfaces for jaw-closing muscles. Soft muscles are not preserved; their reconstruction is based on scars and comparison with living reptiles and birds.",
+            "refs": ["osborn1905", "carr2020"]
+          },
+          "reconstruction": {
+            "body": "The jaw muscles are reconstructed from attachment scars and comparative anatomy. Their size is an inference, not a fossil structure.",
+            "refs": ["rayfield2001"]
+          },
+          "function": {
+            "body": "Biomechanical models support a strong bite and a jaw capable of processing large prey. The exact bite force, and the balance of crushing and slicing, depend on the model.",
+            "refs": ["rayfield2001", "carr2020"]
+          },
+          "debate": {
+            "body": "Bite-force estimates vary widely. Coprolites and tooth-marked bones show feeding on large dinosaurs; they do not settle whether every carcass was killed or scavenged.",
+            "refs": ["chin1998", "depalma2013", "carr2020"]
+          },
+          "primaryEvidence": "reconstruction",
+          "locator": { "x": 56, "y": 58, "radius": 14 },
+          "views": ["skull", "jaws"],
+          "primaryView": "jaws",
+          "specimens": [],
+          "relatedStructures": ["trex-cranium", "trex-dentition"],
+          "softTissue": true
+        },
+        {
+          "id": "trex-dentition",
+          "name": "Dentition",
+          "shortName": "Teeth",
+          "category": "skull",
+          "summary": "Thick, conical teeth with serrated edges line both jaws.",
+          "observation": {
+            "body": "The teeth are large, thick and conical, with serrated edges. Replacement teeth are visible in the jaws. The cast shows the external tooth row, not the full internal root or wear history of a single animal.",
+            "refs": ["osborn1905", "carr2020"]
+          },
+          "function": {
+            "body": "The teeth are consistent with gripping and processing large prey. A bone-bearing coprolite and embedded teeth support feeding on bone and flesh; tooth shape alone does not establish hunting method.",
+            "refs": ["chin1998", "depalma2013"]
+          },
+          "debate": {
+            "body": "Whether the teeth were used for bone-crushing, slicing, or both is inferred from tooth form, wear and biomechanics. These are functional arguments, not preserved behaviour.",
+            "refs": ["rayfield2001", "chin1998"]
+          },
+          "primaryEvidence": "fossil",
+          "locator": { "x": 31, "y": 55, "radius": 12 },
+          "views": ["skull", "jaws"],
+          "primaryView": "jaws",
+          "specimens": [],
+          "relatedStructures": ["trex-jaws", "trex-cranium"],
+          "softTissue": false
+        },
+        {
+          "id": "trex-orbit",
+          "name": "Orbit and cranial openings",
+          "shortName": "Orbit",
+          "category": "skull",
+          "summary": "Large openings interrupt the skull without making it weak.",
+          "observation": {
+            "body": "The orbit and surrounding cranial openings are preserved in the cast. The bony rims and struts are visible. The soft tissues of the eye and associated sensory structures are not.",
+            "refs": ["osborn1905"]
+          },
+          "reconstruction": {
+            "body": "The size of the eyeball, the position of the eye within the orbit, and any soft-tissue structures around it are reconstructions based on comparison.",
+            "refs": ["carr2020"]
+          },
+          "function": {
+            "body": "Openings reduce skull mass while bony struts maintain support. Vision and other senses cannot be inferred from the openings alone.",
+            "refs": ["osborn1905", "carr2020"]
+          },
+          "primaryEvidence": "fossil",
+          "locator": { "x": 64, "y": 32, "radius": 7 },
+          "views": ["skull", "orbit"],
+          "primaryView": "orbit",
+          "specimens": [],
+          "relatedStructures": ["trex-cranium", "trex-jaws"],
+          "softTissue": false
+        }
+      ],
+      "adaptations": [
+        {
+          "id": "trex-bite",
+          "kind": "feeding",
+          "title": "A jaw built for force",
+          "summary": "A deep skull, expanded jaw muscles and thick teeth support a forceful bite. The exact force and the balance of crushing and slicing are modelled, not observed.",
+          "structureIds": ["trex-jaws", "trex-dentition"],
+          "evidence": "interpretation",
+          "refs": ["rayfield2001", "chin1998", "carr2020"]
+        },
+        {
+          "id": "trex-skull-openings",
+          "kind": "support",
+          "title": "Lightness inside a strong frame",
+          "summary": "Large openings reduce mass while bony struts maintain the skull's frame. Their presence is fossil evidence; their functional importance is inferred.",
+          "structureIds": ["trex-cranium", "trex-orbit"],
+          "evidence": "reconstruction",
+          "refs": ["osborn1905", "carr2020"]
+        }
+      ],
+      "specimens": [],
+      "limits": [
+        "Only a skull cast is available for this case; the atlas does not reconstruct the postcranial skeleton.",
+        "The source photograph does not state a specimen number, and one cast cannot represent all T. rex variation.",
+        "Hotspots are diagrammatic and the photograph is not a measured anatomical drawing.",
+        "Skull function is supported by biomechanics, but exact bite forces and soft-tissue reconstructions are debated."
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "skull-comparison",
+      "kicker": "Comparative anatomy · 01",
+      "title": "Two skulls, not one ruler.",
+      "intro": "A comparison of skull form and feeding anatomy is useful when the structures are comparable. These photographs are not: they were taken independently, from different angles, and without a shared scale bar.",
+      "left": {
+        "speciesId": "spinosaurus",
+        "imageAsset": "spinosaurus-skull",
+        "imageLabel": "Spinosaurus aegyptiacus — private Moroccan skull (not MSNM V4047)",
+        "imageNote": "Long, low rostrum with a terminal rosette. The posterior skull is reconstructed. This photograph is a different, privately held specimen, not the Milan skull."
+      },
+      "right": {
+        "speciesId": "tyrannosaurus",
+        "imageAsset": "tyrannosaurus-skull",
+        "imageLabel": "Tyrannosaurus rex — skull cast, specimen number not stated",
+        "imageNote": "Deep, robust skull with an abbreviated snout and expanded posterior region."
+      },
+      "caveat": "Not to scale. The Spinosaurus photograph shows a privately held Moroccan skull, not MSNM V4047; the T. rex photograph includes a museum background and a different camera angle. No relative size or exact proportion should be read from this pairing. Skull-length estimates for Spinosaurus also depend on reconstruction.",
+      "rows": [
+        {
+          "label": "Snout proportions",
+          "left": "Long and low; the rostrum is much longer than the posterior skull region.",
+          "right": "Deep and robust; the snout is abbreviated relative to the back of the skull.",
+          "evidence": "fossil"
+        },
+        {
+          "label": "Dentition",
+          "left": "Conical, slightly recurved teeth; enlarged teeth at the snout tip.",
+          "right": "Thick, conical, serrated teeth set in robust jaws.",
+          "evidence": "fossil"
+        },
+        {
+          "label": "Jaw mechanics",
+          "left": "A slender, elongated feeding apparatus; gripping is plausible, but the hunting method is not settled.",
+          "right": "A deep skull and expanded jaw muscles support a forceful bite; exact force is modelled.",
+          "evidence": "interpretation"
+        },
+        {
+          "label": "What the images can support",
+          "left": "The shape of the preserved snout and the reconstructed skull outline.",
+          "right": "The external shape of one cast, not the full range of the species.",
+          "evidence": "reconstruction"
+        },
+        {
+          "label": "What remains contested",
+          "left": "Whether the skull was used in water, at the waterline, or for other prey.",
+          "right": "How bite force was used, and whether feeding traces record hunting or scavenging.",
+          "evidence": "debate"
+        }
+      ],
+      "refs": ["dalsasso2005", "rayfield2001", "carr2020", "honeholtz2021"]
+    }
+  ],
+  "limits": [
+    "Locators are diagrammatic overlays on published reconstructions or photographs, not measured anatomical landmarks.",
+    "The atlas documents two species. Other archive dossiers lack a suitable licensed skeletal plate or skull image and are not given an invented one.",
+    "Soft-tissue anatomy, musculature, colour and behaviour are not directly preserved unless the case says otherwise.",
+    "The existing 3D Spinosaurus asset is a soft-tissue reconstruction without segmented bones, so it is not used as anatomical evidence in this atlas.",
+    "The comparison is explicitly not to scale. No image in this atlas is presented as a calibrated measurement."
+  ]
+}

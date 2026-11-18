@@ -1,0 +1,154 @@
+{
+  "slug": "iguanacolossus",
+  "accession": "MZ-074",
+  "scientificName": "Iguanacolossus fortis",
+  "commonName": "Iguanodon colossus",
+  "genus": "Iguanacolossus",
+  "epithet": "fortis",
+  "status": "Extinct",
+  "namedBy": "McDonald et al., 2010",
+  "group": "Ornithischia · Ornithopoda incertae sedis",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Hauterivian–Barremian",
+  "ageMa": [
+    130,
+    125
+  ],
+  "ageLabel": "≈130–125 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The jaw and tooth morphology are consistent with herbivory. No gut contents are known, and the plants eaten are not preserved.",
+    "evidence": "inference",
+    "refs": [
+      "primary-iguanacolossus"
+    ]
+  },
+  "length": "≈9–10 m",
+  "mass": "≈3–4 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "iguanacolossus-living",
+  "featured": false,
+  "tagline": "A large iguanodontian known from a partial skull and postcranial skeleton. Its size is estimated from incomplete material.",
+  "summary": "A large iguanodontian known from a partial skull and postcranial skeleton. Its size is estimated from incomplete material.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithopoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Ornithopoda incertae sedis"
+    },
+    {
+      "rank": "Genus",
+      "value": "Iguanacolossus"
+    },
+    {
+      "rank": "Species",
+      "value": "I. fortis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by McDonald and colleagues in 2010 from the lower Yellow Cat Member of the Cedar Mountain Formation, Utah. The holotype, UMNH VP 20205, is an associated partial skull and skeleton from Don’s Ridge. No hand bones are preserved.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-iguanacolossus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "UMNH VP 20205 is a single associated individual preserving a partial skull, axial elements, a scapula, pelvis elements, metatarsals and a fibula. The skull roof, hand and most long bones are missing, so the thumb spike and many proportions are inferred.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-iguanacolossus"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Lower Yellow Cat Member, Cedar Mountain Formation, Don’s Ridge, Utah. The lower member is provisionally early Barremian, possibly older; the 130–125 Ma range is an estimate, not a direct date on the specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-iguanacolossus",
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is large and deep, the postcranial skeleton is robust, and the hand bears a thumb spike. The holotype is disarticulated but associated, so proportions depend on reconstruction.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-iguanacolossus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Herbivory is inferred from the skull and dentition. No gut contents, nesting sites or social behaviour are recorded.",
+    "evidence": "inference",
+    "refs": [
+      "primary-iguanacolossus"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a partial skull and associated postcrania from Utah. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-iguanacolossus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-iguanacolossus",
+    "pbdb",
+    "paul2016",
+    "mcdonald2012"
+  ],
+  "related": [
+    "iguanodon",
+    "ouranosaurus",
+    "muttaburrasaurus"
+  ],
+  "confidenceNote": "The species is known from a single partial skeleton. No hand bones are preserved, so the thumb spike is inferred rather than observed. The lower Yellow Cat age is provisional and the phylogenetic position is not fully resolved.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Lower Yellow Cat Member, Cedar Mountain Formation, Utah",
+  "locality": [
+    "Lower Yellow Cat Member, Cedar Mountain Formation, Utah"
+  ],
+  "researchStatus": "partially-verified"
+}

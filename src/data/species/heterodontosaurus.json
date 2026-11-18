@@ -1,0 +1,163 @@
+{
+  "slug": "heterodontosaurus",
+  "accession": "MZ-111",
+  "scientificName": "Heterodontosaurus tucki",
+  "commonName": "Different-toothed lizard",
+  "genus": "Heterodontosaurus",
+  "epithet": "tucki",
+  "status": "Extinct",
+  "namedBy": "Crompton & Charig, 1962",
+  "group": "Ornithischia · Heterodontosauridae",
+  "groupKey": "Ornithischia",
+  "period": "jurassic",
+  "periodLabel": "Early Jurassic",
+  "stage": "Sinemurian–Pliensbachian",
+  "ageMa": [
+    199,
+    190
+  ],
+  "ageLabel": "≈199–190 Ma",
+  "region": [
+    "South Africa"
+  ],
+  "regionKeys": [
+    "Africa"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore · debated",
+  "dietEvidence": {
+    "body": "Tooth wear and jaw mechanics support herbivory. The caniniform tusks may have had a display or combat function, and no gut contents are known.",
+    "evidence": "inference",
+    "refs": [
+      "v19-heterodontosaurus-208",
+      "v19-heterodontosaurus-211"
+    ]
+  },
+  "length": "≈1.2 m",
+  "mass": "≈2–4 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "heterodontosaurus-living",
+  "featured": false,
+  "tagline": "A small ornithischian with three distinct tooth types, including enlarged caniniform teeth. The function of the canines is debated.",
+  "summary": "A small ornithischian with three distinct tooth types, including enlarged caniniform teeth. The function of the canines is debated.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Neornithischia"
+    },
+    {
+      "rank": "Family",
+      "value": "Heterodontosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Heterodontosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "H. tucki"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Crompton and Charig in 1962 from the upper Elliot Formation of South Africa. The holotype, SAM-PK-K337, is a crushed but nearly complete skull and partial skeleton; the postcranial remains originally associated with it were later lost. Much of the postcranial description comes from referred specimens.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-heterodontosaurus",
+      "v19-heterodontosaurus-208"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several partial skeletons and skulls from South Africa.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-heterodontosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Elliot Formation, Karoo Basin records the species in the Early Jurassic. The numeric range used here is ≈199–190 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is short with a beak, the dentition is heterodont, and the forelimbs are relatively long.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-heterodontosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Herbivory is inferred from tooth wear and jaw mechanics. The caniniform tusks may have functioned in display or combat, but no behaviour is preserved.",
+    "evidence": "debate",
+    "refs": [
+      "v19-heterodontosaurus-208",
+      "sereno2012"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons and skulls from south Africa. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-heterodontosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-heterodontosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-heterodontosaurus-208",
+    "v19-heterodontosaurus-209",
+    "v19-heterodontosaurus-210",
+    "v19-heterodontosaurus-211",
+    "sereno2012",
+    "radermacher2021"
+  ],
+  "related": [
+    "lesothosaurus",
+    "kulindadromeus",
+    "psittacosaurus"
+  ],
+  "confidenceNote": "The skull and dentition are well described, but the postcranial remains originally associated with the holotype were lost and much of the postcranial anatomy comes from referred specimens. Tusk function and diet remain debated; no gut contents are known.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Facultatively bipedal; quadrupedal",
+  "habitat": "Seasonal floodplain",
+  "ancientContext": "Elliot Formation, Karoo Basin",
+  "locality": [
+    "Elliot Formation, Karoo Basin"
+  ],
+  "researchStatus": "partially-verified"
+}

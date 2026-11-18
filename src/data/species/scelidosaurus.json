@@ -1,0 +1,163 @@
+{
+  "slug": "scelidosaurus",
+  "accession": "MZ-110",
+  "scientificName": "Scelidosaurus harrisonii",
+  "commonName": "Hind-limb lizard",
+  "genus": "Scelidosaurus",
+  "epithet": "harrisonii",
+  "status": "Extinct",
+  "namedBy": "Owen, 1861",
+  "group": "Ornithischia · Scelidosauridae",
+  "groupKey": "Ornithischia",
+  "period": "jurassic",
+  "periodLabel": "Early Jurassic",
+  "stage": "Sinemurian–Pliensbachian",
+  "ageMa": [
+    196,
+    190
+  ],
+  "ageLabel": "≈196–190 Ma",
+  "region": [
+    "United Kingdom"
+  ],
+  "regionKeys": [
+    "Europe"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "Herbivory is inferred from the dentition and jaw apparatus. No gut contents are known, and the plants eaten are not preserved; the diet is a comparative inference for an early thyreophoran.",
+    "evidence": "inference",
+    "refs": [
+      "primary-scelidosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈4 m",
+  "mass": "≈500–1,000 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "scelidosaurus-living",
+  "featured": false,
+  "tagline": "An early armoured ornithischian with rows of osteoderms and a relatively long tail. It is one of the most complete early thyreophorans.",
+  "summary": "An early armoured ornithischian with rows of osteoderms and a relatively long tail. It is one of the most complete early thyreophorans.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Thyreophora"
+    },
+    {
+      "rank": "Family",
+      "value": "Scelidosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Scelidosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "S. harrisonii"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Owen, 1861. The lectotype, NHMUK PV R1111, is an articulated skeleton from the Charmouth Mudstone, Dorset. Several articulated skeletons are known.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-scelidosaurus",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several articulated skeletons from Dorset, including skulls.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-scelidosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Charmouth Mudstone, Dorset records the species in the Early Jurassic. The numeric range used here is ≈196–190 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The body is covered in keeled osteoderms, the skull is relatively small, and the hindlimbs are longer than the forelimbs.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-scelidosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Several articulated skeletons preserve the armour in place, which is direct evidence of arrangement but not of its use. No trackway, nest or social association is known. The keratin covering and colour are not preserved, and defensive behaviour is inferred.",
+    "evidence": "inference",
+    "refs": [
+      "primary-scelidosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several articulated skeletons from Dorset, including skulls. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-scelidosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-scelidosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-scelidosaurus-204",
+    "v19-scelidosaurus-205",
+    "v19-scelidosaurus-206",
+    "v19-scelidosaurus-207"
+  ],
+  "related": [
+    "kentrosaurus",
+    "huayangosaurus",
+    "borealopelta"
+  ],
+  "confidenceNote": "Confidence is high for the articulated skeletons and osteoderm arrangement. It is lower for soft tissue, phylogeny, diet and behaviour. The armour is preserved bone; its keratin covering and living appearance are reconstructed.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Charmouth Mudstone, Dorset",
+  "locality": [
+    "Charmouth Mudstone, Dorset"
+  ],
+  "researchStatus": "partially-verified"
+}

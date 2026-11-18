@@ -1,0 +1,15 @@
+[
+  { "file": "Tyrannosaurus rex by durbed.jpg", "name": "trex-durbed.jpg", "width": 2400 },
+  { "file": "Tyrannosaurus by Mark P. Witton.png", "name": "trex-witton.png", "width": 1810 },
+  { "file": "Triceratops liveDB.jpg", "name": "trike-bogdanov.jpg", "width": 2400 },
+  { "file": "Triceratops horridus life restoration.jpg", "name": "trike-dinonerd.jpg", "width": 2400 },
+  { "file": "Brachiosaurus altithorax side profile.png", "name": "brachio-nye.png", "width": 2600 },
+  { "file": "Brachiosaurus DB.jpg", "name": "brachio-bogdanov.jpg", "width": 1959 },
+  { "file": "Velociraptor Restoration.png", "name": "raptor-wierum.png", "width": 2400 },
+  { "file": "Allosaurus Revised.jpg", "name": "allo-wierum.jpg", "width": 2600 },
+  { "file": "Ankylosaurus magniventris by sphenaphinae.png", "name": "anky-sphena.png", "width": 2056 },
+  { "file": "Ankylosaurus magniventris reconstruction.png", "name": "anky-willoughby.png", "width": 1600 },
+  { "file": "Deinonychus ewilloughby.png", "name": "deino-willoughby.png", "width": 2600 },
+  { "file": "Deinonychus Restoration.png", "name": "deino-wierum.png", "width": 2400 },
+  { "file": "Spinosaurus skull 3d.stl", "name": "spino-skull.stl", "width": 0 }
+]

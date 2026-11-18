@@ -1,0 +1,160 @@
+{
+  "slug": "futalognkosaurus",
+  "accession": "MZ-080",
+  "scientificName": "Futalognkosaurus dukei",
+  "commonName": "Giant chief lizard",
+  "genus": "Futalognkosaurus",
+  "epithet": "dukei",
+  "status": "Extinct",
+  "namedBy": "Calvo et al., 2007",
+  "group": "Sauropodomorpha · Titanosauridae",
+  "groupKey": "Sauropodomorpha",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Turonian–Coniacian",
+  "ageMa": [
+    94,
+    86
+  ],
+  "ageLabel": "≈94–86 Ma",
+  "region": [
+    "Argentina"
+  ],
+  "regionKeys": [
+    "South America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "Herbivory is inferred from sauropod anatomy and the associated flora. The plant fossils show what grew in the environment; they are not gut contents and do not establish the diet.",
+    "evidence": "inference",
+    "refs": [
+      "primary-futalognkosaurus"
+    ]
+  },
+  "length": "≈24–30 m",
+  "mass": "≈29–50 t",
+  "sizeNote": "Length and mass are published estimates, not measurements of a complete individual. Length estimates range from about 24 to 34 m and mass estimates from about 29 to 50 t; the skull and most of the tail are unknown.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "futalognkosaurus-living",
+  "featured": false,
+  "tagline": "A large titanosaur with a relatively complete axial skeleton. It helps document the anatomy of titanosaur necks and pelves.",
+  "summary": "A large titanosaur with a relatively complete axial skeleton. It helps document the anatomy of titanosaur necks and pelves.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropodomorpha"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Titanosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Futalognkosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "F. dukei"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Calvo, Porfiri, González Riga and Kellner in 2007 from the Portezuelo Formation at Lake Barreales, Neuquén, Argentina. The holotype, MUCPv-323, preserves a complete neck, dorsal vertebrae and ribs, sacrum, pelvis and one anterior caudal vertebra, but not the skull, forelimbs or most of the tail.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-futalognkosaurus",
+      "calvo2007b"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The holotype, MUCPv-323, is one of the most complete giant sauropod skeletons known, preserving a complete neck, dorsal vertebrae, ribs, sacrum, pelvis and one anterior caudal. The skull and most of the tail are missing.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-futalognkosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "The Portezuelo Formation, Neuquén, records the species in the Turonian–Coniacian. The numeric range used here is ≈94–86 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The neck is long, the dorsal vertebrae are pneumatised, and the pelvis is wide; the preserved sacrum is exceptionally large. The skull is unknown.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-futalognkosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Herbivory is inferred from sauropod anatomy. The quarry preserves a diverse flora and fauna, but no nesting, social or migratory behaviour is recorded.",
+    "evidence": "inference",
+    "refs": [
+      "primary-futalognkosaurus"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a partial skeleton including much of the axial column and pelvis; the skull and most of the tail are unknown. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-futalognkosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-futalognkosaurus",
+    "pbdb",
+    "paul2016",
+    "calvo2007b"
+  ],
+  "related": [
+    "patagotitan",
+    "argentinosaurus",
+    "dreadnoughtus"
+  ],
+  "confidenceNote": "The holotype is exceptionally complete for a giant sauropod, but it lacks the skull, forelimbs and most of the tail. Size estimates vary widely, and the plants from the quarry are environmental evidence, not gut contents.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Riverine floodplain",
+  "ancientContext": "Portezuelo Formation, Neuquén",
+  "locality": [
+    "Portezuelo Formation, Neuquén"
+  ],
+  "researchStatus": "partially-verified"
+}

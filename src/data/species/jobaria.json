@@ -1,0 +1,171 @@
+{
+  "slug": "jobaria",
+  "accession": "MZ-088",
+  "scientificName": "Jobaria tiguidensis",
+  "commonName": "Jobar lizard",
+  "genus": "Jobaria",
+  "epithet": "tiguidensis",
+  "status": "Extinct",
+  "namedBy": "Sereno et al., 1999",
+  "group": "Sauropodomorpha · Eusauropoda",
+  "groupKey": "Sauropodomorpha",
+  "period": "jurassic",
+  "periodLabel": "Middle Jurassic",
+  "stage": "Bathonian–Oxfordian",
+  "ageMa": [
+    167,
+    161
+  ],
+  "ageLabel": "≈167–161 Ma",
+  "region": [
+    "Niger"
+  ],
+  "regionKeys": [
+    "Africa"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The skull and dentition indicate herbivory. No gut contents are known; the plants eaten and the feeding height are inferred from anatomy.",
+    "evidence": "inference",
+    "refs": [
+      "sereno1999",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈18–21 m",
+  "mass": "≈15–20 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "jobaria-living",
+  "featured": false,
+  "tagline": "A large sauropod with a relatively simple vertebral column and a short neck for its body size. Its relationships among early sauropods are debated.",
+  "summary": "A large sauropod with a relatively simple vertebral column and a short neck for its body size. Its relationships among early sauropods are debated.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropodomorpha"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Eusauropoda"
+    },
+    {
+      "rank": "Genus",
+      "value": "Jobaria"
+    },
+    {
+      "rank": "Species",
+      "value": "J. tiguidensis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Sereno et al., 1999. The record is known from the Tiourarén Formation, Niger. The holotype, MNN TIG3, is a largely complete skeleton; several individuals, including a juvenile, were found at the same locality.",
+    "evidence": "fossil",
+    "refs": [
+      "sereno1999"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The holotype, MNN TIG3, is a largely complete skeleton. Several individuals, including a juvenile with possible tooth marks, were found at the same locality.",
+      "evidence": "fossil",
+      "refs": [
+        "sereno1999",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Tiourarén Formation, Niger records the species in the Middle Jurassic. The numeric range used here is ≈167–161 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull and most of the postcranium are known. The vertebral column is relatively simple for a sauropod, and the neck is short relative to the body.",
+      "evidence": "fossil",
+      "refs": [
+        "sereno1999",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Several individuals, including a juvenile, occur at one site. That is a mass-death assemblage; gregarious behaviour is an inference from the association, not an observed fact.",
+    "evidence": "inference",
+    "refs": [
+      "sereno1999",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a partial skeleton and referred material from Niger. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "sereno1999",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "sereno1999",
+    "rauhut2009",
+    "pbdb",
+    "paul2016"
+  ],
+  "related": [
+    "shunosaurus",
+    "camarasaurus",
+    "brachiosaurus"
+  ],
+  "confidenceNote": "The holotype, MNN TIG3, is a largely complete skeleton including the skull and most of the postcranium. Several individuals, including a juvenile, were found at the same locality. The Tiourarén Formation is now read as Middle Jurassic, not Early Cretaceous as in the original description.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Riverine floodplain",
+  "ancientContext": "Tiourarén Formation, Niger",
+  "locality": [
+    "Tiourarén Formation, Niger"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Jobaria tiguidensis was a large sauropod from the [Middle Jurassic](/deep-time?period=jurassic) of Niger. It had a relatively short neck for a sauropod and a vertebral column that is simpler than those of many later giants.",
+    "paragraphs": [
+      "The holotype, MNN TIG3, is a largely complete skeleton including the skull and most of the postcranium. Several individuals, including a juvenile, were found at the same site. The Tiourarén Formation was originally thought to be Early Cretaceous, but later work supports a Middle Jurassic age.",
+      "The mass-death assemblage is direct evidence that several animals were buried together; gregarious behaviour is an inference. Its plant diet is inferred from the skull and teeth, and no gut contents are known."
+    ],
+    "takeaway": "A short-necked sauropod from a Middle Jurassic mass-death site."
+  }
+}

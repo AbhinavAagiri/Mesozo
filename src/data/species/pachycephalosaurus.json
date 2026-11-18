@@ -1,0 +1,167 @@
+{
+  "slug": "pachycephalosaurus",
+  "accession": "MZ-020",
+  "scientificName": "Pachycephalosaurus wyomingensis",
+  "commonName": "Thick-headed lizard",
+  "genus": "Pachycephalosaurus",
+  "epithet": "wyomingensis",
+  "status": "Extinct",
+  "namedBy": "Gilmore, 1931 (as Troodon wyomingensis); Brown & Schlaikjer, 1943 (genus)",
+  "group": "Ornithischia · Pachycephalosauridae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Maastrichtian",
+  "ageMa": [
+    68,
+    66
+  ],
+  "ageLabel": "≈68–66 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "Herbivory is inferred from the dentition and jaw apparatus of pachycephalosaurs. No gut contents are known for Pachycephalosaurus, and the plants eaten are not preserved; the diet is a comparative inference.",
+    "evidence": "inference",
+    "refs": [
+      "primary-pachycephalosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈4.5–5 m",
+  "mass": "≈450–700 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "pachycephalosaurus-living",
+  "featured": false,
+  "tagline": "A pachycephalosaur with a thick, domed skull roof and bony nodes around the dome. The dome is well preserved; its use in head-butting is debated.",
+  "summary": "A pachycephalosaur with a thick, domed skull roof and bony nodes around the dome. The dome is well preserved; its use in head-butting is debated.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Marginocephalia"
+    },
+    {
+      "rank": "Family",
+      "value": "Pachycephalosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Pachycephalosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "P. wyomingensis"
+    }
+  ],
+  "discovery": {
+    "body": "The species was first named Troodon wyomingensis by Gilmore, 1931; Brown & Schlaikjer, 1943 erected Pachycephalosaurus and combined it as P. wyomingensis. The holotype, USNM 12031, is a partial skull roof from the Lance Formation, Wyoming.",
+    "evidence": "fossil",
+    "refs": [
+      "gilmore1931",
+      "brown1943",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several skull roofs and partial skeletons; the postcranium is less complete.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-pachycephalosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Hell Creek Formation, Montana and South Dakota records the species in the Late Cretaceous; the holotype, USNM 12031, comes from the Lance Formation of Wyoming. The numeric range used here is ≈68–66 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb",
+        "usnm12031record"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The frontal and parietal bones form a high dome, with a tuberculate squamosal shelf and a short, deep skull.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-pachycephalosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The dome is preserved bone, but its use in head-butting is contested. Cranial pathologies have been read as combat trauma by some authors and as ontogenetic or display-related changes by others. Dracorex and Stygimoloch may be growth stages, but that synonymy is not universally accepted. No trackway or social group is known.",
+    "evidence": "inference",
+    "refs": [
+      "primary-pachycephalosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several skull roofs and partial skeletons; the postcranium is less complete. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-pachycephalosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-pachycephalosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-pachycephalosaurus-15",
+    "v19-pachycephalosaurus-16",
+    "gilmore1931",
+    "brown1943",
+    "usnm12031record"
+  ],
+  "related": [
+    "psittacosaurus",
+    "protoceratops",
+    "stegosaurus"
+  ],
+  "confidenceNote": "Confidence is high for the dome and the 1931 species name, but lower for dome function, postcranial anatomy and the Dracorex/Stygimoloch synonymy. The name-bearing specimen, USNM 12031, is a partial skull roof, not a complete animal.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Coastal plain woodland",
+  "ancientContext": "Hell Creek Formation, Montana and South Dakota",
+  "locality": [
+    "Hell Creek Formation, Montana and South Dakota",
+    "Lance Formation, Wyoming"
+  ],
+  "researchStatus": "partially-verified"
+}

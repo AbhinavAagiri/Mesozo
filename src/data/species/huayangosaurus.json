@@ -1,0 +1,168 @@
+{
+  "slug": "huayangosaurus",
+  "accession": "MZ-043",
+  "scientificName": "Huayangosaurus taibaii",
+  "commonName": "Huayang lizard",
+  "genus": "Huayangosaurus",
+  "epithet": "taibaii",
+  "status": "Extinct",
+  "namedBy": "Dong, Tang & Zhou, 1982",
+  "group": "Ornithischia · Huayangosauridae",
+  "groupKey": "Ornithischia",
+  "period": "jurassic",
+  "periodLabel": "Middle Jurassic",
+  "stage": "Bajocian–Callovian",
+  "ageMa": [
+    168,
+    161
+  ],
+  "ageLabel": "≈168–161 Ma",
+  "region": [
+    "China"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The short snout, jaws and teeth indicate herbivory. No gut contents are known; the plants eaten and the feeding posture remain unknown.",
+    "evidence": "inference",
+    "refs": [
+      "primary-huayangosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈4–4.5 m",
+  "mass": "≈500–1,000 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "huayangosaurus-living",
+  "featured": false,
+  "tagline": "An early stegosaur with small plates and a relatively short snout. It helps document the early evolution of the stegosaur body plan.",
+  "summary": "An early stegosaur with small plates and a relatively short snout. It helps document the early evolution of the stegosaur body plan.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Thyreophora"
+    },
+    {
+      "rank": "Family",
+      "value": "Huayangosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Huayangosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "H. taibaii"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Dong, Tang & Zhou, 1982. The record is known from Shaximiao Formation, Sichuan. Several partial skeletons, including a skull.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-huayangosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The species is known from skull and postcranial material from the Shaximiao Formation of Sichuan. The hypodigm includes multiple individuals but not a complete growth series.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-huayangosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Shaximiao Formation, Sichuan records the species in the Middle Jurassic. The numeric range used here is ≈168–161 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is relatively short-snouted and less derived than those of later stegosaurs. The postcranium bears small dorsal plates and at least one pair of tail spines.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-huayangosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No direct evidence of social or display behaviour. The small dorsal plates and tail spines are preserved; their function in display, thermoregulation or defence is not established.",
+    "evidence": "inference",
+    "refs": [
+      "primary-huayangosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons, including a skull. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-huayangosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-huayangosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-huayangosaurus-72",
+    "v19-huayangosaurus-73"
+  ],
+  "related": [
+    "stegosaurus",
+    "kentrosaurus",
+    "gigantspinosaurus"
+  ],
+  "confidenceNote": "Huayangosaurus is known from skull and postcranial material from the Middle Jurassic Shaximiao Formation. It is usually placed outside Stegosauridae as a basal stegosaur, but the family label is navigational. No gut contents are known.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Riverine woodland",
+  "ancientContext": "Shaximiao Formation, Sichuan",
+  "locality": [
+    "Shaximiao Formation, Sichuan"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Huayangosaurus taibaii was an early stegosaur from the [Middle Jurassic](/deep-time?period=jurassic) of Sichuan, China. It is one of the oldest well-known stegosaurs and helps document how the group’s plates and spines evolved.",
+    "paragraphs": [
+      "The skull is relatively short-snouted and less derived than those of later stegosaurs. The postcranium bears small dorsal plates and at least one pair of tail spines. Huayangosaurus is usually placed outside Stegosauridae, as a basal stegosaur.",
+      "Its plant diet is inferred from the jaws and teeth. The function of the plates and spines — display, thermoregulation or defence — is not established, and there is no direct evidence of its social behaviour."
+    ],
+    "takeaway": "A small-plated early stegosaur from the Middle Jurassic."
+  }
+}

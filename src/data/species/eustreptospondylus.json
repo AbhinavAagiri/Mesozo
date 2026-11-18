@@ -1,0 +1,160 @@
+{
+  "slug": "eustreptospondylus",
+  "accession": "MZ-033",
+  "scientificName": "Eustreptospondylus oxoniensis",
+  "commonName": "Well-curved vertebra",
+  "genus": "Eustreptospondylus",
+  "epithet": "oxoniensis",
+  "status": "Extinct",
+  "namedBy": "Walker, 1964",
+  "group": "Theropoda · Megalosauridae",
+  "groupKey": "Theropoda",
+  "period": "jurassic",
+  "periodLabel": "Middle Jurassic",
+  "stage": "Callovian",
+  "ageMa": [
+    165,
+    161
+  ],
+  "ageLabel": "≈165–161 Ma",
+  "region": [
+    "United Kingdom"
+  ],
+  "regionKeys": [
+    "Europe"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The skull and blade-like serrated teeth are consistent with carnivory. No gut contents are known, and the prey species are not recorded.",
+    "evidence": "inference",
+    "refs": [
+      "v19-eustreptospondylus-47"
+    ]
+  },
+  "length": "≈5–6 m",
+  "mass": "≈400–600 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "eustreptospondylus-living",
+  "featured": false,
+  "tagline": "A megalosaurid known from a partial skeleton from the Oxford Clay. The depositional setting is marine, but the animal was a terrestrial predator.",
+  "summary": "A megalosaurid known from a partial skeleton from the Oxford Clay. The depositional setting is marine, but the animal was a terrestrial predator.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Tetanurae"
+    },
+    {
+      "rank": "Family",
+      "value": "Megalosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Eustreptospondylus"
+    },
+    {
+      "rank": "Species",
+      "value": "E. oxoniensis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Alick Walker in 1964 from the Middle Oxford Clay at Summertown, Oxford. The holotype, OUMNH J.13558, is a nearly complete but disarticulated skeleton discovered in 1871 and initially referred to Megalosaurus. It is the most complete Middle Jurassic theropod from Europe.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-eustreptospondylus",
+      "v19-eustreptospondylus-47"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "A partial skeleton, mostly disarticulated, from a marine Clay.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-eustreptospondylus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Oxford Clay, Oxfordshire records the species in the Middle Jurassic. The numeric range used here is ≈165–161 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skeleton is moderately robust, with a large skull and strong forelimbs; the tail is long.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-eustreptospondylus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Carnivory is inferred from the skull and blade-like teeth. The carcass was buried in marine Clay, but whether the animal lived near the coast or was washed in from inland is unknown.",
+    "evidence": "inference",
+    "refs": [
+      "v19-eustreptospondylus-47"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a partial skeleton, mostly disarticulated, from a marine Clay. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-eustreptospondylus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-eustreptospondylus",
+    "pbdb",
+    "paul2016",
+    "v19-eustreptospondylus-47"
+  ],
+  "related": [
+    "torvosaurus",
+    "spinosaurus",
+    "baryonyx"
+  ],
+  "confidenceNote": "The species is known from a single, probably subadult skeleton from a marine Clay. The anatomy is well described, but adult size, integument and behaviour are not preserved. The marine setting complicates palaeoenvironmental interpretation.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Coastal marine shelf",
+  "ancientContext": "Oxford Clay, Oxfordshire",
+  "locality": [
+    "Oxford Clay, Oxfordshire"
+  ],
+  "researchStatus": "partially-verified"
+}

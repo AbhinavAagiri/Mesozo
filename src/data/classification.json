@@ -1,0 +1,804 @@
+{
+  "version": "2026-11-16",
+  "statement": "This is a navigational summary of the classification used in the species records, not a new phylogenetic analysis. Node counts include descendant species in the archive. Where relationships are contested, the node is marked as disputed.",
+  "nodes": [
+    {
+      "id": "dinosauria",
+      "parentId": null,
+      "label": "Dinosauria",
+      "rank": "Clade",
+      "taxa": [
+        "Dinosauria"
+      ],
+      "note": "The common ancestor of birds and Triceratops, and all its descendants. Birds are living dinosaurs and sit inside this tree, although the archive records only non-avian species."
+    },
+    {
+      "id": "saurischia",
+      "parentId": "dinosauria",
+      "label": "Saurischia",
+      "rank": "Clade",
+      "taxa": [
+        "Saurischia"
+      ],
+      "note": "The lizard-hipped branch, including theropods and sauropodomorphs. The traditional division of Dinosauria into Saurischia and Ornithischia is useful for navigation but does not capture every extinct lineage."
+    },
+    {
+      "id": "theropoda",
+      "parentId": "saurischia",
+      "label": "Theropoda",
+      "rank": "Clade",
+      "taxa": [
+        "Theropoda"
+      ],
+      "note": "Mostly bipedal dinosaurs, including all known birds. The archive includes predatory, omnivorous and secondarily herbivorous theropods."
+    },
+    {
+      "id": "herrerasauria",
+      "parentId": "saurischia",
+      "label": "Herrerasauria",
+      "rank": "Clade",
+      "taxa": [
+        "Herrerasauria"
+      ],
+      "disputed": true,
+      "note": "A group of early saurischians from the Triassic. Their position relative to Theropoda and Sauropodomorpha is debated; some analyses place them outside the two main branches."
+    },
+    {
+      "id": "herrerasauridae",
+      "parentId": "herrerasauria",
+      "label": "Herrerasauridae",
+      "rank": "Family",
+      "taxa": [
+        "Herrerasauridae"
+      ],
+      "note": "Early predatory dinosaurs such as Herrerasaurus. Eoraptor has sometimes been recovered nearby, but its placement remains unresolved and the archive keeps it outside this family; the family’s monophyly and membership are not settled."
+    },
+    {
+      "id": "ceratosauria",
+      "parentId": "theropoda",
+      "label": "Ceratosauria",
+      "rank": "Clade",
+      "taxa": [
+        "Ceratosauria"
+      ],
+      "note": "An early-diverging theropod branch, including Ceratosaurus and the abelisaurids. Many members have short forelimbs and elaborate skull ornament."
+    },
+    {
+      "id": "abelisauridae",
+      "parentId": "ceratosauria",
+      "label": "Abelisauridae",
+      "rank": "Family",
+      "taxa": [
+        "Abelisauridae"
+      ],
+      "note": "Short-skulled, often short-armed predators known mainly from the Southern Hemisphere."
+    },
+    {
+      "id": "ceratosauridae",
+      "parentId": "ceratosauria",
+      "label": "Ceratosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Ceratosauridae"
+      ],
+      "note": "A small family of early tetanuran-adjacent theropods, including Ceratosaurus. The wider Ceratosauria also contains the abelisaurids."
+    },
+    {
+      "id": "neotheropoda",
+      "parentId": "theropoda",
+      "label": "Neotheropoda",
+      "rank": "Clade",
+      "taxa": [
+        "Neotheropoda"
+      ],
+      "note": "A broad early theropod grade including coelophysoids and dilophosaurids. The boundary between this grade and Tetanurae is not a single, undisputed character."
+    },
+    {
+      "id": "coelophysidae",
+      "parentId": "neotheropoda",
+      "label": "Coelophysidae",
+      "rank": "Family",
+      "taxa": [
+        "Coelophysidae"
+      ],
+      "note": "Slender, long-tailed Triassic and Jurassic theropods such as Coelophysis."
+    },
+    {
+      "id": "dilophosauridae",
+      "parentId": "neotheropoda",
+      "label": "Dilophosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Dilophosauridae"
+      ],
+      "note": "Early theropods with cranial crests, including Dilophosaurus and Cryolophosaurus. Their family-level grouping is debated."
+    },
+    {
+      "id": "tetanurae",
+      "parentId": "theropoda",
+      "label": "Tetanurae",
+      "rank": "Clade",
+      "taxa": [
+        "Tetanurae"
+      ],
+      "note": "The large theropod radiation containing megalosauroids, allosauroids, coelurosaurs and birds. The name refers to fused tail vertebrae, but the clade is diagnosed by a combination of characters."
+    },
+    {
+      "id": "megalosauroidea",
+      "parentId": "tetanurae",
+      "label": "Megalosauroidea",
+      "rank": "Superfamily",
+      "taxa": [
+        "Megalosauroidea"
+      ],
+      "disputed": true,
+      "note": "A group of tetanurans including megalosaurids and spinosaurids. Its internal relationships and position relative to allosauroids have changed between analyses."
+    },
+    {
+      "id": "spinosauridae",
+      "parentId": "megalosauroidea",
+      "label": "Spinosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Spinosauridae"
+      ],
+      "note": "Long-snouted, often fish-focused theropods including Spinosaurus, Baryonyx and Suchomimus."
+    },
+    {
+      "id": "megalosauridae",
+      "parentId": "megalosauroidea",
+      "label": "Megalosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Megalosauridae"
+      ],
+      "note": "Robust Jurassic tetanurans such as Megalosaurus, Torvosaurus and Eustreptospondylus."
+    },
+    {
+      "id": "allosauroidea",
+      "parentId": "tetanurae",
+      "label": "Allosauroidea",
+      "rank": "Superfamily",
+      "taxa": [
+        "Allosauroidea"
+      ],
+      "note": "A major tetanuran branch containing Allosaurus and the carcharodontosaurids. Some analyses recover a different set of early branches."
+    },
+    {
+      "id": "allosauridae",
+      "parentId": "allosauroidea",
+      "label": "Allosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Allosauridae"
+      ],
+      "note": "Large Jurassic predators, including Allosaurus."
+    },
+    {
+      "id": "carcharodontosauridae",
+      "parentId": "allosauroidea",
+      "label": "Carcharodontosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Carcharodontosauridae"
+      ],
+      "note": "Giant, long-skulled predators with serrated teeth, including Carcharodontosaurus, Giganotosaurus and Acrocanthosaurus."
+    },
+    {
+      "id": "metriacanthosauridae",
+      "parentId": "allosauroidea",
+      "label": "Metriacanthosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Metriacanthosauridae"
+      ],
+      "note": "Jurassic allosauroids such as Sinraptor and Monolophosaurus. Their family placement has been unstable."
+    },
+    {
+      "id": "coelurosauria",
+      "parentId": "tetanurae",
+      "label": "Coelurosauria",
+      "rank": "Clade",
+      "taxa": [
+        "Coelurosauria"
+      ],
+      "note": "The theropod branch containing tyrannosaurs, compsognathids, ornithomimosaurs, maniraptorans and birds. Many members preserve feathers or feather-like filaments."
+    },
+    {
+      "id": "tyrannosauridae",
+      "parentId": "coelurosauria",
+      "label": "Tyrannosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Tyrannosauridae"
+      ],
+      "note": "Large, deep-skulled coelurosaurs including Tyrannosaurus, Albertosaurus and Tarbosaurus."
+    },
+    {
+      "id": "proceratosauridae",
+      "parentId": "coelurosauria",
+      "label": "Proceratosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Proceratosauridae"
+      ],
+      "disputed": true,
+      "note": "Small to medium early tyrannosauroids with cranial crests, such as Guanlong. Yutyrannus and Dilong are included following analyses that recover them here; other analyses place them outside the family or outside Tyrannosauroidea."
+    },
+    {
+      "id": "compsognathidae",
+      "parentId": "coelurosauria",
+      "label": "Compsognathidae",
+      "rank": "Family",
+      "taxa": [
+        "Compsognathidae"
+      ],
+      "note": "Small, lightly built coelurosaurs including Compsognathus and Sinosauropteryx. The family is not recovered by every analysis."
+    },
+    {
+      "id": "maniraptora",
+      "parentId": "coelurosauria",
+      "label": "Maniraptora",
+      "rank": "Clade",
+      "taxa": [
+        "Maniraptora"
+      ],
+      "note": "The clade containing oviraptorosaurs, therizinosaurs, dromaeosaurs, troodontids, birds and their close relatives. Maniraptorans include the only dinosaurs with confirmed flight."
+    },
+    {
+      "id": "ornithomimidae",
+      "parentId": "maniraptora",
+      "label": "Ornithomimidae",
+      "rank": "Family",
+      "taxa": [
+        "Ornithomimidae"
+      ],
+      "note": "Long-legged, toothless or nearly toothless coelurosaurs such as Gallimimus. Their diet is debated."
+    },
+    {
+      "id": "deinocheiridae",
+      "parentId": "maniraptora",
+      "label": "Deinocheiridae",
+      "rank": "Family",
+      "taxa": [
+        "Deinocheiridae"
+      ],
+      "note": "Large, unusual ornithomimosaurs including Deinocheirus."
+    },
+    {
+      "id": "therizinosauridae",
+      "parentId": "maniraptora",
+      "label": "Therizinosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Therizinosauridae"
+      ],
+      "note": "Secondarily herbivorous theropods with large bellies, long forelimbs and prominent claws."
+    },
+    {
+      "id": "oviraptoridae",
+      "parentId": "maniraptora",
+      "label": "Oviraptoridae",
+      "rank": "Family",
+      "taxa": [
+        "Oviraptoridae"
+      ],
+      "note": "Deep-beaked maniraptorans, several of which are preserved on nests."
+    },
+    {
+      "id": "caenagnathidae",
+      "parentId": "maniraptora",
+      "label": "Caenagnathidae",
+      "rank": "Family",
+      "taxa": [
+        "Caenagnathidae"
+      ],
+      "note": "Often lightly built oviraptorosaurs, including Gigantoraptor."
+    },
+    {
+      "id": "dromaeosauridae",
+      "parentId": "maniraptora",
+      "label": "Dromaeosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Dromaeosauridae"
+      ],
+      "note": "Raptor-like maniraptorans with an enlarged second pedal claw, including Velociraptor, Deinonychus and Microraptor."
+    },
+    {
+      "id": "anchiornithidae",
+      "parentId": "maniraptora",
+      "label": "Anchiornithidae",
+      "rank": "Family",
+      "taxa": [
+        "Anchiornithidae"
+      ],
+      "note": "Small feathered maniraptorans such as Anchiornis. Their position relative to birds and troodontids is debated."
+    },
+    {
+      "id": "scansoriopterygidae",
+      "parentId": "maniraptora",
+      "label": "Scansoriopterygidae",
+      "rank": "Family",
+      "taxa": [
+        "Scansoriopterygidae"
+      ],
+      "note": "Tiny maniraptorans with elongated hand digits; Yi qi preserves a membranous wing. Their relationships and locomotion are contested."
+    },
+    {
+      "id": "sauropodomorpha",
+      "parentId": "saurischia",
+      "label": "Sauropodomorpha",
+      "rank": "Clade",
+      "taxa": [
+        "Sauropodomorpha"
+      ],
+      "note": "The sauropod branch, including early bipedal forms and the giant quadrupedal sauropods."
+    },
+    {
+      "id": "plateosauria",
+      "parentId": "sauropodomorpha",
+      "label": "Plateosauria",
+      "rank": "Clade",
+      "taxa": [
+        "Plateosauria"
+      ],
+      "note": "Early sauropodomorphs such as Plateosaurus, Massospondylus and Mussaurus. They were mostly facultatively bipedal and much smaller than later sauropods."
+    },
+    {
+      "id": "plateosauridae",
+      "parentId": "plateosauria",
+      "label": "Plateosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Plateosauridae"
+      ],
+      "note": "Large Triassic plateosaurians, including Plateosaurus."
+    },
+    {
+      "id": "massospondylidae",
+      "parentId": "plateosauria",
+      "label": "Massospondylidae",
+      "rank": "Family",
+      "taxa": [
+        "Massospondylidae"
+      ],
+      "note": "Early sauropodomorphs including Massospondylus and Mussaurus, known from eggs and growth series."
+    },
+    {
+      "id": "sauropoda",
+      "parentId": "sauropodomorpha",
+      "label": "Sauropoda",
+      "rank": "Clade",
+      "taxa": [
+        "Sauropoda"
+      ],
+      "note": "The giant long-necked sauropods. The archive treats the familiar families as navigational groups rather than a complete phylogenetic resolution."
+    },
+    {
+      "id": "diplodocidae",
+      "parentId": "sauropoda",
+      "label": "Diplodocidae",
+      "rank": "Family",
+      "taxa": [
+        "Diplodocidae"
+      ],
+      "note": "Long, low-slung sauropods such as Diplodocus and Apatosaurus."
+    },
+    {
+      "id": "dicraeosauridae",
+      "parentId": "sauropoda",
+      "label": "Dicraeosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Dicraeosauridae"
+      ],
+      "note": "Sauropods with relatively short necks and tall, forked neural spines, including Dicraeosaurus and Bajadasaurus."
+    },
+    {
+      "id": "rebbachisauridae",
+      "parentId": "sauropoda",
+      "label": "Rebbachisauridae",
+      "rank": "Family",
+      "taxa": [
+        "Rebbachisauridae"
+      ],
+      "note": "Diplodocoid sauropods with broad snouts and rapid tooth replacement, including Nigersaurus."
+    },
+    {
+      "id": "brachiosauridae",
+      "parentId": "sauropoda",
+      "label": "Brachiosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Brachiosauridae"
+      ],
+      "note": "High-shouldered sauropods with long forelimbs, including Brachiosaurus and Europasaurus."
+    },
+    {
+      "id": "camarasauridae",
+      "parentId": "sauropoda",
+      "label": "Camarasauridae",
+      "rank": "Family",
+      "taxa": [
+        "Camarasauridae"
+      ],
+      "note": "Robust sauropods with deep skulls and spoon-shaped teeth, including Camarasaurus."
+    },
+    {
+      "id": "mamenchisauridae",
+      "parentId": "sauropoda",
+      "label": "Mamenchisauridae",
+      "rank": "Family",
+      "taxa": [
+        "Mamenchisauridae"
+      ],
+      "note": "Asian sauropods with exceptionally long necks, including Mamenchisaurus."
+    },
+    {
+      "id": "titanosauridae",
+      "parentId": "sauropoda",
+      "label": "Titanosauria",
+      "rank": "Clade",
+      "taxa": [
+        "Titanosauridae",
+        "Titanosauria"
+      ],
+      "disputed": true,
+      "note": "A broad label for the Cretaceous titanosaurs. The archive uses it as a navigational grouping; titanosaur family-level relationships are actively revised."
+    },
+    {
+      "id": "saltasauridae",
+      "parentId": "titanosauridae",
+      "label": "Saltasauridae",
+      "rank": "Family",
+      "taxa": [
+        "Saltasauridae"
+      ],
+      "note": "Small to medium titanosaurs, some with dermal armour, including Saltasaurus."
+    },
+    {
+      "id": "turiasauria",
+      "parentId": "sauropoda",
+      "label": "Turiasauria",
+      "rank": "Clade",
+      "taxa": [
+        "Turiasauria"
+      ],
+      "note": "A European and North American sauropod lineage including Turiasaurus. Its position among eusauropods is debated."
+    },
+    {
+      "id": "eusauropoda",
+      "parentId": "sauropoda",
+      "label": "Eusauropoda",
+      "rank": "Clade",
+      "taxa": [
+        "Eusauropoda"
+      ],
+      "note": "A broad grade of sauropods including Shunosaurus and Jobaria. The archive uses it where a finer family assignment is not secure."
+    },
+    {
+      "id": "ornithischia",
+      "parentId": "dinosauria",
+      "label": "Ornithischia",
+      "rank": "Clade",
+      "taxa": [
+        "Ornithischia"
+      ],
+      "note": "The bird-hipped dinosaurs, including armoured forms, ornithopods and marginocephalians. The name refers to the shape of the pelvis, not to a close relationship with birds."
+    },
+    {
+      "id": "thyreophora",
+      "parentId": "ornithischia",
+      "label": "Thyreophora",
+      "rank": "Clade",
+      "taxa": [
+        "Thyreophora"
+      ],
+      "note": "Armoured ornithischians, including stegosaurs, ankylosaurs and early forms such as Scelidosaurus."
+    },
+    {
+      "id": "stegosauria",
+      "parentId": "thyreophora",
+      "label": "Stegosauria",
+      "rank": "Clade",
+      "taxa": [
+        "Stegosauria",
+        "Stegosauridae"
+      ],
+      "note": "Plated and spiked thyreophorans. The archive's stegosaurs are grouped in Stegosauridae; the arrangement of their plates and spikes varies between species."
+    },
+    {
+      "id": "stegosauridae",
+      "parentId": "stegosauria",
+      "label": "Stegosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Stegosauridae"
+      ],
+      "note": "The main stegosaur family, including Stegosaurus and Kentrosaurus."
+    },
+    {
+      "id": "ankylosauria",
+      "parentId": "thyreophora",
+      "label": "Ankylosauria",
+      "rank": "Clade",
+      "taxa": [
+        "Ankylosauria",
+        "Ankylosauridae",
+        "Nodosauridae"
+      ],
+      "note": "Armoured thyreophorans with broad bodies and osteoderms. Some have tail clubs; others do not."
+    },
+    {
+      "id": "ankylosauridae",
+      "parentId": "ankylosauria",
+      "label": "Ankylosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Ankylosauridae"
+      ],
+      "note": "Ankylosaurs with fused skull armour and, in most members, a tail club."
+    },
+    {
+      "id": "nodosauridae",
+      "parentId": "ankylosauria",
+      "label": "Nodosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Nodosauridae"
+      ],
+      "note": "Ankylosaurs with narrow skulls, prominent shoulder spines and no tail club."
+    },
+    {
+      "id": "scelidosauridae",
+      "parentId": "thyreophora",
+      "label": "Scelidosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Scelidosauridae"
+      ],
+      "note": "Early armoured dinosaurs such as Scelidosaurus, outside the ankylosaur-stegosaur split."
+    },
+    {
+      "id": "neornithischia",
+      "parentId": "ornithischia",
+      "label": "Neornithischia",
+      "rank": "Clade",
+      "taxa": [
+        "Neornithischia",
+        "Heterodontosauridae",
+        "Lesothosauridae",
+        "Uncertain"
+      ],
+      "note": "A broad ornithischian branch containing ornithopods and marginocephalians. Small early forms such as Lesothosaurus and Heterodontosaurus are included here."
+    },
+    {
+      "id": "heterodontosauridae",
+      "parentId": "neornithischia",
+      "label": "Heterodontosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Heterodontosauridae"
+      ],
+      "note": "Small early ornithischians with heterodont dentition, including Heterodontosaurus."
+    },
+    {
+      "id": "lesothosauridae",
+      "parentId": "neornithischia",
+      "label": "Lesothosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Lesothosauridae"
+      ],
+      "note": "Small, lightly built Early Jurassic ornithischians such as Lesothosaurus."
+    },
+    {
+      "id": "ornithopoda",
+      "parentId": "ornithischia",
+      "label": "Ornithopoda",
+      "rank": "Clade",
+      "taxa": [
+        "Ornithopoda",
+        "Hadrosauridae",
+        "Iguanodontidae"
+      ],
+      "note": "Bipedal or facultatively quadrupedal herbivores, including iguanodontians and hadrosaurs. Many later forms evolved extensive dental batteries."
+    },
+    {
+      "id": "iguanodontidae",
+      "parentId": "ornithopoda",
+      "label": "Iguanodontidae",
+      "rank": "Family",
+      "taxa": [
+        "Iguanodontidae"
+      ],
+      "note": "A broad family-level grouping for Iguanodon and its close relatives. The boundary with hadrosaurs is not sharp in every analysis."
+    },
+    {
+      "id": "hadrosauridae",
+      "parentId": "ornithopoda",
+      "label": "Hadrosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Hadrosauridae"
+      ],
+      "note": "Duck-billed dinosaurs with complex dental batteries and, in many species, hollow cranial crests."
+    },
+    {
+      "id": "marginocephalia",
+      "parentId": "neornithischia",
+      "label": "Marginocephalia",
+      "rank": "Clade",
+      "taxa": [
+        "Marginocephalia",
+        "Ceratopsidae",
+        "Pachycephalosauridae"
+      ],
+      "note": "The clade containing ceratopsians and pachycephalosaurs. Both groups have a shelf at the back of the skull, but their body plans are very different."
+    },
+    {
+      "id": "ceratopsia",
+      "parentId": "marginocephalia",
+      "label": "Ceratopsia",
+      "rank": "Clade",
+      "taxa": [
+        "Ceratopsia",
+        "Ceratopsidae"
+      ],
+      "note": "Beaked herbivores with a frill in later members. Early forms such as Psittacosaurus and Protoceratops lack the large horns of derived ceratopsids."
+    },
+    {
+      "id": "ceratopsidae",
+      "parentId": "ceratopsia",
+      "label": "Ceratopsidae",
+      "rank": "Family",
+      "taxa": [
+        "Ceratopsidae"
+      ],
+      "note": "Large, horned ceratopsians. The archive groups them at family level rather than forcing every specimen into a subfamily."
+    },
+    {
+      "id": "pachycephalosauria",
+      "parentId": "marginocephalia",
+      "label": "Pachycephalosauria",
+      "rank": "Clade",
+      "taxa": [
+        "Pachycephalosauria",
+        "Pachycephalosauridae"
+      ],
+      "note": "Bipedal herbivores with thickened skull roofs. The dome's function is debated; the archive does not treat head-butting as established."
+    },
+    {
+      "id": "pachycephalosauridae",
+      "parentId": "pachycephalosauria",
+      "label": "Pachycephalosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Pachycephalosauridae"
+      ],
+      "note": "The main pachycephalosaur family, including Pachycephalosaurus."
+    },
+    {
+      "id": "huayangosauridae",
+      "parentId": "stegosauria",
+      "label": "Huayangosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Huayangosauridae"
+      ],
+      "note": "Basal stegosaurs including Huayangosaurus and Gigantspinosaurus; the position of Gigantspinosaurus varies between analyses."
+    },
+    {
+      "id": "protoceratopsidae",
+      "parentId": "ceratopsia",
+      "label": "Protoceratopsidae",
+      "rank": "Family",
+      "taxa": [
+        "Protoceratopsidae"
+      ],
+      "note": "Small ceratopsians without the large facial horns of Ceratopsidae, including Protoceratops."
+    },
+    {
+      "id": "psittacosauridae",
+      "parentId": "ceratopsia",
+      "label": "Psittacosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Psittacosauridae"
+      ],
+      "note": "Early ceratopsians with parrot-like beaks; Psittacosaurus is the principal genus."
+    },
+    {
+      "id": "tenontosauridae",
+      "parentId": "ornithopoda",
+      "label": "Tenontosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Tenontosauridae"
+      ],
+      "note": "Robust iguanodontians including Tenontosaurus; separated here from the broader Iguanodontidae."
+    },
+    {
+      "id": "dryosauridae",
+      "parentId": "ornithopoda",
+      "label": "Dryosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Dryosauridae"
+      ],
+      "note": "Small bipedal iguanodontians including Dryosaurus."
+    },
+    {
+      "id": "camptosauridae",
+      "parentId": "ornithopoda",
+      "label": "Camptosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Camptosauridae"
+      ],
+      "note": "Basal ankylopollexians including Camptosaurus."
+    },
+    {
+      "id": "hypsilophodontidae",
+      "parentId": "ornithopoda",
+      "label": "Hypsilophodontidae",
+      "rank": "Family",
+      "taxa": [
+        "Hypsilophodontidae"
+      ],
+      "disputed": true,
+      "note": "Small bipedal ornithopods. Recent analyses restrict the family to Hypsilophodon and close relatives; older treatments used it as a wastebasket for many small ornithopods."
+    },
+    {
+      "id": "thescelosauridae",
+      "parentId": "ornithopoda",
+      "label": "Thescelosauridae",
+      "rank": "Family",
+      "taxa": [
+        "Thescelosauridae"
+      ],
+      "note": "Basal neornithischians including Orodromeus; their position relative to other ornithopods varies."
+    },
+    {
+      "id": "rhabdodontidae",
+      "parentId": "ornithopoda",
+      "label": "Rhabdodontidae",
+      "rank": "Family",
+      "taxa": [
+        "Rhabdodontidae"
+      ],
+      "note": "Robust European ornithopods including Rhabdodon."
+    },
+    {
+      "id": "ornithopoda-uncertain",
+      "parentId": "ornithopoda",
+      "label": "Ornithopoda incertae sedis",
+      "rank": "Family",
+      "taxa": [
+        "Ornithopoda incertae sedis"
+      ],
+      "note": "Ornithopods whose family placement is unresolved, including Leaellynasaura."
+    },
+    {
+      "id": "ankylosauria-uncertain",
+      "parentId": "ankylosauria",
+      "label": "Ankylosauria incertae sedis",
+      "rank": "Family",
+      "taxa": [
+        "Ankylosauria incertae sedis"
+      ],
+      "note": "Ankylosaurs whose family placement is unresolved, including Minmi."
+    },
+    {
+      "id": "saurischia-uncertain",
+      "parentId": "saurischia",
+      "label": "Saurischia incertae sedis",
+      "rank": "Family",
+      "taxa": [
+        "Saurischia incertae sedis"
+      ],
+      "note": "Early saurischians whose position is unresolved, including Eoraptor."
+    }
+  ]
+}

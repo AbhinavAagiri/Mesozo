@@ -1,0 +1,163 @@
+{
+  "slug": "puertasaurus",
+  "accession": "MZ-079",
+  "scientificName": "Puertasaurus reuili",
+  "commonName": "Puerta’s lizard",
+  "genus": "Puertasaurus",
+  "epithet": "reuili",
+  "status": "Extinct",
+  "namedBy": "Novas et al., 2005",
+  "group": "Sauropodomorpha · Titanosauridae",
+  "groupKey": "Sauropodomorpha",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian–Maastrichtian",
+  "ageMa": [
+    76,
+    70
+  ],
+  "ageLabel": "≈76–70 Ma",
+  "region": [
+    "Argentina"
+  ],
+  "regionKeys": [
+    "South America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "Diet is inferred from comparative anatomy; no skull or gut contents are known. Herbivory is a well-supported inference for titanosaurs, not a direct observation for this species.",
+    "evidence": "inference",
+    "refs": [
+      "primary-puertasaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈30–35 m",
+  "mass": "≈50–70 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "puertasaurus-living",
+  "featured": false,
+  "tagline": "A giant titanosaur known from four disarticulated vertebrae. The record is too fragmentary to reconstruct the whole animal confidently.",
+  "summary": "A giant titanosaur known from four disarticulated vertebrae. The record is too fragmentary to reconstruct the whole animal confidently.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropodomorpha"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Titanosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Puertasaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "P. reuili"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Novas et al., 2005. The holotype, MPM-PV 10002, consists of four disarticulated vertebrae from the Cerro Fortaleza Formation (originally reported as Pari Aike), Santa Cruz. No skull, ribs or limb bones are known.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-puertasaurus",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The holotype, MPM-PV 10002, consists of four disarticulated vertebrae: one cervical, one dorsal and two caudal. No skull, ribs or limb bones are known.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-puertasaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "The Cerro Fortaleza Formation, Santa Cruz, records the species in the Late Cretaceous. The numeric range used here is ≈76–70 Ma; the formation’s age is debated, and the original paper used the Pari Aike Formation and an early Maastrichtian age.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The dorsal vertebra is exceptionally wide (168 cm) and highly pneumatised; the cervical and caudal vertebrae are also large. The hypodigm is four vertebrae, so most of the skeleton is unknown.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-puertasaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The holotype is four disarticulated vertebrae. No limb bones, trackway, nest or social association is known, so posture, locomotion and behaviour cannot be reconstructed responsibly. The body reconstruction is extrapolated from the vertebrae.",
+    "evidence": "inference",
+    "refs": [
+      "primary-puertasaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from four disarticulated vertebrae; no skull, ribs or limb bones are known. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-puertasaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-puertasaurus",
+    "pbdb",
+    "paul2016"
+  ],
+  "related": [
+    "argentinosaurus",
+    "patagotitan",
+    "dreadnoughtus"
+  ],
+  "confidenceNote": "Confidence is high only for the four vertebrae and their titanosaur affinities. It is low for body size, posture, diet, soft tissue and phylogenetic placement. The species is too fragmentary for a complete behavioural profile.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Riverine floodplain",
+  "ancientContext": "Cerro Fortaleza Formation, Santa Cruz",
+  "locality": [
+    "Cerro Fortaleza Formation, Santa Cruz"
+  ],
+  "researchStatus": "partially-verified"
+}

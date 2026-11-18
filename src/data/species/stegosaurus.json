@@ -1,0 +1,189 @@
+{
+  "slug": "stegosaurus",
+  "scientificName": "Stegosaurus stenops",
+  "commonName": "Roof lizard",
+  "namedBy": "Marsh, 1887",
+  "group": "Ornithischia · Stegosauridae",
+  "groupKey": "Ornithischia",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Kimmeridgian–Tithonian",
+  "ageMa": [
+    155,
+    145
+  ],
+  "ageLabel": "≈155–145 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "length": "≈7–9 m",
+  "mass": "≈5–7 t (estimate)",
+  "sizeNote": "Stegosaurus stenops is known from several relatively complete skeletons. Length and mass vary between specimens and reconstructions; the figures here are approximate.",
+  "image": "stegosaurus-living",
+  "featured": true,
+  "tagline": "A plated herbivore from the Morrison Formation, known from one of the most complete armoured dinosaur skeletons ever found.",
+  "summary": "Stegosaurus stenops is a large thyreophoran dinosaur from the Late Jurassic Morrison Formation of western North America. It carried two alternating rows of large bony plates along its back and four spikes on its tail. The plates are among the most distinctive structures in the fossil record, but their function — display, thermoregulation, or both — is still debated. A complete specimen from Wyoming has made the skeleton unusually well documented.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Thyreophora"
+    },
+    {
+      "rank": "Clade",
+      "value": "Stegosauria"
+    },
+    {
+      "rank": "Family",
+      "value": "Stegosauridae"
+    },
+    {
+      "rank": "Subfamily",
+      "value": "Stegosaurinae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Stegosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "S. stenops"
+    }
+  ],
+  "discovery": {
+    "body": "O. C. Marsh named the genus Stegosaurus in 1877 and Stegosaurus stenops in 1887. The species is based on a nearly complete skeleton, USNM 4934, from Garden Park, Colorado. In 2015, Maidment and colleagues described NHMUK PV R36730, the exceptionally complete 'Sophie' specimen from the Red Canyon Ranch Quarry in Wyoming, which preserves much of the skeleton and armour in articulation.",
+    "evidence": "fossil",
+    "refs": [
+      "marsh1877stego",
+      "maidment2015",
+      "galton2004"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "An articulated skeleton",
+      "body": "NHMUK PV R36730 preserves the skull, much of the axial skeleton and the limbs, with the plates and tail spikes in place. It is one of the most complete stegosaurs known and provides direct evidence for the arrangement of the armour.",
+      "evidence": "fossil",
+      "refs": [
+        "maidment2015"
+      ]
+    },
+    {
+      "title": "Plates and tail spikes",
+      "body": "The plates are enlarged osteoderms arranged in two alternating rows along the back. Stegosaurus stenops also has four tail spikes. The bony structures are preserved; the keratin covering, colour and soft tissue between the plates are not.",
+      "evidence": "fossil",
+      "refs": [
+        "maidment2015",
+        "galton2004"
+      ]
+    },
+    {
+      "title": "Skull and jaws",
+      "body": "The skull is small relative to the body, with a beak and small, leaf-shaped teeth. The jaw apparatus is consistent with cropping low vegetation. Direct gut contents are not known.",
+      "evidence": "inference",
+      "refs": [
+        "galton2004"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "The plates",
+      "body": "The plates are thin, bony structures with a network of channels on their surfaces. Proposed functions include display, species recognition and thermoregulation. The channels have been read as evidence for blood flow, but the thermoregulatory hypothesis is not settled. The plates were covered in keratin in life, which would have changed their shape and colour.",
+      "evidence": "contested",
+      "refs": [
+        "maidment2015",
+        "galton2004"
+      ]
+    },
+    {
+      "title": "Tail spikes",
+      "body": "Four large spikes at the end of the tail are a genuine part of the skeleton. They are often reconstructed as defensive weapons, but there is no direct fossil evidence of a stegosaur striking a predator. The spikes may also have served display or species recognition.",
+      "evidence": "inference",
+      "refs": [
+        "maidment2015"
+      ]
+    },
+    {
+      "title": "Body and limbs",
+      "body": "Stegosaurus was heavily built, with a deep body, a small head and hindlimbs longer than the forelimbs. The back arches over the hips, and the tail was held clear of the ground. The animal is reconstructed as a quadrupedal low browser.",
+      "evidence": "fossil",
+      "refs": [
+        "maidment2015"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Stegosaurus was a herbivore that likely browsed low vegetation. The plates and tail spikes are often interpreted in a defensive or display context, but neither function has been observed. The animal's social behaviour is unknown; bonebeds with multiple individuals do not by themselves demonstrate herding. There is no direct evidence of parental care or vocalisation.",
+    "evidence": "inference",
+    "refs": [
+      "maidment2015",
+      "galton2004"
+    ]
+  },
+  "reconstruction": {
+    "body": "Early restorations often placed the plates in a single row or arranged them symmetrically. Articulated specimens showed that they alternated in two rows. The function of the plates has been debated since the 19th century, and reconstructions vary in the covering, colour and posture of the animal. The plates' keratin sheaths and the living colour are not preserved.",
+    "evidence": "reconstruction",
+    "refs": [
+      "marsh1877stego",
+      "maidment2015"
+    ]
+  },
+  "references": [
+    "marsh1877stego",
+    "maidment2015",
+    "galton2004",
+    "primary-stegosaurus",
+    "pbdb"
+  ],
+  "related": [
+    "ankylosaurus",
+    "brachiosaurus",
+    "allosaurus"
+  ],
+  "confidenceNote": "The skeleton and armour are well documented, especially in the 'Sophie' specimen. The functions of the plates and tail spikes are inferred. Skin colour, keratin covering and social behaviour are unknown.",
+  "updated": "2026-11-17",
+  "dietEvidence": {
+    "body": "The small skull, beak and leaf-shaped teeth are consistent with a herbivorous diet and low browsing. The jaw mechanics suggest simple cropping rather than complex chewing. No gut contents are known.",
+    "evidence": "inference",
+    "refs": [
+      "galton2004"
+    ]
+  },
+  "sizeRefs": [
+    "maidment2015",
+    "galton2004"
+  ],
+  "genus": "Stegosaurus",
+  "epithet": "stenops",
+  "status": "Extinct",
+  "accession": "MZ-008",
+  "added": "2026-11-15",
+  "locomotion": "Quadrupedal",
+  "habitat": "Floodplain woodland",
+  "ancientContext": "Morrison Formation, western North America",
+  "locality": [
+    "Garden Park, Colorado, United States",
+    "Red Canyon Ranch Quarry, Wyoming, United States"
+  ]
+}

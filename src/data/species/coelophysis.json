@@ -1,0 +1,165 @@
+{
+  "slug": "coelophysis",
+  "accession": "MZ-036",
+  "scientificName": "Coelophysis bauri",
+  "commonName": "Hollow form",
+  "genus": "Coelophysis",
+  "epithet": "bauri",
+  "status": "Extinct",
+  "namedBy": "Cope, 1887 (species, as Coelurus bauri); Cope, 1889 (genus)",
+  "group": "Theropoda · Coelophysidae",
+  "groupKey": "Theropoda",
+  "period": "triassic",
+  "periodLabel": "Late Triassic",
+  "stage": "Norian–Rhaetian",
+  "ageMa": [
+    215,
+    201.4
+  ],
+  "ageLabel": "≈215–201.4 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The supposed cannibal gut contents are early crocodylomorph remains, so the direct evidence supports a diet including small crocodylomorphs, not cannibalism. The slender skull and recurved teeth indicate carnivory; prey choice beyond the preserved gut contents is inferred.",
+    "evidence": "inference",
+    "refs": [
+      "primary-coelophysis",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈2.5–3 m",
+  "mass": "≈20–30 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "coelophysis-living",
+  "featured": false,
+  "tagline": "A slender early theropod known from abundant material at Ghost Ranch. The bonebed contains many individuals, but it is not direct evidence of pack hunting.",
+  "summary": "A slender early theropod known from abundant material at Ghost Ranch. The bonebed contains many individuals, but it is not direct evidence of pack hunting.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Neotheropoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Coelophysidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Coelophysis"
+    },
+    {
+      "rank": "Species",
+      "value": "C. bauri"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Cope, 1889. The record is known from Chinle Formation, Ghost Ranch, New Mexico. An exceptional sample of articulated skeletons from a monodominant bonebed.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-coelophysis"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "An exceptional sample of articulated skeletons from a monodominant bonebed.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-coelophysis",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Chinle Formation, Ghost Ranch, New Mexico records the species in the Late Triassic. The numeric range used here is ≈215–201.4 Ma, combining the older Baldwin locality (radiometrically dated near 211.9 Ma) with the Rhaetian Ghost Ranch quarry; it is an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skeleton is lightly built, with a long tail, narrow skull and recurved teeth; the forelimbs are short.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-coelophysis",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The Ghost Ranch bonebed is a mass accumulation of many individuals, but it does not demonstrate pack hunting. The 2006 reanalysis removed the strongest support for cannibalism. Social behaviour and hunting coordination are unknown.",
+    "evidence": "inference",
+    "refs": [
+      "primary-coelophysis",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from an exceptional sample of articulated skeletons from a monodominant bonebed. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-coelophysis",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-coelophysis",
+    "pbdb",
+    "paul2016",
+    "v19-coelophysis-53",
+    "v19-coelophysis-54",
+    "v19-coelophysis-55"
+  ],
+  "related": [
+    "dilophosaurus",
+    "eoraptor",
+    "herrerasaurus"
+  ],
+  "confidenceNote": "The Ghost Ranch sample is exceptional, but the famous cannibalism claim has been re-examined: the supposed juvenile gut contents are crocodylomorph remains (Nesbitt et al. 2006). The age of the quarry is latest Norian–Rhaetian; the species range used here is ≈215–201.4 Ma. Juvenile skulls show ontogenetic variation, not separate taxa.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Seasonal floodplain",
+  "ancientContext": "Chinle Formation, Ghost Ranch, New Mexico",
+  "locality": [
+    "Chinle Formation, Ghost Ranch, New Mexico"
+  ],
+  "researchStatus": "partially-verified"
+}

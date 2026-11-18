@@ -1,0 +1,168 @@
+{
+  "slug": "cryolophosaurus",
+  "accession": "MZ-032",
+  "scientificName": "Cryolophosaurus ellioti",
+  "commonName": "Cold-crested lizard",
+  "genus": "Cryolophosaurus",
+  "epithet": "ellioti",
+  "status": "Extinct",
+  "namedBy": "Hammer & Hickerson, 1994",
+  "group": "Theropoda · Dilophosauridae",
+  "groupKey": "Theropoda",
+  "period": "jurassic",
+  "periodLabel": "Early Jurassic",
+  "stage": "Pliensbachian–Toarcian",
+  "ageMa": [
+    186,
+    182
+  ],
+  "ageLabel": "≈186–182 Ma",
+  "region": [
+    "Antarctica"
+  ],
+  "regionKeys": [
+    "Antarctica"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The dentition is consistent with carnivory. No gut contents are known; prey choice and hunting method are inferred from skull and postcranial anatomy.",
+    "evidence": "inference",
+    "refs": [
+      "primary-cryolophosaurus",
+      "v19-cryolophosaurus-46"
+    ]
+  },
+  "length": "≈6–7 m",
+  "mass": "≈500–700 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "cryolophosaurus-living",
+  "featured": false,
+  "tagline": "An early theropod from Antarctica with a transverse crest on the skull. The crest is preserved as bone; its display function is inferred.",
+  "summary": "Cryolophosaurus ellioti is a theropod from the Hanson Formation of Antarctica, known from a partial skull and postcranial skeleton. It bears a prominent transverse crest on the skull. The Hanson Formation records a high-latitude, cool-temperate environment during the Early Jurassic.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Neotheropoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Dilophosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Cryolophosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "C. ellioti"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Hammer & Hickerson, 1994. The record is known from Hanson Formation, Transantarctic Mountains. A partial skull and postcranial skeleton from a high-latitude locality.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-cryolophosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "A partial skull and postcranial skeleton from a high-latitude locality.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-cryolophosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Hanson Formation, Transantarctic Mountains records the species in the Early Jurassic. The numeric range used here is ≈186–182 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    },
+    {
+      "title": "Crest and skeleton",
+      "body": "The skull bears a prominent transverse crest. The associated postcranium is incomplete but includes diagnostic material. Soft tissue is not preserved.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-cryolophosaurus",
+        "v19-cryolophosaurus-46"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull has a distinctive transverse crest above the eyes, and the dentition is recurved and serrated.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-cryolophosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The transverse crest is usually interpreted as a display structure, but its function is not demonstrated. The animal lived in a seasonal, high-latitude environment; social behaviour and overwintering strategy are unknown.",
+    "evidence": "inference",
+    "refs": [
+      "primary-cryolophosaurus"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a partial skull and postcranial skeleton from a high-latitude locality. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-cryolophosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-cryolophosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-cryolophosaurus-46"
+  ],
+  "related": [
+    "dilophosaurus",
+    "coelophysis"
+  ],
+  "confidenceNote": "The skull and postcranium are known from associated material, but the skeleton is incomplete. Crest function is inferred, and the high-latitude ecology is reconstructed from geology and flora.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Cool temperate floodplain",
+  "ancientContext": "Hanson Formation, Transantarctic Mountains",
+  "locality": [
+    "Hanson Formation, Transantarctic Mountains"
+  ],
+  "researchStatus": "partially-verified"
+}

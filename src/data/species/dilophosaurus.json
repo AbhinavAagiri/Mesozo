@@ -1,0 +1,163 @@
+{
+  "slug": "dilophosaurus",
+  "accession": "MZ-017",
+  "scientificName": "Dilophosaurus wetherilli",
+  "commonName": "Two-crested lizard",
+  "genus": "Dilophosaurus",
+  "epithet": "wetherilli",
+  "status": "Extinct",
+  "namedBy": "Welles, 1954",
+  "group": "Theropoda · Dilophosauridae",
+  "groupKey": "Theropoda",
+  "period": "jurassic",
+  "periodLabel": "Early Jurassic",
+  "stage": "Sinemurian–Pliensbachian",
+  "ageMa": [
+    196,
+    183
+  ],
+  "ageLabel": "≈196–183 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The recurved teeth and lightly built skull are consistent with carnivory. No gut contents are known, and the prey species and hunting method are not recorded.",
+    "evidence": "inference",
+    "refs": [
+      "v19-dilophosaurus-9"
+    ]
+  },
+  "length": "≈6–7 m",
+  "mass": "≈400–500 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "dilophosaurus-living",
+  "featured": false,
+  "tagline": "An early theropod with a pair of rounded crests on the skull. The crests are bone, but their colour and display function are inferred.",
+  "summary": "An early theropod with a pair of rounded crests on the skull. The crests are bone, but their colour and display function are inferred.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Neotheropoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Dilophosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Dilophosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "D. wetherilli"
+    }
+  ],
+  "discovery": {
+    "body": "First described as Megalosaurus wetherilli by Samuel Welles in 1954 from the Kayenta Formation of Arizona. Welles erected the genus Dilophosaurus in 1970. The holotype, UCMP 37302, is a partial skull and postcranial skeleton; later specimens add skull and limb anatomy.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-dilophosaurus",
+      "welles1970",
+      "v19-dilophosaurus-9"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several partial skeletons, including skulls and articulated postcrania.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-dilophosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Kayenta Formation, Arizona records the species in the Early Jurassic. The numeric range used here is ≈196–183 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The paired nasolacrimal crests are thin and highly vascularised; the skull is lightly built and the teeth are recurved.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-dilophosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Carnivory is inferred from the dentition and body plan. The crests may have functioned in display or species recognition, but no behaviour is preserved. The cinematic neck frill and venom-spitting apparatus have no anatomical support.",
+    "evidence": "inference",
+    "refs": [
+      "v19-dilophosaurus-9"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons, including skulls and articulated postcrania. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-dilophosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-dilophosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-dilophosaurus-9",
+    "v19-dilophosaurus-10",
+    "welles1970"
+  ],
+  "related": [
+    "cryolophosaurus",
+    "coelophysis",
+    "ceratosaurus"
+  ],
+  "confidenceNote": "The skull and postcranium are well described, but the crests’ keratinous covering and function are not preserved. There is no anatomical support for a neck frill or venom spitting. The forelimb reconstruction is constrained by joint anatomy and a palaeopathological lesion.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Seasonally arid floodplain",
+  "ancientContext": "Kayenta Formation, Arizona",
+  "locality": [
+    "Kayenta Formation, Arizona"
+  ],
+  "researchStatus": "partially-verified"
+}

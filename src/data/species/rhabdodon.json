@@ -1,0 +1,162 @@
+{
+  "slug": "rhabdodon",
+  "accession": "MZ-075",
+  "scientificName": "Rhabdodon priscus",
+  "commonName": "Primitive rod tooth",
+  "genus": "Rhabdodon",
+  "epithet": "priscus",
+  "status": "Extinct",
+  "namedBy": "Matheron, 1869",
+  "group": "Ornithischia · Rhabdodontidae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Maastrichtian",
+  "ageMa": [
+    72,
+    69
+  ],
+  "ageLabel": "≈72–69 Ma",
+  "region": [
+    "France"
+  ],
+  "regionKeys": [
+    "Europe"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The dentition and jaw support herbivory, but no gut contents are known. The plants eaten and the feeding style are inferred; the lost lectotype limits direct comparison with the referred skeleton.",
+    "evidence": "inference",
+    "refs": [
+      "primary-rhabdodon",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈4–6 m",
+  "mass": "≈250–500 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "rhabdodon-living",
+  "featured": false,
+  "tagline": "A late-surviving iguanodontian from Europe, with a robust body and a deep skull. Its relationships to other iguanodontians are debated.",
+  "summary": "A late-surviving iguanodontian from Europe, with a robust body and a deep skull. Its relationships to other iguanodontians are debated.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithopoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Rhabdodontidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Rhabdodon"
+    },
+    {
+      "rank": "Species",
+      "value": "R. priscus"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Matheron, 1869. The lectotype, MPLM 30, is a partial left dentary; a 2025 revision reports that it has not been relocated. A nearly complete skeleton from the lower Maastrichtian of Provence was described in 1999.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-rhabdodon",
+      "czepinski2025",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The lectotype, MPLM 30, is a partial left dentary and has not been relocated according to a 2025 revision. A nearly complete skeleton from the lower Maastrichtian of Provence was described in 1999 and provides most of the known postcranial anatomy.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-rhabdodon",
+        "czepinski2025",
+        "v19-rhabdodon-142"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Grès à Reptiles, Provence records the species in the Late Cretaceous. The numeric range used here is ≈72–69 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is relatively deep, the forelimbs are shorter than the hindlimbs, and the dental battery is less specialized than in hadrosaurs.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-rhabdodon",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No nest, trackway or social association is known. The nearly complete Provence skeleton provides most of the postcranial anatomy, but it is a referred specimen, not the lost lectotype. Locomotion and social behaviour remain inferences.",
+    "evidence": "inference",
+    "refs": [
+      "primary-rhabdodon",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons and skulls from southern France and spain. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-rhabdodon",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-rhabdodon",
+    "pbdb",
+    "paul2016",
+    "v19-rhabdodon-142",
+    "czepinski2025"
+  ],
+  "related": [
+    "iguanodon",
+    "tenontosaurus",
+    "muttaburrasaurus"
+  ],
+  "confidenceNote": "Rhabdodon is a large rhabdodontid, but published adult lengths cluster at 4–6 m and masses near 250–500 kg; the earlier 6–7 m and 1–2 t figures were too large. The family Rhabdodontidae is well supported, while species-level referrals across Europe remain problematic.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Facultatively bipedal; quadrupedal",
+  "habitat": "Coastal floodplain",
+  "ancientContext": "Grès à Reptiles, Provence",
+  "locality": [
+    "Grès à Reptiles, Provence"
+  ],
+  "researchStatus": "partially-verified"
+}

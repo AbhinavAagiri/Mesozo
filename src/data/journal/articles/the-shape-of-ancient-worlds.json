@@ -1,0 +1,246 @@
+{
+  "id": "the-shape-of-ancient-worlds",
+  "slug": "the-shape-of-ancient-worlds",
+  "number": 7,
+  "headline": "The Shape of Ancient Worlds",
+  "subtitle": "How rocks, fossils and field notes turn a list of species into an ecosystem.",
+  "standfirst": "A formation is not a habitat. A locality is not a landscape. Reconstructing an ancient world means combining sedimentology, palaeontology, geochemistry and a careful account of what the evidence cannot show. The environment is the other half of the fossil.",
+  "category": "field-notes",
+  "tags": [
+    "Field Notes",
+    "Palaeoenvironment",
+    "Sedimentology",
+    "Morrison Formation",
+    "Kem Kem",
+    "Hell Creek"
+  ],
+  "byline": "MESOZO Editorial",
+  "editorialCredit": "Research, writing and editing by the MESOZO editorial desk.",
+  "publishedAt": "2026-09-10",
+  "readingMinutes": 5,
+  "featured": false,
+  "hero": {
+    "variant": "map",
+    "tone": "light",
+    "label": "Field map · regional references",
+    "caption": "A diagrammatic world outline showing the approximate regions discussed in this story. It is not a palaeogeographic map, and the markers are regional references rather than quarry coordinates."
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "id": "environment",
+      "kicker": "01 — The problem",
+      "title": "An environment leaves more than bones."
+    },
+    {
+      "type": "text",
+      "dropCap": true,
+      "paragraphs": [
+        "A fossil tells us that an organism existed. It does not, by itself, tell us what the world around it looked like. To reconstruct an ancient environment, researchers read the rock as well as the bones: grain size and sedimentary structures, ancient soils, plant remains, invertebrate fossils, isotopes and the spatial arrangement of specimens. [[scotese2021]]",
+        "The result is not a photograph of a lost landscape. It is a model assembled from multiple lines of evidence, each with its own resolution and bias. A useful reconstruction says which parts are well supported and which are extrapolated."
+      ]
+    },
+    {
+      "type": "data",
+      "title": "Four formations, four field problems",
+      "entries": [
+        {
+          "label": "Morrison Formation",
+          "value": "Late Jurassic · western North America",
+          "detail": "River and floodplain deposits preserve a diverse dinosaur fauna, including sauropods, stegosaurs and theropods.",
+          "refs": [
+            "maidment2015",
+            "taylor2009"
+          ]
+        },
+        {
+          "label": "Kem Kem Group",
+          "value": "mid-Cretaceous · Morocco",
+          "detail": "River and coastal deposits preserve fragmentary large predators, fish and other vertebrates. The Spinosaurus material is part of this record.",
+          "refs": [
+            "ibrahim2014"
+          ]
+        },
+        {
+          "label": "Cloverly Formation",
+          "value": "Early Cretaceous · Montana and Wyoming",
+          "detail": "Floodplain and riverine woodland deposits preserve Deinonychus and a wider vertebrate fauna.",
+          "refs": [
+            "ostrom1969"
+          ]
+        },
+        {
+          "label": "Hell Creek Formation",
+          "value": "latest Cretaceous · western North America",
+          "detail": "A coastal floodplain at the end of the Cretaceous, with Tyrannosaurus, Triceratops and other non-avian dinosaurs.",
+          "refs": [
+            "carr2020",
+            "schulte2010"
+          ]
+        }
+      ],
+      "note": "These are regional summaries. A formation can contain several environments, and a single quarry can sample only a small part of one."
+    },
+    {
+      "type": "heading",
+      "id": "reading-a-formation",
+      "kicker": "02 — The method",
+      "title": "Reading a formation."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "Sedimentary structures record how grains moved and settled: channels, ripples, cross-bedding, mudcracks and palaeosols each point to different conditions. Fossils add another layer. Pollen and spores can indicate vegetation; fish, turtles and crocodile relatives can indicate water; the size and preservation of bones can say something about transport before burial. [[maidment2015]][[ibrahim2014]]",
+        "The same formation can therefore support more than one environmental reading. A river deposit is not automatically a year-round river; a floodplain is not automatically a forest; a coastal setting is not a single habitat. The reconstruction has to specify its scale."
+      ]
+    },
+    {
+      "type": "annotation",
+      "title": "A formation is not a habitat",
+      "body": "A geological formation is a body of rock defined by its characteristics and position. An ecosystem is a set of living organisms and their interactions. The two are related, but they are not synonyms. A fossil-bearing formation can sample many habitats, or only one repeatedly.",
+      "refs": [
+        "scotese2021"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "map-not-ecosystem",
+      "kicker": "03 — The limit",
+      "title": "The map is not the ecosystem."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "Palaeogeographic maps show where continents and seas are thought to have been. They are essential for understanding climate and dispersal, but they do not show the local habitat of a particular animal. A map can place a formation on a coastal plain; it cannot tell you what the animal ate, how it moved or whether it met another species. [[scotese2021]]",
+        "This is why MESOZO’s discovery map uses approximate regional references rather than quarry coordinates. A point can locate a body of evidence without exposing a sensitive site or pretending that a regional centroid is an exact findspot."
+      ]
+    },
+    {
+      "type": "evidence",
+      "stance": "open",
+      "title": "What a locality can and cannot establish",
+      "body": "A locality can establish that a specimen was found in a particular rock unit and region. Reconstructing the surrounding ecosystem requires additional evidence: sedimentology, associated fossils, taphonomy and comparison with other localities.",
+      "refs": [
+        "scotese2021",
+        "ibrahim2014"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "from-quarry",
+      "kicker": "04 — The work",
+      "title": "From quarry to reconstruction."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "Fieldwork begins before excavation. Researchers record the position of a specimen in the rock, the sediment around it and its relationship to other fossils. That context is part of the specimen’s scientific value, and it can be lost if a quarry is dug without a record. [[ostrom1969]]",
+        "Preparation, conservation and comparison follow. A bone removed from its matrix is easier to study, but the matrix may contain evidence about burial and environment. Museum collections therefore preserve not only objects but also the records that connect them to a place and a question."
+      ]
+    },
+    {
+      "type": "timeline",
+      "title": "A field record, in four moves",
+      "entries": [
+        {
+          "date": "01",
+          "title": "Observe the context",
+          "body": "Map the exposure, measure the section and record the sediment and fossil associations before removing material.",
+          "refs": [
+            "ostrom1969"
+          ]
+        },
+        {
+          "date": "02",
+          "title": "Excavate with a record",
+          "body": "Document position, orientation and associations. A specimen without context is a smaller scientific object.",
+          "refs": [
+            "ostrom1969"
+          ]
+        },
+        {
+          "date": "03",
+          "title": "Prepare and compare",
+          "body": "Remove matrix, conserve the fossil and compare it with material from other localities and collections.",
+          "refs": [
+            "maidment2015"
+          ]
+        },
+        {
+          "date": "04",
+          "title": "Reconstruct, then test",
+          "body": "Build an environmental model and ask what new evidence would change it.",
+          "refs": [
+            "scotese2021",
+            "ibrahim2014"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "closing",
+      "kicker": "05 — The return",
+      "title": "The world is the other half of the fossil."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "The specimen tells us that an organism existed. The rock tells us where, when and with whom. Neither alone reconstructs an ecosystem, and a list of species is not yet a world. [[scotese2021]]",
+        "The best reconstructions keep the uncertainty visible. They distinguish a channel from a floodplain, a regional map from a local habitat, and a plausible scene from a demonstrated relationship. That is not a weakness in the storytelling. It is what makes the story scientific."
+      ]
+    },
+    {
+      "type": "pullquote",
+      "label": "The method",
+      "text": "A list of species is not yet a world.",
+      "attribution": "MESOZO editorial"
+    }
+  ],
+  "references": [
+    "scotese2021",
+    "maidment2015",
+    "taylor2009",
+    "ibrahim2014",
+    "ostrom1969",
+    "carr2020",
+    "schulte2010"
+  ],
+  "relatedSpeciesIds": [
+    "spinosaurus",
+    "stegosaurus",
+    "brachiosaurus",
+    "tyrannosaurus",
+    "deinonychus"
+  ],
+  "relatedPeriodIds": [
+    "jurassic",
+    "cretaceous"
+  ],
+  "relatedSpecimenIds": [
+    "fsac-kk-11888",
+    "usnm-4934",
+    "fmnh-p-25107",
+    "cm-9380",
+    "ypm-5205"
+  ],
+  "relatedAnatomy": [
+    {
+      "speciesId": "spinosaurus",
+      "structureIds": [
+        "rostrum",
+        "dorsal-ribs",
+        "hindlimb"
+      ]
+    }
+  ],
+  "relatedArticleIds": [
+    "the-spinosaurus-problem",
+    "reconstructing-an-extinct-animal",
+    "a-world-before-the-dinosaurs"
+  ],
+  "readingPathIds": [
+    "spinosaurus-path",
+    "deep-time-path"
+  ]
+}

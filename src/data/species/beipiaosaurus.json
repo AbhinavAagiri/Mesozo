@@ -1,0 +1,171 @@
+{
+  "slug": "beipiaosaurus",
+  "accession": "MZ-100",
+  "scientificName": "Beipiaosaurus inexpectus",
+  "commonName": "Beipiao lizard",
+  "genus": "Beipiaosaurus",
+  "epithet": "inexpectus",
+  "status": "Extinct",
+  "namedBy": "Xu, Tang & Wang, 1999",
+  "group": "Theropoda · Therizinosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Barremian",
+  "ageMa": [
+    125,
+    124
+  ],
+  "ageLabel": "≈125–124 Ma",
+  "region": [
+    "China"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore · inferred",
+  "dietEvidence": {
+    "body": "The dentition is consistent with herbivory, and other therizinosaurs are interpreted as plant eaters. No gut contents are known; the plants eaten and the jaw mechanics remain inferred.",
+    "evidence": "inference",
+    "refs": [
+      "v19-beipiaosaurus-186",
+      "primary-beipiaosaurus"
+    ]
+  },
+  "length": "≈2–2.5 m",
+  "mass": "≈50–80 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "beipiaosaurus-living",
+  "featured": false,
+  "tagline": "A small therizinosaur with preserved filamentous integument and a relatively long neck. It is one of the most complete early therizinosaurs.",
+  "summary": "Beipiaosaurus inexpectus is a therizinosaur from the Yixian Formation of Liaoning, China. It preserves filamentous integument and a pygostyle-like cluster of fused caudal vertebrae. Herbivory is inferred from the dentition and from other therizinosaurs; no gut contents are known.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Maniraptora"
+    },
+    {
+      "rank": "Family",
+      "value": "Therizinosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Beipiaosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "B. inexpectus"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Xu, Tang & Wang, 1999. The record is known from Yixian Formation, Liaoning. A partial skeleton with extensive integument impressions.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-beipiaosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "A partial skeleton with extensive integument impressions.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-beipiaosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Yixian Formation, Liaoning records the species in the Early Cretaceous. The numeric range used here is ≈125–124 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    },
+    {
+      "title": "Integument and tail",
+      "body": "The holotype preserves filamentous integument and a pygostyle-like cluster of fused caudal vertebrae. Both are direct anatomical evidence; their function and homology are interpreted.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-beipiaosaurus",
+        "v19-beipiaosaurus-187"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The body is covered in long filaments, the forelimbs are robust, and the skull is small and edentulous.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-beipiaosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The behavioural record is skeletal: the filamentous integument may have had display or thermoregulatory functions, but this is inferred. The pygostyle-like structure’s function is also unresolved. Social behaviour is unknown.",
+    "evidence": "unknown",
+    "refs": [
+      "primary-beipiaosaurus",
+      "v19-beipiaosaurus-187"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a partial skeleton with extensive integument impressions. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-beipiaosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-beipiaosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-beipiaosaurus-186",
+    "v19-beipiaosaurus-187"
+  ],
+  "related": [
+    "therizinosaurus",
+    "nothronychus",
+    "falcarius"
+  ],
+  "confidenceNote": "The integument and tail structure are direct evidence from the holotype. The skull and skeleton are incomplete, the sample is small, and the function of the filamentous covering is unknown.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Temperate forest and lake margin",
+  "ancientContext": "Yixian Formation, Liaoning",
+  "locality": [
+    "Yixian Formation, Liaoning"
+  ],
+  "researchStatus": "partially-verified"
+}

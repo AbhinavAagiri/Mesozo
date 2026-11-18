@@ -1,0 +1,160 @@
+{
+  "slug": "nasutoceratops",
+  "accession": "MZ-056",
+  "scientificName": "Nasutoceratops titusi",
+  "commonName": "Large-nosed horned face",
+  "genus": "Nasutoceratops",
+  "epithet": "titusi",
+  "status": "Extinct",
+  "namedBy": "Sampson et al., 2013",
+  "group": "Ornithischia · Ceratopsidae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    76,
+    75
+  ],
+  "ageLabel": "≈76–75 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "Herbivory is inferred from the ceratopsian dentition and jaw apparatus. No gut contents are known, and the plants eaten are not preserved; the broad diet is a group-level inference, not a species-specific observation.",
+    "evidence": "inference",
+    "refs": [
+      "primary-nasutoceratops",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈4.5–5 m",
+  "mass": "≈1.5–2 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "nasutoceratops-living",
+  "featured": false,
+  "tagline": "A centrosaurine with a large, hollow nasal boss and forward-curving brow horns. The skull is known; the postcranium is less complete.",
+  "summary": "A centrosaurine with a large, hollow nasal boss and forward-curving brow horns. The skull is known; the postcranium is less complete.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Marginocephalia"
+    },
+    {
+      "rank": "Family",
+      "value": "Ceratopsidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Nasutoceratops"
+    },
+    {
+      "rank": "Species",
+      "value": "N. titusi"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Sampson et al., 2013. The holotype, UMNH VP 16800, is a nearly complete skull with an associated forelimb from the Kaiparowits Formation, Utah.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-nasutoceratops",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "A partial skull and associated postcranial material.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-nasutoceratops",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Kaiparowits Formation, Utah records the species in the Late Cretaceous. The numeric range used here is ≈76–75 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The nasal region is expanded into a large boss, and the brow horns are long and curved forward.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-nasutoceratops",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The skull and horns are well preserved, but no trackway, nest or bonebed establishes social behaviour. The function of the horns and frill — display, species recognition or combat — remains a hypothesis. The known sample is too small to test sexual dimorphism or herding.",
+    "evidence": "inference",
+    "refs": [
+      "primary-nasutoceratops",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a partial skull and associated postcranial material. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-nasutoceratops",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-nasutoceratops",
+    "pbdb",
+    "paul2016",
+    "v19-nasutoceratops-105"
+  ],
+  "related": [
+    "centrosaurus",
+    "styracosaurus",
+    "kosmoceratops"
+  ],
+  "confidenceNote": "Confidence is high for the skull and associated forelimb of the holotype, UMNH VP 16800. It is low for the rest of the postcranium, horn and frill function, sexual dimorphism and social behaviour. The species is not known from a complete skeleton.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Kaiparowits Formation, Utah",
+  "locality": [
+    "Kaiparowits Formation, Utah"
+  ],
+  "researchStatus": "partially-verified"
+}

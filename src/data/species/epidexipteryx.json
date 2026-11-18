@@ -1,0 +1,157 @@
+{
+  "slug": "epidexipteryx",
+  "accession": "MZ-103",
+  "scientificName": "Epidexipteryx hui",
+  "commonName": "Display feather",
+  "genus": "Epidexipteryx",
+  "epithet": "hui",
+  "status": "Extinct",
+  "namedBy": "Zhang et al., 2008",
+  "group": "Theropoda · Scansoriopterygidae",
+  "groupKey": "Theropoda",
+  "period": "jurassic",
+  "periodLabel": "Middle–Late Jurassic",
+  "stage": "Bathonian–Kimmeridgian (uncertain)",
+  "ageMa": [
+    168,
+    152
+  ],
+  "ageLabel": "≈168–152 Ma",
+  "region": [
+    "China"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The enlarged, procumbent anterior teeth suggest specialised feeding, but no gut contents are known. The diet is unresolved.",
+    "evidence": "unknown",
+    "refs": [
+      "primary-epidexipteryx"
+    ]
+  },
+  "length": "≈0.25–0.3 m",
+  "mass": "≈0.2 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "epidexipteryx-living",
+  "featured": false,
+  "tagline": "A very small maniraptoran with four long ribbon-like tail feathers and a short, deep skull. The tail feathers are preserved; their display function is inferred.",
+  "summary": "A very small maniraptoran with four long ribbon-like tail feathers and a short, deep skull. The tail feathers are preserved; their display function is inferred.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Maniraptora"
+    },
+    {
+      "rank": "Family",
+      "value": "Scansoriopterygidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Epidexipteryx"
+    },
+    {
+      "rank": "Species",
+      "value": "E. hui"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Zhang and colleagues in 2008. The holotype, IVPP V15471, is a nearly complete skeleton on part and counterpart slabs from Daohugou, Ningcheng County, Inner Mongolia, with four elongate ribbon-like tail feathers. The species is known from this single individual.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-epidexipteryx"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The holotype, IVPP V15471, is a nearly complete skeleton on part and counterpart slabs, with four elongate ribbon-like tail feathers. The skull is known.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-epidexipteryx",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "The Daohugou beds, Ningcheng County, Inner Mongolia, record the species in the Middle–Late Jurassic. The numeric range used here is ≈168–152 Ma; the age of the beds is contested.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The tail bears four elongate ribbon-like feathers; the forelimbs are slender and the skull is short and deep with enlarged anterior teeth. The feather arrangement is preserved, but its display function is inferred.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-epidexipteryx",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The tail feathers are plausibly display structures, but no behaviour is preserved. The animal is interpreted as non-volant because it lacks flight feathers; that is an inference from one specimen, not a direct observation.",
+    "evidence": "inference",
+    "refs": [
+      "primary-epidexipteryx"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a single nearly complete skeleton with feather impressions. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-epidexipteryx",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-epidexipteryx",
+    "pbdb",
+    "paul2016"
+  ],
+  "related": [
+    "yi",
+    "anchiornis"
+  ],
+  "confidenceNote": "The single holotype preserves four ribbon-like tail feathers and a simple body covering, but no pennaceous flight feathers. The age of the Daohugou beds is contested, and display and diet are inferred rather than observed.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Temperate forest",
+  "ancientContext": "Daohugou beds, Ningcheng County, Inner Mongolia",
+  "locality": [
+    "Daohugou beds, Ningcheng County, Inner Mongolia"
+  ],
+  "researchStatus": "partially-verified"
+}

@@ -1,0 +1,170 @@
+{
+  "slug": "citipati",
+  "accession": "MZ-098",
+  "scientificName": "Citipati osmolskae",
+  "commonName": "Funeral pyre lord",
+  "genus": "Citipati",
+  "epithet": "osmolskae",
+  "status": "Extinct",
+  "namedBy": "Clark et al., 2001",
+  "group": "Theropoda · Oviraptoridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    75,
+    71
+  ],
+  "ageLabel": "≈75–71 Ma",
+  "region": [
+    "Mongolia"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "omnivore",
+  "dietLabel": "Omnivore · inferred",
+  "dietEvidence": {
+    "body": "The edentulous beak and robust jaws are consistent with a specialized diet, but no gut contents are known. Diet is inferred from skull anatomy and from other oviraptorids.",
+    "evidence": "inference",
+    "refs": [
+      "v19-oviraptor-179",
+      "primary-citipati"
+    ]
+  },
+  "length": "≈2.5–3 m",
+  "mass": "≈80–120 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "citipati-living",
+  "featured": false,
+  "tagline": "A large oviraptorid known from several skeletons, including individuals preserved on nests. The nesting posture is direct evidence of brooding behaviour.",
+  "summary": "Citipati osmolskae is an oviraptorid from the Djadokhta Formation of Mongolia. Several specimens are preserved on nests, providing direct evidence of nesting association; brooding is inferred from posture and context. The skull is deep and short with a robust edentulous beak.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Maniraptora"
+    },
+    {
+      "rank": "Family",
+      "value": "Oviraptoridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Citipati"
+    },
+    {
+      "rank": "Species",
+      "value": "C. osmolskae"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Clark et al., 2001. The record is known from Djadochta Formation, Gobi Desert. Several skeletons, including nesting individuals and embryos.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-citipati"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several skeletons, including nesting individuals and embryos.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-citipati",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Djadochta Formation, Gobi Desert records the species in the Late Cretaceous. The numeric range used here is ≈75–71 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    },
+    {
+      "title": "Nesting specimens",
+      "body": "Several skeletons are preserved on nests. The association is direct; the interpretation of the animals as brooding parents is based on posture and comparison with living archosaurs.",
+      "evidence": "fossil",
+      "refs": [
+        "v19-citipati-182"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is deep and crested, the beak is edentulous, and the forelimbs are long.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-citipati",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Several Citipati specimens are preserved in contact with nests of eggs. The association is direct evidence of nesting; brooding is inferred from the preserved posture and nest context. Parental care beyond brooding is not demonstrated.",
+    "evidence": "inference",
+    "refs": [
+      "v19-citipati-182"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several skeletons, including nesting individuals and embryos. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-citipati",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-citipati",
+    "pbdb",
+    "paul2016",
+    "v19-citipati-182",
+    "v19-oviraptor-179",
+    "v19-citipati-183"
+  ],
+  "related": [
+    "oviraptor",
+    "gigantoraptor",
+    "protoceratops"
+  ],
+  "confidenceNote": "The nesting specimens are exceptional, but the behaviour is inferred from preserved association and posture. Diet is not directly known, and soft tissue and colour are unknown.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Arid sand dune field",
+  "ancientContext": "Djadochta Formation, Gobi Desert",
+  "locality": [
+    "Djadochta Formation, Gobi Desert"
+  ],
+  "researchStatus": "partially-verified"
+}

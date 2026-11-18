@@ -1,0 +1,160 @@
+{
+  "slug": "sauropelta",
+  "accession": "MZ-047",
+  "scientificName": "Sauropelta edwardsorum",
+  "commonName": "Lizard shield",
+  "genus": "Sauropelta",
+  "epithet": "edwardsorum",
+  "status": "Extinct",
+  "namedBy": "Ostrom, 1970",
+  "group": "Ornithischia · Nodosauridae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Aptian–Albian",
+  "ageMa": [
+    115,
+    110
+  ],
+  "ageLabel": "≈115–110 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "Low browsing is inferred from the small, leaf-shaped teeth and beak. No gut contents are known, and the plants eaten are not preserved; the skull is incomplete, so the feeding apparatus is only partly known.",
+    "evidence": "inference",
+    "refs": [
+      "ostrom1970",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈5–6 m",
+  "mass": "≈1.5–2 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "sauropelta-living",
+  "featured": false,
+  "tagline": "A nodosaurid with a long, low body and a dense covering of osteoderms. The armour is well preserved, but the full body outline is reconstructed.",
+  "summary": "A nodosaurid with a long, low body and a dense covering of osteoderms. The armour is well preserved, but the full body outline is reconstructed.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Thyreophora"
+    },
+    {
+      "rank": "Family",
+      "value": "Nodosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Sauropelta"
+    },
+    {
+      "rank": "Species",
+      "value": "S. edwardsorum"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Ostrom, 1970. The holotype, AMNH 3032, is a partial skeleton with armour from the Cloverly Formation. The tail lacks a club.",
+    "evidence": "fossil",
+    "refs": [
+      "ostrom1970",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several partial skeletons, including armour and skull material.",
+      "evidence": "fossil",
+      "refs": [
+        "ostrom1970",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Cloverly Formation, Montana and Wyoming records the species in the Early Cretaceous. The numeric range used here is ≈115–110 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is narrow, the neck is relatively short, and the dorsal surface bears rows of keeled plates and spines.",
+      "evidence": "fossil",
+      "refs": [
+        "ostrom1970",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The armour is well preserved, but no trackway, nest or social association is known. The tail lacks a club, and the body outline is reconstructed. Defensive posture and social behaviour are inferences, not observations.",
+    "evidence": "inference",
+    "refs": [
+      "ostrom1970",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons, including armour and skull material. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "ostrom1970",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "ostrom1970",
+    "pbdb",
+    "paul2016",
+    "v19-sauropelta-81"
+  ],
+  "related": [
+    "edmontonia",
+    "nodosaurus",
+    "polacanthus"
+  ],
+  "confidenceNote": "Confidence is high for the armour and the 1970 type specimen. It is lower for the skull, full body outline, diet and social behaviour. The holotype is a partial skeleton, not a complete animal.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Cloverly Formation, Montana and Wyoming",
+  "locality": [
+    "Cloverly Formation, Montana and Wyoming"
+  ],
+  "researchStatus": "partially-verified"
+}

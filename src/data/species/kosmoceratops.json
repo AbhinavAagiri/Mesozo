@@ -1,0 +1,156 @@
+{
+  "slug": "kosmoceratops",
+  "accession": "MZ-057",
+  "scientificName": "Kosmoceratops richardsoni",
+  "commonName": "Ornamented horned face",
+  "genus": "Kosmoceratops",
+  "epithet": "richardsoni",
+  "status": "Extinct",
+  "namedBy": "Sampson et al., 2010",
+  "group": "Ornithischia · Ceratopsidae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    76,
+    75
+  ],
+  "ageLabel": "≈76–75 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The skull and dentition are consistent with herbivory. No gut contents are known, and the plants eaten are not preserved.",
+    "evidence": "inference",
+    "refs": [
+      "primary-kosmoceratops"
+    ]
+  },
+  "length": "≈4.5–5 m",
+  "mass": "≈1.5–2 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "kosmoceratops-living",
+  "featured": false,
+  "tagline": "A chasmosaurine with an extremely ornate frill bearing many small hooks and spikes. The frill is real; its display role is inferred.",
+  "summary": "A chasmosaurine with an extremely ornate frill bearing many small hooks and spikes. The frill is real; its display role is inferred.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Marginocephalia"
+    },
+    {
+      "rank": "Family",
+      "value": "Ceratopsidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Kosmoceratops"
+    },
+    {
+      "rank": "Species",
+      "value": "K. richardsoni"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Sampson and colleagues in 2010 from the Kaiparowits Formation of southern Utah. The holotype, UMNH VP 17000, is a nearly complete skull. The type and referred specimens occur in the upper part of the lower unit and the lower part of the middle unit.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-kosmoceratops"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "A skull and partial skeleton from southern Utah.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-kosmoceratops",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Kaiparowits Formation, Utah records the species in the Late Cretaceous. The numeric range used here is ≈76–75 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The frill is broad and short, with multiple epoccipitals, and the brow horns are long and curved.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-kosmoceratops",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Herbivory is inferred from the skull and dentition. The cranial ornament is plausibly social, but display, combat and sexual selection are inferences from bony structure.",
+    "evidence": "inference",
+    "refs": [
+      "primary-kosmoceratops"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a skull and partial skeleton from southern Utah. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-kosmoceratops",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-kosmoceratops",
+    "pbdb",
+    "paul2016",
+    "v19-kosmoceratops-106",
+    "campbell2016"
+  ],
+  "related": [
+    "chasmosaurus",
+    "pentaceratops",
+    "nasutoceratops"
+  ],
+  "confidenceNote": "The skull and ornament are well documented, but the horn sheaths are not preserved and display function is inferred. The northern referral is disputed, and the exact age depends on stratigraphic calibration.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Kaiparowits Formation, Utah",
+  "locality": [
+    "Kaiparowits Formation, Utah"
+  ],
+  "researchStatus": "partially-verified"
+}

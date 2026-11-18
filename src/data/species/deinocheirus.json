@@ -1,0 +1,168 @@
+{
+  "slug": "deinocheirus",
+  "accession": "MZ-090",
+  "scientificName": "Deinocheirus mirificus",
+  "commonName": "Terrible hand",
+  "genus": "Deinocheirus",
+  "epithet": "mirificus",
+  "status": "Extinct",
+  "namedBy": "Osmólska & Roniewicz, 1970",
+  "group": "Theropoda · Deinocheiridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Maastrichtian",
+  "ageMa": [
+    70,
+    66
+  ],
+  "ageLabel": "≈70–66 Ma",
+  "region": [
+    "Mongolia"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "omnivore",
+  "dietLabel": "Omnivore · inferred",
+  "dietEvidence": {
+    "body": "Direct stomach contents include more than 1,400 gastroliths and fish vertebrae and scales. This supports omnivory, with plant material ground by gastroliths and fish ingested. The stomach contents are from one specimen; the full diet is not known.",
+    "evidence": "inference",
+    "refs": [
+      "v19-deinocheirus-167"
+    ]
+  },
+  "length": "≈11 m",
+  "mass": "≈6–7 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "deinocheirus-living",
+  "featured": false,
+  "tagline": "A very large ornithomimosaur with enormous forelimbs, a humped back and a broad, toothless beak. It was known only from arms for decades before complete skeletons were found.",
+  "summary": "A very large ornithomimosaur with enormous forelimbs, a humped back and a broad, toothless beak. It was known only from arms for decades before complete skeletons were found.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Maniraptora"
+    },
+    {
+      "rank": "Family",
+      "value": "Deinocheiridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Deinocheirus"
+    },
+    {
+      "rank": "Species",
+      "value": "D. mirificus"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Osmólska & Roniewicz, 1970. The record is known from Nemegt Formation, Gobi Desert. Two nearly complete skeletons and isolated elements from Mongolia.",
+    "evidence": "fossil",
+    "refs": [
+      "osmolska1970",
+      "v19-deinocheirus-167"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Two partial skeletons from Bugiin Tsav and Altan Uul, together with repatriated poached skull, hand and foot material, made the skull and postcranium known. The original holotype preserves the giant forelimbs and shoulder girdle.",
+      "evidence": "fossil",
+      "refs": [
+        "osmolska1970",
+        "v19-deinocheirus-167"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Nemegt Formation, Gobi Desert records the species in the Late Cretaceous. The numeric range used here is ≈70–66 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    },
+    {
+      "title": "Stomach contents",
+      "body": "More than 1,400 gastroliths, ranging from 8 to 87 mm, were found inside the ribs and gastralia, together with fish vertebrae and scales. The association is direct evidence of ingested material; it shows what one individual had in its gut.",
+      "evidence": "fossil",
+      "refs": [
+        "v19-deinocheirus-167"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The forelimbs are exceptionally long and robust, the dorsal neural spines are tall, and the skull is long, low and edentulous with a broad beak. The jaws are toothless, and the feet are large and broad.",
+      "evidence": "fossil",
+      "refs": [
+        "osmolska1970",
+        "v19-deinocheirus-167"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The large feet and broad hips suggest a slow, non-cursorial animal; this is an inference from proportions. The 2012 bite marks show that Tarbosaurus fed on Deinocheirus, not that Deinocheirus was a predator. No social behaviour is established.",
+    "evidence": "inference",
+    "refs": [
+      "v19-deinocheirus-167",
+      "v19-deinocheirus-168"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from two nearly complete skeletons and isolated elements from Mongolia. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-deinocheirus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "osmolska1970",
+    "pbdb",
+    "paul2016",
+    "v19-deinocheirus-167",
+    "v19-deinocheirus-168"
+  ],
+  "related": [
+    "gallimimus",
+    "therizinosaurus",
+    "oviraptor"
+  ],
+  "confidenceNote": "The 2014 skeletons resolved the postcranial anatomy: a long toothless beak, tall neural spines, broad hips and large feet. The stomach area preserved more than 1,400 gastroliths and fish remains, indicating omnivory. The original 1970 description was based on giant arms and a shoulder girdle; the rest of the body was unknown for decades.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Riverine floodplain",
+  "ancientContext": "Nemegt Formation, Gobi Desert",
+  "locality": [
+    "Nemegt Formation, Gobi Desert"
+  ],
+  "researchStatus": "partially-verified"
+}

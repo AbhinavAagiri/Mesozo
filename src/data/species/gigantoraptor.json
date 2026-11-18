@@ -1,0 +1,163 @@
+{
+  "slug": "gigantoraptor",
+  "accession": "MZ-099",
+  "scientificName": "Gigantoraptor erlianensis",
+  "commonName": "Giant thief",
+  "genus": "Gigantoraptor",
+  "epithet": "erlianensis",
+  "status": "Extinct",
+  "namedBy": "Xu et al., 2007",
+  "group": "Theropoda · Caenagnathidae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian–Maastrichtian",
+  "ageMa": [
+    75,
+    71
+  ],
+  "ageLabel": "≈75–71 Ma",
+  "region": [
+    "China"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "omnivore",
+  "dietLabel": "Omnivore · inferred",
+  "dietEvidence": {
+    "body": "The toothless, deep mandible suggests a less selective diet and some shearing or crushing. Herbivory is plausible, but carnivory cannot be excluded; no gut contents are known.",
+    "evidence": "debate",
+    "refs": [
+      "primary-gigantoraptor",
+      "v19-gigantoraptor-185"
+    ]
+  },
+  "length": "≈8 m",
+  "mass": "≈1.5–2 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "gigantoraptor-living",
+  "featured": false,
+  "tagline": "A very large oviraptorosaur, far larger than its closest relatives. The skeleton is known from a single partial individual.",
+  "summary": "A very large oviraptorosaur, far larger than its closest relatives. The skeleton is known from a single partial individual.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Maniraptora"
+    },
+    {
+      "rank": "Family",
+      "value": "Caenagnathidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Gigantoraptor"
+    },
+    {
+      "rank": "Species",
+      "value": "G. erlianensis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Xu and colleagues in 2007 from the Iren Dabasu Formation at Saihangaobi, Inner Mongolia. The holotype, LH V0011, is an incomplete skeleton preserving a nearly complete mandible, parts of the axial skeleton, the forelimbs and much of the hindlimbs. It is the only well-described individual.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-gigantoraptor",
+      "v19-gigantoraptor-184"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "A partial skeleton and skull from Inner Mongolia.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-gigantoraptor",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Iren Dabasu Formation, Inner Mongolia records the species in the Late Cretaceous. The numeric range used here is ≈75–71 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is deep and edentulous, the forelimbs are long, and the body is robust; growth lines indicate it was still growing.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-gigantoraptor",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The deep, toothless jaw is consistent with propalinal movement and some shearing or crushing, but the food eaten is unknown. No nesting or social behaviour is preserved.",
+    "evidence": "inference",
+    "refs": [
+      "primary-gigantoraptor",
+      "v19-gigantoraptor-185"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a partial skeleton and skull from Inner Mongolia. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-gigantoraptor",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-gigantoraptor",
+    "pbdb",
+    "paul2016",
+    "v19-gigantoraptor-184",
+    "v19-gigantoraptor-185"
+  ],
+  "related": [
+    "oviraptor",
+    "citipati",
+    "deinocheirus"
+  ],
+  "confidenceNote": "The species is known from a single incomplete skeleton. The animal was still growing at death, the diet is unresolved, and feathers are inferred from phylogeny rather than preserved. Postcranial anatomy is well described, but population variation is unknown.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Riverine floodplain",
+  "ancientContext": "Iren Dabasu Formation, Inner Mongolia",
+  "locality": [
+    "Iren Dabasu Formation, Inner Mongolia"
+  ],
+  "researchStatus": "partially-verified"
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "shunosaurus",
+  "accession": "MZ-084",
+  "scientificName": "Shunosaurus lii",
+  "commonName": "Shu lizard",
+  "genus": "Shunosaurus",
+  "epithet": "lii",
+  "status": "Extinct",
+  "namedBy": "Dong, Zhou & Zhang, 1983",
+  "group": "Sauropodomorpha · Eusauropoda",
+  "groupKey": "Sauropodomorpha",
+  "period": "jurassic",
+  "periodLabel": "Middle Jurassic",
+  "stage": "Bajocian–Callovian",
+  "ageMa": [
+    170,
+    160
+  ],
+  "ageLabel": "≈170–160 Ma",
+  "region": [
+    "China"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The skull and leaf-shaped teeth indicate herbivory. No gut contents are known; the plants eaten and the jaw mechanics are inferred from anatomy.",
+    "evidence": "inference",
+    "refs": [
+      "primary-shunosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈9–10 m",
+  "mass": "≈3–4 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "shunosaurus-living",
+  "featured": false,
+  "tagline": "An early sauropod with a relatively short neck and a small tail club formed by fused vertebrae. It is known from many individuals.",
+  "summary": "An early sauropod with a relatively short neck and a small tail club formed by fused vertebrae. It is known from many individuals.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropodomorpha"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Eusauropoda"
+    },
+    {
+      "rank": "Genus",
+      "value": "Shunosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "S. lii"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Dong, Zhou & Zhang, 1983. The record is known from Shaximiao Formation, Sichuan. Many partial skeletons, including complete skulls and tail clubs.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-shunosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The species is known from many partial skeletons in the Lower Shaximiao Formation of Sichuan, including complete skulls and tail clubs.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-shunosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Shaximiao Formation, Sichuan records the species in the Middle Jurassic. The numeric range used here is ≈170–160 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The neck is relatively short, the skull has a short snout and leaf-shaped teeth, and the distal tail bears a small bony club. Many individuals are known.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-shunosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No direct evidence of social or parental behaviour. The tail club is preserved bone; its function in defence or display is inferred.",
+    "evidence": "inference",
+    "refs": [
+      "primary-shunosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from many partial skeletons, including complete skulls and tail clubs. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-shunosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-shunosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-shunosaurus-154",
+    "v19-shunosaurus-155"
+  ],
+  "related": [
+    "mamenchisaurus",
+    "camarasaurus",
+    "jobaria"
+  ],
+  "confidenceNote": "Shunosaurus is known from many partial skeletons from the Lower Shaximiao Formation, including complete skulls and tail clubs. The neck is relatively short for a sauropod, and the tail club is formed by fused vertebrae. No gut contents are known, and social behaviour is not established.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Riverine woodland",
+  "ancientContext": "Shaximiao Formation, Sichuan",
+  "locality": [
+    "Shaximiao Formation, Sichuan"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Shunosaurus lii was a sauropod from the [Middle Jurassic](/deep-time?period=jurassic) of Sichuan, China. It had a relatively short neck for a sauropod and a small bony club at the end of its tail.",
+    "paragraphs": [
+      "Many partial skeletons are known, including complete skulls and tail clubs, making Shunosaurus one of the better-sampled early sauropods. The skull has a short snout and leaf-shaped teeth. The tail club is formed by fused vertebrae.",
+      "Its plant diet is inferred from the skull and teeth. The function of the tail club — defence or display — is unresolved, and there is no direct evidence of its social behaviour."
+    ],
+    "takeaway": "An early sauropod with a short neck and a small tail club."
+  }
+}

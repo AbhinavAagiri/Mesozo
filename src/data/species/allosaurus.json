@@ -1,0 +1,183 @@
+{
+  "slug": "allosaurus",
+  "scientificName": "Allosaurus fragilis",
+  "commonName": "Different lizard",
+  "namedBy": "Marsh, 1877",
+  "group": "Theropoda · Allosauridae",
+  "groupKey": "Theropoda",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Kimmeridgian–Tithonian",
+  "ageMa": [
+    155,
+    145
+  ],
+  "ageLabel": "≈155–145 Ma",
+  "region": [
+    "United States",
+    "Portugal"
+  ],
+  "regionKeys": [
+    "North America",
+    "Europe"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "length": "≈9–11 m",
+  "mass": "≈2–3 t (estimate)",
+  "sizeNote": "Size varies between individuals and between Allosaurus species. The figures here are for A. fragilis and are estimates from mounted skeletons.",
+  "image": "allosaurus-living",
+  "fossilImage": "allosaurus-skull",
+  "featured": false,
+  "tagline": "The most common large predator of the Morrison Formation, known from an exceptional fossil sample.",
+  "summary": "Allosaurus fragilis is a large allosaurid from the Morrison Formation, known from an exceptionally large sample including the Cleveland-Lloyd Quarry. The skull is relatively lightly built, with a wide gape and brow horns. Bite-marked bones show feeding on large dinosaurs, including other Allosaurus, but the accumulation and social behaviour are debated.",
+  "taxonomy": [
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Allosauroidea"
+    },
+    {
+      "rank": "Family",
+      "value": "Allosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Allosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "A. fragilis"
+    }
+  ],
+  "discovery": {
+    "body": "Allosaurus fragilis was named by O. C. Marsh in 1877 from material collected in the Morrison Formation of Colorado. The Cleveland-Lloyd Quarry in Utah, excavated from the 1920s onward, produced an exceptional accumulation of individuals and made Allosaurus one of the best-known Jurassic theropods. A distinct species, A. europaeus, is known from Portugal.",
+    "evidence": "fossil",
+    "refs": [
+      "marsh1877",
+      "madsen1976"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "An abundant skeleton",
+      "body": "The Cleveland-Lloyd Quarry has yielded dozens of individuals, from juveniles to adults. The sample includes skulls, vertebral columns and limbs, allowing detailed study of variation and growth. The accumulation is unusual and may reflect a predator trap around a water source.",
+      "evidence": "fossil",
+      "refs": [
+        "madsen1976"
+      ]
+    },
+    {
+      "title": "Skull and feeding traces",
+      "body": "Skulls are relatively common. Tooth marks on bones and associated carcasses record feeding on sauropods and other dinosaurs. Some bones show damage consistent with Allosaurus teeth, including evidence of cannibalism.",
+      "evidence": "inference",
+      "refs": [
+        "hone2010"
+      ]
+    },
+    {
+      "title": "Jaw mechanics",
+      "body": "Finite-element modelling and comparative anatomy suggest a skull adapted for powerful, repeated strikes rather than a bone-crushing bite. The wide gape and relatively weak jaw joints are consistent with slash-feeding on large carcasses or prey.",
+      "evidence": "contested",
+      "refs": [
+        "rayfield2001"
+      ]
+    },
+    {
+      "title": "Mygatt-Moore feeding traces",
+      "body": "About 29% of the bones at Mygatt-Moore preserve theropod bite marks, including marks on Allosaurus bones. The traces are direct evidence of feeding and possible cannibalism; the trace-maker is identified from tooth morphology and relative abundance.",
+      "evidence": "fossil",
+      "refs": [
+        "drumheller2020"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Skull",
+      "body": "The skull is large but lightly built, with large openings and prominent ridges above the eyes. The teeth are recurved and serrated. The jaw can open widely, and the neck is robust. These features are consistent with a predator that delivered repeated bites to large prey.",
+      "evidence": "inference",
+      "refs": [
+        "rayfield2001"
+      ]
+    },
+    {
+      "title": "Limbs",
+      "body": "The forelimbs are short but strong, with three clawed fingers. The hindlimbs are long and built for running, though the animal was not as fast as a small ornithomimid. The feet bear three weight-bearing toes.",
+      "evidence": "fossil",
+      "refs": [
+        "madsen1976"
+      ]
+    },
+    {
+      "title": "Growth and variation",
+      "body": "The large sample shows substantial variation in size and robusticity. Some of this is growth; some may reflect species-level differences or sexual dimorphism, but the latter is difficult to demonstrate without a reliable independent marker.",
+      "evidence": "inference",
+      "refs": [
+        "madsen1976"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Allosaurus was a predator and scavenger. The Cleveland-Lloyd accumulation was once read as evidence of pack hunting, but a predator trap or drought accumulation can produce the same pattern. There is no direct evidence of coordinated social hunting. Cannibalism is supported by tooth-marked Allosaurus bones, but whether this reflects predation or scavenging is unclear.",
+    "evidence": "debate",
+    "refs": [
+      "drumheller2020",
+      "madsen1976"
+    ]
+  },
+  "reconstruction": {
+    "body": "Nineteenth- and early 20th-century mounts often showed Allosaurus upright with a dragging tail. The Dinosaur Renaissance of the 1970s restored a horizontal posture with the tail held off the ground. Modern reconstructions vary in the amount of soft tissue around the skull and in the animal's integument; no direct skin or feather impressions are known for Allosaurus.",
+    "evidence": "reconstruction",
+    "refs": [
+      "madsen1976"
+    ]
+  },
+  "references": [
+    "marsh1877",
+    "madsen1976",
+    "rayfield2001",
+    "hone2010",
+    "drumheller2020"
+  ],
+  "related": [
+    "tyrannosaurus",
+    "brachiosaurus",
+    "deinonychus"
+  ],
+  "confidenceNote": "The skeleton is exceptionally well sampled. Feeding traces support predation and scavenging; social hunting is not established. The integument and soft-tissue profile are unknown. Size estimates depend on which specimens are included.",
+  "updated": "2026-11-17",
+  "dietEvidence": {
+    "body": "Tooth-marked bones at Mygatt-Moore show that Allosaurus fed on large dinosaurs, including other Allosaurus. The traces establish carcass utilization; whether the animals were hunted or scavenged is not settled. No gut contents are known.",
+    "evidence": "direct",
+    "refs": [
+      "drumheller2020",
+      "hone2010"
+    ]
+  },
+  "sizeRefs": [
+    "madsen1976"
+  ],
+  "genus": "Allosaurus",
+  "epithet": "fragilis",
+  "status": "Extinct",
+  "added": "2026-11-13",
+  "accession": "MZ-001",
+  "locomotion": "Bipedal",
+  "habitat": "Floodplain and riverine woodland",
+  "ancientContext": "Morrison Formation, western North America",
+  "locality": [
+    "Cleveland-Lloyd Quarry, Utah, United States"
+  ]
+}

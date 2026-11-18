@@ -1,0 +1,162 @@
+{
+  "slug": "concavenator",
+  "accession": "MZ-106",
+  "scientificName": "Concavenator corcovatus",
+  "commonName": "Hunched hunter",
+  "genus": "Concavenator",
+  "epithet": "corcovatus",
+  "status": "Extinct",
+  "namedBy": "Ortega et al., 2010",
+  "group": "Theropoda · Carcharodontosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Hauterivian–Barremian",
+  "ageMa": [
+    130,
+    125
+  ],
+  "ageLabel": "≈130–125 Ma",
+  "region": [
+    "Spain"
+  ],
+  "regionKeys": [
+    "Europe"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The dentition is consistent with carnivory. No gut contents are known; prey choice and hunting method are inferred from skull and postcranial anatomy.",
+    "evidence": "inference",
+    "refs": [
+      "primary-concavenator",
+      "v19-concavenator-198"
+    ]
+  },
+  "length": "≈6 m",
+  "mass": "≈500–700 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "concavenator-living",
+  "featured": false,
+  "tagline": "A carcharodontosaurid with a triangular hump over the hips and possible quill knobs on the forearm. The hump is bone; the quill interpretation is debated.",
+  "summary": "Concavenator corcovatus is a carcharodontosaurid from the Las Hoyas locality of Spain, known from a nearly complete articulated skeleton. It has a tall triangular hump over the pelvis formed by elongated neural spines. Possible quill knobs on the ulna have been interpreted as evidence for a feather-like covering, but the identification is contested.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Tetanurae"
+    },
+    {
+      "rank": "Family",
+      "value": "Carcharodontosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Concavenator"
+    },
+    {
+      "rank": "Species",
+      "value": "C. corcovatus"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Ortega et al., 2010. The record is known from Las Hoyas, Cuenca. A nearly complete, articulated skeleton from Las Hoyas.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-concavenator"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Las Hoyas, Cuenca records the species in the Early Cretaceous. The numeric range used here is ≈130–125 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    },
+    {
+      "title": "Articulated holotype",
+      "body": "The holotype is a nearly complete, articulated skeleton from Las Hoyas. It preserves the pelvic hump and the ulna, including the structures interpreted as possible quill knobs.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-concavenator",
+        "v19-concavenator-197"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The presacral vertebrae form a tall, triangular hump, and the ulna bears a row of bumps interpreted as possible feather attachments.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-concavenator",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The behavioural evidence is skeletal: the pelvic hump and possible ulnar quill knobs are usually interpreted as display structures, but their function is not demonstrated. Social behaviour is unknown.",
+    "evidence": "inference",
+    "refs": [
+      "v19-concavenator-196",
+      "v19-concavenator-197"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a nearly complete, articulated skeleton from Las Hoyas. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-concavenator",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-concavenator",
+    "pbdb",
+    "paul2016",
+    "v19-concavenator-196",
+    "v19-concavenator-197",
+    "v19-concavenator-198"
+  ],
+  "related": [
+    "acrocanthosaurus",
+    "carcharodontosaurus",
+    "allosaurus"
+  ],
+  "confidenceNote": "The holotype is exceptionally complete and articulated. The quill-knob interpretation is debated, and the soft tissue of the hump is unknown. The species is known from a single major specimen.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Wetland and lake margin",
+  "ancientContext": "Las Hoyas, Cuenca",
+  "locality": [
+    "Las Hoyas, Cuenca"
+  ],
+  "researchStatus": "partially-verified"
+}

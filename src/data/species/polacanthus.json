@@ -1,0 +1,169 @@
+{
+  "slug": "polacanthus",
+  "accession": "MZ-050",
+  "scientificName": "Polacanthus foxii",
+  "commonName": "Many-thorned",
+  "genus": "Polacanthus",
+  "epithet": "foxii",
+  "status": "Extinct",
+  "namedBy": "Owen vide Anonymous, 1865; first described by Hulke, 1881",
+  "group": "Ornithischia · Nodosauridae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Hauterivian–Barremian",
+  "ageMa": [
+    130,
+    125
+  ],
+  "ageLabel": "≈130–125 Ma",
+  "region": [
+    "United Kingdom"
+  ],
+  "regionKeys": [
+    "Europe"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "Herbivory is inferred from ankylosaur anatomy. The incomplete skull limits direct evidence, and no gut contents are known.",
+    "evidence": "inference",
+    "refs": [
+      "primary-polacanthus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈4–5 m",
+  "mass": "≈1–1.5 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "polacanthus-living",
+  "featured": false,
+  "tagline": "A nodosaurid with a shield of fused armour over the hips and rows of spines along the body. The armour is known, but the skull is incomplete.",
+  "summary": "A nodosaurid with a shield of fused armour over the hips and rows of spines along the body. The armour is known, but the skull is incomplete.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Thyreophora"
+    },
+    {
+      "rank": "Family",
+      "value": "Nodosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Polacanthus"
+    },
+    {
+      "rank": "Species",
+      "value": "P. foxii"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Owen, 1865. The record is known from Wessex Formation, Isle of Wight. Several partial skeletons, mostly armour and postcrania.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-polacanthus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The holotype and referred specimens are partial skeletons from the Wessex Formation, mostly armour and postcrania. The skull is incomplete.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-polacanthus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Wessex Formation, Isle of Wight records the species in the Early Cretaceous. The numeric range used here is ≈130–125 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "A solid shield of fused armour covers the pelvic region, and large spines line the neck and shoulders. The tail lacks a club. The skull is incomplete.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-polacanthus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No direct evidence of social or parental behaviour. The armour and spines are preserved; their defensive function is inferred from structure and position.",
+    "evidence": "inference",
+    "refs": [
+      "primary-polacanthus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons, mostly armour and postcrania. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-polacanthus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-polacanthus",
+    "pbdb",
+    "paul2016",
+    "v19-polacanthus-85",
+    "v19-polacanthus-86",
+    "v19-polacanthus-87"
+  ],
+  "related": [
+    "sauropelta",
+    "edmontonia",
+    "minmi"
+  ],
+  "confidenceNote": "Polacanthus foxii is based on a partial skeleton from the Wessex Formation with a solid pelvic armour shield and large spines; the skull is incomplete. Its placement in Nodosauridae is provisional, and some analyses use Polacanthidae. No gut contents are known.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal floodplain",
+  "ancientContext": "Wessex Formation, Isle of Wight",
+  "locality": [
+    "Wessex Formation, Isle of Wight"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Polacanthus foxii was an armoured dinosaur from the [Early Cretaceous](/deep-time?period=cretaceous) of the Isle of Wight, England. It belonged to Ankylosauria and is known mainly from armour and postcranial bones rather than a complete skull.",
+    "paragraphs": [
+      "A solid shield of fused armour covers the pelvic region, and large spines line the neck and shoulders. The tail lacks a club. The armour is preserved, but its defensive function is inferred from structure and position.",
+      "Polacanthus is usually placed in Nodosauridae, though some analyses use Polacanthidae or recover it elsewhere. Its plant diet is inferred from ankylosaur anatomy, and no gut contents are known."
+    ],
+    "takeaway": "A spiny, shield-backed ankylosaur known mostly from its armour."
+  }
+}

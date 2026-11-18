@@ -1,0 +1,166 @@
+{
+  "slug": "corythosaurus",
+  "accession": "MZ-062",
+  "scientificName": "Corythosaurus casuarius",
+  "commonName": "Helmet lizard",
+  "genus": "Corythosaurus",
+  "epithet": "casuarius",
+  "status": "Extinct",
+  "namedBy": "Brown, 1914",
+  "group": "Ornithischia · Hadrosauridae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    77,
+    75
+  ],
+  "ageLabel": "≈77–75 Ma",
+  "region": [
+    "Canada"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The dental battery and beak are consistent with herbivory. No gut contents are known; the plants eaten and feeding mechanics are inferred from anatomy and comparisons with other hadrosaurids.",
+    "evidence": "inference",
+    "refs": [
+      "primary-corythosaurus",
+      "v19-corythosaurus-116"
+    ]
+  },
+  "length": "≈8–9 m",
+  "mass": "≈3–4 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "corythosaurus-living",
+  "featured": false,
+  "tagline": "A hadrosaurid with a tall, helmet-like crest formed by the nasal and frontal bones. The crest is hollow and connects to the nasal passages.",
+  "summary": "Corythosaurus casuarius is a lambeosaurine hadrosaurid from the Dinosaur Park Formation of Alberta. It has a tall, hollow, helmet-like crest connected to the nasal passages. The holotype was historically separated into different collections and later reunited, and the species is also known from the Judith River Formation of Montana.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithopoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Hadrosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Corythosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "C. casuarius"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Brown, 1914. The record is known from Dinosaur Park Formation, Alberta. Several complete skulls and articulated skeletons, some with skin impressions.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-corythosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several complete skulls and articulated skeletons, some with skin impressions.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-corythosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Dinosaur Park Formation, Alberta records the species in the Late Cretaceous. The numeric range used here is ≈77–75 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    },
+    {
+      "title": "Crest and holotype",
+      "body": "The skull bears a tall, hollow crest connected to the nasal passages. The holotype was historically separated into different collections and later reunited.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-corythosaurus",
+        "v19-corythosaurus-116"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull has a high domed crest, a broad beak, and a large dental battery.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-corythosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The hollow crest is usually interpreted as a resonating or display structure, but its function is not demonstrated. Bonebed associations in other hadrosaurids suggest social behaviour, but no such association is established for this species here.",
+    "evidence": "inference",
+    "refs": [
+      "primary-corythosaurus"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several complete skulls and articulated skeletons, some with skin impressions. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-corythosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-corythosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-corythosaurus-116",
+    "v19-corythosaurus-117"
+  ],
+  "related": [
+    "lambeosaurus",
+    "parasaurolophus",
+    "edmontosaurus"
+  ],
+  "confidenceNote": "The crest and skull anatomy are well known. Crest function is inferred, and soft tissue and colour are unknown. The Judith River occurrence extends the range but does not establish population structure.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Facultatively bipedal; quadrupedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Dinosaur Park Formation, Alberta",
+  "locality": [
+    "Dinosaur Park Formation, Alberta"
+  ],
+  "researchStatus": "partially-verified"
+}

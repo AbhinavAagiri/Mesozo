@@ -1,0 +1,167 @@
+{
+  "slug": "nothronychus",
+  "accession": "MZ-101",
+  "scientificName": "Nothronychus mckinleyi",
+  "commonName": "Sloth claw",
+  "genus": "Nothronychus",
+  "epithet": "mckinleyi",
+  "status": "Extinct",
+  "namedBy": "Kirkland & Wolfe, 2001",
+  "group": "Theropoda · Therizinosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Turonian",
+  "ageMa": [
+    92,
+    90
+  ],
+  "ageLabel": "≈92–90 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore · inferred",
+  "dietEvidence": {
+    "body": "Herbivory is inferred from the broad pelvis, short tail and the wider therizinosaur record. No gut contents are known for N. mckinleyi, and the skull is incomplete; the diet could have included other plant or animal matter. This is a comparative inference, not an observation.",
+    "evidence": "inference",
+    "refs": [
+      "primary-nothronychus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈4.5–5.5 m",
+  "mass": "≈1–2 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "nothronychus-living",
+  "featured": false,
+  "tagline": "A North American therizinosaur with a large belly, long forelimbs and large claws. Its diet is inferred as herbivorous, but direct evidence is limited.",
+  "summary": "A North American therizinosaur with a large belly, long forelimbs and large claws. Its diet is inferred as herbivorous, but direct evidence is limited.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Maniraptora"
+    },
+    {
+      "rank": "Family",
+      "value": "Therizinosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Nothronychus"
+    },
+    {
+      "rank": "Species",
+      "value": "N. mckinleyi"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Kirkland & Wolfe, 2001. The holotype, MSM P2117 (older accounts cite P2106), is a partial skeleton from the Moreno Hill Formation, New Mexico. A second species, N. graffami, is known from the Tropic Shale.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-nothronychus",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "A partial skeleton from New Mexico, plus referred material.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-nothronychus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Moreno Hill Formation, New Mexico records the species in the Late Cretaceous. The numeric range used here is ≈92–90 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The forelimbs are long with large claws, the pelvis is broad, and the hindlimbs are short.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-nothronychus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The holotype is a partial skeleton, and no nest, trackway or social association is known. The large claws and forelimbs are preserved, but their use in feeding, defence or display is inferred. Soft-tissue impressions are known from N. graffami, not from the type species.",
+    "evidence": "inference",
+    "refs": [
+      "primary-nothronychus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a partial skeleton from New Mexico, plus referred material. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-nothronychus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-nothronychus",
+    "pbdb",
+    "paul2016",
+    "v19-nothronychus-188",
+    "v19-nothronychus-189",
+    "v19-nothronychus-190",
+    "v19-nothronychus-191"
+  ],
+  "related": [
+    "therizinosaurus",
+    "falcarius",
+    "beipiaosaurus"
+  ],
+  "confidenceNote": "Confidence is high for the type specimen and its stratigraphic occurrence. It is low for the skull, diet, claw function and social behaviour. The catalogue number has been cited as MSM P2117 and P2106, and the species is not known from a complete skeleton.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Moreno Hill Formation, New Mexico",
+  "locality": [
+    "Moreno Hill Formation, New Mexico"
+  ],
+  "researchStatus": "partially-verified"
+}

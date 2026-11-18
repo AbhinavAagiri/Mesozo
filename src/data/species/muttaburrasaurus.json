@@ -1,0 +1,161 @@
+{
+  "slug": "muttaburrasaurus",
+  "accession": "MZ-073",
+  "scientificName": "Muttaburrasaurus langdoni",
+  "commonName": "Muttaburra lizard",
+  "genus": "Muttaburrasaurus",
+  "epithet": "langdoni",
+  "status": "Extinct",
+  "namedBy": "Bartholomai & Molnar, 1981",
+  "group": "Ornithischia · Ornithopoda incertae sedis",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Cenomanian–lower Turonian",
+  "ageMa": [
+    96.3,
+    93.5
+  ],
+  "ageLabel": "≈96.3–93.5 Ma",
+  "region": [
+    "Australia"
+  ],
+  "regionKeys": [
+    "Australia"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "Dental and jaw anatomy support herbivory, but no gut contents or direct feeding traces are known. The plants eaten and the feeding posture are inferred; the incomplete skull and unknown nasal soft tissue limit dietary reconstruction.",
+    "evidence": "inference",
+    "refs": [
+      "primary-muttaburrasaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈7–8 m",
+  "mass": "≈2–3 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "muttaburrasaurus-living",
+  "featured": false,
+  "tagline": "A large iguanodontian with a deep snout and a bulbous nasal region. Its diet is inferred as herbivorous; the snout may have supported a soft-tissue display structure.",
+  "summary": "A large iguanodontian with a deep snout and a bulbous nasal region. Its diet is inferred as herbivorous; the snout may have supported a soft-tissue display structure.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithopoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Ornithopoda incertae sedis"
+    },
+    {
+      "rank": "Genus",
+      "value": "Muttaburrasaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "M. langdoni"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Bartholomai & Molnar, 1981. The holotype, QM F6140, is a partial skeleton including a skull from the Mackunda Formation, Queensland. The species is now dated to the Cenomanian–lower Turonian, approximately 96.3–93.5 Ma.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-muttaburrasaurus",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "A partial skeleton and skull from Queensland.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-muttaburrasaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Mackunda Formation, Queensland. The recent stratigraphic review dates the occurrence to the Cenomanian–lower Turonian, approximately 96.3–93.5 Ma, rather than the Albian range of about 107–103 Ma used in older summaries.",
+      "evidence": "fossil",
+      "refs": [
+        "v19-muttaburrasaurus-141",
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull has a deep, rounded snout and a robust dental battery; the postcranial skeleton is bulky.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-muttaburrasaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Facultative bipedality is reconstructed from limb proportions, but the centre of mass and habitual posture depend on soft-tissue reconstruction. No nest, trackway or social association is known. The bulbous nasal region may have supported a soft-tissue display structure, but its function is not established.",
+    "evidence": "inference",
+    "refs": [
+      "primary-muttaburrasaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a partial skeleton and skull from Queensland. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-muttaburrasaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-muttaburrasaurus",
+    "pbdb",
+    "paul2016",
+    "v19-muttaburrasaurus-141"
+  ],
+  "related": [
+    "iguanodon",
+    "ouranosaurus",
+    "leaellynasaura"
+  ],
+  "confidenceNote": "Confidence is high for the partial skull and postcranium of the holotype, QM F6140. It is lower for the nasal soft tissue, habitual gait, diet and behaviour. The phylogenetic position within Ornithopoda is contested, and the skull is incomplete.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Facultatively bipedal; quadrupedal",
+  "habitat": "Floodplain woodland",
+  "ancientContext": "Mackunda Formation, Queensland",
+  "locality": [
+    "Mackunda Formation, Queensland"
+  ],
+  "researchStatus": "partially-verified"
+}

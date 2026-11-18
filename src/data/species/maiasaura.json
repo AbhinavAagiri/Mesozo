@@ -1,0 +1,169 @@
+{
+  "slug": "maiasaura",
+  "accession": "MZ-064",
+  "scientificName": "Maiasaura peeblesorum",
+  "commonName": "Good mother lizard",
+  "genus": "Maiasaura",
+  "epithet": "peeblesorum",
+  "status": "Extinct",
+  "namedBy": "Horner & Makela, 1979",
+  "group": "Ornithischia · Hadrosauridae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    77,
+    75
+  ],
+  "ageLabel": "≈77–75 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The dental battery and broad snout indicate a herbivorous diet. No gut contents are known; the plants eaten and the feeding style are inferred from jaw morphology and comparison with other hadrosaurs.",
+    "evidence": "inference",
+    "refs": [
+      "primary-maiasaura",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈7–8 m",
+  "mass": "≈2–3 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "maiasaura-living",
+  "featured": false,
+  "tagline": "A hadrosaurid known from nests, eggs and juveniles as well as adults. The nesting association is strong evidence of colonial nesting, but the extent of parental care is inferred.",
+  "summary": "A hadrosaurid known from nests, eggs and juveniles as well as adults. The nesting association supports colonial nesting, but the extent of coloniality and parental care is inferred.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithopoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Hadrosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Maiasaura"
+    },
+    {
+      "rank": "Species",
+      "value": "M. peeblesorum"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Horner & Makela, 1979. The record is known from Two Medicine Formation, Montana. An exceptional growth series, nests and eggs from Montana.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-maiasaura"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "An exceptional growth series, nests and eggs from Montana.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-maiasaura",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Two Medicine Formation, Montana records the species in the Late Cretaceous. The numeric range used here is ≈77–75 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is low and broad, with a small crest, and the dental battery is well developed. The snout is broad and the jaws carry tightly packed teeth.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-maiasaura",
+        "v19-maiasaura-122"
+      ]
+    },
+    {
+      "title": "Body plan",
+      "body": "Juveniles walked primarily as bipeds; adults shifted toward a quadrupedal stance. The change is inferred from morphometrics and beam-theory analysis of limb bones across growth, not from trackways.",
+      "evidence": "inference",
+      "refs": [
+        "v19-maiasaura-121"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Nests containing juvenile remains support the interpretation that Maiasaura nested colonially and that juveniles were associated with nests. Whether adults fed or defended the young is not directly preserved. The original 'family structure' interpretation is an inference from the association, and trackways or bonebeds do not by themselves establish herding.",
+    "evidence": "inference",
+    "refs": [
+      "primary-maiasaura",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from an exceptional growth series, nests and eggs from Montana. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-maiasaura",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-maiasaura",
+    "pbdb",
+    "paul2016",
+    "v19-maiasaura-119",
+    "v19-maiasaura-120",
+    "v19-maiasaura-121",
+    "v19-maiasaura-122"
+  ],
+  "related": [
+    "edmontosaurus",
+    "gryposaurus",
+    "protoceratops"
+  ],
+  "confidenceNote": "The nesting and growth series are exceptional, but parental care and the extent of colonial nesting are inferences from assemblage structure. Horner et al. (2000) recognised six growth stages and found that lines of arrested growth appear regularly by the subadult stage. Dilkes (2001) found a shift from bipedal juveniles to quadrupedal adults. The original 1979 nesting study is the basis for the family-structure hypothesis, not a direct observation of feeding or defence.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Facultatively bipedal; quadrupedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Two Medicine Formation, Montana",
+  "locality": [
+    "Two Medicine Formation, Montana"
+  ],
+  "researchStatus": "partially-verified"
+}

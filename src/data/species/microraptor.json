@@ -1,0 +1,166 @@
+{
+  "slug": "microraptor",
+  "accession": "MZ-094",
+  "scientificName": "Microraptor gui",
+  "commonName": "Small thief",
+  "genus": "Microraptor",
+  "epithet": "gui",
+  "status": "Extinct",
+  "namedBy": "Xu et al., 2003",
+  "group": "Theropoda · Dromaeosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Barremian–Aptian",
+  "ageMa": [
+    126,
+    120
+  ],
+  "ageLabel": "≈126–120 Ma",
+  "region": [
+    "China"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The dentition indicates carnivory. No gut contents are treated in the cited flight studies; prey choice is not established here.",
+    "evidence": "inference",
+    "refs": [
+      "primary-microraptor",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈0.8–1 m",
+  "mass": "≈1 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "microraptor-living",
+  "featured": false,
+  "tagline": "A small dromaeosaur with long feathers on all four limbs. The wing-like arrangement is preserved, but its flight capability is debated.",
+  "summary": "A small dromaeosaur with long feathers on all four limbs. The wing-like arrangement is preserved, but its flight capability is debated.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Maniraptora"
+    },
+    {
+      "rank": "Family",
+      "value": "Dromaeosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Microraptor"
+    },
+    {
+      "rank": "Species",
+      "value": "M. gui"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Xu et al., 2003. The record is known from Jiufotang Formation, Liaoning. Many complete skeletons with feather impressions, including gut contents.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-microraptor"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Many complete skeletons with feather impressions, including gut contents.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-microraptor",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Jiufotang Formation, Liaoning records the species in the Early Cretaceous. The numeric range used here is ≈126–120 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The forelimbs and hindlimbs bear long asymmetric flight feathers, and ultraviolet imaging shows that the feathers reached the body rather than drifting after death. The tail is long and feathered.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-microraptor",
+        "v19-microraptor-169"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The preserved plumage is direct evidence of appearance. Gliding is an inference from feather geometry and model tests, not an observation. The animal was not capable of powered flight under the tested models.",
+    "evidence": "inference",
+    "refs": [
+      "primary-microraptor",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from many complete skeletons with feather impressions, including gut contents. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-microraptor",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-microraptor",
+    "pbdb",
+    "paul2016",
+    "v19-microraptor-169",
+    "v19-microraptor-170",
+    "v19-microraptor-171"
+  ],
+  "related": [
+    "anchiornis",
+    "sinosauropteryx"
+  ],
+  "confidenceNote": "The feathers are preserved and reach the body, but flight style is actively debated. Chatterjee & Templin (2007) reconstructed a staggered biplane and found a plausible gliding performance; Alexander et al. (2010) found multiple hindwing configurations stable in glide tests. Neither establishes powered flight. The species-level distinction from M. zhaoianus is also contested.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Temperate forest and lake margin",
+  "ancientContext": "Jiufotang Formation, Liaoning",
+  "locality": [
+    "Jiufotang Formation, Liaoning"
+  ],
+  "researchStatus": "partially-verified",
+  "synonyms": [
+    "Microraptor zhaoianus (possible senior synonym)"
+  ]
+}

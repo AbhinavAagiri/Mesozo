@@ -1,0 +1,162 @@
+{
+  "slug": "pachyrhinosaurus",
+  "accession": "MZ-055",
+  "scientificName": "Pachyrhinosaurus canadensis",
+  "commonName": "Thick-nosed lizard",
+  "genus": "Pachyrhinosaurus",
+  "epithet": "canadensis",
+  "status": "Extinct",
+  "namedBy": "Sternberg, 1950",
+  "group": "Ornithischia · Ceratopsidae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    74,
+    72
+  ],
+  "ageLabel": "≈74–72 Ma",
+  "region": [
+    "Canada"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "Herbivory is inferred from the ceratopsian dentition and jaw apparatus. No gut contents are known, and the plants eaten are not preserved; the broad diet is a group-level inference.",
+    "evidence": "inference",
+    "refs": [
+      "primary-pachyrhinosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈6–8 m",
+  "mass": "≈3–4 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "pachyrhinosaurus-living",
+  "featured": false,
+  "tagline": "A centrosaurine ceratopsian with a massive bony boss over the nose instead of a tall horn. The boss is well preserved; its function is debated.",
+  "summary": "A centrosaurine ceratopsian with a massive bony boss over the nose instead of a tall horn. The boss is well preserved; its function is debated.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Marginocephalia"
+    },
+    {
+      "rank": "Family",
+      "value": "Ceratopsidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Pachyrhinosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "P. canadensis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Sternberg, 1950. The holotype, NMC 8867, is a skull with associated material from the Horseshoe Canyon Formation, Alberta. The nasal horn is replaced by a broad bony boss.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-pachyrhinosaurus",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several skulls and partial skeletons, including bonebed material.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-pachyrhinosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Horseshoe Canyon Formation, Alberta records the species in the Late Cretaceous. The numeric range used here is ≈74–72 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The nasal region forms a thick, rugose boss, the frill is moderately long, and the skull is large.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-pachyrhinosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Bonebeds show that several Pachyrhinosaurus individuals were buried together, but they do not demonstrate herding or a single mass-death event; transport and time-averaging are possible. The nasal boss changes shape through growth, which complicates species identification of isolated skulls. No direct evidence of boss function is known.",
+    "evidence": "inference",
+    "refs": [
+      "primary-pachyrhinosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several skulls and partial skeletons, including bonebed material. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-pachyrhinosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-pachyrhinosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-pachyrhinosaurus-102",
+    "v19-pachyrhinosaurus-103",
+    "v19-pachyrhinosaurus-104"
+  ],
+  "related": [
+    "centrosaurus",
+    "styracosaurus",
+    "einiosaurus"
+  ],
+  "confidenceNote": "Confidence is high for the skull and nasal boss of the holotype. It is lower for the growth series of P. canadensis, boss function, bonebed behaviour and the completeness of the postcranium. The growth series is better known in P. perotorum.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Horseshoe Canyon Formation, Alberta",
+  "locality": [
+    "Horseshoe Canyon Formation, Alberta"
+  ],
+  "researchStatus": "partially-verified"
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "megalosaurus",
+    "year": 1824,
+    "dateLabel": "1824",
+    "title": "The first dinosaur gets a name",
+    "subject": "Megalosaurus bucklandii",
+    "kind": "publication",
+    "summary": "William Buckland describes Megalosaurus from a jaw and bones from Stonesfield, England. It is the first non-avian dinosaur to receive a scientific name, though 'dinosaur' does not yet exist as a category.",
+    "refs": ["buckland1824"]
+  },
+  {
+    "id": "dinosauria",
+    "year": 1842,
+    "dateLabel": "1842",
+    "title": "Dinosauria is named",
+    "subject": "Dinosauria",
+    "kind": "publication",
+    "summary": "Richard Owen groups Megalosaurus, Iguanodon and Hylaeosaurus into Dinosauria. His reconstruction presents them as large, quadrupedal reptiles; later work will overturn much of that posture and biology.",
+    "refs": ["owen1842"]
+  },
+  {
+    "id": "allosaurus-named",
+    "year": 1877,
+    "dateLabel": "1877",
+    "title": "Allosaurus is described",
+    "subject": "Allosaurus fragilis",
+    "kind": "publication",
+    "summary": "O. C. Marsh names Allosaurus from the Morrison Formation. The Cleveland-Lloyd quarry, worked from the 1920s, will make it one of the best-sampled Jurassic theropods.",
+    "refs": ["marsh1877"]
+  },
+  {
+    "id": "triceratops-named",
+    "year": 1889,
+    "dateLabel": "1889",
+    "title": "Triceratops is described",
+    "subject": "Triceratops horridus",
+    "kind": "publication",
+    "summary": "Marsh names Triceratops from a skull fragment collected near Denver two years earlier. Complete skulls later reveal the scale of its horns and frill.",
+    "refs": ["marsh1889"]
+  },
+  {
+    "id": "trex-named",
+    "year": 1905,
+    "dateLabel": "1905",
+    "title": "Tyrannosaurus rex is named",
+    "subject": "Tyrannosaurus rex",
+    "kind": "publication",
+    "summary": "Barnum Brown's 1902 collection from Montana becomes the basis for Osborn's Tyrannosaurus rex. Early mounts stand the animal upright with a dragging tail, a posture that will persist for decades.",
+    "refs": ["osborn1905"]
+  },
+  {
+    "id": "spinosaurus-named",
+    "year": 1915,
+    "dateLabel": "1915",
+    "title": "Spinosaurus enters the record",
+    "subject": "Spinosaurus aegyptiacus",
+    "kind": "publication",
+    "summary": "Ernst Stromer describes Spinosaurus from Bahariya Oasis, Egypt: a long-snouted, sail-backed predator known from fragmentary remains.",
+    "refs": ["stromer1915"]
+  },
+  {
+    "id": "spinosaurus-lost",
+    "year": 1944,
+    "dateLabel": "1944",
+    "title": "The Spinosaurus type is destroyed",
+    "subject": "Spinosaurus aegyptiacus",
+    "kind": "discovery",
+    "summary": "The Munich museum holding Stromer's Egyptian collections is hit during bombing. The Spinosaurus type material is lost; only drawings, photographs and casts remain. The loss shapes every later reconstruction.",
+    "refs": ["ibrahim2014"]
+  },
+  {
+    "id": "deinonychus",
+    "year": 1969,
+    "dateLabel": "1969",
+    "title": "Deinonychus and the Dinosaur Renaissance",
+    "subject": "Deinonychus antirrhopus",
+    "kind": "publication",
+    "summary": "John Ostrom's monograph describes an agile, bird-like predator with a sickle claw. Its anatomy supports active, endothermic dinosaurs and helps launch the Dinosaur Renaissance.",
+    "refs": ["ostrom1969"]
+  },
+  {
+    "id": "baryonyx-named",
+    "year": 1986,
+    "dateLabel": "1986",
+    "title": "A fish-eating dinosaur from Surrey",
+    "subject": "Baryonyx walkeri",
+    "kind": "publication",
+    "summary": "Charig and Milner name Baryonyx from a partial skeleton found at Smokejacks Brickworks in 1983. Fish scales and teeth in the body-cavity region provide direct evidence of fish eating.",
+    "refs": ["charig1986", "charig1997"]
+  },
+  {
+    "id": "quill-knobs",
+    "year": 2007,
+    "dateLabel": "2007",
+    "title": "Feathers on Velociraptor",
+    "subject": "Velociraptor mongoliensis",
+    "kind": "discovery",
+    "summary": "A Velociraptor ulna preserves regularly spaced quill knobs, direct osteological evidence for large forearm feathers. The discovery closes a gap between inferred and observed feathered dromaeosaurs.",
+    "refs": ["turner2007"]
+  },
+  {
+    "id": "sophie-stegosaurus",
+    "year": 2015,
+    "dateLabel": "2015",
+    "title": "An articulated stegosaur",
+    "subject": "Stegosaurus stenops",
+    "kind": "publication",
+    "summary": "Maidment and colleagues describe NHMUK PV R36730, an exceptionally complete Stegosaurus from Wyoming that preserves much of the skeleton and armour in articulation.",
+    "refs": ["maidment2015"]
+  },
+  {
+    "id": "spinosaurus-semiaquatic",
+    "year": 2014,
+    "dateLabel": "2014",
+    "title": "A semiaquatic Spinosaurus",
+    "subject": "Spinosaurus aegyptiacus",
+    "kind": "interpretation",
+    "summary": "Ibrahim and colleagues describe a partial skeleton from Morocco and propose it as a neotype, a designation later disputed by Evers and colleagues. Short hind limbs, dense bones and a long snout lead them to propose a semiaquatic, possibly quadrupedal animal.",
+    "refs": ["ibrahim2014", "evers2015"]
+  },
+  {
+    "id": "spinosaurus-tail",
+    "year": 2020,
+    "dateLabel": "2020",
+    "title": "A paddle tail",
+    "subject": "Spinosaurus aegyptiacus",
+    "kind": "discovery",
+    "summary": "The tail of the Moroccan specimen is described, with tall distal neural spines and elongated chevrons forming a paddle. The authors argue for tail-propelled swimming.",
+    "refs": ["ibrahim2020"]
+  },
+  {
+    "id": "spinosaurus-debate",
+    "year": 2022,
+    "dateLabel": "2022–24",
+    "title": "The aquatic hypothesis is challenged",
+    "subject": "Spinosaurus aegyptiacus",
+    "kind": "interpretation",
+    "summary": "Studies argue for and against habitual aquatic behaviour. Hone and Holtz propose a shoreline generalist; Sereno and colleagues reconstruct a more terrestrial, bipedal animal; a 2024 paper questions the bone-density methods behind the aquatic inference.",
+    "refs": ["honeholtz2021", "sereno2022", "myhrvold2024"]
+  }
+]

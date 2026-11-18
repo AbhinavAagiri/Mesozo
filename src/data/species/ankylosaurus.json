@@ -1,0 +1,175 @@
+{
+  "slug": "ankylosaurus",
+  "scientificName": "Ankylosaurus magniventris",
+  "commonName": "Fused lizard",
+  "namedBy": "Brown, 1908",
+  "group": "Ornithischia · Ankylosauridae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Maastrichtian",
+  "ageMa": [
+    68,
+    66
+  ],
+  "ageLabel": "68–66 Ma",
+  "region": [
+    "United States",
+    "Canada"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "length": "≈6–8 m",
+  "mass": "≈5–8 t (estimate)",
+  "sizeNote": "Only a few partial skeletons are known, and the animal's wide body makes mass estimates sensitive to the reconstruction used. The figures here are approximate.",
+  "image": "ankylosaurus-living",
+  "fossilImage": "ankylosaurus-skull",
+  "featured": false,
+  "tagline": "An armoured herbivore with a tail club, from the final ecosystems of the Cretaceous.",
+  "summary": "Ankylosaurus magniventris is a large ankylosaurid from the Hell Creek Formation of Montana. It is known from relatively few specimens, but these preserve the distinctive osteoderm armour and a tail club formed from fused vertebrae and armour. Club impact has been modelled, but its use in combat is inferred.",
+  "taxonomy": [
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Thyreophora"
+    },
+    {
+      "rank": "Family",
+      "value": "Ankylosauridae"
+    },
+    {
+      "rank": "Subfamily",
+      "value": "Ankylosaurinae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Ankylosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "A. magniventris"
+    }
+  ],
+  "discovery": {
+    "body": "Barnum Brown collected the first specimens from the Hell Creek Formation of Montana in 1906 and named Ankylosaurus magniventris in 1908. Later finds from Montana, Wyoming and Canada added skull and postcranial material, but the sample remains small compared with Triceratops or Tyrannosaurus.",
+    "evidence": "fossil",
+    "refs": [
+      "brown1908",
+      "carpenter2004"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Armour and skull",
+      "body": "The skull is broad and low, with a fused covering of bony plates and a beak at the front. Osteoderms covered the back and sides. The arrangement of the armour in life is reconstructed from articulated specimens and from related ankylosaurs, not from a single complete Ankylosaurus.",
+      "evidence": "fossil",
+      "refs": [
+        "brown1908",
+        "carpenter2004"
+      ]
+    },
+    {
+      "title": "Tail club",
+      "body": "The tail ends in a handle of fused vertebrae and a club of large osteoderms. The club is genuine, but its impact force and defensive use are modelled rather than observed. A 2009 study estimated that the club could deliver a substantial blow, but whether it was used against predators, rivals, or both is unknown.",
+      "evidence": "inference",
+      "refs": [
+        "arbour2009",
+        "carpenter2004"
+      ]
+    },
+    {
+      "title": "A sparse sample",
+      "body": "Only a handful of relatively complete individuals are known. This makes Ankylosaurus one of the better-known ankylosaurids by name but a relatively poorly sampled one by number. Soft tissue, skin colour and the exact arrangement of the smallest osteoderms are unknown.",
+      "evidence": "fossil",
+      "refs": [
+        "carpenter2004"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Armour",
+      "body": "The body was covered by osteoderms of different sizes, with larger plates along the back and sides. The skull itself was fused and reinforced. The armour would have added mass and may have had a display function as well as a defensive one.",
+      "evidence": "fossil",
+      "refs": [
+        "carpenter2004"
+      ]
+    },
+    {
+      "title": "Beak and teeth",
+      "body": "The jaws end in a broad beak, and the teeth are small and leaf-shaped. Ankylosaurus was a low-browsing herbivore, cropping vegetation close to the ground. The jaw mechanics suggest a simple shearing or crushing action rather than complex chewing.",
+      "evidence": "inference",
+      "refs": [
+        "carpenter2004"
+      ]
+    },
+    {
+      "title": "Limbs and body",
+      "body": "The limbs are short and robust, and the body is very wide. The animal probably moved slowly compared with large theropods. The feet bear several toes and would have supported a considerable load.",
+      "evidence": "fossil",
+      "refs": [
+        "brown1908"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The tail club is a defensive structure by inference from its mass and shape. Modelling shows that it could deliver a high-impact strike, but no fossil records a strike against a predator. Social behaviour, parental care and vocalisation are unknown.",
+    "evidence": "inference",
+    "refs": [
+      "arbour2009",
+      "carpenter2004"
+    ]
+  },
+  "reconstruction": {
+    "body": "Brown's original reconstruction established the general armoured, club-tailed form, but the position and number of osteoderms have been revised as new specimens and comparative work on other ankylosaurs have accumulated. The animal is often shown in a low, sprawling posture; the actual limb posture and gait are still studied.",
+    "evidence": "reconstruction",
+    "refs": [
+      "brown1908",
+      "carpenter2004"
+    ]
+  },
+  "references": [
+    "brown1908",
+    "carpenter2004",
+    "arbour2009",
+    "pbdb"
+  ],
+  "related": [
+    "triceratops",
+    "tyrannosaurus"
+  ],
+  "confidenceNote": "The armour and tail club are well supported. The sample is small, the growth series is limited, and soft tissue is unknown. Club function is reconstructed from mechanics, not observed behaviour.",
+  "updated": "2026-11-17",
+  "dietEvidence": {
+    "body": "The skull and dentition are consistent with herbivory. No gut contents are known, and the plants eaten are inferred from tooth morphology and comparisons with other ankylosaurs.",
+    "evidence": "inference",
+    "refs": [
+      "carpenter2004",
+      "brown1908"
+    ]
+  },
+  "sizeRefs": [
+    "carpenter2004"
+  ],
+  "genus": "Ankylosaurus",
+  "epithet": "magniventris",
+  "status": "Extinct",
+  "added": "2026-11-13",
+  "accession": "MZ-002",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal floodplain",
+  "ancientContext": "Hell Creek and Lance formations, western North America",
+  "locality": [
+    "Hell Creek Formation, Montana, United States"
+  ]
+}

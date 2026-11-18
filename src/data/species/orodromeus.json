@@ -1,0 +1,160 @@
+{
+  "slug": "orodromeus",
+  "accession": "MZ-071",
+  "scientificName": "Orodromeus makelai",
+  "commonName": "Mountain runner",
+  "genus": "Orodromeus",
+  "epithet": "makelai",
+  "status": "Extinct",
+  "namedBy": "Horner & Weishampel, 1988",
+  "group": "Ornithischia · Thescelosauridae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    77,
+    75
+  ],
+  "ageLabel": "≈77–75 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The dentition and jaw apparatus support herbivory, but no gut contents are known. The diet is a comparative inference for a small ornithopod; the plants eaten and the feeding style are not preserved.",
+    "evidence": "inference",
+    "refs": [
+      "primary-orodromeus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈2–2.5 m",
+  "mass": "≈20–40 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "orodromeus-living",
+  "featured": false,
+  "tagline": "A small ornithopod known from partial skeletons. Egg clutches once attributed to it are now referred to a troodontid, so the nesting evidence is not secure.",
+  "summary": "A small ornithopod known from partial skeletons. Egg clutches once attributed to Orodromeus, including MOR 246, were reinterpreted as troodontid eggs and are not direct evidence of its nesting.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithopoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Thescelosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Orodromeus"
+    },
+    {
+      "rank": "Species",
+      "value": "O. makelai"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Horner & Weishampel, 1988. The holotype, MOR 294, is a partial skeleton with a skull from the Two Medicine Formation, Montana. Egg clutches once attributed to Orodromeus, including MOR 246, were later reinterpreted as troodontid.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-orodromeus",
+      "varricchio2002",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several partial skeletons, including the holotype MOR 294. Egg clutches once attributed to Orodromeus, including MOR 246, were reinterpreted as troodontid eggs; they are not direct evidence of Orodromeus nesting.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-orodromeus",
+        "varricchio2002"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Two Medicine Formation, Montana records the species in the Late Cretaceous. The numeric range used here is ≈77–75 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skeleton is lightly built, with long hindlimbs and a small skull.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-orodromeus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Long-bone histology shows rapid growth with growth marks, but the age at maturity is not precisely known. Egg clutches once attributed to Orodromeus, including MOR 246, are now reinterpreted as troodontid eggs, so they are not evidence of nesting or parental care. No trackway or social association is known.",
+    "evidence": "inference",
+    "refs": [
+      "primary-orodromeus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from partial skeletons from the Two Medicine Formation. The reconstruction is an artist’s interpretation of appearance, not a direct observation from the fossil record; preserved integument is unknown, and the soft-tissue outline is inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-orodromeus",
+      "varricchio2002"
+    ]
+  },
+  "references": [
+    "primary-orodromeus",
+    "pbdb",
+    "paul2016",
+    "v19-tenontosaurus-130",
+    "varricchio2002"
+  ],
+  "related": [
+    "hypsilophodon",
+    "leaellynasaura",
+    "dryosaurus"
+  ],
+  "confidenceNote": "Confidence is high for the histology and the bipedal limb proportions. It is low for the original egg attribution, the age at maturity, social behaviour and the completeness of the skull and postcranium. MOR 246 is not an Orodromeus nest.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Two Medicine Formation, Montana",
+  "locality": [
+    "Two Medicine Formation, Montana"
+  ],
+  "researchStatus": "partially-verified"
+}

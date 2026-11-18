@@ -1,0 +1,108 @@
+[
+  {
+    "year": "1912",
+    "dateLabel": "1912–14",
+    "title": "Excavation at Bahariya",
+    "kind": "fieldwork",
+    "people": "Ernst Stromer",
+    "body": "Stromer’s expedition works the Bahariya Oasis in Egypt and recovers fragmentary theropod material, including jaw pieces, teeth and vertebrae. The fossils are shipped to Munich. A second partial skeleton, later called ‘Spinosaurus B’, preserves limb material.",
+    "refs": ["stromer1915", "ibrahim2014"]
+  },
+  {
+    "year": "1915",
+    "dateLabel": "1915",
+    "title": "Spinosaurus aegyptiacus is named",
+    "kind": "publication",
+    "people": "Ernst Stromer",
+    "body": "Stromer describes the animal as a long-snouted, sail-backed theropod. The type is BSP 1912 VIII 19. The reconstruction is necessarily partial: no complete skull or skeleton is known.",
+    "refs": ["stromer1915"]
+  },
+  {
+    "year": "1934",
+    "dateLabel": "1934",
+    "title": "The monograph and the plates",
+    "kind": "publication",
+    "people": "Ernst Stromer",
+    "body": "Stromer publishes a fuller description and plates of additional material, including the second partial skeleton ‘Spinosaurus B’. The tall neural spines were already known from the holotype; the 1934 monograph makes the anatomy more widely visible. The animal is reconstructed as a bipedal predator.",
+    "refs": ["stromer1934", "evers2015"]
+  },
+  {
+    "year": "1944",
+    "dateLabel": "1944",
+    "title": "The type is destroyed",
+    "kind": "loss",
+    "body": "The Munich collections are destroyed in bombing during the Second World War. Stromer’s Spinosaurus type is lost. Later work must rely on his drawings, photographs, casts and new material.",
+    "refs": ["ibrahim2014"]
+  },
+  {
+    "year": "2005",
+    "dateLabel": "2005",
+    "title": "A better skull",
+    "kind": "publication",
+    "people": "Cristiano Dal Sasso and colleagues",
+    "body": "A partial skull from Morocco, MSNM V4047, is described. It confirms the extremely long, narrow rostrum and a terminal rosette of teeth, and prompts revised size estimates. The skull is still incomplete.",
+    "refs": ["dalsasso2005"]
+  },
+  {
+    "year": "2014",
+    "dateLabel": "2014",
+    "title": "A proposed neotype and a new posture",
+    "kind": "interpretation",
+    "people": "Nizar Ibrahim and colleagues",
+    "body": "A partial skeleton from the Kem Kem Group, FSAC-KK 11888, is proposed as a neotype. Short hind limbs, dense bones and a long snout lead the authors to propose a semiaquatic animal that may have walked on four limbs. The reconstruction is immediately influential and immediately debated; Evers and colleagues reject the neotype designation in 2015.",
+    "refs": ["ibrahim2014", "evers2015"]
+  },
+  {
+    "year": "2020",
+    "dateLabel": "2020",
+    "title": "The paddle tail",
+    "kind": "publication",
+    "people": "Nizar Ibrahim and colleagues",
+    "body": "The tail of FSAC-KK 11888 is described. Tall neural spines and elongated chevrons give it a broad, paddle-like profile. The authors argue that it could generate thrust in water, supporting a swimming lifestyle.",
+    "refs": ["ibrahim2020"]
+  },
+  {
+    "year": "2021",
+    "dateLabel": "2021",
+    "title": "Shoreline generalist",
+    "kind": "hypothesis",
+    "people": "David Hone and Thomas Holtz",
+    "body": "A review of the ecology argues that Spinosaurus was better interpreted as a shoreline generalist than an aquatic pursuit predator. The paper emphasises the animal’s pneumatic skeleton, limb proportions and the lack of direct evidence for pursuit swimming.",
+    "refs": ["honeholtz2021"]
+  },
+  {
+    "year": "2022",
+    "dateLabel": "2022",
+    "title": "Bone density and the aquatic question",
+    "kind": "hypothesis",
+    "people": "Matteo Fabbri and colleagues",
+    "body": "A comparative study of bone compactness finds Spinosaurus and its close relatives with dense bones, interpreted as support for subaqueous foraging. The method links bone density to lifestyle across a broad sample of tetrapods.",
+    "refs": ["fabbri2022"]
+  },
+  {
+    "year": "2022",
+    "dateLabel": "2022",
+    "title": "\"Spinosaurus is not an aquatic dinosaur\"",
+    "kind": "hypothesis",
+    "people": "Paul Sereno and colleagues",
+    "body": "A new reconstruction argues that the skeleton was too buoyant for habitual diving, that the hind limbs were not well suited to aquatic propulsion, and that the animal was capable on land. The debate moves from anatomy to biomechanics and sedimentology.",
+    "refs": ["sereno2022"]
+  },
+  {
+    "year": "2024",
+    "dateLabel": "2024",
+    "title": "Methods under scrutiny",
+    "kind": "hypothesis",
+    "people": "Nathan Myhrvold and colleagues",
+    "body": "A critique argues that the bone-compactness and statistical methods used to infer aquatic habits have important caveats. The exchange does not settle the ecology of Spinosaurus; it clarifies how much weight the evidence can bear.",
+    "refs": ["myhrvold2024"]
+  },
+  {
+    "year": "Today",
+    "dateLabel": "Open question",
+    "title": "What the next fossil could change",
+    "kind": "hypothesis",
+    "body": "The skull, sail and paddle tail are well supported by fossil material. The degree of aquatic specialization, the habitual posture, and the hunting method remain contested. A more complete skeleton — especially associated forelimbs and a complete tail — would test the competing models.",
+    "refs": ["honeholtz2021", "sereno2022"]
+  }
+]

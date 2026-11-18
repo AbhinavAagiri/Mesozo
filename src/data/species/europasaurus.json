@@ -1,0 +1,175 @@
+{
+  "slug": "europasaurus",
+  "accession": "MZ-087",
+  "scientificName": "Europasaurus holgeri",
+  "commonName": "European lizard",
+  "genus": "Europasaurus",
+  "epithet": "holgeri",
+  "status": "Extinct",
+  "namedBy": "Mateus et al., 2006",
+  "group": "Sauropodomorpha · Brachiosauridae",
+  "groupKey": "Sauropodomorpha",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Kimmeridgian",
+  "ageMa": [
+    154,
+    151
+  ],
+  "ageLabel": "≈154–151 Ma",
+  "region": [
+    "Germany"
+  ],
+  "regionKeys": [
+    "Europe"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The dentition indicates herbivory. Régent et al. (2024) described the dentition and a possible rhamphotheca-like structure; no gut contents are known.",
+    "evidence": "inference",
+    "refs": [
+      "primary-europasaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈5–6.5 m",
+  "mass": "≈1–2 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "europasaurus-living",
+  "featured": false,
+  "tagline": "A small brachiosaurid from an island environment, interpreted as a case of insular dwarfism. The size reduction is supported by a growth series.",
+  "summary": "A small brachiosaurid from an island environment, interpreted as a case of insular dwarfism. The size reduction is supported by a growth series.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropodomorpha"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Brachiosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Europasaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "E. holgeri"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Mateus et al., 2006. The record is known from Süntel Formation, Lower Saxony. Many individuals, including juveniles and adults, from a single locality.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-europasaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Many individuals, including juveniles and adults, from a single locality.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-europasaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Süntel Formation, Lower Saxony records the species in the Late Jurassic. The numeric range used here is ≈154–151 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skeleton is miniature for a brachiosaurid but retains the high shoulders and long forelimbs of the group. The sample includes juvenile and adult material, allowing ontogenetic comparison.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-europasaurus",
+        "v19-europasaurus-161",
+        "v19-europasaurus-163"
+      ]
+    },
+    {
+      "title": "Body plan",
+      "body": "The species is reconstructed as quadrupedal from the preserved limb skeleton. The posture is not observed; the island setting is inferred from the geology.",
+      "evidence": "inference",
+      "refs": [
+        "primary-europasaurus",
+        "v19-europasaurus-161"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The many individuals from one locality show that the species occurred together, but social behaviour is not established. Dwarfism is a body-size pattern, not a behaviour.",
+    "evidence": "inference",
+    "refs": [
+      "primary-europasaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from many individuals, including juveniles and adults, from a single locality. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-europasaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-europasaurus",
+    "pbdb",
+    "paul2016",
+    "v19-europasaurus-161",
+    "v19-europasaurus-162",
+    "v19-europasaurus-163",
+    "v19-europasaurus-164"
+  ],
+  "related": [
+    "brachiosaurus",
+    "camarasaurus",
+    "mamenchisaurus"
+  ],
+  "confidenceNote": "The dwarfism is supported by a growth series and bone histology, but the island context is inferred from sedimentology and palaeogeography. Sander et al. (2006) diagnosed insular dwarfism from histology; later work described the axial, cranial and appendicular skeleton. The phylogenetic position within Macronaria is debated.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Island woodland",
+  "ancientContext": "Süntel Formation, Lower Saxony",
+  "locality": [
+    "Süntel Formation, Lower Saxony"
+  ],
+  "researchStatus": "partially-verified"
+}

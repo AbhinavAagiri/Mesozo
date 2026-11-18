@@ -1,0 +1,168 @@
+{
+  "slug": "camptosaurus",
+  "accession": "MZ-069",
+  "scientificName": "Camptosaurus dispar",
+  "commonName": "Flexible lizard",
+  "genus": "Camptosaurus",
+  "epithet": "dispar",
+  "status": "Extinct",
+  "namedBy": "Marsh, 1879",
+  "group": "Ornithischia · Camptosauridae",
+  "groupKey": "Ornithischia",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Kimmeridgian–Tithonian",
+  "ageMa": [
+    155,
+    148
+  ],
+  "ageLabel": "≈155–148 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The beak and closely packed teeth indicate herbivory. No gut contents are known; the plants eaten and the feeding mechanics are inferred from jaw anatomy.",
+    "evidence": "inference",
+    "refs": [
+      "primary-camptosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈6–7 m",
+  "mass": "≈1–2 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "camptosaurus-living",
+  "featured": false,
+  "tagline": "A medium-sized ornithopod with a robust body and a thumb spike. It is one of the more completely known Morrison ornithopods.",
+  "summary": "A medium-sized ornithopod with a robust body and a thumb spike. It is one of the more completely known Morrison ornithopods.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithopoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Camptosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Camptosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "C. dispar"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Marsh, 1879. The record is known from Morrison Formation, Wyoming and Utah. Several partial skeletons and skulls, including articulated material.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-camptosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several partial skeletons and skulls are known, including articulated material. The completeness of individual specimens varies, and historical referrals require reidentification.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-camptosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Morrison Formation, Wyoming and Utah records the species in the Late Jurassic. The numeric range used here is ≈155–148 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is relatively small, the forelimbs are shorter than the hindlimbs, and the hand bears a small thumb spike. Several partial skeletons preserve the postcranium, but the hypodigm is uneven.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-camptosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No direct evidence of social, nesting or parental behaviour. The Morrison Formation indicates a floodplain woodland, and the limb proportions support a facultatively bipedal posture. Neither is a record of behaviour.",
+    "evidence": "inference",
+    "refs": [
+      "primary-camptosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons and skulls, including articulated material. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-camptosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-camptosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-camptosaurus-134",
+    "v19-camptosaurus-135"
+  ],
+  "related": [
+    "dryosaurus",
+    "iguanodon",
+    "tenontosaurus"
+  ],
+  "confidenceNote": "Camptosaurus dispar is a Morrison Formation ornithopod known from several partial skeletons and skulls. McDonald (2011) restricted the species and treated several historical referrals as distinct, so older “Camptosaurus” specimens are not all conspecific. The family Camptosauridae is not recovered by every analysis.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Facultatively bipedal; quadrupedal",
+  "habitat": "Floodplain woodland",
+  "ancientContext": "Morrison Formation, Wyoming and Utah",
+  "locality": [
+    "Morrison Formation, Wyoming and Utah"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Camptosaurus dispar was a medium-sized plant-eating dinosaur that lived in the [Morrison Formation](/prehistoric-world/ecosystem/morrison-formation) of North America during the [Late Jurassic](/deep-time?period=jurassic). It belonged to the broad ornithischian branch and is one of the better-known Morrison ornithopods.",
+    "paragraphs": [
+      "It had a relatively small skull, short front limbs and a small thumb spike. The limb proportions suggest it could walk on two legs or four. Several partial skeletons and skulls are known, but the species has a complicated history of referrals, and not every fossil once called Camptosaurus belongs to C. dispar.",
+      "Its plant diet is inferred from the beak and teeth. No gut contents are known, and there is no direct evidence of its social or nesting behaviour."
+    ],
+    "takeaway": "A robust Jurassic plant-eater with a small thumb spike and a taxonomically tangled family tree."
+  }
+}

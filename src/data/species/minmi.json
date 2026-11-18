@@ -1,0 +1,168 @@
+{
+  "slug": "minmi",
+  "accession": "MZ-049",
+  "scientificName": "Minmi paravertebra",
+  "commonName": "Minmi",
+  "genus": "Minmi",
+  "epithet": "paravertebra",
+  "status": "Extinct",
+  "namedBy": "Molnar, 1980",
+  "group": "Ornithischia · Ankylosauria incertae sedis",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Aptian–Albian",
+  "ageMa": [
+    120,
+    112
+  ],
+  "ageLabel": "≈120–112 Ma",
+  "region": [
+    "Australia"
+  ],
+  "regionKeys": [
+    "Australia"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "Herbivory is inferred from ankylosaur anatomy. The skull of Minmi is unknown, so its jaw apparatus and feeding style cannot be examined directly.",
+    "evidence": "inference",
+    "refs": [
+      "primary-minmi",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈3 m",
+  "mass": "≈300 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "minmi-living",
+  "featured": false,
+  "tagline": "A small ankylosaur from Australia with a relatively long tail and extensive armour. Its phylogenetic position among ankylosaurs is debated.",
+  "summary": "A small ankylosaur from Australia with a relatively long tail and extensive armour. Its phylogenetic position among ankylosaurs is debated.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Thyreophora"
+    },
+    {
+      "rank": "Family",
+      "value": "Ankylosauria incertae sedis"
+    },
+    {
+      "rank": "Genus",
+      "value": "Minmi"
+    },
+    {
+      "rank": "Species",
+      "value": "M. paravertebra"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Molnar, 1980. The record is known from Bungil Formation, Queensland. A nearly complete skeleton with armour and some soft-tissue impressions.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-minmi"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The holotype, QM F10329, is a partial skeleton from the Bungil Formation near Roma, Queensland. It lacks a skull. The Allaru specimen formerly called Minmi sp. is Kunbarrasaurus ieversi.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-minmi",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Bungil Formation, Queensland records the species in the Early Cretaceous. The numeric range used here is ≈120–112 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The holotype preserves vertebrae, ribs, part of a hindlimb and armour, including the unusual paravertebral elements that give the species its name. The skull is unknown.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-minmi",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No direct evidence of social or parental behaviour. The armour is preserved; its defensive function is inferred from structure and position.",
+    "evidence": "inference",
+    "refs": [
+      "primary-minmi",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a nearly complete skeleton with armour and some soft-tissue impressions. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-minmi",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-minmi",
+    "pbdb",
+    "paul2016",
+    "v19-minmi-83",
+    "v19-minmi-84"
+  ],
+  "related": [
+    "sauropelta",
+    "polacanthus",
+    "nodosaurus"
+  ],
+  "confidenceNote": "Minmi paravertebra is based on the holotype, QM F10329, a partial skeleton from the Bungil Formation that lacks a skull. The much more complete Allaru Mudstone skeleton formerly called Minmi sp. was named Kunbarrasaurus ieversi in 2015. The family placement of Minmi remains unresolved.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Floodplain woodland",
+  "ancientContext": "Bungil Formation, Queensland",
+  "locality": [
+    "Bungil Formation, Queensland"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Minmi paravertebra was a small armoured dinosaur from the [Early Cretaceous](/deep-time?period=cretaceous) of Queensland, Australia. It belonged to Ankylosauria, the group with body armour and, in many species, a tail club.",
+    "paragraphs": [
+      "The holotype, QM F10329, is a partial skeleton that lacks a skull. It preserves vertebrae, ribs, part of a hindlimb and armour, including the unusual paravertebral elements that give the species its name. A much more complete skeleton from the Allaru Mudstone was formerly called Minmi sp., but it was renamed Kunbarrasaurus ieversi in 2015.",
+      "Its plant diet is inferred from ankylosaur anatomy, not from its own skull. The family placement of Minmi is unresolved, and there is no direct evidence of its behaviour."
+    ],
+    "takeaway": "A small Australian ankylosaur known mainly from a skull-less partial skeleton."
+  }
+}

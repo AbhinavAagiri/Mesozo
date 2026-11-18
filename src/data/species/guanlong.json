@@ -1,0 +1,171 @@
+{
+  "slug": "guanlong",
+  "accession": "MZ-092",
+  "scientificName": "Guanlong wucaii",
+  "commonName": "Five-coloured crown dragon",
+  "genus": "Guanlong",
+  "epithet": "wucaii",
+  "status": "Extinct",
+  "namedBy": "Xu et al., 2006",
+  "group": "Theropoda · Proceratosauridae",
+  "groupKey": "Theropoda",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Oxfordian",
+  "ageMa": [
+    161,
+    156
+  ],
+  "ageLabel": "≈161–156 Ma",
+  "region": [
+    "China"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The dentition indicates carnivory. No gut contents are known; prey choice and hunting behaviour are not preserved.",
+    "evidence": "inference",
+    "refs": [
+      "primary-guanlong",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈3 m",
+  "mass": "≈50–75 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "guanlong-living",
+  "featured": false,
+  "tagline": "An early tyrannosauroid with a prominent median crest on the skull. The crest is thin bone and likely had a display function.",
+  "summary": "An early tyrannosauroid with a prominent median crest on the skull. The crest is thin bone and likely had a display function.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Coelurosauria"
+    },
+    {
+      "rank": "Family",
+      "value": "Proceratosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Guanlong"
+    },
+    {
+      "rank": "Species",
+      "value": "G. wucaii"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Xu et al., 2006. The record is known from the upper Shishugou Formation, Xinjiang. The holotype, IVPP V14531, is a partly articulated adult skeleton; IVPP V14532 is a smaller, nearly complete immature skeleton.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-guanlong"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The adult holotype, IVPP V14531, is partly articulated; the immature paratype, IVPP V14532, is nearly complete and articulated. Both are from the upper Shishugou Formation.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-guanlong",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Shishugou Formation, Xinjiang records the species in the Late Jurassic. The numeric range used here is ≈161–158 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is relatively deep and bears a large, thin, pneumatic median crest. The skeleton is lightly built, and the two known specimens sample an adult and an immature individual.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-guanlong",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The delicate cranial crest is plausibly a display structure, but its function is not demonstrated. No social, nesting or parental behaviour is known.",
+    "evidence": "inference",
+    "refs": [
+      "primary-guanlong",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from two partial skeletons, one immature and one adult. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-guanlong",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-guanlong",
+    "v20-brusatte2016",
+    "pbdb",
+    "paul2016"
+  ],
+  "related": [
+    "dilong",
+    "yutyrannus",
+    "compsognathus"
+  ],
+  "confidenceNote": "Guanlong is known from an adult skeleton, IVPP V14531, and a smaller, nearly complete specimen, IVPP V14532, from the Oxfordian upper Shishugou Formation. The skull bears a large, delicate crest. Its proceratosaurid placement is supported by recent analyses but early tyrannosauroid relationships remain unstable.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Riverine woodland",
+  "ancientContext": "Shishugou Formation, Xinjiang",
+  "locality": [
+    "Shishugou Formation, Xinjiang"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Guanlong wucaii was an early tyrannosauroid from the [Shishugou Formation](/prehistoric-world#worlds) of Xinjiang, China, about 160 million years ago. Despite its small size, it is one of the earliest known members of the lineage that eventually produced Tyrannosaurus.",
+    "paragraphs": [
+      "It is known from an adult skeleton and a smaller, nearly complete immature specimen. The skull bears a large, thin, pneumatic crest. Because the crest is delicate, palaeontologists have interpreted it as a display structure rather than a weapon, but that function is not proven.",
+      "Its teeth indicate carnivory. No gut contents are known, and there is no direct evidence of social or nesting behaviour. The family Proceratosauridae is a hypothesis about relationships, not a fixed category."
+    ],
+    "takeaway": "A small, crested forerunner of the tyrannosaurs."
+  }
+}

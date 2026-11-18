@@ -1,0 +1,172 @@
+{
+  "slug": "mamenchisaurus",
+  "accession": "MZ-085",
+  "scientificName": "Mamenchisaurus hochuanensis",
+  "commonName": "Mamenchi lizard",
+  "genus": "Mamenchisaurus",
+  "epithet": "hochuanensis",
+  "status": "Extinct",
+  "namedBy": "Young & Zhao, 1972",
+  "group": "Sauropodomorpha · Mamenchisauridae",
+  "groupKey": "Sauropodomorpha",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Oxfordian",
+  "ageMa": [
+    161,
+    155
+  ],
+  "ageLabel": "≈161–155 Ma",
+  "region": [
+    "China"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The dentition indicates herbivory. No gut contents are known; the long neck has been interpreted as a browsing adaptation, but the plants eaten and the feeding height are not established.",
+    "evidence": "inference",
+    "refs": [
+      "primary-mamenchisaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈20–22 m",
+  "mass": "≈15–25 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "mamenchisaurus-living",
+  "featured": false,
+  "tagline": "A long-necked sauropod with one of the most elongated necks among sauropods. The neck is composed of 19 elongated vertebrae.",
+  "summary": "A long-necked sauropod with one of the most elongated necks among sauropods. The neck is composed of 19 elongated vertebrae.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropodomorpha"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Mamenchisauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Mamenchisaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "M. hochuanensis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Young & Zhao, 1972. The record is known from Shangshaximiao Formation, Sichuan. Several partial skeletons and skull elements from Sichuan.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-mamenchisaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The holotype is a partial skeleton from the Upper Shaximiao Formation, Sichuan. It preserves the long neck and tail club but not a complete skull or entire postcranium.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-mamenchisaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Shangshaximiao Formation, Sichuan records the species in the Late Jurassic. The numeric range used here is ≈161–155 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The neck is exceptionally long and composed of 19 elongated cervical vertebrae. The distal tail bears a club formed by fused vertebrae.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-mamenchisaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No direct evidence of social or display behaviour. The tail club is preserved bone; its function in defence or display is inferred.",
+    "evidence": "inference",
+    "refs": [
+      "primary-mamenchisaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons and skull elements from Sichuan. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-mamenchisaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-mamenchisaurus",
+    "pbdb",
+    "paul2016",
+    "v19-mamenchisaurus-156",
+    "v19-mamenchisaurus-157"
+  ],
+  "related": [
+    "shunosaurus",
+    "camarasaurus",
+    "brachiosaurus"
+  ],
+  "confidenceNote": "The neck contains 19 elongated cervical vertebrae, and the distal tail bears a bony club. The Upper Shaximiao Formation is not reliably radiometrically dated; the archive uses an Oxfordian age, but some treatments place the fauna in the Middle Jurassic. Neck-pose work used Mamenchisaurus youngi, not M. hochuanensis.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Riverine woodland",
+  "ancientContext": "Shangshaximiao Formation, Sichuan",
+  "locality": [
+    "Shangshaximiao Formation, Sichuan"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Mamenchisaurus hochuanensis was a sauropod from the [Late Jurassic](/deep-time?period=jurassic) of Sichuan, China, famous for its extremely long neck. The neck alone contains 19 elongated vertebrae.",
+    "paragraphs": [
+      "The distal tail bears a bony club formed by fused vertebrae. The neck has been interpreted as an adaptation for browsing over a wide area, but the plants eaten and the feeding height are not preserved. A neck-pose study used a different species, Mamenchisaurus youngi, so its conclusions do not automatically apply here.",
+      "The Upper Shaximiao Formation is not reliably radiometrically dated, and some researchers place its fauna in the Middle Jurassic. No gut contents are known, and there is no direct evidence of social behaviour."
+    ],
+    "takeaway": "A long-necked sauropod with a tail club and an uncertain geological age."
+  }
+}

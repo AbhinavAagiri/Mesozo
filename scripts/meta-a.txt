@@ -1,0 +1,54 @@
+
+### File:Spinosaurus aegyptiacus.png
+size: 4485 x 2764 | mime: image/png
+file: https://upload.wikimedia.org/wikipedia/commons/e/e0/Spinosaurus_aegyptiacus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+page: https://commons.wikimedia.org/wiki/File:Spinosaurus_aegyptiacus.png
+LicenseShortName: CC BY-SA 4.0
+LicenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+Artist: Gustavo Monroy-Becerril
+Credit: Own work
+ObjectName: Spinosaurus aegyptiacus
+ImageDescription: A reconstruction based on the new description of S. aegyptiacus .
+DateTimeOriginal: 2020-05-01
+AttributionRequired: true
+UsageTerms: Creative Commons Attribution-Share Alike 4.0
+
+### File:Spinoface.jpg
+size: 3624 x 3817 | mime: image/jpeg
+file: https://upload.wikimedia.org/wikipedia/commons/9/99/Spinoface.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+page: https://commons.wikimedia.org/wiki/File:Spinoface.jpg
+LicenseShortName: CC BY-SA 4.0
+LicenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+Artist: Didier Descouens
+Credit: Own work
+ObjectName: Spinoface
+ImageDescription: Spinosaurus aegyptiacus ; Morroco ; Private collection Stage : Albian-Cenomanian (112-93 Ma) Size : 8,40 m
+DateTimeOriginal: 2010-10-17
+AttributionRequired: true
+UsageTerms: Creative Commons Attribution-Share Alike 4.0
+
+### File:Spinosaurus Crane.jpg
+size: 6048 x 5376 | mime: image/jpeg
+file: https://upload.wikimedia.org/wikipedia/commons/8/8c/Spinosaurus_Crane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+page: https://commons.wikimedia.org/wiki/File:Spinosaurus_Crane.jpg
+LicenseShortName: CC BY-SA 4.0
+LicenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+Artist: Didier Descouens
+Credit: Own work
+ObjectName: Spinosaurus Crane
+ImageDescription: Skull of Spinosaurus aegyptiacus ; Morroco ; Private collection Stage : Albian-Cenomanian (112-93 Ma) Size : 1,20 m
+DateTimeOriginal: 2010-10-24
+AttributionRequired: true
+UsageTerms: Creative Commons Attribution-Share Alike 4.0
+<anonymous_script>:1
+You are making too many requests to the API.
+^
+
+SyntaxError: Unexpected token 'Y', "You are ma"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:3226:19)
+    at successSteps (node:internal/deps/undici/undici:7169:27)
+    at readAllBytes (node:internal/deps/undici/undici:4682:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+Node.js v26.13.0

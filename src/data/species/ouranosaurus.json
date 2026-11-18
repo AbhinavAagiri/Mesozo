@@ -1,0 +1,168 @@
+{
+  "slug": "ouranosaurus",
+  "accession": "MZ-066",
+  "scientificName": "Ouranosaurus nigeriensis",
+  "commonName": "Brave monitor",
+  "genus": "Ouranosaurus",
+  "epithet": "nigeriensis",
+  "status": "Extinct",
+  "namedBy": "Taquet, 1976",
+  "group": "Ornithischia · Ornithopoda incertae sedis",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Barremian–Albian",
+  "ageMa": [
+    125,
+    112
+  ],
+  "ageLabel": "≈125–112 Ma",
+  "region": [
+    "Niger"
+  ],
+  "regionKeys": [
+    "Africa"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The skull and dentition indicate herbivory. No gut contents are known; the plants eaten and the feeding style are inferred from anatomy.",
+    "evidence": "inference",
+    "refs": [
+      "primary-ouranosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈7–8 m",
+  "mass": "≈2–3 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "ouranosaurus-living",
+  "featured": false,
+  "tagline": "An iguanodontian with elongated neural spines along the back. The spines supported a ridge or sail-like structure; the soft tissue is not preserved.",
+  "summary": "An iguanodontian with elongated neural spines along the back. The spines supported a ridge or sail-like structure; the soft tissue is not preserved.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithopoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Ornithopoda incertae sedis"
+    },
+    {
+      "rank": "Genus",
+      "value": "Ouranosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "O. nigeriensis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Taquet, 1976. The record is known from Elrhaz Formation, Gadoufaoua. Several partial skeletons, including a relatively complete skull and postcrania.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-ouranosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The holotype and referred material come from the Elrhaz Formation at Gadoufaoua, Niger. The hypodigm includes skull and postcranial material; the soft tissue around the neural spines is not preserved.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-ouranosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Elrhaz Formation, Gadoufaoua records the species in the Early Cretaceous. The numeric range used here is ≈125–112 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "Elongated neural spines run along the back and tail. The skull is deep and the postcranium is robust; the Venice specimen adds anatomical detail but is not a complete skeleton.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-ouranosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No direct evidence of social or display behaviour. The elongated neural spines are preserved bone; the silhouette and function of the “sail” are reconstructions, not observations.",
+    "evidence": "inference",
+    "refs": [
+      "primary-ouranosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons, including a relatively complete skull and postcrania. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-ouranosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-ouranosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-ouranosaurus-125",
+    "v19-ouranosaurus-126"
+  ],
+  "related": [
+    "iguanodon",
+    "iguanacolossus",
+    "muttaburrasaurus"
+  ],
+  "confidenceNote": "Taquet (1976) described Ouranosaurus from the Elrhaz Formation of Niger. Elongated neural spines form the structure often called a sail, but the connecting soft tissue is not preserved. The animal’s locomotion and the function of the sail remain debated; no gut contents are known.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Facultatively bipedal; quadrupedal",
+  "habitat": "Riverine floodplain",
+  "ancientContext": "Elrhaz Formation, Gadoufaoua",
+  "locality": [
+    "Elrhaz Formation, Gadoufaoua"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Ouranosaurus nigeriensis was a large plant-eating ornithopod from the [Early Cretaceous](/deep-time?period=cretaceous) of Niger. It is instantly recognisable for the long neural spines along its back and tail, which supported a sail-like structure.",
+    "paragraphs": [
+      "The spines are preserved bone, but the soft tissue that connected them is not. The animal’s silhouette is therefore a reconstruction. A second specimen, the Venice specimen, adds postcranial anatomy. Locomotion has been reconstructed as facultatively bipedal or predominantly quadrupedal, and the analyses disagree.",
+      "Its plant diet is inferred from the skull and teeth. No gut contents are known, and the function of the “sail” — display, thermoregulation or something else — remains unresolved."
+    ],
+    "takeaway": "A sail-backed plant-eater whose most famous feature is still functionally mysterious."
+  }
+}

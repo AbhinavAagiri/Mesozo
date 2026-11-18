@@ -1,0 +1,165 @@
+{
+  "slug": "dicraeosaurus",
+  "accession": "MZ-082",
+  "scientificName": "Dicraeosaurus hansemanni",
+  "commonName": "Forked lizard",
+  "genus": "Dicraeosaurus",
+  "epithet": "hansemanni",
+  "status": "Extinct",
+  "namedBy": "Janensch, 1914",
+  "group": "Sauropodomorpha · Dicraeosauridae",
+  "groupKey": "Sauropodomorpha",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Kimmeridgian–Tithonian",
+  "ageMa": [
+    152,
+    145
+  ],
+  "ageLabel": "≈152–145 Ma",
+  "region": [
+    "Tanzania"
+  ],
+  "regionKeys": [
+    "Africa"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "Tooth replacement and jaw mechanics are consistent with cropping vegetation. The short neck and low head posture suggest low-level browsing, but no gut contents are known and the plants eaten are not preserved.",
+    "evidence": "inference",
+    "refs": [
+      "v19-dicraeosaurus-150",
+      "v19-dicraeosaurus-152"
+    ]
+  },
+  "length": "≈12–13 m",
+  "mass": "≈6–8 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "dicraeosaurus-living",
+  "featured": false,
+  "tagline": "A dicraeosaurid with a relatively short neck and deeply forked neural spines. The spines are tall but do not form the extreme sail of Amargasaurus.",
+  "summary": "A dicraeosaurid with a relatively short neck and deeply forked neural spines. The spines are tall but do not form the extreme sail of Amargasaurus.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropodomorpha"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Dicraeosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Dicraeosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "D. hansemanni"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Werner Janensch in 1914 from the Tendaguru Formation of Tanzania. The principal skeleton is MB.R.4886, historically recorded as skeleton “m” from quarry “m”. Several partial skeletons are known, and the Berlin mount is a composite rather than one natural individual.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-dicraeosaurus",
+      "schwarzWings2014"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several partial skeletons from Tendaguru.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-dicraeosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Tendaguru Formation, Lindi records the species in the Late Jurassic. The numeric range used here is ≈152–145 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The cervical vertebrae have tall, bifurcated neural spines; the neck is shorter than in diplodocids.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-dicraeosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No nest, trackway or social association is known for Dicraeosaurus. Several partial skeletons from Tendaguru show that more than one individual is represented, but the deposits do not record a living group, and the Berlin mount is a composite. Feeding is inferred from the jaw and teeth, not observed.",
+    "evidence": "inference",
+    "refs": [
+      "v19-dicraeosaurus-150",
+      "v19-dicraeosaurus-152"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons from Tendaguru. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-dicraeosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-dicraeosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-dicraeosaurus-150",
+    "v19-dicraeosaurus-151",
+    "v19-dicraeosaurus-152",
+    "schwarzWings2014"
+  ],
+  "related": [
+    "bajadasaurus",
+    "diplodocus",
+    "apatosaurus"
+  ],
+  "confidenceNote": "The axial anatomy and Tendaguru stratigraphy are well documented, but the Berlin mount is composite and the two Dicraeosaurus species are separated mainly by limb proportions and horizon. No gut contents or soft tissue are known.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Tendaguru Formation, Lindi",
+  "locality": [
+    "Tendaguru Formation, Lindi"
+  ],
+  "researchStatus": "partially-verified"
+}

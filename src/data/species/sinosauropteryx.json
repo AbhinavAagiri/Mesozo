@@ -1,0 +1,164 @@
+{
+  "slug": "sinosauropteryx",
+  "accession": "MZ-096",
+  "scientificName": "Sinosauropteryx prima",
+  "commonName": "Chinese lizard wing",
+  "genus": "Sinosauropteryx",
+  "epithet": "prima",
+  "status": "Extinct",
+  "namedBy": "Ji & Ji, 1996",
+  "group": "Theropoda · Compsognathidae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Barremian–Aptian",
+  "ageMa": [
+    126,
+    122
+  ],
+  "ageLabel": "≈126–122 Ma",
+  "region": [
+    "China"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The dentition indicates carnivory. Gut contents are known from some specimens, but the cited integument studies do not establish prey choice; diet is treated as an inference here.",
+    "evidence": "inference",
+    "refs": [
+      "primary-sinosauropteryx",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈1–1.2 m",
+  "mass": "≈2–3 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "sinosauropteryx-living",
+  "featured": false,
+  "tagline": "A small compsognathid with a covering of simple filaments and a long tail. It was the first non-avian dinosaur found with direct evidence of a feather-like integument.",
+  "summary": "A small compsognathid with a covering of simple filaments and a long tail. It was the first non-avian dinosaur found with direct evidence of a feather-like integument.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Coelurosauria"
+    },
+    {
+      "rank": "Family",
+      "value": "Compsognathidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Sinosauropteryx"
+    },
+    {
+      "rank": "Species",
+      "value": "S. prima"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Ji & Ji, 1996. The record is known from Yixian Formation, Liaoning. Several complete skeletons with integument impressions and gut contents.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-sinosauropteryx"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several complete skeletons with integument impressions and gut contents.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-sinosauropteryx",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Yixian Formation, Liaoning records the species in the Early Cretaceous. The numeric range used here is ≈126–122 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The body is covered in short filaments, the tail is long, and the skull is small and lightly built. The tail is the longest known for any theropod, and the hand retains three fingers.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-sinosauropteryx",
+        "v19-sinosauropteryx-176"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The opisthotonus is a post-mortem posture, not behaviour. No social behaviour is asserted.",
+    "evidence": "inference",
+    "refs": [
+      "primary-sinosauropteryx",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several complete skeletons with integument impressions and gut contents. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-sinosauropteryx",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-sinosauropteryx",
+    "pbdb",
+    "paul2016",
+    "v19-sinosauropteryx-176",
+    "v19-sinosauropteryx-177",
+    "v19-sinosauropteryx-178"
+  ],
+  "related": [
+    "compsognathus",
+    "microraptor",
+    "anchiornis"
+  ],
+  "confidenceNote": "The filamentous integument is directly preserved; the family placement is contested. Currie & Chen (2001) documented the longest tail known for any theropod and a three-fingered hand. Lingham-Soliar (2010) interpreted pigment-bearing structures in the tail as a colour pattern, but that reconstruction has been questioned. The 2015 study documents three stages of post-mortem opisthotonus.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Temperate forest and lake margin",
+  "ancientContext": "Yixian Formation, Liaoning",
+  "locality": [
+    "Yixian Formation, Liaoning"
+  ],
+  "researchStatus": "partially-verified"
+}

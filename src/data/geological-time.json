@@ -1,0 +1,548 @@
+{
+  "id": "ics-2026-06",
+  "name": "International Chronostratigraphic Chart",
+  "version": "v2026/06",
+  "released": "2026-06",
+  "accessed": "2026-11-15",
+  "sourceRef": "ics2026",
+  "url": "https://stratigraphy.org/chart",
+  "chartUrl": "https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf",
+  "citation": "Cohen, K.M., Harper, D.A.T., Gibbard, P.L. & Car, N. (2025). The ICS international chronostratigraphic chart this decade. Episodes 48, 105–115.",
+  "note": "The 2026/06 update revises the base of the Anisian to 247.0 Ma, the base of the Olenekian to 250.8 Ma, and the base of the Wuchiapingian to 259.857 Ma. Numerical ages are estimates and are subject to revision; Phanerozoic units are defined by GSSPs, not by their numerical ages. The chart displays 23.04 Ma for the top of the Paleogene and 23.03 Ma for the base of the Aquitanian; this exhibit uses the GSSP/GTS2020 age of 23.03 Ma so the hierarchy remains continuous.",
+  "units": [
+    {
+      "id": "precambrian",
+      "name": "Precambrian",
+      "rank": "supereon",
+      "parentId": null,
+      "startMa": 4567,
+      "endMa": 538.8,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "hadean",
+      "name": "Hadean",
+      "rank": "eon",
+      "parentId": "precambrian",
+      "startMa": 4567,
+      "endMa": 4031,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "archean",
+      "name": "Archean",
+      "rank": "eon",
+      "parentId": "precambrian",
+      "startMa": 4031,
+      "endMa": 2500,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "proterozoic",
+      "name": "Proterozoic",
+      "rank": "eon",
+      "parentId": "precambrian",
+      "startMa": 2500,
+      "endMa": 538.8,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "phanerozoic",
+      "name": "Phanerozoic",
+      "rank": "eon",
+      "parentId": null,
+      "startMa": 538.8,
+      "endMa": 0,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "paleozoic",
+      "name": "Paleozoic",
+      "rank": "era",
+      "parentId": "phanerozoic",
+      "startMa": 538.8,
+      "endMa": 251.902,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "mesozoic",
+      "name": "Mesozoic",
+      "rank": "era",
+      "parentId": "phanerozoic",
+      "startMa": 251.902,
+      "endMa": 66,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "cenozoic",
+      "name": "Cenozoic",
+      "rank": "era",
+      "parentId": "phanerozoic",
+      "startMa": 66,
+      "endMa": 0,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "cambrian",
+      "name": "Cambrian",
+      "rank": "period",
+      "parentId": "paleozoic",
+      "startMa": 538.8,
+      "endMa": 486.85,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "ordovician",
+      "name": "Ordovician",
+      "rank": "period",
+      "parentId": "paleozoic",
+      "startMa": 486.85,
+      "endMa": 443.1,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "silurian",
+      "name": "Silurian",
+      "rank": "period",
+      "parentId": "paleozoic",
+      "startMa": 443.1,
+      "endMa": 419.62,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "devonian",
+      "name": "Devonian",
+      "rank": "period",
+      "parentId": "paleozoic",
+      "startMa": 419.62,
+      "endMa": 358.86,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "carboniferous",
+      "name": "Carboniferous",
+      "rank": "period",
+      "parentId": "paleozoic",
+      "startMa": 358.86,
+      "endMa": 298.9,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "permian",
+      "name": "Permian",
+      "rank": "period",
+      "parentId": "paleozoic",
+      "startMa": 298.9,
+      "endMa": 251.902,
+      "sourceRefs": ["ics2026"],
+      "stages": [
+        { "name": "Asselian", "startMa": 298.9, "endMa": 293.52 },
+        { "name": "Sakmarian", "startMa": 293.52, "endMa": 290.1 },
+        { "name": "Artinskian", "startMa": 290.1, "endMa": 283.3 },
+        { "name": "Kungurian", "startMa": 283.3, "endMa": 274.4 },
+        { "name": "Roadian", "startMa": 274.4, "endMa": 266.9 },
+        { "name": "Wordian", "startMa": 266.9, "endMa": 264.28 },
+        { "name": "Capitanian", "startMa": 264.28, "endMa": 259.857 },
+        { "name": "Wuchiapingian", "startMa": 259.857, "endMa": 254.14 },
+        { "name": "Changhsingian", "startMa": 254.14, "endMa": 251.902 }
+      ]
+    },
+    {
+      "id": "triassic",
+      "name": "Triassic",
+      "rank": "period",
+      "parentId": "mesozoic",
+      "startMa": 251.902,
+      "endMa": 201.4,
+      "sourceRefs": ["ics2026"],
+      "stages": [
+        { "name": "Induan", "startMa": 251.902, "endMa": 250.8 },
+        { "name": "Olenekian", "startMa": 250.8, "endMa": 247.0 },
+        { "name": "Anisian", "startMa": 247.0, "endMa": 241.464 },
+        { "name": "Ladinian", "startMa": 241.464, "endMa": 237.0 },
+        { "name": "Carnian", "startMa": 237.0, "endMa": 227.3 },
+        { "name": "Norian", "startMa": 227.3, "endMa": 205.7 },
+        { "name": "Rhaetian", "startMa": 205.7, "endMa": 201.4 }
+      ]
+    },
+    {
+      "id": "jurassic",
+      "name": "Jurassic",
+      "rank": "period",
+      "parentId": "mesozoic",
+      "startMa": 201.4,
+      "endMa": 143.1,
+      "sourceRefs": ["ics2026"],
+      "stages": [
+        { "name": "Hettangian", "startMa": 201.4, "endMa": 199.5 },
+        { "name": "Sinemurian", "startMa": 199.5, "endMa": 192.9 },
+        { "name": "Pliensbachian", "startMa": 192.9, "endMa": 184.2 },
+        { "name": "Toarcian", "startMa": 184.2, "endMa": 174.7 },
+        { "name": "Aalenian", "startMa": 174.7, "endMa": 170.9 },
+        { "name": "Bajocian", "startMa": 170.9, "endMa": 168.2 },
+        { "name": "Bathonian", "startMa": 168.2, "endMa": 165.3 },
+        { "name": "Callovian", "startMa": 165.3, "endMa": 161.5 },
+        { "name": "Oxfordian", "startMa": 161.5, "endMa": 154.8 },
+        { "name": "Kimmeridgian", "startMa": 154.8, "endMa": 149.2 },
+        { "name": "Tithonian", "startMa": 149.2, "endMa": 143.1 }
+      ]
+    },
+    {
+      "id": "cretaceous",
+      "name": "Cretaceous",
+      "rank": "period",
+      "parentId": "mesozoic",
+      "startMa": 143.1,
+      "endMa": 66,
+      "sourceRefs": ["ics2026"],
+      "stages": [
+        { "name": "Berriasian", "startMa": 143.1, "endMa": 137.05 },
+        { "name": "Valanginian", "startMa": 137.05, "endMa": 132.6 },
+        { "name": "Hauterivian", "startMa": 132.6, "endMa": 125.77 },
+        { "name": "Barremian", "startMa": 125.77, "endMa": 121.4 },
+        { "name": "Aptian", "startMa": 121.4, "endMa": 113.2 },
+        { "name": "Albian", "startMa": 113.2, "endMa": 100.5 },
+        { "name": "Cenomanian", "startMa": 100.5, "endMa": 93.9 },
+        { "name": "Turonian", "startMa": 93.9, "endMa": 89.8 },
+        { "name": "Coniacian", "startMa": 89.8, "endMa": 85.7 },
+        { "name": "Santonian", "startMa": 85.7, "endMa": 83.6 },
+        { "name": "Campanian", "startMa": 83.6, "endMa": 72.2 },
+        { "name": "Maastrichtian", "startMa": 72.2, "endMa": 66.0 }
+      ]
+    },
+    {
+      "id": "paleogene",
+      "name": "Paleogene",
+      "rank": "period",
+      "parentId": "cenozoic",
+      "startMa": 66,
+      "endMa": 23.03,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "neogene",
+      "name": "Neogene",
+      "rank": "period",
+      "parentId": "cenozoic",
+      "startMa": 23.03,
+      "endMa": 2.58,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "quaternary",
+      "name": "Quaternary",
+      "rank": "period",
+      "parentId": "cenozoic",
+      "startMa": 2.58,
+      "endMa": 0,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "cambrian-terreneuvian",
+      "name": "Terreneuvian",
+      "rank": "epoch",
+      "parentId": "cambrian",
+      "startMa": 538.8,
+      "endMa": 521.0,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "cambrian-series-2",
+      "name": "Series 2",
+      "rank": "epoch",
+      "parentId": "cambrian",
+      "startMa": 521.0,
+      "endMa": 506.5,
+      "informal": true,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "cambrian-miaolingian",
+      "name": "Miaolingian",
+      "rank": "epoch",
+      "parentId": "cambrian",
+      "startMa": 506.5,
+      "endMa": 497.0,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "cambrian-furongian",
+      "name": "Furongian",
+      "rank": "epoch",
+      "parentId": "cambrian",
+      "startMa": 497.0,
+      "endMa": 486.85,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "ordovician-early",
+      "name": "Early Ordovician",
+      "rank": "epoch",
+      "parentId": "ordovician",
+      "startMa": 486.85,
+      "endMa": 470.0,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "ordovician-middle",
+      "name": "Middle Ordovician",
+      "rank": "epoch",
+      "parentId": "ordovician",
+      "startMa": 470.0,
+      "endMa": 458.4,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "ordovician-late",
+      "name": "Late Ordovician",
+      "rank": "epoch",
+      "parentId": "ordovician",
+      "startMa": 458.4,
+      "endMa": 443.1,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "silurian-llandovery",
+      "name": "Llandovery",
+      "rank": "epoch",
+      "parentId": "silurian",
+      "startMa": 443.1,
+      "endMa": 433.4,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "silurian-wenlock",
+      "name": "Wenlock",
+      "rank": "epoch",
+      "parentId": "silurian",
+      "startMa": 433.4,
+      "endMa": 427.4,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "silurian-ludlow",
+      "name": "Ludlow",
+      "rank": "epoch",
+      "parentId": "silurian",
+      "startMa": 427.4,
+      "endMa": 423.0,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "silurian-pridoli",
+      "name": "Pridoli",
+      "rank": "epoch",
+      "parentId": "silurian",
+      "startMa": 423.0,
+      "endMa": 419.62,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "devonian-early",
+      "name": "Early Devonian",
+      "rank": "epoch",
+      "parentId": "devonian",
+      "startMa": 419.62,
+      "endMa": 393.47,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "devonian-middle",
+      "name": "Middle Devonian",
+      "rank": "epoch",
+      "parentId": "devonian",
+      "startMa": 393.47,
+      "endMa": 382.31,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "devonian-late",
+      "name": "Late Devonian",
+      "rank": "epoch",
+      "parentId": "devonian",
+      "startMa": 382.31,
+      "endMa": 358.86,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "carboniferous-mississippian",
+      "name": "Mississippian",
+      "rank": "epoch",
+      "parentId": "carboniferous",
+      "startMa": 358.86,
+      "endMa": 323.4,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "carboniferous-pennsylvanian",
+      "name": "Pennsylvanian",
+      "rank": "epoch",
+      "parentId": "carboniferous",
+      "startMa": 323.4,
+      "endMa": 298.9,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "permian-cisuralian",
+      "name": "Cisuralian",
+      "rank": "epoch",
+      "parentId": "permian",
+      "startMa": 298.9,
+      "endMa": 274.4,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "permian-guadalupian",
+      "name": "Guadalupian",
+      "rank": "epoch",
+      "parentId": "permian",
+      "startMa": 274.4,
+      "endMa": 259.857,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "permian-lopingian",
+      "name": "Lopingian",
+      "rank": "epoch",
+      "parentId": "permian",
+      "startMa": 259.857,
+      "endMa": 251.902,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "triassic-early",
+      "name": "Early Triassic",
+      "rank": "epoch",
+      "parentId": "triassic",
+      "startMa": 251.902,
+      "endMa": 247.0,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "triassic-middle",
+      "name": "Middle Triassic",
+      "rank": "epoch",
+      "parentId": "triassic",
+      "startMa": 247.0,
+      "endMa": 237.0,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "triassic-late",
+      "name": "Late Triassic",
+      "rank": "epoch",
+      "parentId": "triassic",
+      "startMa": 237.0,
+      "endMa": 201.4,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "jurassic-early",
+      "name": "Early Jurassic",
+      "rank": "epoch",
+      "parentId": "jurassic",
+      "startMa": 201.4,
+      "endMa": 174.7,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "jurassic-middle",
+      "name": "Middle Jurassic",
+      "rank": "epoch",
+      "parentId": "jurassic",
+      "startMa": 174.7,
+      "endMa": 161.5,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "jurassic-late",
+      "name": "Late Jurassic",
+      "rank": "epoch",
+      "parentId": "jurassic",
+      "startMa": 161.5,
+      "endMa": 143.1,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "cretaceous-early",
+      "name": "Early Cretaceous",
+      "rank": "epoch",
+      "parentId": "cretaceous",
+      "startMa": 143.1,
+      "endMa": 100.5,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "cretaceous-late",
+      "name": "Late Cretaceous",
+      "rank": "epoch",
+      "parentId": "cretaceous",
+      "startMa": 100.5,
+      "endMa": 66.0,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "paleogene-paleocene",
+      "name": "Paleocene",
+      "rank": "epoch",
+      "parentId": "paleogene",
+      "startMa": 66.0,
+      "endMa": 56.0,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "paleogene-eocene",
+      "name": "Eocene",
+      "rank": "epoch",
+      "parentId": "paleogene",
+      "startMa": 56.0,
+      "endMa": 33.9,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "paleogene-oligocene",
+      "name": "Oligocene",
+      "rank": "epoch",
+      "parentId": "paleogene",
+      "startMa": 33.9,
+      "endMa": 23.03,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "neogene-miocene",
+      "name": "Miocene",
+      "rank": "epoch",
+      "parentId": "neogene",
+      "startMa": 23.03,
+      "endMa": 5.333,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "neogene-pliocene",
+      "name": "Pliocene",
+      "rank": "epoch",
+      "parentId": "neogene",
+      "startMa": 5.333,
+      "endMa": 2.58,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "quaternary-pleistocene",
+      "name": "Pleistocene",
+      "rank": "epoch",
+      "parentId": "quaternary",
+      "startMa": 2.58,
+      "endMa": 0.0117,
+      "sourceRefs": ["ics2026"]
+    },
+    {
+      "id": "quaternary-holocene",
+      "name": "Holocene",
+      "rank": "epoch",
+      "parentId": "quaternary",
+      "startMa": 0.0117,
+      "endMa": 0,
+      "sourceRefs": ["ics2026"]
+    }
+  ]
+}

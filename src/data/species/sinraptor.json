@@ -1,0 +1,164 @@
+{
+  "slug": "sinraptor",
+  "accession": "MZ-034",
+  "scientificName": "Sinraptor dongi",
+  "commonName": "Chinese thief",
+  "genus": "Sinraptor",
+  "epithet": "dongi",
+  "status": "Extinct",
+  "namedBy": "Currie & Zhao, 1993",
+  "group": "Theropoda · Metriacanthosauridae",
+  "groupKey": "Theropoda",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Oxfordian",
+  "ageMa": [
+    161,
+    155
+  ],
+  "ageLabel": "≈161–155 Ma",
+  "region": [
+    "China"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The serrated, laterally compressed teeth support carnivory, but no gut contents or feeding traces are known. The prey species and hunting method are inferred from tooth morphology and comparisons with other allosauroids.",
+    "evidence": "inference",
+    "refs": [
+      "primary-sinraptor",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈7–8 m",
+  "mass": "≈1–1.5 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "sinraptor-living",
+  "featured": false,
+  "tagline": "A large metriacanthosaurid with a deep skull and serrated teeth. It is known from a nearly complete skeleton.",
+  "summary": "A large metriacanthosaurid with a deep skull and serrated teeth. It is known from a nearly complete skeleton.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Tetanurae"
+    },
+    {
+      "rank": "Family",
+      "value": "Metriacanthosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Sinraptor"
+    },
+    {
+      "rank": "Species",
+      "value": "S. dongi"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Currie & Zhao (1993/1994). The holotype, IVPP 10600, is a nearly complete skeleton with a skull from the Shishugou Formation, Xinjiang.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-sinraptor",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "A nearly complete skeleton and skull from the Shishugou Formation.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-sinraptor",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Shishugou Formation, Xinjiang records the species in the Late Jurassic. The numeric range used here is ≈161–155 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is large and relatively deep, with a robust lower jaw and recurved teeth.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-sinraptor",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The skull and limbs indicate a large predatory theropod, but hunting is inferred, not observed. No trackway, nest or social association is known. The nearly complete skeleton documents anatomy, not behaviour.",
+    "evidence": "inference",
+    "refs": [
+      "primary-sinraptor",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a nearly complete skeleton and skull from the Shishugou formation. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-sinraptor",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-sinraptor",
+    "pbdb",
+    "paul2016",
+    "v19-sinraptor-48"
+  ],
+  "related": [
+    "monolophosaurus",
+    "allosaurus",
+    "concavenator"
+  ],
+  "confidenceNote": "Confidence is high for the skull and postcranial skeleton of IVPP 10600. It is lower for diet, prey choice, soft tissue and social behaviour. The publication year is cited as 1993 or 1994.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Riverine woodland",
+  "ancientContext": "Shishugou Formation, Xinjiang",
+  "locality": [
+    "Shishugou Formation, Xinjiang"
+  ],
+  "researchStatus": "partially-verified"
+}

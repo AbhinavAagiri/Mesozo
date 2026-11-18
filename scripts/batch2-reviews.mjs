@@ -1,0 +1,1080 @@
+// Claim-level reviews for the second research cohort.
+// These are merged into src/data/claim-reviews.json by enrich-species-pass2.mjs.
+// Each statement is limited to what the cited source actually supports.
+
+const C = (id, statement, evidence, refs, qualification, context, conflict) => ({
+  id,
+  statement,
+  evidence,
+  refs,
+  ...(qualification ? { qualification } : {}),
+  ...(context ? { context } : {}),
+  ...(conflict ? { conflict } : {}),
+});
+
+export const batch2Reviews = {
+  argentinosaurus: {
+    species: 'Argentinosaurus huinculensis',
+    scope: 'Holotype, body-mass estimates, stratigraphic setting and the limits of a skull-less giant.',
+    sourcesRead: [
+      'Bonaparte & Coria 1993: English translation of the original description read.',
+      'Mazzetta et al. 2004: abstract and body-mass figures reviewed; full text not read.',
+      'Paleobiology Database occurrence record reviewed.',
+    ],
+    claims: [
+      C(
+        'argentinosaurus-holotype',
+        'The holotype, MCF-PVPH 1, preserves dorsal and sacral vertebrae, ribs and part of a hindlimb. No skull is known.',
+        'direct',
+        ['primary-argentinosaurus', 'pbdb'],
+        'The original description lists three anterior and three posterior dorsal vertebrae, sacral material, a rib and the right tibia. Later work has debated how some limb elements are identified, and an isolated femur has been referred separately.',
+        'Huincul Formation, Neuquén Province, Argentina.',
+      ),
+      C(
+        'argentinosaurus-mass',
+        'Body mass was estimated at about 73 tonnes, within a wider range of roughly 60–88 tonnes from different equations.',
+        'inference',
+        ['mazzetta2004'],
+        'This is a regression estimate from limb dimensions, not a measurement of a complete animal. Later studies have produced both lower and higher figures.',
+        'The estimate depends on restoring missing body volume and on the equations chosen.',
+      ),
+      C(
+        'argentinosaurus-age',
+        'The species occurs in the Huincul Formation of Neuquén, dated to the Cenomanian–Turonian.',
+        'direct',
+        ['primary-argentinosaurus', 'pbdb'],
+        'The original paper called the unit the Río Limay Formation and gave an Albian–Cenomanian age. The current formation name and age are used here; the fossil itself is not directly dated.',
+        'Estancia Las Overas, Plaza Huincul area.',
+      ),
+      C(
+        'argentinosaurus-diet',
+        'Herbivory is inferred from titanosaur anatomy. No skull, gut contents or coprolites are known for this species.',
+        'inference',
+        ['primary-argentinosaurus', 'pbdb'],
+        'The absence of a skull means the jaw apparatus and feeding style cannot be examined directly. The plants eaten and the animal’s feeding height remain unknown.',
+      ),
+    ],
+    gaps: [
+      'No skull or complete skeleton.',
+      'No direct evidence of diet, nesting or herding.',
+      'Body mass depends on reconstructed volume and chosen regression.',
+    ],
+  },
+
+  camptosaurus: {
+    species: 'Camptosaurus dispar',
+    scope: 'Naming, Morrison Formation context, revised taxonomy and the limits of the feeding evidence.',
+    sourcesRead: [
+      'Marsh 1879: bibliographic record reviewed; full text not read.',
+      'McDonald 2011: abstract and taxonomic conclusions reviewed.',
+      'Paleobiology Database and Morrison Formation records reviewed.',
+    ],
+    claims: [
+      C(
+        'camptosaurus-naming',
+        'Camptosaurus dispar was named by O. C. Marsh in 1879 from Morrison Formation material.',
+        'direct',
+        ['primary-camptosaurus'],
+        'The name-bearing description is the baseline for the species concept; later referrals and revised diagnoses are separate claims.',
+        'Morrison Formation, western United States.',
+      ),
+      C(
+        'camptosaurus-taxonomy',
+        'McDonald (2011) restricted Camptosaurus dispar and treated several referred species as distinct. The family Camptosauridae is not recovered by every analysis.',
+        'debate',
+        ['v19-camptosaurus-134', 'pbdb'],
+        'The genus has a long referral history. A specimen labelled Camptosaurus in an older collection is not automatically C. dispar.',
+        'Morrison Formation and European “Camptosaurus-like” material.',
+        'Some analyses place Camptosaurus among basal ankylopollexians without a stable Camptosauridae.',
+      ),
+      C(
+        'camptosaurus-anatomy',
+        'The skull is relatively small, the forelimbs are shorter than the hindlimbs, and the hand bears a small thumb spike.',
+        'direct',
+        ['primary-camptosaurus', 'pbdb'],
+        'These features are preserved in partial skeletons and skulls. The reconstruction as a facultative biped is a functional inference from limb proportions.',
+      ),
+      C(
+        'camptosaurus-diet',
+        'The dentition and jaw apparatus indicate herbivory, but no gut contents are known.',
+        'inference',
+        ['primary-camptosaurus'],
+        'A broad herbivorous diet is well supported for the group; the plants eaten, bite mechanics and feeding height are not directly preserved.',
+      ),
+    ],
+    gaps: [
+      'No gut contents or coprolites.',
+      'Social, nesting and parental behaviour unknown.',
+      'Many historical referrals need specimen-level reidentification.',
+    ],
+  },
+
+  dilong: {
+    species: 'Dilong paradoxus',
+    scope: 'Holotype, preserved integument, contested tyrannosauroid placement and feeding evidence.',
+    sourcesRead: [
+      'Xu et al. 2004: full text read.',
+      'Brusatte & Carr 2016: full text read.',
+      'IVPP specimen records reviewed.',
+    ],
+    claims: [
+      C(
+        'dilong-holotype',
+        'The holotype is IVPP V14243, a semi-articulated skeleton with an almost complete skull from the Lujiatun Unit of the Yixian Formation.',
+        'direct',
+        ['primary-dilong', 'pbdb'],
+        'IVPP V14242 and TNP01109 are referred specimens. IVPP V11579 is a referred skull, not the holotype.',
+        'Lujiatun Unit, Yixian Formation, Liaoning, China.',
+      ),
+      C(
+        'dilong-integuent',
+        'Filamentous integument is preserved in association with the skeleton.',
+        'direct',
+        ['primary-dilong'],
+        'The filaments are direct evidence of a body covering. Their colour, density and function are not preserved, and they are not modern contour feathers.',
+      ),
+      C(
+        'dilong-phylogeny',
+        'Dilong is a small tyrannosauroid, but its exact position is contested: Brusatte & Carr (2016) recovered it outside Proceratosauridae.',
+        'debate',
+        ['primary-dilong', 'v20-brusatte2016'],
+        'The archive’s Proceratosauridae label is provisional. Some analyses place Dilong within that family; others place it outside Tyrannosauroidea.',
+        'Early Cretaceous of Liaoning, China.',
+      ),
+      C(
+        'dilong-diet',
+        'The dentition indicates carnivory, but no gut contents are known.',
+        'inference',
+        ['primary-dilong'],
+        'Curved, serrated teeth are consistent with a predatory diet. They do not show what prey was taken, whether the animal hunted or scavenged, or how often it fed.',
+      ),
+    ],
+    gaps: [
+      'No direct gut contents.',
+      'Feather function and colour unknown.',
+      'Phylogenetic placement unstable.',
+    ],
+  },
+
+  dreadnoughtus: {
+    species: 'Dreadnoughtus schrani',
+    scope: 'Exceptional appendicular skeleton, specimen completeness, body-mass estimates and missing skull evidence.',
+    sourcesRead: [
+      'Lacovara et al. 2014: description and specimen list reviewed.',
+      'Ullmann & Lacovara 2016: abstract and metadata reviewed.',
+      'Voegele et al. 2017, 2020: abstracts and metadata reviewed.',
+    ],
+    claims: [
+      C(
+        'dreadnoughtus-holotype',
+        'The holotype, MPM-PV 1156, is a partially articulated skeleton preserving much of the appendicular skeleton, pelvis, tail and part of the skull. It is about 45% complete.',
+        'direct',
+        ['primary-dreadnoughtus'],
+        'The skull is represented by a maxilla fragment and a tooth. The paratype, MPM-PV 3546, is a smaller partial postcranial skeleton from the same locality.',
+        'Cerro Fortaleza Formation, Santa Cruz Province, Argentina.',
+      ),
+      C(
+        'dreadnoughtus-mass',
+        'Body mass is estimated from limb bones and reconstructed body volume; published figures vary substantially.',
+        'inference',
+        ['primary-dreadnoughtus', 'paul2016'],
+        'The original description and later comparative estimates do not agree on a single value. The archive’s 22–38 t range is a set of estimates, not a measurement.',
+      ),
+      C(
+        'dreadnoughtus-anatomy',
+        'The dorsal vertebrae are extensively pneumatised, and the limb and girdle bones preserve attachment surfaces used to reconstruct musculature.',
+        'direct',
+        ['v19-dreadnoughtus-147', 'v19-dreadnoughtus-145', 'v19-dreadnoughtus-146'],
+        'Muscle reconstructions are inferences from scars and comparative anatomy, not preserved muscles. The axial skeleton is incomplete.',
+      ),
+      C(
+        'dreadnoughtus-diet',
+        'Herbivory is inferred from titanosaur anatomy; the known skull material is too incomplete to reconstruct the diet directly.',
+        'inference',
+        ['primary-dreadnoughtus'],
+        'No gut contents are known. The maxilla fragment and tooth do not establish the plants eaten or the feeding style.',
+      ),
+    ],
+    gaps: [
+      'Skull almost entirely unknown.',
+      'No direct diet or behaviour evidence.',
+      'Mass estimates vary with method and reconstruction.',
+    ],
+  },
+
+  einiosaurus: {
+    species: 'Einiosaurus procurvicornis',
+    scope: 'Bonebed sample, cranial ornament ontogeny and the limits of the social interpretation.',
+    sourcesRead: [
+      'Sampson 1995: abstract and bibliographic record reviewed.',
+      'Wilson & Scannella 2021: full text read.',
+      'MOR specimen records reviewed.',
+    ],
+    claims: [
+      C(
+        'einiosaurus-bonebeds',
+        'The species is known from two monospecific bonebeds in the Two Medicine Formation, with at least 15 individuals. The holotype is an adult partial skull, MOR 456-8-9-6-1.',
+        'direct',
+        ['primary-einiosaurus', 'v20-wilson2021'],
+        'The Canyon Bonebed and Dino Ridge Quarry sample different parts of the skeleton. The association of many individuals is direct; herding is an inference.',
+        'Two Medicine Formation, Montana.',
+      ),
+      C(
+        'einiosaurus-ornament',
+        'The nasal horn is strongly procurved, the supracranial ornament is inflated, and the parietal bears a single pair of elongate P3 processes.',
+        'direct',
+        ['primary-einiosaurus', 'v20-wilson2021'],
+        'The ornament is preserved bone. Its function in display, species recognition or combat is not established.',
+      ),
+      C(
+        'einiosaurus-ontogeny',
+        'Cranial ornament changes through growth, and the subadult skull MOR 456 8-8-87-1 documents a sequence of ornament development.',
+        'inference',
+        ['v20-wilson2021'],
+        'The sequence is reconstructed from a growth series, not from following one individual through life. Size and age are correlated but not identical.',
+      ),
+      C(
+        'einiosaurus-diet',
+        'Herbivory is inferred from the dentition and jaw apparatus; no gut contents are known.',
+        'inference',
+        ['primary-einiosaurus'],
+        'The beak and dental battery are consistent with cropping and processing plants. The plants eaten and the feeding style are not preserved.',
+      ),
+    ],
+    gaps: [
+      'No gut contents.',
+      'Herding is inferred from bonebed association, not observed.',
+      'Ornament function unresolved.',
+    ],
+  },
+
+  falcarius: {
+    species: 'Falcarius utahensis',
+    scope: 'Bonebed sample, transitional therizinosaur anatomy, hindlimb reconstruction and the diet debate.',
+    sourcesRead: [
+      'Kirkland et al. 2005: abstract and bibliographic record reviewed.',
+      'Zanno 2010; Smith et al. 2011, 2023: abstracts and metadata reviewed.',
+      'Cedar Mountain Formation records reviewed.',
+    ],
+    claims: [
+      C(
+        'falcarius-bonebed',
+        'Falcarius is known from a large bonebed in the Cedar Mountain Formation of Utah, including multiple individuals and growth stages.',
+        'direct',
+        ['primary-falcarius', 'pbdb'],
+        'The bonebed sample is direct evidence of accumulation. It does not by itself show that the animals lived together or died together.',
+        'Crystal Geyser quarry, Cedar Mountain Formation, Utah.',
+      ),
+      C(
+        'falcarius-transition',
+        'The skeleton combines features inherited from carnivorous theropods with modifications associated with therizinosaurs, including changes in the skull, forelimb and hindlimb.',
+        'inference',
+        ['v19-falcarius-192', 'v19-falcarius-194'],
+        'The transition is reconstructed from anatomy and phylogeny. It is not a direct record of a lineage changing through time.',
+      ),
+      C(
+        'falcarius-hindlimb',
+        'Hindlimb muscle reconstruction supports a habitual bipedal stance and a relatively short stride for a therizinosaur.',
+        'inference',
+        ['v19-falcarius-195'],
+        'Muscle attachments constrain the reconstruction, but soft-tissue mass and gait are modelled. Trackways are not known for this species.',
+      ),
+      C(
+        'falcarius-diet',
+        'Herbivory is inferred from the reduced, leaf-shaped teeth and the wider therizinosaur record; no gut contents are known.',
+        'inference',
+        ['primary-falcarius', 'v19-falcarius-192'],
+        'The dentition is consistent with plant processing, but the jaw mechanism and the plants eaten remain inferences.',
+      ),
+    ],
+    gaps: [
+      'No gut contents.',
+      'Feathers and soft tissue unknown.',
+      'Family-level placement is provisional.',
+    ],
+  },
+
+  gigantspinosaurus: {
+    species: 'Gigantspinosaurus sichuanensis',
+    scope: 'Original abstract, holotype, parascapular spines, redescription and the femoral pathology.',
+    sourcesRead: [
+      'Ouyang 1992: abstract record reviewed.',
+      'Hao et al. 2018 redescription: abstract, figures and diagnosis reviewed.',
+      'Maidment & Wei 2006: review record reviewed.',
+    ],
+    claims: [
+      C(
+        'gigantspinosaurus-holotype',
+        'Ouyang (1992) named Gigantspinosaurus sichuanensis on a partial skeleton from the Upper Shaximiao Formation, Sichuan. The holotype is ZDM 0019.',
+        'direct',
+        ['primary-gigantspinosaurus', 'v19-gigantspinosaurus-74'],
+        'The original description is a short abstract. The 2018 redescription provides the detailed anatomy and diagnosis used here.',
+        'Upper Shaximiao Formation, Zigong, Sichuan, China.',
+      ),
+      C(
+        'gigantspinosaurus-spines',
+        'The most distinctive feature is a pair of very large parascapular spines, accompanied by relatively small dorsal plates.',
+        'direct',
+        ['v19-gigantspinosaurus-74', 'primary-gigantspinosaurus'],
+        'The spines are preserved bone. Their role in display or defence is inferred from their size and position, not observed.',
+      ),
+      C(
+        'gigantspinosaurus-position',
+        'The 2018 redescription recovered Gigantspinosaurus as a stegosaur more derived than Huayangosaurus but less derived than Tuojiangosaurus.',
+        'inference',
+        ['v19-gigantspinosaurus-74'],
+        'This is one phylogenetic result. Other analyses differ in the placement of basal stegosaurs, so the family label is navigational.',
+      ),
+      C(
+        'gigantspinosaurus-pathology',
+        'The femur preserves an osteopathy, interpreted as a healed or chronic abnormality rather than a fatal injury.',
+        'direct',
+        ['v19-gigantspinosaurus-75'],
+        'The pathology is preserved bone. Its cause, duration and effect on the animal’s movement are inferences.',
+      ),
+    ],
+    gaps: [
+      'Original description is brief.',
+      'Spine function unresolved.',
+      'No direct diet or behaviour evidence.',
+    ],
+  },
+
+  guanlong: {
+    species: 'Guanlong wucaii',
+    scope: 'Two specimens, cranial crest, Shishugou age and early tyrannosauroid relationships.',
+    sourcesRead: [
+      'Xu et al. 2006: full text read.',
+      'Brusatte & Carr 2016: full text read.',
+      'IVPP specimen records reviewed.',
+    ],
+    claims: [
+      C(
+        'guanlong-specimens',
+        'Guanlong is known from an adult skeleton, IVPP V14531, and a smaller, nearly complete specimen, IVPP V14532, from the upper Shishugou Formation.',
+        'direct',
+        ['primary-guanlong', 'pbdb'],
+        'The adult holotype is partly articulated; the paratype is immature. The two specimens sample different growth stages.',
+        'Shishugou Formation, Xinjiang, China.',
+      ),
+      C(
+        'guanlong-crest',
+        'The skull bears a large, thin, pneumatic median crest.',
+        'direct',
+        ['primary-guanlong'],
+        'The crest is preserved bone. A display function is plausible because the structure is delicate, but it is not demonstrated.',
+      ),
+      C(
+        'guanlong-age',
+        'The upper Shishugou Formation is Oxfordian, approximately 161–156 Ma.',
+        'direct',
+        ['primary-guanlong', 'pbdb'],
+        'The age is based on stratigraphic correlation and radiometric work on the formation, not a direct date on the specimen.',
+      ),
+      C(
+        'guanlong-phylogeny',
+        'Guanlong is recovered as a proceratosaurid tyrannosauroid in recent analyses, although early tyrannosauroid relationships remain unstable.',
+        'debate',
+        ['primary-guanlong', 'v20-brusatte2016'],
+        'Proceratosauridae is a hypothesis about relationships, not a fixed rank. The composition of the family varies between analyses.',
+      ),
+    ],
+    gaps: [
+      'Crest function inferred.',
+      'No gut contents.',
+      'Social and reproductive behaviour unknown.',
+    ],
+  },
+
+  herrerasaurus: {
+    species: 'Herrerasaurus ischigualastensis',
+    scope: 'Ischigualasto specimens, skull and forelimb anatomy, and the contested position among early dinosaurs.',
+    sourcesRead: [
+      'Reig 1963: bibliographic record reviewed.',
+      'Novas 1994; Sereno & Novas 1994; Sereno 1994: abstracts and metadata reviewed.',
+      'Ischigualasto Formation records reviewed.',
+    ],
+    claims: [
+      C(
+        'herrerasaurus-occurrence',
+        'Herrerasaurus is known from the Ischigualasto Formation of Argentina, dated to the Late Triassic, approximately 231–228 Ma.',
+        'direct',
+        ['primary-herrerasaurus', 'pbdb'],
+        'The formation age is radiometrically constrained; the species range is an occurrence estimate, not a direct date on every specimen.',
+      ),
+      C(
+        'herrerasaurus-skull',
+        'The skull is long and low, with large, curved, serrated teeth and a jaw articulation that permits a wide gape.',
+        'direct',
+        ['v19-herrerasaurus-57'],
+        'The skull and lower jaws are known from several specimens. Tooth shape is consistent with carnivory; it does not establish prey choice.',
+      ),
+      C(
+        'herrerasaurus-forelimb',
+        'The forelimb is relatively short but powerfully built, with a mobile shoulder and a hand capable of grasping.',
+        'direct',
+        ['v19-herrerasaurus-58'],
+        'The reconstruction of range of motion is a functional inference from joint surfaces, not an observation of use.',
+      ),
+      C(
+        'herrerasaurus-phylogeny',
+        'Herrerasaurus is one of the earliest branching dinosaurs, but whether it lies inside Theropoda or outside it is contested.',
+        'debate',
+        ['v19-herrerasaurus-56', 'primary-herrerasaurus'],
+        'Different analyses recover it as a herrerasaurid, a basal saurischian or a stem dinosaur. The archive’s family label is navigational.',
+      ),
+    ],
+    gaps: [
+      'No gut contents.',
+      'Hunting and social behaviour unknown.',
+      'Phylogenetic position unresolved.',
+    ],
+  },
+
+  huayangosaurus: {
+    species: 'Huayangosaurus taibaii',
+    scope: 'Skull and postcranium, plate arrangement, basal stegosaur relationships and feeding evidence.',
+    sourcesRead: [
+      'Dong et al. 1982: bibliographic record reviewed.',
+      'Sereno & Dong 1992; Maidment et al. 2006: abstracts and metadata reviewed.',
+      'Shaximiao Formation records reviewed.',
+    ],
+    claims: [
+      C(
+        'huayangosaurus-skull',
+        'Huayangosaurus has a relatively short snout and a skull that is less derived than those of later stegosaurs.',
+        'direct',
+        ['v19-huayangosaurus-72'],
+        'The skull is known from multiple specimens. The description supports the anatomy; the evolutionary interpretation depends on the phylogeny used.',
+      ),
+      C(
+        'huayangosaurus-plates',
+        'The postcranium bears small dorsal plates and at least one pair of tail spines.',
+        'direct',
+        ['v19-huayangosaurus-73'],
+        'The plates and spines are preserved. Their arrangement and function are reconstructed from the specimen and comparisons with other stegosaurs.',
+      ),
+      C(
+        'huayangosaurus-position',
+        'Huayangosaurus is usually placed outside Stegosauridae, as a basal stegosaur.',
+        'inference',
+        ['v19-huayangosaurus-72', 'v19-huayangosaurus-73'],
+        'This placement is supported by several analyses but is not a universal consensus. Huayangosauridae is used as a navigational family label.',
+      ),
+      C(
+        'huayangosaurus-diet',
+        'Herbivory is inferred from the skull, jaw and dentition; no gut contents are known.',
+        'inference',
+        ['v19-huayangosaurus-72'],
+        'The jaws and teeth are consistent with plant cropping. The plants eaten and the feeding posture remain unknown.',
+      ),
+    ],
+    gaps: [
+      'No gut contents.',
+      'Plate and spine function unresolved.',
+      'Social behaviour unknown.',
+    ],
+  },
+
+  hypsilophodon: {
+    species: 'Hypsilophodon foxii',
+    scope: 'Wessex material, skull and limb anatomy, the old arboreal hypothesis and track evidence.',
+    sourcesRead: [
+      'Huxley 1870: bibliographic record reviewed.',
+      'Hulke 1873, 1874, 1882: abstracts and metadata reviewed.',
+      'Jackson et al. 2010: abstract reviewed.',
+    ],
+    claims: [
+      C(
+        'hypsilophodon-material',
+        'Hypsilophodon is known from multiple partial skeletons from the Wessex Formation of the Isle of Wight.',
+        'direct',
+        ['primary-hypsilophodon', 'pbdb'],
+        'The hypodigm includes skull and postcranial material. The species is small, lightly built and bipedal.',
+        'Wessex Formation, Isle of Wight, United Kingdom.',
+      ),
+      C(
+        'hypsilophodon-skull',
+        'The skull is small and lightweight, with a beak and teeth suited to cropping and chewing plants.',
+        'direct',
+        ['v19-hypsilophodon-137'],
+        'The skull and dentition are preserved. The diet is inferred from anatomy; no gut contents are known.',
+      ),
+      C(
+        'hypsilophodon-arboreal',
+        'The old reconstruction of Hypsilophodon as an arboreal animal is not supported by its limb and foot anatomy.',
+        'debate',
+        ['v19-hypsilophodon-137', 'v19-hypsilophodon-139'],
+        'The arboreal hypothesis was based on an interpretation of the foot and claws. Later anatomical work treated the animal as primarily terrestrial.',
+        'The disagreement is historical, not a live controversy over the basic posture.',
+      ),
+      C(
+        'hypsilophodon-tracks',
+        'Experimental tracks made by a Hypsilophodon model show how footprint shape changes with sand wetness.',
+        'inference',
+        ['v19-hypsilophodon-136'],
+        'The experiment constrains how track shape forms; it does not identify a wild trackmaker or reconstruct the animal’s speed.',
+      ),
+    ],
+    gaps: [
+      'No gut contents.',
+      'Growth series is limited.',
+      'Social and nesting behaviour unknown.',
+    ],
+  },
+
+  iguanodon: {
+    species: 'Iguanodon bernissartensis',
+    scope: 'Bernissart skeletons, thumb spike, integument, posture and the bonebed social inference.',
+    sourcesRead: [
+      'Boulenger 1881: bibliographic record reviewed.',
+      'Verdú et al. 2017; Gasulla et al. 2022; Hooley 1917: abstracts and metadata reviewed.',
+      'Bernissart and Wessex records reviewed.',
+    ],
+    claims: [
+      C(
+        'iguanodon-bernissart',
+        'The Bernissart skeletons established much of the modern anatomical concept of Iguanodon bernissartensis.',
+        'direct',
+        ['primary-iguanodon', 'pbdb'],
+        'The Sainte-Barbe Clays produced many articulated skeletons. They are direct evidence of anatomy; the cause of the accumulation is a separate taphonomic question.',
+        'Bernissart, Belgium.',
+      ),
+      C(
+        'iguanodon-thumb-spike',
+        'The hand bears a large, conical thumb spike.',
+        'direct',
+        ['primary-iguanodon', 'v19-iguanodon-11'],
+        'The spike is preserved bone. Its use in defence, feeding or social interaction is inferred, not observed.',
+      ),
+      C(
+        'iguanodon-integument',
+        'Skin impressions show a scaly covering, with no evidence of feathers.',
+        'direct',
+        ['v19-iguanodon-14'],
+        'The impressions sample parts of the body. They do not establish the colour or the full integumentary covering.',
+      ),
+      C(
+        'iguanodon-posture',
+        'Iguanodon was capable of quadrupedal walking, but could also adopt a bipedal stance.',
+        'inference',
+        ['v19-iguanodon-11', 'v19-iguanodon-12'],
+        'The posture is reconstructed from limb proportions and joint surfaces. Trackways and the bonebed association are consistent with gregarious behaviour, but herding is not directly observed.',
+      ),
+    ],
+    gaps: [
+      'No gut contents.',
+      'Thumb-spike function unresolved.',
+      'Herd behaviour inferred from bonebed association.',
+    ],
+  },
+
+  jobaria: {
+    species: 'Jobaria tiguidensis',
+    scope: 'Holotype, revised Middle Jurassic age, vertebral anatomy and the mass-death assemblage.',
+    sourcesRead: [
+      'Sereno et al. 1999: abstract reviewed.',
+      'Rauhut & López-Arbarello 2009: abstract reviewed.',
+      'MNN specimen records reviewed.',
+    ],
+    claims: [
+      C(
+        'jobaria-holotype',
+        'The holotype, MNN TIG3, is a largely complete skeleton including the skull and most of the postcranium.',
+        'direct',
+        ['sereno1999', 'pbdb'],
+        'Several individuals, including a juvenile, were found at the same locality. The association is direct; gregarious behaviour is inferred.',
+        'Tiourarén Formation, Niger.',
+      ),
+      C(
+        'jobaria-age',
+        'The Tiourarén Formation is now interpreted as Middle Jurassic, not Early Cretaceous as in the original description.',
+        'debate',
+        ['rauhut2009', 'sereno1999'],
+        'The revision rests on stratigraphic and faunal correlation. The formation has not yielded a single radiometric date that fixes the species’ age.',
+        'The archive uses a Bathonian–Oxfordian range, approximately 167–161 Ma.',
+      ),
+      C(
+        'jobaria-vertebrae',
+        'The vertebral column is relatively simple for a sauropod, and the neck is short relative to the body.',
+        'direct',
+        ['sereno1999'],
+        'The description is based on the holotype and referred individuals. The functional significance of the short neck is not established.',
+      ),
+      C(
+        'jobaria-diet',
+        'Herbivory is inferred from the skull and dentition; no gut contents are known.',
+        'inference',
+        ['sereno1999'],
+        'The teeth and jaws are consistent with plant feeding. The plants eaten and the feeding height remain unknown.',
+      ),
+    ],
+    gaps: [
+      'No gut contents.',
+      'Gregarious behaviour inferred from a mass-death assemblage.',
+      'Formation age depends on correlation, not direct radiometric dating.',
+    ],
+  },
+
+  mamenchisaurus: {
+    species: 'Mamenchisaurus hochuanensis',
+    scope: 'Elongated neck, tail club, uncertain formation age and the limits of the feeding reconstruction.',
+    sourcesRead: [
+      'Young & Zhao 1972: bibliographic record reviewed.',
+      'Xing et al. 2009; Christian et al. 2013: abstracts and metadata reviewed.',
+      'Upper Shaximiao Formation records reviewed.',
+    ],
+    claims: [
+      C(
+        'mamenchisaurus-neck',
+        'The neck is exceptionally long and is composed of 19 elongated cervical vertebrae.',
+        'direct',
+        ['primary-mamenchisaurus'],
+        'The cervical count is based on the holotype. The neck’s range of motion is reconstructed, not observed.',
+        'Upper Shaximiao Formation, Sichuan, China.',
+      ),
+      C(
+        'mamenchisaurus-tail-club',
+        'The distal tail bears a bony club formed by fused vertebrae.',
+        'direct',
+        ['v19-mamenchisaurus-156'],
+        'The club is preserved bone. Its use in defence or display is inferred from its shape and from comparison with other sauropods.',
+      ),
+      C(
+        'mamenchisaurus-age',
+        'The Upper Shaximiao Formation is not reliably radiometrically dated; the archive uses an Oxfordian age of approximately 161–155 Ma.',
+        'debate',
+        ['pbdb', 'primary-mamenchisaurus'],
+        'Some treatments place the Mamenchisaurus fauna in the Middle Jurassic. The age is a correlation, not a direct date on the specimen.',
+      ),
+      C(
+        'mamenchisaurus-feeding',
+        'The dentition indicates herbivory, and the long neck has been interpreted as an adaptation for browsing over a wide area.',
+        'inference',
+        ['v19-mamenchisaurus-157'],
+        'The neck-pose study used Mamenchisaurus youngi, not M. hochuanensis. It constrains plausible poses but does not establish the diet of this species.',
+      ),
+    ],
+    gaps: [
+      'No reliable radiometric date for the formation.',
+      'No gut contents.',
+      'Neck function and feeding height unresolved.',
+    ],
+  },
+
+  megalosaurus: {
+    species: 'Megalosaurus bucklandii',
+    scope: 'The first named non-avian dinosaur, the lectotype dentary, Stonesfield context and the limits of a fragmentary taxon.',
+    sourcesRead: [
+      'Buckland 1824; Mantell 1827: bibliographic records reviewed.',
+      'Benson 2008, 2010: abstracts reviewed.',
+      'Paleobiology Database specimen record reviewed.',
+    ],
+    claims: [
+      C(
+        'megalosaurus-naming',
+        'Megalosaurus was named by William Buckland in 1824, making it the first non-avian dinosaur genus to be validly named. Gideon Mantell named the species M. bucklandii in 1827.',
+        'direct',
+        ['buckland1824', 'benson2008'],
+        'The 1824 description was based on a collection of bones from several individuals, not a single skeleton.',
+        'Stonesfield, Oxfordshire, England.',
+      ),
+      C(
+        'megalosaurus-lectotype',
+        'The lectotype is OUMNH J.13505, a partial right dentary.',
+        'direct',
+        ['benson2008', 'pbdb'],
+        'The dentary is diagnostic, but the rest of the historical hypodigm is fragmentary and many referrals are contested.',
+      ),
+      C(
+        'megalosaurus-age',
+        'The Stonesfield material comes from the Taynton Limestone Formation, Bathonian, Middle Jurassic.',
+        'direct',
+        ['pbdb', 'buckland1824'],
+        'The age is based on the rock unit and its fauna, not a direct date on the lectotype.',
+      ),
+      C(
+        'megalosaurus-diet',
+        'The dentition indicates carnivory, but no gut contents are known and the hunting behaviour is not preserved.',
+        'inference',
+        ['benson2010', 'benson2014'],
+        'The teeth are curved and serrated. The body-mass estimate of about one tonne is a comparative model, not a measurement.',
+      ),
+    ],
+    gaps: [
+      'Lectotype is a partial dentary.',
+      'Many historical referrals are contested.',
+      'No gut contents or behaviour evidence.',
+    ],
+  },
+
+  minmi: {
+    species: 'Minmi paravertebra',
+    scope: 'Holotype, paravertebral armour, the Kunbarrasaurus distinction and unresolved ankylosaur relationships.',
+    sourcesRead: [
+      'Molnar 1980: bibliographic record reviewed.',
+      'Molnar & Frey 1987: metadata reviewed.',
+      'Leahey et al. 2015: open-access abstract and taxonomic conclusions reviewed.',
+    ],
+    claims: [
+      C(
+        'minmi-holotype',
+        'The holotype, QM F10329, is a partial skeleton from the Bungil Formation of Queensland. It lacks a skull.',
+        'direct',
+        ['primary-minmi', 'pbdb'],
+        'The specimen preserves vertebrae, ribs, part of a hindlimb and armour. The absence of a skull limits cranial and dietary evidence.',
+        'Bungil Formation, near Roma, Queensland, Australia.',
+      ),
+      C(
+        'minmi-paravertebrae',
+        'The vertebrae are associated with unusual paravertebral elements, the feature that gives the species its name.',
+        'direct',
+        ['v19-minmi-84'],
+        'The elements are preserved bone. Their function in the armour system is reconstructed from position and comparison with other ankylosaurs.',
+      ),
+      C(
+        'minmi-kunbarrasaurus',
+        'A much more complete skeleton formerly called Minmi sp. from the Allaru Mudstone was named Kunbarrasaurus ieversi in 2015. It is not Minmi paravertebra.',
+        'debate',
+        ['v19-minmi-83'],
+        'The distinction is based on cranial anatomy. Older popular accounts that use the Allaru skeleton to describe Minmi are therefore describing a different genus.',
+      ),
+      C(
+        'minmi-diet',
+        'Herbivory is inferred from ankylosaur anatomy; the skull of Minmi is unknown, so its feeding apparatus cannot be examined directly.',
+        'inference',
+        ['primary-minmi', 'v19-minmi-84'],
+        'The diet is a broad inference for Ankylosauria, not a species-specific observation.',
+      ),
+    ],
+    gaps: [
+      'Skull unknown.',
+      'Phylogenetic placement unresolved.',
+      'No gut contents or behaviour evidence.',
+    ],
+  },
+
+  ouranosaurus: {
+    species: 'Ouranosaurus nigeriensis',
+    scope: 'Holotype, elongated neural spines, postcranial variation, locomotion and the unresolved “sail” function.',
+    sourcesRead: [
+      'Taquet 1976: translated osteology chapter reviewed.',
+      'Bertozzo et al. 2017: abstract and specimen record reviewed.',
+      'Gônet et al. 2026: abstract reviewed.',
+    ],
+    claims: [
+      C(
+        'ouranosaurus-holotype',
+        'Ouranosaurus nigeriensis was named by Philippe Taquet in 1976 from the Elrhaz Formation of Niger.',
+        'direct',
+        ['primary-ouranosaurus', 'pbdb'],
+        'The original monograph describes the skull and much of the postcranium. The Elrhaz Formation is Early Cretaceous, Aptian–Albian.',
+        'Gadoufaoua, Niger.',
+      ),
+      C(
+        'ouranosaurus-spines',
+        'Elongated neural spines run along the back and tail, forming the structure often called a sail.',
+        'direct',
+        ['primary-ouranosaurus', 'v19-ouranosaurus-125'],
+        'The spines are preserved bone. The soft tissue that connected them is not preserved, so the silhouette and function are reconstructions.',
+      ),
+      C(
+        'ouranosaurus-postcranium',
+        'The Venice specimen preserves additional postcranial anatomy and shows variation in the skeleton.',
+        'direct',
+        ['v19-ouranosaurus-125'],
+        'The specimen is referred to the species, but its provenance and completeness differ from the holotype. It is not a complete second skeleton.',
+      ),
+      C(
+        'ouranosaurus-locomotion',
+        'Locomotion has been reconstructed as facultatively bipedal or predominantly quadrupedal; the available analyses disagree.',
+        'debate',
+        ['v19-ouranosaurus-126'],
+        'The debate rests on osteological correlates and body reconstruction, not trackways. The animal’s habitual gait is not directly observed.',
+      ),
+    ],
+    gaps: [
+      'Sail soft tissue and function unknown.',
+      'No gut contents.',
+      'Locomotor reconstruction contested.',
+    ],
+  },
+
+  plateosaurus: {
+    species: 'Plateosaurus engelhardti',
+    scope: 'Large bonebed sample, growth plasticity, body-mass range and feeding biomechanics.',
+    sourcesRead: [
+      'Meyer 1837: bibliographic record reviewed.',
+      'Gunga et al. 2007; Hofmann & Sander 2014; Button et al. 2016: abstracts and metadata reviewed.',
+      'Knollenmergel and Frick records reviewed.',
+    ],
+    claims: [
+      C(
+        'plateosaurus-bonebeds',
+        'Plateosaurus is known from hundreds of individuals, including the Frick and Knollenmergel accumulations in Germany and Switzerland.',
+        'direct',
+        ['primary-plateosaurus', 'v19-plateosaurus-60'],
+        'The abundance is direct. Whether the animals congregated in life or were concentrated by drought, flood or mudflow is debated.',
+        'Late Triassic, Central Europe.',
+      ),
+      C(
+        'plateosaurus-mass',
+        'Body mass estimates range from about 0.6 tonnes for a 6 m individual to about 4 tonnes for the largest adults.',
+        'inference',
+        ['v19-plateosaurus-62'],
+        'The range reflects different specimens, reconstructions and methods. It is not a single species average.',
+      ),
+      C(
+        'plateosaurus-growth',
+        'Growth was plastic: juveniles and adults show variable growth-mark spacing, and even isolated neural arches record developmental variation.',
+        'inference',
+        ['v19-plateosaurus-60'],
+        'Histology and growth marks sample past growth. The population’s age structure is not known precisely.',
+      ),
+      C(
+        'plateosaurus-feeding',
+        'The skull and jaw mechanics are consistent with herbivory, but the feeding apparatus differs from that of later sauropods.',
+        'inference',
+        ['v19-plateosaurus-63'],
+        'The jaw muscles and bite mechanics are reconstructed. The plants eaten and the possibility of occasional omnivory are not resolved by the preserved anatomy alone.',
+      ),
+    ],
+    gaps: [
+      'No gut contents.',
+      'Bonebed accumulation and social behaviour debated.',
+      'Body mass varies widely with reconstruction.',
+    ],
+  },
+
+  polacanthus: {
+    species: 'Polacanthus foxii',
+    scope: 'Holotype, pelvic armour, Wessex context and the unresolved family placement.',
+    sourcesRead: [
+      'Hulke 1881, 1887: abstracts and metadata reviewed.',
+      'Blows & Honeysett 2014: metadata reviewed.',
+      'Wessex Formation records reviewed.',
+    ],
+    claims: [
+      C(
+        'polacanthus-holotype',
+        'Polacanthus foxii was named by J. W. Hulke in 1881 from the Wessex Formation of the Isle of Wight.',
+        'direct',
+        ['primary-polacanthus', 'pbdb'],
+        'The holotype is a partial skeleton preserving armour and postcrania. The skull is incomplete.',
+        'Wessex Formation, Isle of Wight, United Kingdom.',
+      ),
+      C(
+        'polacanthus-armour',
+        'A solid shield of fused armour covers the pelvic region, and large spines line the neck and shoulders. The tail lacks a club.',
+        'direct',
+        ['primary-polacanthus', 'v19-polacanthus-86'],
+        'The armour is preserved. Its defensive function is inferred from structure and position, not observed in action.',
+      ),
+      C(
+        'polacanthus-taxonomy',
+        'Polacanthus is placed in Nodosauridae in broad treatments, but some analyses use Polacanthidae or recover it elsewhere.',
+        'debate',
+        ['primary-polacanthus', 'v19-polacanthus-85'],
+        'The family label is provisional. The species itself is diagnosed from the armour and postcranium, not from a complete skull.',
+      ),
+      C(
+        'polacanthus-diet',
+        'Herbivory is inferred from ankylosaur anatomy; the incomplete skull limits direct evidence.',
+        'inference',
+        ['primary-polacanthus'],
+        'No gut contents are known. The plants eaten and the feeding mechanics remain unknown.',
+      ),
+    ],
+    gaps: [
+      'Skull incomplete.',
+      'Armour function inferred.',
+      'Family placement contested.',
+    ],
+  },
+
+  shunosaurus: {
+    species: 'Shunosaurus lii',
+    scope: 'Abundant skeletons, short neck, tail club and the limits of the behavioural record.',
+    sourcesRead: [
+      'Dong et al. 1983: bibliographic record reviewed.',
+      'Chatterjee & Zheng 2002; Ma et al. 2021: abstracts and metadata reviewed.',
+      'Shaximiao Formation records reviewed.',
+    ],
+    claims: [
+      C(
+        'shunosaurus-material',
+        'Shunosaurus is known from many partial skeletons from the Lower Shaximiao Formation of Sichuan, including complete skulls and tail clubs.',
+        'direct',
+        ['primary-shunosaurus', 'v19-shunosaurus-154'],
+        'The sample is unusually large for a Middle Jurassic sauropod. It supports population-level anatomy but not a complete life history.',
+        'Lower Shaximiao Formation, Sichuan, China.',
+      ),
+      C(
+        'shunosaurus-neck',
+        'The neck is relatively short for a sauropod, and the distal tail bears a small bony club.',
+        'direct',
+        ['primary-shunosaurus', 'v19-shunosaurus-154'],
+        'The club is formed by fused vertebrae. Its defensive or display function is inferred from its position and shape.',
+      ),
+      C(
+        'shunosaurus-skull',
+        'The skull is known from multiple specimens and has a relatively short snout and leaf-shaped teeth.',
+        'direct',
+        ['v19-shunosaurus-154'],
+        'The skull material supports herbivory. The jaw mechanism and the plants eaten are not directly preserved.',
+      ),
+      C(
+        'shunosaurus-diet',
+        'Herbivory is inferred from the dentition and jaw apparatus; no gut contents are known.',
+        'inference',
+        ['v19-shunosaurus-154'],
+        'The teeth are consistent with cropping vegetation. The diet is a broad inference, not a recorded meal.',
+      ),
+    ],
+    gaps: [
+      'No gut contents.',
+      'Tail-club function inferred.',
+      'Social and reproductive behaviour unknown.',
+    ],
+  },
+
+  therizinosaurus: {
+    species: 'Therizinosaurus cheloniformis',
+    scope: 'Holotype claws, missing skull, inferred herbivory and the limits of a fragmentary giant.',
+    sourcesRead: [
+      'Maleev 1954: bibliographic record reviewed.',
+      'Zanno 2010: abstract and metadata reviewed.',
+      'PIN specimen record reviewed.',
+    ],
+    claims: [
+      C(
+        'therizinosaurus-holotype',
+        'The holotype, PIN 551-483, preserves fragmentary postcranial material and isolated manual unguals. No skull is known.',
+        'direct',
+        ['primary-therizinosaurus', 'pbdb'],
+        'The manual claws are exceptionally large and curved. Referred forelimb and hindlimb material has been described, but the hypodigm remains incomplete.',
+        'Nemegt Formation, Gobi Desert, Mongolia.',
+      ),
+      C(
+        'therizinosaurus-size',
+        'Body length is estimated at about 9–10 m and mass at several tonnes, but both figures depend on referred material and reconstruction.',
+        'inference',
+        ['primary-therizinosaurus', 'v20-zanno2010', 'paul2016'],
+        'No complete skeleton is known. The estimates are not measurements of the holotype.',
+      ),
+      C(
+        'therizinosaurus-diet',
+        'Herbivory is inferred from the wider therizinosaur record, not from the skull or gut contents of Therizinosaurus itself.',
+        'inference',
+        ['v20-zanno2010'],
+        'Related therizinosaurs have plant-processing dentitions and, in some cases, gastroliths. Those data support a broad inference but do not record this species’ diet.',
+      ),
+      C(
+        'therizinosaurus-integuent',
+        'No integument is preserved for Therizinosaurus. Feathers are known in other theropods, but there is no direct evidence of a covering for this species.',
+        'unknown',
+        ['v20-zanno2010', 'primary-therizinosaurus'],
+        'The absence of preserved feathers is not evidence that the animal was scaly; it reflects the incompleteness of the material.',
+      ),
+    ],
+    gaps: [
+      'No skull.',
+      'No gut contents.',
+      'No integument.',
+      'Body proportions depend on referred material.',
+    ],
+  },
+
+  turiasaurus: {
+    species: 'Turiasaurus riodevensis',
+    scope: 'Partial skeleton, humerus, teeth, size estimates and the untested migration hypothesis.',
+    sourcesRead: [
+      'Royo-Torres et al. 2006: abstract reviewed.',
+      'Royo-Torres & Upchurch 2012: metadata reviewed.',
+      'Agustí et al. 2024: abstract reviewed.',
+    ],
+    claims: [
+      C(
+        'turiasaurus-material',
+        'Turiasaurus is known from a partial skeleton and isolated teeth from the Villar del Arzobispo Formation of Teruel, Spain.',
+        'direct',
+        ['primary-turiasaurus', 'pbdb'],
+        'The skeleton includes a large humerus and other appendicular material. The skull is known from referred material, but the hypodigm is incomplete.',
+        'Villar del Arzobispo Formation, Teruel, Spain.',
+      ),
+      C(
+        'turiasaurus-size',
+        'The species is one of the largest known European sauropods, with length estimates around 30–37 m and mass around 40–50 t.',
+        'inference',
+        ['primary-turiasaurus'],
+        'The estimates are reconstructed from limb bones and comparisons, not from a complete skeleton. Different methods produce different values.',
+      ),
+      C(
+        'turiasaurus-teeth',
+        'The teeth are large and spatulate, consistent with herbivory.',
+        'direct',
+        ['v19-turiasaurus-165'],
+        'Tooth shape supports a plant diet. It does not establish the plants eaten or the feeding height.',
+      ),
+      C(
+        'turiasaurus-migration',
+        'A 2024 study proposed that large foraging migrations could help explain the enormous body size of Turiasaurus.',
+        'debate',
+        ['v19-turiasaurus-166'],
+        'The hypothesis is based on comparative ecology and growth, not on tracked individuals or direct evidence of migration. It remains untested.',
+      ),
+    ],
+    gaps: [
+      'Partial skeleton.',
+      'No gut contents.',
+      'Migration hypothesis untested.',
+    ],
+  },
+
+  yutyrannus: {
+    species: 'Yutyrannus huali',
+    scope: 'Three feathered skeletons, body size, contested tyrannosauroid placement and uncertain provenance.',
+    sourcesRead: [
+      'Xu et al. 2012: abstract and supplementary information reviewed.',
+      'Brusatte & Carr 2016: full text read.',
+      'ZCDM and ELDM specimen records reviewed.',
+    ],
+    claims: [
+      C(
+        'yutyrannus-specimens',
+        'Yutyrannus is known from three nearly complete skeletons: the holotype ZCDM V5000 and the paratypes ZCDM V5001 and ELDM V1001.',
+        'direct',
+        ['primary-yutyrannus', 'pbdb'],
+        'All three preserve filamentous integument. The specimens were purchased from commercial collectors; their exact quarry provenance is not recorded.',
+        'Yixian Formation, Liaoning, China.',
+      ),
+      C(
+        'yutyrannus-integuent',
+        'Filamentous feathers are preserved on the body and tail of all three individuals.',
+        'direct',
+        ['primary-yutyrannus'],
+        'The feathers are direct evidence of a covering. Their colour, density and function are not preserved. They are not modern flight feathers.',
+      ),
+      C(
+        'yutyrannus-size',
+        'The largest individual is estimated at about 9 m long and 1.4 tonnes, making it one of the largest known feathered dinosaurs.',
+        'inference',
+        ['primary-yutyrannus'],
+        'The estimate is based on the skeletons and reconstructed body volume. It is not a measurement of a live animal.',
+      ),
+      C(
+        'yutyrannus-phylogeny',
+        'Yutyrannus is a tyrannosauroid, but whether it belongs within Proceratosauridae is contested.',
+        'debate',
+        ['v20-brusatte2016', 'primary-yutyrannus'],
+        'Brusatte & Carr (2016) recovered it within Proceratosauridae; other analyses place it outside. The family label is provisional.',
+      ),
+    ],
+    gaps: [
+      'Exact provenance uncertain.',
+      'Feather function unknown.',
+      'No gut contents.',
+      'Family placement contested.',
+    ],
+  },
+};

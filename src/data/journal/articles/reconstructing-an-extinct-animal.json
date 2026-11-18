@@ -1,0 +1,226 @@
+{
+  "id": "reconstructing-an-extinct-animal",
+  "slug": "reconstructing-an-extinct-animal",
+  "number": 5,
+  "headline": "Reconstructing an Extinct Animal",
+  "subtitle": "A skeleton is evidence. A mounted animal is a model built from evidence, comparison and inference.",
+  "standfirst": "A reconstruction begins with what survived and then makes a series of decisions about everything that did not. The best ones do not hide those decisions. They make it possible to see where the bone ends and the argument begins.",
+  "category": "anatomy",
+  "tags": [
+    "Reconstruction",
+    "Comparative anatomy",
+    "Spinosaurus",
+    "Uncertainty",
+    "Museums"
+  ],
+  "byline": "MESOZO Editorial",
+  "editorialCredit": "Research, writing and editing by the MESOZO editorial desk.",
+  "publishedAt": "2026-10-08",
+  "readingMinutes": 6,
+  "featured": false,
+  "hero": {
+    "variant": "plate",
+    "tone": "bone",
+    "label": "Composite skeletal reconstruction",
+    "assetId": "spinosaurus-skeletal-2020",
+    "alt": "Composite skeletal reconstruction of Spinosaurus in lateral view with a scale bar.",
+    "caption": "Skeletal reconstruction after Ibrahim et al. 2020, drawn by Marco Auditore. A composite plate: the missing parts are reconstructed, not excavated as one skeleton.",
+    "fit": "contain",
+    "position": "50% 50%"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "id": "not-in-the-drawer",
+      "kicker": "01 — The distinction",
+      "title": "The animal is not in the drawer."
+    },
+    {
+      "type": "text",
+      "dropCap": true,
+      "paragraphs": [
+        "A mounted skeleton looks like an animal. It is better understood as an argument in three dimensions. Some of it is bone. Some of it is cast. Some of it is a reconstruction of a bone that was never found. Some of it is an inference about cartilage, muscle, skin or posture. [[ibrahim2014]]",
+        "The first job of a good reconstruction is to separate those layers. The second is to show which choices are load-bearing. A convincing silhouette can conceal a weak inference just as easily as a rough sketch can."
+      ]
+    },
+    {
+      "type": "diagram",
+      "variant": "reconstruction-layers",
+      "title": "Four layers of a mounted animal",
+      "caption": "A diagram of the categories used in this article. The layers are conceptual; a real mount does not always separate them cleanly.",
+      "refs": [
+        "ibrahim2014",
+        "ibrahim2020"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "what-is-there",
+      "kicker": "02 — The material",
+      "title": "Start with what is there."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "FSAC-KK 11888 is a partial skeleton from the Kem Kem Group of Morocco. It includes skull and jaw fragments, forelimb and hindlimb elements, and dorsal and caudal vertebrae. It does not include every bone in the body, and it is not a complete animal. It was proposed as a neotype; Evers and colleagues disputed that designation. [[ibrahim2014]][[evers2015]][[ibrahim2020]]",
+        "The 2020 Spinosaurus reconstruction combines this material with other specimens and with reconstructed anatomy. The published plate is valuable precisely because it is composite: it shows a hypothesis of the whole animal while keeping the fragmentary basis of the fossil visible to a careful reader. [[ibrahim2020]]"
+      ]
+    },
+    {
+      "type": "specimen",
+      "specimenId": "fsac-kk-11888",
+      "note": "The proposed neotype partial skeleton and the basis for much of the recent Spinosaurus reconstruction and debate. The neotype designation is disputed."
+    },
+    {
+      "type": "comparison",
+      "title": "The bone and the model",
+      "left": {
+        "label": "Preserved",
+        "title": "What the specimen contains",
+        "body": "Partial skull and jaw material, limb elements, dorsal and caudal vertebrae. These are observations tied to a collection record.",
+        "points": [
+          "Bone and impressions",
+          "Anatomical contacts that can be measured",
+          "Uncertainty from breakage and missing parts"
+        ],
+        "refs": [
+          "ibrahim2014"
+        ]
+      },
+      "right": {
+        "label": "Reconstructed",
+        "title": "What the plate adds",
+        "body": "Missing bones, cartilage, muscle, body outline and pose. These are inferences, even when they are drawn with the same confident line as the fossils.",
+        "points": [
+          "Missing elements",
+          "Soft-tissue envelope",
+          "Posture and behaviour"
+        ],
+        "refs": [
+          "ibrahim2020",
+          "sereno2022"
+        ]
+      },
+      "note": "The drawing is not less scientific because it contains inference. It is less scientific if the inference is presented as observation."
+    },
+    {
+      "type": "heading",
+      "id": "filling-gaps",
+      "kicker": "03 — The method",
+      "title": "Fill the gaps, label the gaps."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "Comparative anatomy fills missing bones by reference to close relatives. It can produce a plausible shape, but it cannot guarantee that the missing bone looked the same. In Brachiosaurus, the skull is poorly known, and the familiar mounted animal includes reconstructed and cast elements. [[riggs1903]][[taylor2009]]",
+        "An articulated specimen can overturn a reconstruction built from isolated bones. NHMUK PV R36730, an exceptionally complete stegosaur, preserves much of the skeleton and armour in articulation and provides direct evidence for plate and spike arrangement. That is a different kind of evidence from a museum mount assembled for display. [[maidment2015]]"
+      ]
+    },
+    {
+      "type": "image",
+      "assetId": "brachiosaurus-mount",
+      "alt": "Mounted Brachiosaurus skeleton in a museum hall, with forelimbs longer than hindlimbs.",
+      "label": "Museum mount · reconstructed display",
+      "layout": "wide",
+      "fit": "cover",
+      "caption": "The Brachiosaurus mount at the Field Museum. A mounted skeleton is a display reconstruction, not a single excavated animal; some elements are reconstructed or cast.",
+      "refs": [
+        "riggs1903",
+        "taylor2009"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "soft-tissue",
+      "kicker": "04 — The surface",
+      "title": "Soft tissue is a different problem."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "Muscle, skin, lips, colour and feathers rarely survive. They can be reconstructed using osteological correlates, preserved integument and comparisons with living animals, but those methods produce models rather than observations. A facial reconstruction can be anatomically informed and still be wrong. [[cullen2023]]",
+        "This is why a life reconstruction and a skeletal reconstruction should not be read as two views of the same certainty. The skeleton is constrained by bones. The life reconstruction adds a surface that the bones can suggest but cannot fully determine. [[cullen2023]][[ibrahim2020]]"
+      ]
+    },
+    {
+      "type": "evidence",
+      "stance": "interpretation",
+      "title": "The soft-tissue layer",
+      "body": "A restored face, body outline or colour pattern is an interpretation. It can be tested against fossil correlates and comparative anatomy, but it is not a direct photograph of the extinct animal.",
+      "refs": [
+        "cullen2023"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "the-argument",
+      "kicker": "05 — The argument",
+      "title": "A reconstruction is an argument."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "Different researchers can produce different reconstructions from the same specimen. That is not necessarily a failure. It can show which assumptions are doing the work: the length of a missing limb, the curvature of a neck, the presence of a fin, the position of a centre of mass. [[sereno2022]][[myhrvold2024]]",
+        "The useful question is not whether a reconstruction is the most beautiful. It is whether it makes its evidence visible, acknowledges its limits, and can be revised when a better specimen or a better analysis arrives. The image should invite inspection, not end it."
+      ]
+    },
+    {
+      "type": "pullquote",
+      "label": "The method",
+      "text": "A good reconstruction does not make the missing evidence disappear.",
+      "attribution": "MESOZO editorial"
+    }
+  ],
+  "references": [
+    "riggs1903",
+    "taylor2009",
+    "maidment2015",
+    "cullen2023",
+    "ibrahim2014",
+    "evers2015",
+    "ibrahim2020",
+    "sereno2022",
+    "myhrvold2024"
+  ],
+  "relatedSpeciesIds": [
+    "spinosaurus",
+    "brachiosaurus",
+    "stegosaurus",
+    "tyrannosaurus"
+  ],
+  "relatedPeriodIds": [
+    "jurassic",
+    "cretaceous"
+  ],
+  "relatedSpecimenIds": [
+    "fsac-kk-11888",
+    "fmnh-p-25107",
+    "nhmuk-pv-r36730",
+    "cm-9380"
+  ],
+  "relatedAnatomy": [
+    {
+      "speciesId": "spinosaurus",
+      "structureIds": [
+        "rostrum",
+        "dorsal-spines",
+        "hindlimb",
+        "caudal-series"
+      ]
+    },
+    {
+      "speciesId": "tyrannosaurus",
+      "structureIds": [
+        "trex-cranium",
+        "trex-jaws"
+      ]
+    }
+  ],
+  "relatedArticleIds": [
+    "the-spinosaurus-problem",
+    "deinonychus-and-the-dinosaur-renaissance"
+  ],
+  "readingPathIds": [
+    "spinosaurus-path"
+  ]
+}

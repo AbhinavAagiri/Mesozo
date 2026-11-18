@@ -1,0 +1,1902 @@
+{
+  "version": "1.0",
+  "updated": "2026-11-17",
+  "statement": "Every reconstruction begins with evidence. Every piece of evidence has a story.",
+  "limits": [
+    "No excavation photographs are registered in the MESOZO asset archive. The expedition layer is therefore text-led and does not use stand-in field photography.",
+    "Several records are illustrated with museum casts, historical plates or reconstructed mounts rather than photographs of the fossil itself. Each image states its role.",
+    "Map points are approximate regional references, not quarry coordinates. The archive does not publish precise locality data for sensitive sites.",
+    "Discovery dates are left unstated where the cited publication does not give one. The interface never converts a publication year into a discovery year.",
+    "This is a curated sample of significant specimens, not a complete inventory of every fossil assigned to these species."
+  ],
+  "locations": [
+    {
+      "id": "bahariya-oasis",
+      "label": "Bahariya Oasis",
+      "region": "North Africa",
+      "country": "Egypt",
+      "latitude": 28.35,
+      "longitude": 28.87,
+      "coordinateNote": "Approximate oasis area, not a quarry coordinate. The 1912–1914 collecting localities are not plotted precisely.",
+      "refs": [
+        "stromer1915",
+        "stromer1934"
+      ]
+    },
+    {
+      "id": "kem-kem-group",
+      "label": "Kem Kem Group, Tafilalt",
+      "region": "North Africa",
+      "country": "Morocco",
+      "latitude": 30.51,
+      "longitude": -4.84,
+      "coordinateNote": "Approximate regional reference near Gara Sbaa, not the findspot of MSNM V4047 or FSAC-KK 11888.",
+      "refs": [
+        "dalsasso2005",
+        "ibrahim2014",
+        "ibrahim2020"
+      ]
+    },
+    {
+      "id": "hell-creek",
+      "label": "Hell Creek region",
+      "region": "Western North America",
+      "country": "United States",
+      "latitude": 47.32,
+      "longitude": -106.91,
+      "coordinateNote": "Approximate regional point in eastern Montana; individual quarries are not plotted.",
+      "refs": [
+        "osborn1905"
+      ]
+    },
+    {
+      "id": "cloverly-formation",
+      "label": "Cloverly Formation, Bighorn Basin",
+      "region": "Western North America",
+      "country": "United States",
+      "latitude": 44.8,
+      "longitude": -108.3,
+      "coordinateNote": "Approximate formation exposure across the Montana–Wyoming border; the Yale quarries are not plotted.",
+      "refs": [
+        "ostrom1969"
+      ]
+    },
+    {
+      "id": "flaming-cliffs",
+      "label": "Bayn Dzak (Flaming Cliffs)",
+      "region": "Gobi Desert",
+      "country": "Mongolia",
+      "latitude": 44.23,
+      "longitude": 103.73,
+      "coordinateNote": "Approximate locality area in the Nemegt Basin; the archive does not plot individual quarries.",
+      "refs": [
+        "osborn1924"
+      ]
+    },
+    {
+      "id": "ukhaa-tolgod",
+      "label": "Ukhaa Tolgod / Gilvent Wash",
+      "region": "Gobi Desert",
+      "country": "Mongolia",
+      "latitude": 43.53,
+      "longitude": 101.57,
+      "coordinateNote": "Approximate locality area. IGM 100/981 was collected at Gilvent Wash near Ukhaa Tolgod; the exact quarry is not plotted.",
+      "refs": [
+        "turner2007"
+      ]
+    },
+    {
+      "id": "garden-park",
+      "label": "Garden Park",
+      "region": "Western North America",
+      "country": "United States",
+      "latitude": 38.53,
+      "longitude": -105.22,
+      "coordinateNote": "Approximate quarry area north of Cañon City, Colorado.",
+      "refs": [
+        "galton2004",
+        "maidment2015"
+      ]
+    },
+    {
+      "id": "grand-junction",
+      "label": "Grand Junction",
+      "region": "Western North America",
+      "country": "United States",
+      "latitude": 39.06,
+      "longitude": -108.55,
+      "coordinateNote": "Approximate area near Grand Junction, Colorado; the 1900 locality is not plotted precisely.",
+      "refs": [
+        "riggs1903"
+      ]
+    },
+    {
+      "id": "red-canyon-ranch",
+      "label": "Red Canyon Ranch",
+      "region": "Western North America",
+      "country": "United States",
+      "latitude": 44.5,
+      "longitude": -107.8,
+      "coordinateNote": "Approximate area in the Bighorn Basin, Wyoming; quarry coordinates are not plotted.",
+      "refs": [
+        "maidment2015"
+      ]
+    },
+    {
+      "id": "smokejacks",
+      "label": "Smokejacks Brickworks",
+      "region": "Europe",
+      "country": "England",
+      "latitude": 51.21,
+      "longitude": -0.39,
+      "coordinateNote": "Approximate location of the former brickworks near Ockley, Surrey.",
+      "refs": [
+        "charig1986",
+        "charig1997"
+      ]
+    },
+    {
+      "id": "dinosaur-cove",
+      "label": "Dinosaur Cove",
+      "region": "Otway Coast, Victoria",
+      "country": "Australia",
+      "latitude": -38.78,
+      "longitude": 143.405,
+      "coordinateNote": "Approximate Dinosaur Cove locality on the Otway coast, not a quarry coordinate. The 1987 specimen was recovered from a tunnel cut into the coastal cliff.",
+      "refs": [
+        "nmv-p185991",
+        "primary-leaellynasaura"
+      ]
+    },
+    {
+      "id": "lance-niobrara",
+      "label": "Niobrara County",
+      "region": "Eastern Wyoming",
+      "country": "United States",
+      "latitude": 42.76,
+      "longitude": -104.45,
+      "coordinateNote": "Approximate county reference in eastern Wyoming. The 1930 collecting locality is not plotted precisely.",
+      "refs": [
+        "usnm12031record"
+      ]
+    },
+    {
+      "id": "dinosaur-provincial-park",
+      "label": "Dinosaur Provincial Park",
+      "region": "Southern Alberta",
+      "country": "Canada",
+      "latitude": 50.7617,
+      "longitude": -111.485,
+      "coordinateNote": "Approximate park area in the Red Deer River valley, southern Alberta. Quarry 12 is not plotted precisely.",
+      "refs": [
+        "rom768record",
+        "primary-parasaurolophus"
+      ]
+    }
+  ],
+  "formations": [
+    {
+      "id": "bahariya-formation",
+      "name": "Bahariya Formation",
+      "periodId": "cretaceous",
+      "ageLabel": "Cenomanian, ≈100–94 Ma",
+      "ageMa": [
+        100,
+        94
+      ],
+      "locationIds": [
+        "bahariya-oasis"
+      ],
+      "note": "Fluvial and marginal-marine deposits of Egypt's Western Desert.",
+      "refs": [
+        "stromer1915",
+        "ibrahim2014"
+      ]
+    },
+    {
+      "id": "kem-kem-group",
+      "name": "Kem Kem Group",
+      "periodId": "cretaceous",
+      "ageLabel": "Cenomanian, ≈100–94 Ma",
+      "ageMa": [
+        100,
+        94
+      ],
+      "locationIds": [
+        "kem-kem-group"
+      ],
+      "note": "Fluvial to marginal-marine sandstones and mudstones, formerly called the Kem Kem beds.",
+      "refs": [
+        "ibrahim2014",
+        "ibrahim2020"
+      ]
+    },
+    {
+      "id": "hell-creek-formation",
+      "name": "Hell Creek Formation",
+      "periodId": "cretaceous",
+      "ageLabel": "Maastrichtian, ≈68–66 Ma",
+      "ageMa": [
+        68,
+        66
+      ],
+      "locationIds": [
+        "hell-creek"
+      ],
+      "note": "Latest Cretaceous fluvial deposits of the northern Great Plains.",
+      "refs": [
+        "osborn1905"
+      ]
+    },
+    {
+      "id": "cloverly-formation",
+      "name": "Cloverly Formation",
+      "periodId": "cretaceous",
+      "ageLabel": "Aptian–Albian, ≈115–108 Ma",
+      "ageMa": [
+        115,
+        108
+      ],
+      "locationIds": [
+        "cloverly-formation"
+      ],
+      "note": "Early Cretaceous fluvial deposits of the Bighorn Basin and surrounding region.",
+      "refs": [
+        "ostrom1969"
+      ]
+    },
+    {
+      "id": "djadochta-formation",
+      "name": "Djadochta Formation",
+      "periodId": "cretaceous",
+      "ageLabel": "Campanian, ≈75–71 Ma",
+      "ageMa": [
+        75,
+        71
+      ],
+      "locationIds": [
+        "flaming-cliffs",
+        "ukhaa-tolgod"
+      ],
+      "note": "Desert dune and sandslide deposits of the Gobi Desert.",
+      "refs": [
+        "osborn1924",
+        "turner2007"
+      ]
+    },
+    {
+      "id": "morrison-formation",
+      "name": "Morrison Formation",
+      "periodId": "jurassic",
+      "ageLabel": "Kimmeridgian–Tithonian, ≈155–145 Ma",
+      "ageMa": [
+        155,
+        145
+      ],
+      "locationIds": [
+        "garden-park",
+        "grand-junction",
+        "red-canyon-ranch"
+      ],
+      "note": "Late Jurassic floodplain and channel deposits of western North America.",
+      "refs": [
+        "galton2004",
+        "maidment2015",
+        "riggs1903"
+      ]
+    },
+    {
+      "id": "weald-clay",
+      "name": "Weald Clay Formation",
+      "periodId": "cretaceous",
+      "ageLabel": "Barremian, ≈130–125 Ma",
+      "ageMa": [
+        130,
+        125
+      ],
+      "locationIds": [
+        "smokejacks"
+      ],
+      "note": "Early Cretaceous freshwater and lagoonal deposits of southern England.",
+      "refs": [
+        "charig1986",
+        "charig1997"
+      ]
+    },
+    {
+      "id": "eumeralla-formation",
+      "name": "Eumeralla Formation",
+      "periodId": "cretaceous",
+      "ageLabel": "Aptian–Albian, ≈113–100.5 Ma",
+      "ageMa": [
+        113,
+        100.5
+      ],
+      "locationIds": [
+        "dinosaur-cove"
+      ],
+      "note": "Early Cretaceous fluvial and volcaniclastic deposits of the Otway Basin. The Leaellynasaura holotype came from the Eumeralla Formation at Dinosaur Cove.",
+      "refs": [
+        "primary-leaellynasaura",
+        "nmv-p185991"
+      ]
+    },
+    {
+      "id": "lance-formation",
+      "name": "Lance Formation",
+      "periodId": "cretaceous",
+      "ageLabel": "Maastrichtian, ≈69–66 Ma",
+      "ageMa": [
+        69,
+        66
+      ],
+      "locationIds": [
+        "lance-niobrara"
+      ],
+      "note": "Fluvial and coastal-plain deposits of eastern Wyoming. The catalogue gives the Lance Formation but no finer stratigraphic level for USNM 12031.",
+      "refs": [
+        "gilmore1931",
+        "usnm12031record"
+      ]
+    },
+    {
+      "id": "dinosaur-park-formation",
+      "name": "Dinosaur Park Formation",
+      "periodId": "cretaceous",
+      "ageLabel": "Campanian, ≈76.5–74.8 Ma",
+      "ageMa": [
+        76.5,
+        74.8
+      ],
+      "locationIds": [
+        "dinosaur-provincial-park"
+      ],
+      "note": "Fluvial and coastal-plain deposits of the Belly River Group in southern Alberta. ROM 768 came from the Dinosaur Park Formation in what is now Dinosaur Provincial Park.",
+      "refs": [
+        "primary-parasaurolophus",
+        "rom768record",
+        "bertozzo2021"
+      ]
+    }
+  ],
+  "researchers": [
+    {
+      "id": "stromer",
+      "name": "Ernst Stromer",
+      "role": "Palaeontologist",
+      "affiliation": "Bavarian State Collection, Munich",
+      "note": "Led the Bahariya excavations and described Spinosaurus in 1915 and 1934.",
+      "refs": [
+        "stromer1915",
+        "stromer1934"
+      ]
+    },
+    {
+      "id": "brown",
+      "name": "Barnum Brown",
+      "role": "Fossil collector and palaeontologist",
+      "affiliation": "American Museum of Natural History",
+      "note": "Collected the Tyrannosaurus rex type in 1902 and later fragmentary Deinonychus material.",
+      "refs": [
+        "osborn1905",
+        "ostrom1969"
+      ]
+    },
+    {
+      "id": "osborn",
+      "name": "Henry Fairfield Osborn",
+      "role": "Palaeontologist",
+      "affiliation": "American Museum of Natural History",
+      "note": "Named Tyrannosaurus rex in 1905 and Velociraptor mongoliensis in 1924.",
+      "refs": [
+        "osborn1905",
+        "osborn1924"
+      ]
+    },
+    {
+      "id": "ostrom",
+      "name": "John H. Ostrom",
+      "role": "Palaeontologist",
+      "affiliation": "Yale Peabody Museum",
+      "note": "Named Deinonychus antirrhopus and led the Yale Cloverly field programme.",
+      "refs": [
+        "ostrom1969"
+      ]
+    },
+    {
+      "id": "andrews",
+      "name": "Roy Chapman Andrews",
+      "role": "Explorer and expedition leader",
+      "affiliation": "American Museum of Natural History",
+      "note": "Led the Central Asiatic Expeditions, whose 1923 season found the first Velociraptor specimens.",
+      "refs": [
+        "osborn1924"
+      ]
+    },
+    {
+      "id": "riggs",
+      "name": "Elmer S. Riggs",
+      "role": "Palaeontologist",
+      "affiliation": "Field Columbian Museum",
+      "note": "Collected and described the Brachiosaurus altithorax type from western Colorado.",
+      "refs": [
+        "riggs1903"
+      ]
+    },
+    {
+      "id": "marsh",
+      "name": "Othniel Charles Marsh",
+      "role": "Palaeontologist",
+      "affiliation": "Yale Peabody Museum",
+      "note": "Named Stegosaurus and Triceratops, among many Mesozoic taxa.",
+      "refs": [
+        "marsh1877stego",
+        "marsh1889"
+      ]
+    },
+    {
+      "id": "felch",
+      "name": "Marshall P. Felch",
+      "role": "Fossil collector",
+      "affiliation": "Marsh's Garden Park field operations",
+      "note": "Collected the nearly complete Stegosaurus skeleton USNM 4934 at Felch's Quarry 1, Garden Park, in 1886.",
+      "refs": [
+        "usnm4934record"
+      ]
+    },
+    {
+      "id": "walker",
+      "name": "William J. Walker",
+      "role": "Fossil collector",
+      "note": "Found the large claw at Smokejacks Brickworks in 1983 that led to the Baryonyx excavation.",
+      "refs": [
+        "charig1986",
+        "charig1997"
+      ]
+    },
+    {
+      "id": "charig",
+      "name": "Alan J. Charig",
+      "role": "Palaeontologist",
+      "affiliation": "Natural History Museum, London",
+      "note": "Co-described Baryonyx walkeri and its associated fish remains.",
+      "refs": [
+        "charig1986",
+        "charig1997"
+      ]
+    },
+    {
+      "id": "milner",
+      "name": "Angela C. Milner",
+      "role": "Palaeontologist",
+      "affiliation": "Natural History Museum, London",
+      "note": "Co-described Baryonyx walkeri and its associated fish remains.",
+      "refs": [
+        "charig1986",
+        "charig1997"
+      ]
+    },
+    {
+      "id": "dalsasso",
+      "name": "Cristiano Dal Sasso",
+      "role": "Palaeontologist",
+      "affiliation": "Museo di Storia Naturale di Milano",
+      "note": "Lead author of the 2005 description of the Milan Spinosaurus skull.",
+      "refs": [
+        "dalsasso2005"
+      ]
+    },
+    {
+      "id": "ibrahim",
+      "name": "Nizar Ibrahim",
+      "role": "Palaeontologist",
+      "note": "Lead author of the 2014 description that proposed a Spinosaurus neotype and of the 2020 tail study.",
+      "refs": [
+        "ibrahim2014",
+        "ibrahim2020"
+      ]
+    },
+    {
+      "id": "turner",
+      "name": "Alan H. Turner",
+      "role": "Palaeontologist",
+      "note": "Lead author of the 2007 study describing quill knobs in Velociraptor.",
+      "refs": [
+        "turner2007"
+      ]
+    },
+    {
+      "id": "maidment",
+      "name": "Susannah C. R. Maidment",
+      "role": "Palaeontologist",
+      "note": "Lead author of the 2015 description of the exceptionally complete Stegosaurus NHMUK PV R36730.",
+      "refs": [
+        "maidment2015"
+      ]
+    },
+    {
+      "id": "thomas-rich",
+      "name": "Thomas H. Rich",
+      "role": "Palaeontologist",
+      "affiliation": "Museums Victoria",
+      "note": "Led the Dinosaur Cove excavations and identified NMV P185991 as the holotype of Leaellynasaura amicagraphica in 1989.",
+      "refs": [
+        "primary-leaellynasaura",
+        "nmv-p185991"
+      ]
+    },
+    {
+      "id": "patricia-vickers-rich",
+      "name": "Patricia Vickers-Rich",
+      "role": "Palaeontologist",
+      "affiliation": "Museums Victoria / Monash University",
+      "note": "Co-described Leaellynasaura amicagraphica and the Early Cretaceous polar dinosaur fauna of southeastern Australia.",
+      "refs": [
+        "primary-leaellynasaura"
+      ]
+    },
+    {
+      "id": "george-sternberg",
+      "name": "George F. Sternberg",
+      "role": "Fossil collector",
+      "note": "Collected USNM 12031 in the Lance Formation in 1930; the Smithsonian catalogue names him as the collector.",
+      "refs": [
+        "usnm12031record"
+      ]
+    },
+    {
+      "id": "charles-gilmore",
+      "name": "Charles W. Gilmore",
+      "role": "Palaeontologist",
+      "affiliation": "United States National Museum, Smithsonian Institution",
+      "note": "Described USNM 12031 as Troodon wyomingensis in 1931. The species is now the type species of Pachycephalosaurus.",
+      "refs": [
+        "gilmore1931",
+        "usnm12031record"
+      ]
+    },
+    {
+      "id": "levi-sternberg",
+      "name": "Levi Sternberg",
+      "role": "Fossil collector",
+      "affiliation": "Royal Ontario Museum",
+      "note": "Collected the ROM 768 skeleton in 1920 as part of the Royal Ontario Museum field programme.",
+      "refs": [
+        "rom768record"
+      ]
+    },
+    {
+      "id": "william-parks",
+      "name": "William A. Parks",
+      "role": "Palaeontologist",
+      "affiliation": "University of Toronto",
+      "note": "Described ROM 768 as Parasaurolophus walkeri in 1922.",
+      "refs": [
+        "primary-parasaurolophus",
+        "rom768record"
+      ]
+    }
+  ],
+  "expeditions": [
+    {
+      "id": "stromer-bahariya",
+      "name": "Stromer's Bahariya expeditions",
+      "dateLabel": "1912–1914",
+      "yearStart": 1912,
+      "yearEnd": 1914,
+      "researcherIds": [
+        "stromer"
+      ],
+      "institutions": [
+        "Bavarian State Collection of Palaeontology and Historical Geology, Munich"
+      ],
+      "locationIds": [
+        "bahariya-oasis"
+      ],
+      "formationIds": [
+        "bahariya-formation"
+      ],
+      "summary": "Ernst Stromer's field seasons at Bahariya recovered the type material of Spinosaurus and other Egyptian dinosaurs. The Munich collections were destroyed in 1944.",
+      "specimenIds": [
+        "bsp-1912-viii-19"
+      ],
+      "discoveryIds": [
+        "disc-bsp"
+      ],
+      "relatedSpeciesIds": [
+        "spinosaurus"
+      ],
+      "refs": [
+        "stromer1915",
+        "stromer1934",
+        "ibrahim2014"
+      ]
+    },
+    {
+      "id": "brown-hell-creek",
+      "name": "Barnum Brown's 1902 Hell Creek expedition",
+      "dateLabel": "1902",
+      "yearStart": 1902,
+      "yearEnd": 1902,
+      "researcherIds": [
+        "brown"
+      ],
+      "institutions": [
+        "American Museum of Natural History"
+      ],
+      "locationIds": [
+        "hell-creek"
+      ],
+      "formationIds": [
+        "hell-creek-formation"
+      ],
+      "summary": "Brown collected the partial skeleton that became the type of Tyrannosaurus rex. Osborn described it in 1905.",
+      "specimenIds": [
+        "cm-9380"
+      ],
+      "discoveryIds": [
+        "disc-cm-9380"
+      ],
+      "relatedSpeciesIds": [
+        "tyrannosaurus"
+      ],
+      "refs": [
+        "osborn1905"
+      ]
+    },
+    {
+      "id": "yale-cloverly",
+      "name": "Yale Peabody Museum Cloverly expeditions",
+      "dateLabel": "1964 onward",
+      "yearStart": 1964,
+      "yearEnd": null,
+      "researcherIds": [
+        "ostrom",
+        "brown"
+      ],
+      "institutions": [
+        "Yale Peabody Museum"
+      ],
+      "locationIds": [
+        "cloverly-formation"
+      ],
+      "formationIds": [
+        "cloverly-formation"
+      ],
+      "summary": "John Ostrom's field programme recovered multiple Deinonychus individuals from the Cloverly Formation. The 1969 monograph made the animal central to the Dinosaur Renaissance.",
+      "specimenIds": [
+        "ypm-5205"
+      ],
+      "discoveryIds": [
+        "disc-ypm-5205"
+      ],
+      "relatedSpeciesIds": [
+        "deinonychus"
+      ],
+      "refs": [
+        "ostrom1969"
+      ]
+    },
+    {
+      "id": "central-asiatic",
+      "name": "Central Asiatic Expeditions",
+      "dateLabel": "1923 field season",
+      "yearStart": 1923,
+      "yearEnd": 1923,
+      "researcherIds": [
+        "andrews",
+        "osborn"
+      ],
+      "institutions": [
+        "American Museum of Natural History"
+      ],
+      "locationIds": [
+        "flaming-cliffs"
+      ],
+      "formationIds": [
+        "djadochta-formation"
+      ],
+      "summary": "The 1923 season at Bayn Dzak found the first Velociraptor specimens. Osborn named the genus and species in 1924. The quill-knob specimen IGM 100/981 is a later find from a different Djadochta locality.",
+      "specimenIds": [],
+      "discoveryIds": [
+        "disc-velociraptor-first"
+      ],
+      "relatedSpeciesIds": [
+        "velociraptor"
+      ],
+      "refs": [
+        "osborn1924",
+        "turner2007"
+      ]
+    },
+    {
+      "id": "riggs-grand-junction",
+      "name": "Riggs's 1900 Grand Junction expedition",
+      "dateLabel": "1900",
+      "yearStart": 1900,
+      "yearEnd": 1900,
+      "researcherIds": [
+        "riggs"
+      ],
+      "institutions": [
+        "Field Columbian Museum"
+      ],
+      "locationIds": [
+        "grand-junction"
+      ],
+      "formationIds": [
+        "morrison-formation"
+      ],
+      "summary": "Elmer Riggs collected the partial postcranial skeleton that became the type of Brachiosaurus altithorax.",
+      "specimenIds": [
+        "fmnh-p-25107"
+      ],
+      "discoveryIds": [
+        "disc-fmnh-p-25107"
+      ],
+      "relatedSpeciesIds": [
+        "brachiosaurus"
+      ],
+      "refs": [
+        "riggs1903"
+      ]
+    },
+    {
+      "id": "smokejacks-excavation",
+      "name": "Smokejacks Brickworks excavation",
+      "dateLabel": "1983, with later excavation",
+      "yearStart": 1983,
+      "yearEnd": null,
+      "researcherIds": [
+        "walker",
+        "charig",
+        "milner"
+      ],
+      "institutions": [
+        "Natural History Museum, London"
+      ],
+      "locationIds": [
+        "smokejacks"
+      ],
+      "formationIds": [
+        "weald-clay"
+      ],
+      "summary": "William Walker's discovery of a large claw led to excavation of a partial Baryonyx skeleton. Fish remains in the body cavity were described with the specimen.",
+      "specimenIds": [
+        "nhmuk-pv-r9951"
+      ],
+      "discoveryIds": [
+        "disc-baryonyx"
+      ],
+      "relatedSpeciesIds": [
+        "baryonyx"
+      ],
+      "refs": [
+        "charig1986",
+        "charig1997"
+      ]
+    }
+  ],
+  "discoveries": [
+    {
+      "id": "disc-bsp",
+      "year": 1912,
+      "dateLabel": "1912–1914",
+      "summary": "Stromer's teams collected the Spinosaurus holotype at Bahariya: jaw fragments, teeth, vertebral spines, ribs and gastralia from the Bahariya Formation. The material was not a complete skeleton. A second partial skeleton, 'Spinosaurus B', preserved limb elements.",
+      "researcherIds": [
+        "stromer"
+      ],
+      "expeditionId": "stromer-bahariya",
+      "locationId": "bahariya-oasis",
+      "formationId": "bahariya-formation",
+      "specimenIds": [
+        "bsp-1912-viii-19"
+      ],
+      "relatedSpeciesIds": [
+        "spinosaurus"
+      ],
+      "refs": [
+        "stromer1915",
+        "stromer1934",
+        "ibrahim2014"
+      ]
+    },
+    {
+      "id": "disc-msnm-v4047",
+      "year": null,
+      "dateLabel": "Before 2005",
+      "summary": "The partial skull MSNM V4047 was described in 2005. The cited description does not give the date or circumstances of its collection; the record therefore leaves the discovery date open.",
+      "researcherIds": [
+        "dalsasso"
+      ],
+      "expeditionId": null,
+      "locationId": "kem-kem-group",
+      "formationId": "kem-kem-group",
+      "specimenIds": [
+        "msnm-v4047"
+      ],
+      "relatedSpeciesIds": [
+        "spinosaurus"
+      ],
+      "refs": [
+        "dalsasso2005"
+      ]
+    },
+    {
+      "id": "disc-fsac-kk-11888",
+      "year": 2008,
+      "dateLabel": "2008",
+      "summary": "A local collector discovered and partly excavated a partial Spinosaurus skeleton in the Kem Kem Group in 2008. The first material was acquired by Université Hassan II, Casablanca; the 2014 description proposed the specimen as a neotype, a designation disputed by Evers et al. (2015).",
+      "researcherIds": [
+        "ibrahim"
+      ],
+      "expeditionId": null,
+      "locationId": "kem-kem-group",
+      "formationId": "kem-kem-group",
+      "specimenIds": [
+        "fsac-kk-11888"
+      ],
+      "relatedSpeciesIds": [
+        "spinosaurus"
+      ],
+      "refs": [
+        "ibrahim2014",
+        "evers2015",
+        "ibrahim2020"
+      ]
+    },
+    {
+      "id": "disc-cm-9380",
+      "year": 1902,
+      "dateLabel": "1902",
+      "summary": "Barnum Brown collected the partial skeleton that became the type of Tyrannosaurus rex in the Hell Creek region of Montana. Osborn named the species in 1905.",
+      "researcherIds": [
+        "brown"
+      ],
+      "expeditionId": "brown-hell-creek",
+      "locationId": "hell-creek",
+      "formationId": "hell-creek-formation",
+      "specimenIds": [
+        "cm-9380"
+      ],
+      "relatedSpeciesIds": [
+        "tyrannosaurus"
+      ],
+      "refs": [
+        "osborn1905"
+      ]
+    },
+    {
+      "id": "disc-ypm-5205",
+      "year": 1964,
+      "dateLabel": "1964–1969",
+      "summary": "Yale Peabody Museum expeditions recovered Deinonychus material from the Cloverly Formation. Ostrom described the type and referred material in his 1969 monograph.",
+      "researcherIds": [
+        "ostrom",
+        "brown"
+      ],
+      "expeditionId": "yale-cloverly",
+      "locationId": "cloverly-formation",
+      "formationId": "cloverly-formation",
+      "specimenIds": [
+        "ypm-5205"
+      ],
+      "relatedSpeciesIds": [
+        "deinonychus"
+      ],
+      "refs": [
+        "ostrom1969"
+      ]
+    },
+    {
+      "id": "disc-velociraptor-first",
+      "year": 1923,
+      "dateLabel": "1923",
+      "summary": "The Central Asiatic Expeditions found the first Velociraptor specimens at Bayn Dzak. Osborn named Velociraptor mongoliensis in 1924.",
+      "researcherIds": [
+        "andrews",
+        "osborn"
+      ],
+      "expeditionId": "central-asiatic",
+      "locationId": "flaming-cliffs",
+      "formationId": "djadochta-formation",
+      "specimenIds": [],
+      "relatedSpeciesIds": [
+        "velociraptor"
+      ],
+      "refs": [
+        "osborn1924"
+      ]
+    },
+    {
+      "id": "disc-igm-100-981",
+      "year": null,
+      "dateLabel": "Before 2007",
+      "summary": "IGM 100/981 was collected at Gilvent Wash near Ukhaa Tolgod. Its ulna preserves six quill knobs; the 2007 study does not give the collection year.",
+      "researcherIds": [
+        "turner"
+      ],
+      "expeditionId": null,
+      "locationId": "ukhaa-tolgod",
+      "formationId": "djadochta-formation",
+      "specimenIds": [
+        "igm-100-981"
+      ],
+      "relatedSpeciesIds": [
+        "velociraptor"
+      ],
+      "refs": [
+        "turner2007"
+      ]
+    },
+    {
+      "id": "disc-usnm-4934",
+      "year": 1886,
+      "dateLabel": "1886",
+      "summary": "Marshall P. Felch collected a nearly complete Stegosaurus skeleton at Felch's Quarry 1, Garden Park, Colorado, in 1886. Marsh named it as the type of Stegosaurus stenops in 1887.",
+      "researcherIds": [
+        "felch",
+        "marsh"
+      ],
+      "expeditionId": null,
+      "locationId": "garden-park",
+      "formationId": "morrison-formation",
+      "specimenIds": [
+        "usnm-4934"
+      ],
+      "relatedSpeciesIds": [
+        "stegosaurus"
+      ],
+      "refs": [
+        "usnm4934record",
+        "maidment2015"
+      ]
+    },
+    {
+      "id": "disc-fmnh-p-25107",
+      "year": 1900,
+      "dateLabel": "1900",
+      "summary": "Elmer Riggs collected the Brachiosaurus altithorax type near Grand Junction, Colorado. The specimen is a partial postcranial skeleton, not a complete animal.",
+      "researcherIds": [
+        "riggs"
+      ],
+      "expeditionId": "riggs-grand-junction",
+      "locationId": "grand-junction",
+      "formationId": "morrison-formation",
+      "specimenIds": [
+        "fmnh-p-25107"
+      ],
+      "relatedSpeciesIds": [
+        "brachiosaurus"
+      ],
+      "refs": [
+        "riggs1903"
+      ]
+    },
+    {
+      "id": "disc-nhmuk-pv-r36730",
+      "year": null,
+      "dateLabel": "Before 2015",
+      "summary": "The exceptionally complete Stegosaurus NHMUK PV R36730 was excavated from the Red Canyon Ranch Quarry and described in 2015. The cited description does not give the excavation year.",
+      "researcherIds": [
+        "maidment"
+      ],
+      "expeditionId": null,
+      "locationId": "red-canyon-ranch",
+      "formationId": "morrison-formation",
+      "specimenIds": [
+        "nhmuk-pv-r36730"
+      ],
+      "relatedSpeciesIds": [
+        "stegosaurus"
+      ],
+      "refs": [
+        "maidment2015"
+      ]
+    },
+    {
+      "id": "disc-baryonyx",
+      "year": 1983,
+      "dateLabel": "1983",
+      "summary": "William J. Walker found a large claw at Smokejacks Brickworks. Excavation recovered a partial associated skeleton; Charig and Milner named Baryonyx walkeri in 1986.",
+      "researcherIds": [
+        "walker",
+        "charig",
+        "milner"
+      ],
+      "expeditionId": "smokejacks-excavation",
+      "locationId": "smokejacks",
+      "formationId": "weald-clay",
+      "specimenIds": [
+        "nhmuk-pv-r9951"
+      ],
+      "relatedSpeciesIds": [
+        "baryonyx"
+      ],
+      "refs": [
+        "charig1986",
+        "charig1997"
+      ]
+    },
+    {
+      "id": "disc-nmv-p185991",
+      "year": 1987,
+      "dateLabel": "1987",
+      "summary": "Excavations at Dinosaur Cove recovered a left cheek and maxilla of a juvenile ornithopod from the Eumeralla Formation. The specimen became the holotype of Leaellynasaura amicagraphica in 1989.",
+      "researcherIds": [
+        "thomas-rich",
+        "patricia-vickers-rich"
+      ],
+      "expeditionId": null,
+      "locationId": "dinosaur-cove",
+      "formationId": "eumeralla-formation",
+      "specimenIds": [
+        "nmv-p185991"
+      ],
+      "relatedSpeciesIds": [
+        "leaellynasaura"
+      ],
+      "refs": [
+        "primary-leaellynasaura",
+        "nmv-p185991",
+        "herne2019"
+      ]
+    },
+    {
+      "id": "disc-usnm-12031",
+      "year": 1930,
+      "dateLabel": "1930",
+      "summary": "George F. Sternberg collected the anterior skull of a dome-headed dinosaur in the Lance Formation of Niobrara County, Wyoming, in 1930. Gilmore described it in 1931 as Troodon wyomingensis; the specimen is now catalogued as the holotype of Pachycephalosaurus wyomingensis.",
+      "researcherIds": [
+        "george-sternberg",
+        "charles-gilmore"
+      ],
+      "expeditionId": null,
+      "locationId": "lance-niobrara",
+      "formationId": "lance-formation",
+      "specimenIds": [
+        "usnm-12031"
+      ],
+      "relatedSpeciesIds": [
+        "pachycephalosaurus"
+      ],
+      "refs": [
+        "usnm12031record",
+        "gilmore1931",
+        "brown1943"
+      ]
+    },
+    {
+      "id": "disc-rom-768",
+      "year": 1920,
+      "dateLabel": "1920",
+      "summary": "A University of Toronto field team collected a nearly complete hadrosaur skeleton in what is now Dinosaur Provincial Park, Alberta, in 1920. The ROM catalogue records it as ROMVP00768; Parks described it in 1922 as Parasaurolophus walkeri.",
+      "researcherIds": [
+        "levi-sternberg",
+        "william-parks"
+      ],
+      "expeditionId": null,
+      "locationId": "dinosaur-provincial-park",
+      "formationId": "dinosaur-park-formation",
+      "specimenIds": [
+        "rom-768"
+      ],
+      "relatedSpeciesIds": [
+        "parasaurolophus"
+      ],
+      "refs": [
+        "rom768record",
+        "primary-parasaurolophus",
+        "bertozzo2021"
+      ]
+    }
+  ],
+  "specimens": [
+    {
+      "id": "bsp-1912-viii-19",
+      "identifier": "BSP 1912 VIII 19",
+      "speciesId": "spinosaurus",
+      "typeGroup": "type",
+      "typeStatus": "Holotype — partial skeleton, lost",
+      "material": "Jaw fragments, teeth, vertebral spines, ribs and gastralia. It did not preserve the limbs or a complete skull.",
+      "preservation": "Fragmentary and not a complete skeleton. The Munich material was destroyed in 1944.",
+      "preservationClass": "lost",
+      "repository": "Bavarian State Collection, Munich — destroyed 1944",
+      "collectionNote": "The Munich holdings were destroyed during bombing in 1944. The record now depends on Stromer's publications, drawings and surviving casts.",
+      "discoveryId": "disc-bsp",
+      "significance": "The name-bearing material of Spinosaurus aegyptiacus. It established the long, narrow snout, conical teeth and tall dorsal neural spines that still define the genus.",
+      "anatomy": "Jaw fragments, teeth, vertebral spines, ribs and gastralia. The original material was fragmentary; it never represented a complete individual.",
+      "uncertainty": "The original associations and measurements cannot be rechecked after the 1944 loss. Later referrals to the species rely on morphology and provenance, not on direct comparison with the type.",
+      "topics": [
+        "skull",
+        "axial",
+        "history"
+      ],
+      "media": [
+        {
+          "assetId": "spinosaurus-mandible-1915",
+          "role": "historical-illustration",
+          "caption": "Stromer's 1915 drawing of the Spinosaurus mandible. Historical drawings are evidence of what was published, not substitutes for the lost fossil."
+        },
+        {
+          "assetId": "spinosaurus-jaw-1919",
+          "role": "historical-illustration",
+          "caption": "Othenio Abel's 1919 redrawing of the Spinosaurus jaw. It is a secondary historical source, not the original specimen."
+        }
+      ],
+      "anatomyStructureIds": [
+        "rostrum",
+        "dentition",
+        "dorsal-spines"
+      ],
+      "relatedSpecimenIds": [
+        "msnm-v4047",
+        "fsac-kk-11888",
+        "nhmuk-pv-r9951"
+      ],
+      "publications": [
+        "stromer1915",
+        "stromer1934",
+        "ibrahim2014"
+      ],
+      "refs": [
+        "stromer1915",
+        "stromer1934",
+        "ibrahim2014",
+        "evers2015"
+      ],
+      "featured": true
+    },
+    {
+      "id": "msnm-v4047",
+      "identifier": "MSNM V4047",
+      "speciesId": "spinosaurus",
+      "typeGroup": "referred",
+      "typeStatus": "Referred specimen",
+      "material": "Partial skull, including the rostrum and terminal rosette.",
+      "preservation": "Partial skull material; no associated postcranial skeleton is described with it.",
+      "preservationClass": "partial",
+      "repository": "Museo di Storia Naturale di Milano",
+      "collectionNote": "The specimen is held in Milan. The cited description does not document the original collection date or collector.",
+      "discoveryId": "disc-msnm-v4047",
+      "significance": "A well-preserved partial skull that clarified the rostrum, terminal rosette and cranial openings. It strengthened the case for a long-snouted, fish-focused spinosaurid.",
+      "anatomy": "Partial skull, including the snout and upper jaw. The skull is the primary evidence; the rest of the animal is not preserved with it.",
+      "uncertainty": "An isolated skull cannot establish body proportions, posture or swimming ability. Its referral to Spinosaurus is based on morphology and provenance.",
+      "topics": [
+        "skull"
+      ],
+      "media": [],
+      "anatomyStructureIds": [
+        "rostrum",
+        "dentition",
+        "cranial-openings"
+      ],
+      "relatedSpecimenIds": [
+        "bsp-1912-viii-19",
+        "fsac-kk-11888"
+      ],
+      "publications": [
+        "dalsasso2005",
+        "ibrahim2014"
+      ],
+      "refs": [
+        "dalsasso2005",
+        "ibrahim2014"
+      ],
+      "featured": false
+    },
+    {
+      "id": "fsac-kk-11888",
+      "identifier": "FSAC-KK 11888",
+      "speciesId": "spinosaurus",
+      "typeGroup": "neotype",
+      "typeStatus": "Proposed neotype — partial skeleton (disputed)",
+      "material": "Partial skeleton with skull and jaw fragments, forelimb and hindlimb elements, dorsal and caudal vertebrae.",
+      "preservation": "Partial, associated skeleton. The tail includes tall distal neural spines and elongated chevrons; missing parts are reconstructed in published mounts.",
+      "preservationClass": "partial",
+      "repository": "Faculty of Science Aïn Chock (FSAC), Casablanca",
+      "collectionNote": "The primary description presents the material as a partial skeleton and proposes it as a neotype; Evers et al. (2015) rejected that designation. The published skeletal reconstruction restores missing elements and is not a photograph of the excavated specimen.",
+      "discoveryId": "disc-fsac-kk-11888",
+      "significance": "The proposed neotype and the most complete Spinosaurus skeleton known, including a partial tail. It is the basis for the 2014 and 2020 reconstructions and for much of the aquatic debate; its referral to the Egyptian species is contested.",
+      "anatomy": "Partial skeleton with skull and jaw fragments, forelimb and hindlimb elements, dorsal and caudal vertebrae. The distal tail has tall neural spines and long chevrons.",
+      "uncertainty": "The skeleton is incomplete and reconstructed in published mounts, and its proposed neotype status is disputed. The degree of aquatic specialization, posture and tail function remain contested; the specimen does not settle them by itself.",
+      "topics": [
+        "axial",
+        "limbs",
+        "tail"
+      ],
+      "media": [
+        {
+          "assetId": "spinosaurus-skeletal-2020",
+          "role": "skeletal-reconstruction",
+          "caption": "Skeletal reconstruction published with Ibrahim et al. (2020). It is an authored reconstruction, not a photograph of FSAC-KK 11888."
+        }
+      ],
+      "anatomyStructureIds": [
+        "cervical-series",
+        "dorsal-spines",
+        "dorsal-ribs",
+        "forelimb",
+        "pelvis",
+        "hindlimb",
+        "caudal-series",
+        "bone-microstructure"
+      ],
+      "relatedSpecimenIds": [
+        "bsp-1912-viii-19",
+        "msnm-v4047",
+        "nhmuk-pv-r9951"
+      ],
+      "publications": [
+        "ibrahim2014",
+        "ibrahim2020",
+        "sereno2022",
+        "myhrvold2024"
+      ],
+      "refs": [
+        "ibrahim2014",
+        "ibrahim2020",
+        "honeholtz2021",
+        "sereno2022",
+        "myhrvold2024"
+      ],
+      "featured": false
+    },
+    {
+      "id": "cm-9380",
+      "identifier": "CM 9380",
+      "speciesId": "tyrannosaurus",
+      "typeGroup": "type",
+      "typeStatus": "Holotype — partial skeleton",
+      "material": "Partial skeleton including cranial and postcranial material.",
+      "preservation": "Partial skeleton. The skull is the primary reference for the robust tyrannosaur feeding apparatus.",
+      "preservationClass": "partial",
+      "repository": "Carnegie Museum of Natural History, Pittsburgh",
+      "collectionNote": "The name-bearing specimen of Tyrannosaurus rex. Early mounts and illustrations gave the animal a more upright posture than current reconstructions.",
+      "discoveryId": "disc-cm-9380",
+      "significance": "The name-bearing specimen of Tyrannosaurus rex. It anchors the species and its early 20th-century reconstruction.",
+      "anatomy": "Partial skeleton with a large skull and postcranial elements. The skull preserves the deep snout, fused bones and robust jaw apparatus.",
+      "uncertainty": "Growth and individual variation across the T. rex sample mean that one adult specimen cannot represent every ontogenetic stage. The early publication describes the field context only in general terms.",
+      "topics": [
+        "skull",
+        "history"
+      ],
+      "media": [],
+      "anatomyStructureIds": [
+        "trex-cranium",
+        "trex-jaws",
+        "trex-dentition",
+        "trex-orbit"
+      ],
+      "relatedSpecimenIds": [],
+      "publications": [
+        "osborn1905",
+        "carr2020"
+      ],
+      "refs": [
+        "osborn1905",
+        "carr2020"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ypm-5205",
+      "identifier": "YPM 5205",
+      "speciesId": "deinonychus",
+      "typeGroup": "type",
+      "typeStatus": "Holotype — associated foot material",
+      "material": "Complete left pes and incomplete right pes.",
+      "preservation": "Two feet; the quarry also produced disarticulated material catalogued under other numbers. No feather impressions are preserved.",
+      "preservationClass": "partial",
+      "repository": "Yale Peabody Museum, New Haven",
+      "collectionNote": "The holotype of Deinonychus antirrhopus. Ostrom's 1969 monograph remains the primary osteological description. Corrected from “partial skeleton including skull and limb material” to the foot material stated by Ostrom (1969).",
+      "discoveryId": "disc-ypm-5205",
+      "significance": "The holotype of Deinonychus antirrhopus and the subject of Ostrom's 1969 monograph, a central text of the Dinosaur Renaissance.",
+      "anatomy": "The holotype preserves the left pes and part of the right pes, including the enlarged second-toe claw and associated phalanges. Other skeletal regions are known from referred individuals.",
+      "uncertainty": "No feathers are preserved. Feathers are inferred from the wider dromaeosaur record, not observed on this specimen. Limb function and prey handling remain interpretations.",
+      "topics": [
+        "limbs"
+      ],
+      "media": [],
+      "anatomyStructureIds": [],
+      "relatedSpecimenIds": [
+        "igm-100-981"
+      ],
+      "publications": [
+        "ostrom1969",
+        "turner2007"
+      ],
+      "refs": [
+        "ostrom1969",
+        "turner2007"
+      ],
+      "featured": false
+    },
+    {
+      "id": "igm-100-981",
+      "identifier": "IGM 100/981",
+      "speciesId": "velociraptor",
+      "typeGroup": "referred",
+      "typeStatus": "Referred specimen — ulna",
+      "material": "Ulna preserving six low papillae interpreted as quill knobs.",
+      "preservation": "The ulna is preserved; the feathers themselves are not. This is osteological evidence for feathers, not a feather impression.",
+      "preservationClass": "integument",
+      "repository": "Institute of Geology, Ulaanbaatar",
+      "collectionNote": "Collected at Gilvent Wash near Ukhaa Tolgod. The 2007 study does not give the collection year.",
+      "discoveryId": "disc-igm-100-981",
+      "significance": "An ulna with six quill knobs, the first direct osteological evidence that Velociraptor carried large forearm feathers.",
+      "anatomy": "A single ulna preserving six regularly spaced quill knobs on its caudal margin. The feathers are inferred from the knobs, not preserved.",
+      "uncertainty": "The number and arrangement of feathers are inferred from the knobs. The specimen does not preserve feather morphology or colour.",
+      "topics": [
+        "integument"
+      ],
+      "media": [],
+      "anatomyStructureIds": [],
+      "relatedSpecimenIds": [
+        "ypm-5205"
+      ],
+      "publications": [
+        "turner2007"
+      ],
+      "refs": [
+        "turner2007"
+      ],
+      "featured": false
+    },
+    {
+      "id": "usnm-4934",
+      "identifier": "USNM 4934",
+      "speciesId": "stegosaurus",
+      "typeGroup": "type",
+      "typeStatus": "Holotype — nearly complete skeleton",
+      "material": "Nearly complete skeleton with skull, axial skeleton, limbs and armour.",
+      "preservation": "Nearly complete skeleton. The bony plates and tail spikes are preserved; their keratin covering is not.",
+      "preservationClass": "nearly-complete",
+      "repository": "Smithsonian National Museum of Natural History, Washington, D.C.",
+      "collectionNote": "The name-bearing specimen of Stegosaurus stenops. The cited sources do not give a precise discovery date or collector.",
+      "discoveryId": "disc-usnm-4934",
+      "significance": "The holotype of Stegosaurus stenops, a nearly complete skeleton that established the species and much of its armour anatomy.",
+      "anatomy": "Nearly complete skeleton with skull, axial skeleton, limbs and armour, including plates and tail spikes. The bony plates are preserved; their covering is not.",
+      "uncertainty": "The skeleton is associated but missing distal caudal vertebrae and some armour. The arrangement of the plates in life has been reconstructed and revised.",
+      "topics": [
+        "armour"
+      ],
+      "media": [],
+      "anatomyStructureIds": [],
+      "relatedSpecimenIds": [
+        "nhmuk-pv-r36730"
+      ],
+      "publications": [
+        "usnm4934record",
+        "galton2004",
+        "maidment2015"
+      ],
+      "refs": [
+        "usnm4934record",
+        "galton2004",
+        "maidment2015"
+      ],
+      "featured": false
+    },
+    {
+      "id": "fmnh-p-25107",
+      "identifier": "FMNH P 25107",
+      "speciesId": "brachiosaurus",
+      "typeGroup": "type",
+      "typeStatus": "Holotype — partial postcranial skeleton",
+      "material": "Parts of the vertebral column, ribs, pelvis and limbs.",
+      "preservation": "Partial postcranial skeleton. No complete skull or tail is preserved.",
+      "preservationClass": "partial",
+      "repository": "Field Museum of Natural History, Chicago",
+      "collectionNote": "The holotype of Brachiosaurus altithorax. The mounted skeleton at the Field Museum includes reconstructed and cast elements and is not the excavated specimen.",
+      "discoveryId": "disc-fmnh-p-25107",
+      "significance": "The holotype of Brachiosaurus altithorax, the first brachiosaurid named from North America.",
+      "anatomy": "Partial postcranial skeleton: parts of the vertebral column, ribs, pelvis and limbs. The skull and tail are not preserved.",
+      "uncertainty": "The mount is a composite reconstruction, not the excavated skeleton. Skull shape and neck posture are less secure than the limb anatomy.",
+      "topics": [
+        "axial",
+        "limbs"
+      ],
+      "media": [
+        {
+          "assetId": "brachiosaurus-mount",
+          "role": "mounted-reconstruction",
+          "caption": "Composite mounted skeleton at the Field Museum. The mount includes reconstructed and cast elements; it is not the holotype as excavated."
+        }
+      ],
+      "anatomyStructureIds": [],
+      "relatedSpecimenIds": [],
+      "publications": [
+        "riggs1903",
+        "taylor2009"
+      ],
+      "refs": [
+        "riggs1903",
+        "taylor2009"
+      ],
+      "featured": false
+    },
+    {
+      "id": "nhmuk-pv-r36730",
+      "identifier": "NHMUK PV R36730",
+      "speciesId": "stegosaurus",
+      "typeGroup": "referred",
+      "typeStatus": "Referred specimen — nearly complete skeleton",
+      "material": "Exceptionally complete articulated skeleton with skull, axial skeleton, limbs and armour.",
+      "preservation": "Much of the skeleton and armour is preserved in articulation. Soft tissue and keratin are not preserved.",
+      "preservationClass": "nearly-complete",
+      "repository": "Natural History Museum, London",
+      "collectionNote": "Described in 2015. The cited description does not give a precise excavation year.",
+      "discoveryId": "disc-nhmuk-pv-r36730",
+      "significance": "One of the most complete stegosaurs known, preserving much of the skeleton and armour in articulation. It provides direct evidence for plate and spike arrangement.",
+      "anatomy": "Exceptionally complete articulated skeleton with skull, axial skeleton, limbs and armour. The bony plates and spikes are preserved in place.",
+      "uncertainty": "The specimen documents one individual's armour arrangement; variation across Stegosaurus and the function of the plates remain questions.",
+      "topics": [
+        "armour"
+      ],
+      "media": [],
+      "anatomyStructureIds": [],
+      "relatedSpecimenIds": [
+        "usnm-4934"
+      ],
+      "publications": [
+        "maidment2015"
+      ],
+      "refs": [
+        "maidment2015"
+      ],
+      "featured": false
+    },
+    {
+      "id": "nhmuk-pv-r9951",
+      "identifier": "NHMUK PV R9951",
+      "speciesId": "baryonyx",
+      "typeGroup": "type",
+      "typeStatus": "Holotype — partial skeleton",
+      "material": "Partial associated skeleton with skull, jaws, teeth, vertebral column, ribs, pelvis and limbs.",
+      "preservation": "Partial associated skeleton. Some elements are crushed or missing; fish scales and teeth were preserved in the body-cavity region.",
+      "preservationClass": "partial",
+      "repository": "Natural History Museum, London",
+      "collectionNote": "The holotype of Baryonyx walkeri. The skeleton is associated but incomplete.",
+      "discoveryId": "disc-baryonyx",
+      "significance": "The holotype of Baryonyx walkeri, one of the most complete British theropod skeletons and direct evidence of fish eating in a spinosaurid.",
+      "anatomy": "Partial associated skeleton with skull, jaws, teeth, vertebral column, ribs, pelvis and limbs. Fish remains were found in the body-cavity region.",
+      "uncertainty": "The enlarged thumb claw is real; its function is inferred. Fish remains show that the animal ate fish, not that fish were its only prey.",
+      "topics": [
+        "skull",
+        "limbs"
+      ],
+      "media": [],
+      "anatomyStructureIds": [],
+      "relatedSpecimenIds": [
+        "bsp-1912-viii-19",
+        "fsac-kk-11888"
+      ],
+      "publications": [
+        "charig1986",
+        "charig1997"
+      ],
+      "refs": [
+        "charig1986",
+        "charig1997"
+      ],
+      "featured": false
+    },
+    {
+      "id": "nmv-p185991",
+      "identifier": "NMV P185991",
+      "speciesId": "leaellynasaura",
+      "typeGroup": "type",
+      "typeStatus": "Holotype — partial left cheek and maxilla of a juvenile",
+      "material": "Left cheek fragment including the maxilla. The dentary, skull roof and postcranial skeleton are not part of the name-bearing specimen.",
+      "preservation": "Partial and fragmentary. The jaw belongs to a juvenile individual, so adult skull proportions and body size are not directly preserved.",
+      "preservationClass": "partial",
+      "repository": "Museums Victoria, Melbourne, Australia",
+      "collectionNote": "Collected in 1987 from a tunnel at Dinosaur Cove. The Museums Victoria catalogue record identifies the jaw as the holotype and provides an item-level image.",
+      "discoveryId": "disc-nmv-p185991",
+      "significance": "The name-bearing specimen of Leaellynasaura amicagraphica. It anchors the species to a juvenile jaw rather than a complete skeleton and is central to debates about the Victorian ornithopod material.",
+      "anatomy": "Partial left cheek and maxilla. The specimen does not preserve the rest of the skull or the postcranial skeleton.",
+      "uncertainty": "NMV P185990 and NMV P185992/P185993 were once treated as parts of the holotype individual, but later work questions their referral. The familiar long-tailed body reconstruction should not be read as the holotype.",
+      "topics": [
+        "skull",
+        "history"
+      ],
+      "media": [],
+      "anatomyStructureIds": [],
+      "relatedSpecimenIds": [],
+      "publications": [
+        "primary-leaellynasaura",
+        "nmv-p185991",
+        "herne2019"
+      ],
+      "refs": [
+        "primary-leaellynasaura",
+        "nmv-p185991",
+        "herne2019"
+      ],
+      "featured": false
+    },
+    {
+      "id": "usnm-12031",
+      "identifier": "USNM 12031",
+      "speciesId": "pachycephalosaurus",
+      "typeGroup": "type",
+      "typeStatus": "Holotype — partial skull roof and anterior skull",
+      "material": "Anterior portion of the skull, including the thickened skull roof. The specimen does not preserve a complete skull, mandible or postcranial skeleton.",
+      "preservation": "Partial and isolated. The catalogue lists only the anterior skull; no associated postcranial material is recorded.",
+      "preservationClass": "partial",
+      "repository": "Smithsonian National Museum of Natural History, Washington, D.C. (USNM V12031)",
+      "collectionNote": "Collected by George F. Sternberg in 1930. The Smithsonian catalogue gives the Lance Formation, Niobrara County, Wyoming, and cites Gilmore (1931) as the type description.",
+      "discoveryId": "disc-usnm-12031",
+      "significance": "The name-bearing specimen of the species Gilmore described as Troodon wyomingensis in 1931. The catalogue now lists USNM V12031 as the holotype of Pachycephalosaurus wyomingensis, so it anchors the species to a partial skull rather than a complete skeleton.",
+      "anatomy": "Anterior skull with the thickened, domed skull roof. The specimen does not preserve the full skull, jaws or postcranial skeleton, so it cannot by itself establish body proportions.",
+      "uncertainty": "Only the anterior skull is preserved, and the species was first named in a different genus. Its current combination follows Brown & Schlaikjer (1943); the specimen itself does not preserve the postcranial anatomy or the full arrangement of cranial ornament.",
+      "topics": [
+        "skull",
+        "history"
+      ],
+      "media": [],
+      "anatomyStructureIds": [],
+      "relatedSpecimenIds": [],
+      "publications": [
+        "gilmore1931",
+        "brown1943"
+      ],
+      "refs": [
+        "usnm12031record",
+        "gilmore1931",
+        "brown1943"
+      ],
+      "featured": false
+    },
+    {
+      "id": "rom-768",
+      "identifier": "ROM 768",
+      "speciesId": "parasaurolophus",
+      "typeGroup": "type",
+      "typeStatus": "Holotype — nearly complete skeleton with skull and crest",
+      "material": "Skull with the long, tubular crest, together with much of the axial skeleton and limbs. The tail, most of the hind limbs and the distal ends of the ischia are not preserved.",
+      "preservation": "Nearly complete, but not a complete skeleton. The dorsal neural spines include a pathological overgrowth; soft tissue is not preserved.",
+      "preservationClass": "nearly-complete",
+      "repository": "Royal Ontario Museum, Toronto (ROMVP00768)",
+      "collectionNote": "Collected in 1920. The ROM catalogue lists object number ROMVP00768 as the holotype and records the specimen from Alberta.",
+      "discoveryId": "disc-rom-768",
+      "significance": "The name-bearing specimen of Parasaurolophus walkeri and the basis of Parks's 1922 description. It preserves the long, tubular crest and a distinctive dorsal pathology.",
+      "anatomy": "Skull with a long, hollow, tubular crest, plus much of the axial skeleton and limbs. The crest is hollow and tubular, not a solid horn.",
+      "uncertainty": "The skeleton lacks the tail and most of the hind limbs, so its proportions are incomplete. The cause of the dorsal neural-spine lesion is debated, and the crest's soft-tissue covering is not preserved.",
+      "topics": [
+        "skull",
+        "axial",
+        "history"
+      ],
+      "media": [],
+      "anatomyStructureIds": [],
+      "relatedSpecimenIds": [],
+      "publications": [
+        "primary-parasaurolophus",
+        "bertozzo2021"
+      ],
+      "refs": [
+        "rom768record",
+        "primary-parasaurolophus",
+        "bertozzo2021"
+      ],
+      "featured": false
+    }
+  ],
+  "revisions": [
+    {
+      "id": "spinosaurus-aquatic",
+      "title": "Spinosaurus: shoreline hunter or swimmer?",
+      "kicker": "Palaeoecology",
+      "speciesId": "spinosaurus",
+      "earlier": {
+        "label": "Earlier reading",
+        "body": "The original material established a long-snouted, sail-backed theropod. The postcranial skeleton was too incomplete to test posture or swimming, so the animal was usually reconstructed as a terrestrial predator.",
+        "refs": [
+          "stromer1915",
+          "stromer1934"
+        ]
+      },
+      "evidenceThen": {
+        "label": "Evidence then",
+        "body": "Jaw fragments, conical teeth and tall dorsal spines, with only limited limb material from a second specimen, 'Spinosaurus B'. The snout and teeth suggested fish eating, but the body remained largely unknown.",
+        "refs": [
+          "stromer1915",
+          "stromer1934"
+        ]
+      },
+      "trigger": {
+        "label": "New evidence",
+        "body": "MSNM V4047 (2005) clarified the skull. FSAC-KK 11888 (2014) added a partial skeleton with short legs and dense limb bones, and was proposed as a neotype; that designation is disputed. The 2020 tail study described tall distal neural spines and long chevrons forming a paddle-like profile.",
+        "refs": [
+          "dalsasso2005",
+          "ibrahim2014",
+          "evers2015",
+          "ibrahim2020"
+        ]
+      },
+      "revised": {
+        "label": "Revised reading",
+        "body": "A fish-focused spinosaurid with an unusual tail and dense limb bones. The 2014 authors proposed a semiaquatic, possibly quadrupedal animal; the 2020 authors argued for tail-propelled swimming. Later papers challenged habitual aquatic pursuit and some bone-density methods.",
+        "refs": [
+          "ibrahim2014",
+          "evers2015",
+          "ibrahim2020",
+          "honeholtz2021",
+          "sereno2022",
+          "myhrvold2024"
+        ]
+      },
+      "uncertainty": {
+        "label": "What remains open",
+        "body": "Whether Spinosaurus swam habitually, waded in shallow water, or hunted mainly from shore. Posture, the interpretation of bone compactness and the amount of reconstructed anatomy in published mounts are all contested.",
+        "refs": [
+          "honeholtz2021",
+          "sereno2022",
+          "myhrvold2024"
+        ]
+      },
+      "specimenIds": [
+        "bsp-1912-viii-19",
+        "msnm-v4047",
+        "fsac-kk-11888"
+      ],
+      "refs": [
+        "stromer1915",
+        "stromer1934",
+        "dalsasso2005",
+        "ibrahim2014",
+        "evers2015",
+        "ibrahim2020",
+        "honeholtz2021",
+        "sereno2022",
+        "myhrvold2024"
+      ]
+    },
+    {
+      "id": "dinosaur-posture",
+      "title": "From tail-dragging to balanced bipeds",
+      "kicker": "Reconstruction",
+      "speciesId": "deinonychus",
+      "earlier": {
+        "label": "Earlier reading",
+        "body": "Early 20th-century museum mounts, including Tyrannosaurus, stood large theropods upright with the tail resting on the ground. The posture presented them as slow, reptile-like animals.",
+        "refs": [
+          "osborn1905"
+        ]
+      },
+      "evidenceThen": {
+        "label": "Evidence then",
+        "body": "Mounted skeletons and trackways were read through a reptile-like frame. Hip, tail and limb anatomy were often fitted to the mounted posture rather than used to test it.",
+        "refs": [
+          "osborn1905"
+        ]
+      },
+      "trigger": {
+        "label": "New evidence",
+        "body": "Ostrom's 1969 monograph on Deinonychus emphasized a lightly built, bird-like predator with a stiffened tail and grasping limbs. It became a central text of the Dinosaur Renaissance.",
+        "refs": [
+          "ostrom1969"
+        ]
+      },
+      "revised": {
+        "label": "Revised reading",
+        "body": "Theropods are reconstructed with a horizontal vertebral column and a tail held clear of the ground. Birds are recognised as living dinosaurs, and active, bird-like locomotion is treated as plausible rather than anomalous.",
+        "refs": [
+          "ostrom1969",
+          "turner2007"
+        ]
+      },
+      "uncertainty": {
+        "label": "What remains open",
+        "body": "Posture and range of motion differ across lineages. Joint cartilage and soft tissue are not preserved, so some reconstructions remain inferences rather than direct observations.",
+        "refs": [
+          "ostrom1969"
+        ]
+      },
+      "specimenIds": [
+        "ypm-5205",
+        "cm-9380"
+      ],
+      "refs": [
+        "osborn1905",
+        "ostrom1969",
+        "turner2007"
+      ]
+    },
+    {
+      "id": "feathered-dinosaurs",
+      "title": "Feathers before flight",
+      "kicker": "Integument",
+      "speciesId": "velociraptor",
+      "earlier": {
+        "label": "Earlier reading",
+        "body": "Feathers were treated as a feature of birds. Most non-avian dinosaurs were reconstructed with scaly skin, even when their skeletons were closely compared with birds.",
+        "refs": [
+          "ostrom1969"
+        ]
+      },
+      "evidenceThen": {
+        "label": "Evidence then",
+        "body": "Skeletal similarities between birds and theropods suggested a close relationship. Scaly skin impressions from some dinosaurs showed that scales were present, but they did not rule out feathers elsewhere on the body.",
+        "refs": [
+          "ostrom1969"
+        ]
+      },
+      "trigger": {
+        "label": "New evidence",
+        "body": "Quill knobs on the ulna of Velociraptor IGM 100/981 (Turner et al. 2007) showed that a dromaeosaur had large forearm feathers. The feathers themselves were not preserved; the knobs are the osteological trace of their attachment.",
+        "refs": [
+          "turner2007"
+        ]
+      },
+      "revised": {
+        "label": "Revised reading",
+        "body": "Feathers are inferred for many theropods, including Velociraptor. They were not necessarily present in the same form or coverage on every species, and some lineages retained extensive scales.",
+        "refs": [
+          "turner2007",
+          "ostrom1969"
+        ]
+      },
+      "uncertainty": {
+        "label": "What remains open",
+        "body": "No feather impressions are known for Deinonychus. Feather colour, arrangement and function cannot be read directly from quill knobs, and the coverage of many dinosaurs remains unknown.",
+        "refs": [
+          "turner2007",
+          "ostrom1969"
+        ]
+      },
+      "specimenIds": [
+        "igm-100-981",
+        "ypm-5205"
+      ],
+      "refs": [
+        "ostrom1969",
+        "turner2007"
+      ]
+    }
+  ],
+  "caseStudy": {
+    "id": "spinosaurus-case",
+    "kicker": "Flagship case study",
+    "title": "Spinosaurus: one name, many specimens",
+    "standfirst": "Spinosaurus is not a single skeleton with a single story. It is a name built from a lost Egyptian type, a Moroccan skull, a partial skeleton and a tail — each with its own evidence and its own limits.",
+    "chapters": [
+      {
+        "id": "case-type",
+        "yearLabel": "1912–1944",
+        "title": "A type without a body",
+        "body": "Stromer's Bahariya holotype included jaw fragments, teeth and vertebral spines, but no limbs and no complete skull. A second partial skeleton, 'Spinosaurus B', preserved limb elements. Together they were enough to name a long-snouted, sail-backed animal, but not enough to reconstruct a complete one. The Munich holdings were destroyed in 1944; later work depends on the publications, drawings and casts that survived.",
+        "specimenIds": [
+          "bsp-1912-viii-19"
+        ],
+        "refs": [
+          "stromer1915",
+          "stromer1934",
+          "ibrahim2014",
+          "evers2015"
+        ]
+      },
+      {
+        "id": "case-skull",
+        "yearLabel": "2005",
+        "title": "A skull from the Kem Kem",
+        "body": "MSNM V4047 is a partial skull from Morocco. It clarified the shape of the rostrum, the terminal rosette and the cranial openings, strengthening the case for a fish-focused diet. A skull, however, cannot tell us how the animal stood or swam.",
+        "specimenIds": [
+          "msnm-v4047"
+        ],
+        "refs": [
+          "dalsasso2005"
+        ]
+      },
+      {
+        "id": "case-skeleton",
+        "yearLabel": "2014–2020",
+        "title": "A skeleton and a tail",
+        "body": "FSAC-KK 11888 added a partial skeleton with short legs, dense limb bones and a tail with tall distal spines and long chevrons. The 2014 study proposed it as a neotype and proposed a semiaquatic animal; Evers et al. (2015) rejected the neotype designation, and the referral remains contested. The 2020 tail study argued for tail-propelled swimming. The published mounts reconstruct missing parts and should not be read as complete excavated individuals.",
+        "specimenIds": [
+          "fsac-kk-11888"
+        ],
+        "refs": [
+          "ibrahim2014",
+          "evers2015",
+          "ibrahim2020"
+        ]
+      },
+      {
+        "id": "case-debate",
+        "yearLabel": "2021–2024",
+        "title": "The argument continues",
+        "body": "Hone and Holtz proposed a shoreline generalist. Sereno and colleagues argued that Spinosaurus was not an aquatic dinosaur. A 2024 critique questioned the bone-compactness methods used to infer diving. The disagreement is not a failure of the record; it is what the record currently supports.",
+        "specimenIds": [
+          "bsp-1912-viii-19",
+          "msnm-v4047",
+          "fsac-kk-11888"
+        ],
+        "refs": [
+          "honeholtz2021",
+          "sereno2022",
+          "myhrvold2024"
+        ]
+      }
+    ],
+    "limits": [
+      "The three Spinosaurus specimens are not three parts of one individual.",
+      "The 1934 plate records ‘Spinosaurus B’, not the holotype; it and the 1915 and 1919 drawings are historical illustrations, not photographs of the fossils.",
+      "The Milan skull is not represented by a correctly identified licensed photograph in this archive; the skull photograph used elsewhere shows a different, privately held Moroccan specimen.",
+      "The proposed neotype is incomplete, and its status is disputed. Reconstructed parts in published mounts are hypotheses about missing anatomy."
+    ]
+  },
+  "milestoneLinks": {
+    "trex-named": {
+      "specimenIds": [
+        "cm-9380"
+      ],
+      "expeditionIds": [
+        "brown-hell-creek"
+      ]
+    },
+    "spinosaurus-named": {
+      "specimenIds": [
+        "bsp-1912-viii-19"
+      ],
+      "expeditionIds": [
+        "stromer-bahariya"
+      ]
+    },
+    "spinosaurus-lost": {
+      "specimenIds": [
+        "bsp-1912-viii-19"
+      ]
+    },
+    "deinonychus": {
+      "specimenIds": [
+        "ypm-5205"
+      ],
+      "expeditionIds": [
+        "yale-cloverly"
+      ],
+      "revisionId": "dinosaur-posture"
+    },
+    "baryonyx-named": {
+      "specimenIds": [
+        "nhmuk-pv-r9951"
+      ],
+      "expeditionIds": [
+        "smokejacks-excavation"
+      ]
+    },
+    "quill-knobs": {
+      "specimenIds": [
+        "igm-100-981"
+      ],
+      "revisionId": "feathered-dinosaurs"
+    },
+    "spinosaurus-semiaquatic": {
+      "specimenIds": [
+        "fsac-kk-11888"
+      ],
+      "revisionId": "spinosaurus-aquatic"
+    },
+    "spinosaurus-tail": {
+      "specimenIds": [
+        "fsac-kk-11888"
+      ],
+      "revisionId": "spinosaurus-aquatic"
+    },
+    "sophie-stegosaurus": {
+      "specimenIds": [
+        "nhmuk-pv-r36730"
+      ]
+    },
+    "spinosaurus-debate": {
+      "specimenIds": [
+        "bsp-1912-viii-19",
+        "msnm-v4047",
+        "fsac-kk-11888"
+      ],
+      "revisionId": "spinosaurus-aquatic"
+    }
+  }
+}

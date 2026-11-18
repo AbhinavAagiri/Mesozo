@@ -1,0 +1,169 @@
+{
+  "slug": "einiosaurus",
+  "accession": "MZ-059",
+  "scientificName": "Einiosaurus procurvicornis",
+  "commonName": "Buffalo lizard",
+  "genus": "Einiosaurus",
+  "epithet": "procurvicornis",
+  "status": "Extinct",
+  "namedBy": "Sampson, 1995",
+  "group": "Ornithischia · Ceratopsidae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    75,
+    74
+  ],
+  "ageLabel": "≈75–74 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The beak and dental battery indicate herbivory. No gut contents are known; the plants eaten and the feeding style are inferred from jaw anatomy.",
+    "evidence": "inference",
+    "refs": [
+      "primary-einiosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈4.5–5.5 m",
+  "mass": "≈1.5–2.5 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "einiosaurus-living",
+  "featured": false,
+  "tagline": "A centrosaurine with a nasal horn that curves forward and a relatively simple frill. Bonebeds contain several individuals of different ages.",
+  "summary": "A centrosaurine with a nasal horn that curves forward and a relatively simple frill. Bonebeds contain several individuals of different ages.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Marginocephalia"
+    },
+    {
+      "rank": "Family",
+      "value": "Ceratopsidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Einiosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "E. procurvicornis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Sampson, 1995. The record is known from the upper Two Medicine Formation, Montana. The holotype, MOR 456-8-9-6-1, is an adult partial skull from the Canyon Bonebed; at least 15 individuals are known from Two monospecific bonebeds.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-einiosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Two monospecific bonebeds, the Canyon Bonebed and Dino Ridge Quarry, have produced skulls and partial skeletons of at least 15 individuals. The holotype is an adult partial skull.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-einiosaurus",
+        "pbdb",
+        "paul2016",
+        "v20-wilson2021"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Two Medicine Formation, Montana records the species in the Late Cretaceous. The numeric range used here is ≈75–74 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The nasal horn is strongly procurved, the supracranial ornament is inflated, and the parietal bears a single pair of elongate P3 processes. The postcranial skeleton is robust.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-einiosaurus",
+        "pbdb",
+        "paul2016",
+        "v20-wilson2021"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The Two bonebeds show that many individuals accumulated together, which is consistent with gregarious behaviour but does not prove it. The function of the nasal horn and frill in display or combat is unresolved.",
+    "evidence": "inference",
+    "refs": [
+      "primary-einiosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several bonebeds with skulls and partial skeletons. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-einiosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-einiosaurus",
+    "v20-wilson2021",
+    "pbdb",
+    "paul2016"
+  ],
+  "related": [
+    "centrosaurus",
+    "styracosaurus",
+    "pachyrhinosaurus"
+  ],
+  "confidenceNote": "Two monospecific bonebeds in the Two Medicine Formation have produced at least 15 individuals, including the holotype skull MOR 456-8-9-6-1. Wilson & Scannella (2021) documented ontogenetic changes in the cranial ornament. Herding is inferred from the bonebed association, not observed.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Two Medicine Formation, Montana",
+  "locality": [
+    "Two Medicine Formation, Montana"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Einiosaurus procurvicornis was a plant-eating ceratopsian from the [Two Medicine Formation](/prehistoric-world#worlds) of Montana, about 75 million years ago. It belonged to the centrosaurine branch of horned dinosaurs.",
+    "paragraphs": [
+      "Its most distinctive feature is a nasal horn that curves strongly forward, together with a relatively simple frill. Two bonebeds have produced at least 15 individuals, including skulls from different growth stages. That sample lets palaeontologists study how the horns and frill changed as the animals grew.",
+      "The bonebeds are direct evidence that many individuals accumulated together, but herding is an inference. The function of the ornaments — display, species recognition or combat — is not settled, and no gut contents are known."
+    ],
+    "takeaway": "A horned dinosaur with a forward-curving nose horn and a rare growth series."
+  }
+}

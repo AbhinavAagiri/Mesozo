@@ -1,0 +1,189 @@
+{
+  "slug": "baryonyx",
+  "scientificName": "Baryonyx walkeri",
+  "commonName": "Heavy claw",
+  "namedBy": "Charig & Milner, 1986",
+  "group": "Theropoda · Spinosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Hauterivian–Barremian",
+  "ageMa": [
+    130,
+    125
+  ],
+  "ageLabel": "≈130–125 Ma",
+  "region": [
+    "England"
+  ],
+  "regionKeys": [
+    "Europe"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore · fish-focused",
+  "length": "≈7.5–10 m",
+  "mass": "≈1.2–2 t (estimate)",
+  "sizeNote": "The holotype is a partial but associated skeleton. Total length and mass are estimates, and published figures vary with the reconstruction used.",
+  "image": "baryonyx-living",
+  "featured": true,
+  "tagline": "A long-snouted spinosaurid from the Wealden rivers of southern England, found with fish remains in its body cavity.",
+  "summary": "Baryonyx walkeri is a spinosaurid from the Weald Clay of Surrey, known from a partial associated skeleton. Fish scales and teeth in its body cavity are direct evidence of fish eating, while the long narrow skull and large manual claw are anatomical specialisations whose exact functions are inferred.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Megalosauroidea"
+    },
+    {
+      "rank": "Family",
+      "value": "Spinosauridae"
+    },
+    {
+      "rank": "Subfamily",
+      "value": "Baryonychinae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Baryonyx"
+    },
+    {
+      "rank": "Species",
+      "value": "B. walkeri"
+    }
+  ],
+  "discovery": {
+    "body": "William J. Walker found a large claw at Smokejacks Brickworks, Surrey, in 1983. Excavation by the Natural History Museum recovered a partial, associated skeleton from the Weald Clay. Alan Charig and Angela Milner named Baryonyx walkeri in 1986. The holotype, NHMUK PV R9951, remains one of the most complete theropod skeletons from Britain.",
+    "evidence": "fossil",
+    "refs": [
+      "charig1986",
+      "charig1997",
+      "nhmBaryonyx"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "An associated skeleton",
+      "body": "The holotype preserves parts of the skull, jaws, teeth, vertebral column, ribs, pelvis and limbs. It is a single associated individual rather than a composite, which makes it unusually informative for a spinosaurid. The skeleton is incomplete, and some elements are crushed or missing.",
+      "evidence": "fossil",
+      "refs": [
+        "charig1986",
+        "charig1997"
+      ]
+    },
+    {
+      "title": "Fish remains in the body cavity",
+      "body": "Scales and teeth of the fish Lepidotes were found in the region of the stomach. This is direct evidence that Baryonyx fed on fish. It does not show that fish were its only food, or how the animal caught them.",
+      "evidence": "fossil",
+      "refs": [
+        "charig1997"
+      ]
+    },
+    {
+      "title": "The enlarged thumb claw",
+      "body": "The first finger carries a strongly curved claw about 31 cm long along its outer curve. In life it would have been covered by a keratin sheath and therefore larger. The claw is real; its role in fishing, grasping or display is inferred.",
+      "evidence": "inference",
+      "refs": [
+        "charig1986",
+        "nhmBaryonyx"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Skull and teeth",
+      "body": "The snout is long, low and narrow, with a terminal rosette of enlarged teeth and many smaller, conical teeth behind it. The shape is convergent with long-snouted crocodilians. It is consistent with catching slippery prey, but the jaw alone does not prove a particular hunting method.",
+      "evidence": "fossil",
+      "refs": [
+        "charig1997"
+      ]
+    },
+    {
+      "title": "Forelimbs",
+      "body": "The forelimbs are robust, and the first finger bears the eponymous claw. The arm anatomy is consistent with a powerful grasp or hook, but no fossil preserves the animal using the claw. The forelimbs cannot be treated as proof of fish spearing.",
+      "evidence": "inference",
+      "refs": [
+        "charig1997",
+        "nhmBaryonyx"
+      ]
+    },
+    {
+      "title": "Back and tail",
+      "body": "The dorsal vertebrae have elongated neural spines, although the full extent of a sail or hump is reconstructed. The tail is long and balances the body. Soft tissue, skin colour and the exact profile of the back are not preserved.",
+      "evidence": "inference",
+      "refs": [
+        "charig1997"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The long narrow skull, conical teeth and large manual claw are consistent with a specialized feeding ecology, but no direct observation of hunting is possible. The claw may have been used for fishing, digging or display; the function is unresolved.",
+    "evidence": "inference",
+    "refs": [
+      "charig1997",
+      "sereno1998"
+    ]
+  },
+  "reconstruction": {
+    "body": "The 1983 skeleton gave artists a much more complete spinosaurid than earlier fragmentary material. Early reconstructions emphasized a crocodile-like snout and a large thumb claw; later work placed Baryonyx within Spinosauridae and compared it with Suchomimus and Spinosaurus. The colour, soft tissue and the height of the back sail are artistic choices, not fossil observations.",
+    "evidence": "reconstruction",
+    "refs": [
+      "charig1986",
+      "charig1997",
+      "sereno1998"
+    ]
+  },
+  "references": [
+    "charig1986",
+    "charig1997",
+    "sereno1998",
+    "nhmBaryonyx"
+  ],
+  "related": [
+    "suchomimus",
+    "spinosaurus",
+    "allosaurus"
+  ],
+  "confidenceNote": "The holotype is relatively complete and includes direct gut contents. The skull is known but not complete, and the claw’s function and the animal’s hunting method are not preserved.",
+  "updated": "2026-11-17",
+  "dietEvidence": {
+    "body": "Fish scales and fish teeth preserved in the body cavity are direct evidence that Baryonyx ate fish. The gut contents record at least one meal; they do not show that fish was the only food or how the animal caught it.",
+    "evidence": "direct",
+    "refs": [
+      "charig1997"
+    ]
+  },
+  "sizeRefs": [
+    "charig1997",
+    "nhmBaryonyx"
+  ],
+  "genus": "Baryonyx",
+  "epithet": "walkeri",
+  "status": "Extinct",
+  "accession": "MZ-003",
+  "added": "2026-11-15",
+  "locomotion": "Bipedal",
+  "habitat": "River floodplain and lagoon margins",
+  "ancientContext": "Wealden river systems of Early Cretaceous Europe",
+  "locality": [
+    "Smokejacks Brickworks, Surrey, England"
+  ]
+}

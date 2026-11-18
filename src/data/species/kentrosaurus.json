@@ -1,0 +1,160 @@
+{
+  "slug": "kentrosaurus",
+  "accession": "MZ-041",
+  "scientificName": "Kentrosaurus aethiopicus",
+  "commonName": "Spiked lizard",
+  "genus": "Kentrosaurus",
+  "epithet": "aethiopicus",
+  "status": "Extinct",
+  "namedBy": "Hennig, 1915",
+  "group": "Ornithischia · Stegosauridae",
+  "groupKey": "Ornithischia",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Kimmeridgian–Tithonian",
+  "ageMa": [
+    152,
+    145
+  ],
+  "ageLabel": "≈152–145 Ma",
+  "region": [
+    "Tanzania"
+  ],
+  "regionKeys": [
+    "Africa"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The skull and dentition are consistent with herbivory. No gut contents are known, and low browsing is a reconstructed feeding posture rather than an observation.",
+    "evidence": "inference",
+    "refs": [
+      "v19-kentrosaurus-69"
+    ]
+  },
+  "length": "≈4–4.5 m",
+  "mass": "≈700–1,500 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "kentrosaurus-living",
+  "featured": false,
+  "tagline": "A small stegosaur with a double row of plates along the neck and trunk and long spikes over the hips and tail. The plate arrangement is inferred from articulated material.",
+  "summary": "A small stegosaur with a double row of plates along the neck and trunk and long spikes over the hips and tail. The plate arrangement is inferred from articulated material.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Thyreophora"
+    },
+    {
+      "rank": "Family",
+      "value": "Stegosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Kentrosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "K. aethiopicus"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Edwin Hennig in 1915 from the Tendaguru Formation of Tanzania. The valid lectotype is MB.R.4800.1–37, a partial skeleton; the Berlin mount is composite and combines lectotype and paralectotype material with reconstructed elements.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-kentrosaurus",
+      "v19-kentrosaurus-70"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several partial skeletons from the Tendaguru beds.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-kentrosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Tendaguru Formation, Lindi records the species in the Late Jurassic. The numeric range used here is ≈152–145 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The plates are narrow and the tail bears long, paired spikes; the forelimbs are shorter than the hindlimbs.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-kentrosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Herbivory is inferred from the skull and dentition. The tail spikes are usually interpreted as defensive, but no interaction with a predator is preserved.",
+    "evidence": "inference",
+    "refs": [
+      "v19-kentrosaurus-69",
+      "v19-kentrosaurus-70"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons from the Tendaguru beds. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-kentrosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-kentrosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-kentrosaurus-67",
+    "v19-kentrosaurus-68",
+    "v19-kentrosaurus-69",
+    "v19-kentrosaurus-70"
+  ],
+  "related": [
+    "stegosaurus",
+    "huayangosaurus",
+    "miragaia"
+  ],
+  "confidenceNote": "The osteoderms and posture are well studied, but the Berlin mount is composite and the sample is disarticulated. Sexual dimorphism is not established, and no soft tissue or gut contents are known.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Tendaguru Formation, Lindi",
+  "locality": [
+    "Tendaguru Formation, Lindi"
+  ],
+  "researchStatus": "partially-verified"
+}

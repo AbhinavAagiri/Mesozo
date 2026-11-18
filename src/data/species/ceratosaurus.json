@@ -1,0 +1,171 @@
+{
+  "slug": "ceratosaurus",
+  "accession": "MZ-028",
+  "scientificName": "Ceratosaurus nasicornis",
+  "commonName": "Horned lizard",
+  "genus": "Ceratosaurus",
+  "epithet": "nasicornis",
+  "status": "Extinct",
+  "namedBy": "Marsh, 1884",
+  "group": "Theropoda · Ceratosauridae",
+  "groupKey": "Theropoda",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Kimmeridgian–Tithonian",
+  "ageMa": [
+    153,
+    148
+  ],
+  "ageLabel": "≈153–148 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The recurved, serrated teeth are consistent with carnivory. No gut contents are known; prey choice is inferred from anatomy and from the Morrison ecosystem.",
+    "evidence": "inference",
+    "refs": [
+      "primary-ceratosaurus",
+      "v19-ceratosaurus-37"
+    ]
+  },
+  "length": "≈5.5–7 m",
+  "mass": "≈700–900 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "ceratosaurus-living",
+  "featured": false,
+  "tagline": "A medium-sized ceratosaur with a prominent nasal horn and a pair of brow horns. The horns are bone; their display function is inferred.",
+  "summary": "Ceratosaurus nasicornis is a ceratosaurid from the Morrison Formation, known from partial skeletons and skulls. It has a prominent nasal horn and paired brow horns, and its forearm and hand are anatomically distinct from those of larger tetanurans. Isolated teeth from Uruguay extend the genus’s range.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ceratosauria"
+    },
+    {
+      "rank": "Family",
+      "value": "Ceratosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Ceratosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "C. nasicornis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Marsh, 1884. The record is known from Morrison Formation, Colorado and Utah. Several partial skeletons and skulls from the Morrison Formation.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-ceratosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several partial skeletons and skulls from the Morrison Formation.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-ceratosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Morrison Formation, Colorado and Utah records the species in the Late Jurassic. The numeric range used here is ≈153–148 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    },
+    {
+      "title": "Horns and forelimb",
+      "body": "The skull preserves a nasal horn and paired brow horns. The forearm and hand are known from associated material and differ from those of larger tetanurans.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-ceratosaurus",
+        "v19-ceratosaurus-36"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull has a large nasal horn, short brow horns, and a deep lower jaw; the forelimbs are short and the tail is long.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-ceratosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The nasal and brow horns are usually interpreted as display or species-recognition structures, but they could also have been used in combat. Direct evidence of behaviour is limited to the skeleton; social behaviour is unknown.",
+    "evidence": "inference",
+    "refs": [
+      "v19-ceratosaurus-37"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons and skulls from the Morrison formation. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-ceratosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-ceratosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-ceratosaurus-36",
+    "v19-ceratosaurus-37",
+    "v19-ceratosaurus-38"
+  ],
+  "related": [
+    "majungasaurus",
+    "carnotaurus",
+    "dilophosaurus"
+  ],
+  "confidenceNote": "The skull and postcranium are known from several specimens, but no complete skeleton is known. Horn function is inferred, and the South American record is tooth-based.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Floodplain woodland",
+  "ancientContext": "Morrison Formation, Colorado and Utah",
+  "locality": [
+    "Morrison Formation, Colorado and Utah"
+  ],
+  "researchStatus": "partially-verified"
+}

@@ -1,0 +1,4 @@
+# Public paths are emitted as static HTML shells by scripts/generate-seo.mjs.
+# Unknown paths are served by /404.html. Do not add a /* /index.html rewrite:
+# on Cloudflare Pages redirects are followed before asset matching, so it would
+# hide every nested route shell and turn unknown URLs into soft 404s.

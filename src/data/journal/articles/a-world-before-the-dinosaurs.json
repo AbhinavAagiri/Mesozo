@@ -1,0 +1,215 @@
+{
+  "id": "a-world-before-the-dinosaurs",
+  "slug": "a-world-before-the-dinosaurs",
+  "number": 2,
+  "headline": "A World Before the Dinosaurs",
+  "subtitle": "The Paleozoic built the seas, the forests and the crises that made the Mesozoic possible.",
+  "standfirst": "Before the first dinosaur, the oceans filled with animals, plants moved onto land, forests changed the atmosphere, and the largest extinction in Earth history reset the stage. The Paleozoic is not a failed prelude to the age of dinosaurs. It is the world that made it.",
+  "category": "evolution",
+  "tags": [
+    "Paleozoic",
+    "Deep time",
+    "Evolution",
+    "Extinction",
+    "Marine life"
+  ],
+  "byline": "MESOZO Editorial",
+  "editorialCredit": "Research, writing and editing by the MESOZO editorial desk.",
+  "publishedAt": "2026-11-05",
+  "readingMinutes": 5,
+  "featured": false,
+  "hero": {
+    "variant": "type",
+    "tone": "dark",
+    "label": "Paleozoic · 538.8–251.9 Ma",
+    "caption": "A period-scale reading of the interval before the Mesozoic. The bar is diagrammatic; the boundary dates follow the International Chronostratigraphic Chart."
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "id": "the-long-prelude",
+      "kicker": "01 — The frame",
+      "title": "A long prelude."
+    },
+    {
+      "type": "text",
+      "dropCap": true,
+      "paragraphs": [
+        "The Paleozoic begins about 538.8 million years ago and ends at 251.9 million years ago. Its name means ancient life, but the interval is better understood as a sequence of experiments: animals with skeletons in the sea, plants at the water’s edge, the first forests, the first four-limbed vertebrates, and the first eggs that could develop away from water. [[ics2026]][[gradstein2020]]",
+        "Dinosaurs do not appear until the Triassic, after the end-Permian extinction. Their world was assembled from the survivors of the Paleozoic, not from a blank page. [[langer2010]]"
+      ]
+    },
+    {
+      "type": "timescale",
+      "title": "Six periods before the first dinosaur",
+      "unitIds": [
+        "cambrian",
+        "ordovician",
+        "silurian",
+        "devonian",
+        "carboniferous",
+        "permian"
+      ],
+      "highlightId": "permian",
+      "note": "The labels and boundaries come from the same geological hierarchy used by Deep Time. The bar is a reading aid, not a claim that each period was equally important.",
+      "refs": [
+        "ics2026",
+        "gradstein2020"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "the-ocean-learns",
+      "kicker": "02 — The sea",
+      "title": "An ocean that learned to build."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "Cambrian rocks record a rapid diversification of animals with mineralized skeletons and complex body plans. Trilobites, brachiopods, archaeocyaths, echinoderms and early chordates appear in the record. The word explosion compresses a long and uneven interval; it does not mean that every animal group appeared at once. [[wood2019]]",
+        "Reefs, shelly faunas and predatory animals built increasingly complex marine ecosystems through the Ordovician and Silurian. The first jawed fishes appear, and the first clear evidence of vascular plants on land follows. The sea was no longer a single habitat; it was a set of habitats. [[kenrick1997]][[wood2019]]"
+      ]
+    },
+    {
+      "type": "annotation",
+      "title": "The Cambrian is not a single morning",
+      "body": "The Cambrian diversification is visible partly because more animals had hard parts that could fossilize. That does not make the event imaginary. It means the fossil record is a filter as well as an archive: what survives is not the same as what existed.",
+      "refs": [
+        "wood2019"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "the-land",
+      "kicker": "03 — The land",
+      "title": "The slow move onto land."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "Cryptospores from the Middle Ordovician, around 470 million years ago, are among the earliest evidence of land plants. These early plants were small and probably lived close to water. Vascular plants with conducting tissues appear later, and by the Devonian the first forests were changing weathering, soils and the carbon cycle. [[kenrick1997]]",
+        "In the Devonian, lobe-finned fishes such as Tiktaalik preserve a mosaic of fish and tetrapod features: a flattened head, robust pectoral fins and a neck. They document an anatomical transition, not a single missing link. The first fully terrestrial vertebrates follow. [[daeschler2006]]"
+      ]
+    },
+    {
+      "type": "data",
+      "title": "Four firsts, without a single finish line",
+      "entries": [
+        {
+          "label": "Land plants",
+          "value": "≈470 Ma",
+          "detail": "Cryptospores record early plants close to water.",
+          "refs": [
+            "kenrick1997"
+          ]
+        },
+        {
+          "label": "Fin-to-limb transition",
+          "value": "≈375 Ma",
+          "detail": "Tiktaalik combines fish and tetrapod anatomy.",
+          "refs": [
+            "daeschler2006"
+          ]
+        },
+        {
+          "label": "First amniotes",
+          "value": "≈312 Ma",
+          "detail": "The amniotic egg allowed reproduction away from standing water.",
+          "refs": [
+            "benton2007"
+          ]
+        },
+        {
+          "label": "First dinosaurs",
+          "value": "≈233 Ma",
+          "detail": "They appear in the Triassic, after the Paleozoic has ended.",
+          "refs": [
+            "langer2010"
+          ]
+        }
+      ],
+      "note": "The dates are approximate records of first appearance, not the moment a whole lineage began."
+    },
+    {
+      "type": "heading",
+      "id": "coal-and-crisis",
+      "kicker": "04 — The crisis",
+      "title": "A world of coal, giants and collapse."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "The Carboniferous is the age of extensive tropical coal forests. High plant productivity and carbon burial are linked to elevated atmospheric oxygen, and giant arthropods lived in those high-oxygen atmospheres. The first amniotes appear in the fossil record. [[benton2007]][[scotese2021]]",
+        "The Permian ends with the largest mass extinction in Earth history. Most marine species and many land vertebrates disappear. The crisis coincided with the eruption of the Siberian Traps, rapid warming, ocean acidification and widespread anoxia. The scale of the extinction is established; the relative weight of each mechanism remains an active research question. [[burgess2014]]"
+      ]
+    },
+    {
+      "type": "evidence",
+      "stance": "established",
+      "title": "What the record shows",
+      "body": "The end-Permian extinction was the most severe known mass extinction. It removed most marine species and many terrestrial vertebrate lineages, and it coincided with large-scale volcanism and rapid environmental change.",
+      "refs": [
+        "burgess2014"
+      ]
+    },
+    {
+      "type": "evidence",
+      "stance": "open",
+      "title": "What remains difficult",
+      "body": "The precise ordering, speed and relative contribution of warming, acidification, anoxia and other stresses are still being resolved. A single cause is easier to state than to demonstrate.",
+      "refs": [
+        "burgess2014"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "mesozoic-threshold",
+      "kicker": "05 — The threshold",
+      "title": "The threshold of the Mesozoic."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "The Triassic opens after the end-Permian crisis. Life recovers slowly. The first dinosaurs appear around 233 million years ago, alongside pterosaurs and mammal relatives, and they remain a minority in many Late Triassic faunas. [[langer2010]]",
+        "The end-Triassic extinction at 201.4 million years ago removed many species and opened ecological space for dinosaurs to diversify in the Jurassic. That is the threshold into the world most visitors to MESOZO already know. It was not the beginning of a story with dinosaurs waiting in the wings; it was a redistribution of survivors. [[blackburn2013]]"
+      ]
+    },
+    {
+      "type": "pullquote",
+      "label": "Deep time",
+      "text": "The Mesozoic did not begin from nothing. It began from what survived.",
+      "attribution": "MESOZO editorial"
+    }
+  ],
+  "references": [
+    "ics2026",
+    "gradstein2020",
+    "scotese2021",
+    "wood2019",
+    "kenrick1997",
+    "daeschler2006",
+    "benton2007",
+    "burgess2014",
+    "langer2010",
+    "blackburn2013"
+  ],
+  "relatedSpeciesIds": [],
+  "relatedPeriodIds": [
+    "cambrian",
+    "ordovician",
+    "silurian",
+    "devonian",
+    "carboniferous",
+    "permian",
+    "triassic"
+  ],
+  "relatedSpecimenIds": [],
+  "relatedAnatomy": [],
+  "relatedArticleIds": [
+    "the-end-of-the-cretaceous",
+    "the-shape-of-ancient-worlds"
+  ],
+  "readingPathIds": [
+    "deep-time-path"
+  ]
+}

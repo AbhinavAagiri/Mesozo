@@ -1,0 +1,161 @@
+{
+  "slug": "dryosaurus",
+  "accession": "MZ-068",
+  "scientificName": "Dryosaurus altus",
+  "commonName": "Oak lizard",
+  "genus": "Dryosaurus",
+  "epithet": "altus",
+  "status": "Extinct",
+  "namedBy": "Marsh, 1878",
+  "group": "Ornithischia · Dryosauridae",
+  "groupKey": "Ornithischia",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Kimmeridgian–Tithonian",
+  "ageMa": [
+    155,
+    145
+  ],
+  "ageLabel": "≈155–145 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The beak and cheek teeth are consistent with herbivory. No gut contents are known, and the plants eaten are not preserved.",
+    "evidence": "inference",
+    "refs": [
+      "v19-dryosaurus-131",
+      "v19-dryosaurus-132"
+    ]
+  },
+  "length": "≈3–4 m",
+  "mass": "≈100–200 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "dryosaurus-living",
+  "featured": false,
+  "tagline": "A small, agile ornithopod with long hindlimbs and a short, toothless beak. It is known from partial skeletons and abundant isolated material.",
+  "summary": "A small, agile ornithopod with long hindlimbs and a short, toothless beak. It is known from partial skeletons and abundant isolated material.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithopoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Dryosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Dryosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "D. altus"
+    }
+  ],
+  "discovery": {
+    "body": "First described as Laosaurus altus by O. C. Marsh in 1878; Marsh erected the genus Dryosaurus in 1894. The holotype, YPM 1876, is a partial skeleton from Reed’s Quarry 5 at Como Bluff, Wyoming. Much of the classical postcranial description comes from referred Morrison specimens.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-dryosaurus",
+      "v19-dryosaurus-131"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several partial skeletons and skulls from the Morrison Formation.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-dryosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Morrison Formation, Colorado and Utah records the species in the Late Jurassic. The numeric range used here is ≈155–145 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The hindlimbs are long, the forelimbs are short, and the skull is small with a beak and cheek teeth.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-dryosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Herbivory is inferred from the beak and cheek teeth. Bipedality is well supported by the limb proportions, but speed, herding and habitat preference are not directly recorded.",
+    "evidence": "inference",
+    "refs": [
+      "v19-dryosaurus-131",
+      "v19-dryosaurus-132"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons and skulls from the Morrison formation. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-dryosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-dryosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-tenontosaurus-130",
+    "v19-dryosaurus-131",
+    "v19-dryosaurus-132",
+    "v19-dryosaurus-133"
+  ],
+  "related": [
+    "hypsilophodon",
+    "camptosaurus",
+    "tenontosaurus"
+  ],
+  "confidenceNote": "The postcranial anatomy and growth history are well documented, but the holotype is partial and much of the classical description comes from referred specimens. The African Tendaguru material historically called Dryosaurus is generally placed in Dysalotosaurus.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Floodplain woodland",
+  "ancientContext": "Morrison Formation, Colorado and Utah",
+  "locality": [
+    "Morrison Formation, Colorado and Utah"
+  ],
+  "researchStatus": "partially-verified"
+}

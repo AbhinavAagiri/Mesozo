@@ -1,0 +1,221 @@
+/* Shared editorial primitives used by more than one exhibition route. */
+
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin-top: 1.7rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--ink);
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  transition: color 250ms var(--ease-out), border-color 250ms var(--ease-out);
+}
+
+.text-link:hover {
+  color: var(--orange);
+  border-color: var(--orange);
+}
+
+.text-link--light {
+  color: var(--chalk);
+  border-color: rgb(242 240 232 / 0.58);
+}
+
+.text-link--light:hover {
+  border-color: var(--orange);
+}
+
+.text-link:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.evidence-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: var(--font-mono);
+  font-size: 0.54rem;
+  letter-spacing: 0.11em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--ink-mute);
+}
+
+.evidence-tag__mark {
+  width: 6px;
+  height: 6px;
+  background: var(--ink);
+  flex: none;
+}
+
+.evidence-tag--inference .evidence-tag__mark {
+  background: var(--slate);
+}
+
+.evidence-tag--reconstruction .evidence-tag__mark {
+  background: transparent;
+  border: 1px solid var(--vermilion);
+}
+
+.evidence-tag--contested .evidence-tag__mark {
+  background: var(--vermilion);
+}
+
+.evidence-tag--unknown .evidence-tag__mark {
+  background: transparent;
+  border: 1px dashed var(--ink-mute);
+}
+
+.section--dark .evidence-tag,
+.recon .evidence-tag {
+  color: rgb(242 240 232 / 0.62);
+}
+
+.section--dark .evidence-tag__mark,
+.recon .evidence-tag__mark {
+  background: var(--chalk);
+}
+
+.section--dark .evidence-tag--inference .evidence-tag__mark,
+.recon .evidence-tag--inference .evidence-tag__mark {
+  background: var(--slate);
+}
+
+.section--dark .evidence-tag--contested .evidence-tag__mark,
+.recon .evidence-tag--contested .evidence-tag__mark {
+  background: var(--vermilion);
+}
+
+.section--dark .evidence-tag--unknown .evidence-tag__mark,
+.recon .evidence-tag--unknown .evidence-tag__mark {
+  border-color: rgb(242 240 232 / 0.62);
+}
+
+.inline-sources {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.85rem;
+  margin-top: 1rem;
+  font-family: var(--font-mono);
+  font-size: var(--text-micro);
+  letter-spacing: 0.05em;
+  color: var(--fossil-deep);
+}
+
+.inline-sources .label {
+  font-size: var(--text-micro);
+  color: var(--fossil-deep);
+  margin-right: 0.15rem;
+}
+
+.inline-sources a {
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
+  transition: color 200ms var(--ease-out);
+}
+
+.inline-sources a:hover {
+  color: var(--orange);
+}
+
+.inline-sources--light {
+  color: rgb(242 240 232 / 0.6);
+}
+
+.inline-sources--light .label {
+  color: rgb(242 240 232 / 0.58);
+}
+
+/* ------------------------------------------------------------------ */
+/* Breadcrumbs                                                         */
+/* ------------------------------------------------------------------ */
+
+.breadcrumbs {
+  font-family: var(--font-mono);
+  font-size: var(--text-label);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fossil-deep);
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.55rem;
+}
+
+.breadcrumbs li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-width: 0;
+}
+
+.breadcrumbs li + li::before {
+  content: '/';
+  color: var(--fossil);
+  flex: none;
+}
+
+.breadcrumbs a {
+  border-bottom: 1px solid transparent;
+  padding-bottom: 1px;
+  transition: color 200ms var(--ease-out), border-color 200ms var(--ease-out);
+}
+
+.breadcrumbs a:hover {
+  color: var(--orange);
+  border-color: var(--orange);
+}
+
+.breadcrumbs [aria-current='page'] {
+  color: var(--ink);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.breadcrumbs--dark {
+  color: rgb(242 240 232 / 0.58);
+}
+
+.breadcrumbs--dark [aria-current='page'] {
+  color: var(--chalk);
+}
+
+.breadcrumbs--dark a:hover {
+  color: var(--orange);
+}
+
+@media (pointer: coarse) {
+  .text-link {
+    min-height: 2.5rem;
+    align-items: center;
+  }
+
+  .breadcrumbs a,
+  .breadcrumbs [aria-current='page'] {
+    display: inline-flex;
+    min-height: 2rem;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .breadcrumbs a,
+  .breadcrumbs [aria-current='page'],
+  .inline-sources a,
+  .text-link,
+  .refs__link {
+    display: inline-flex;
+    min-height: 2rem;
+    align-items: center;
+  }
+}

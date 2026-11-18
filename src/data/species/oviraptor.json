@@ -1,0 +1,166 @@
+{
+  "slug": "oviraptor",
+  "accession": "MZ-097",
+  "scientificName": "Oviraptor philoceratops",
+  "commonName": "Egg thief",
+  "genus": "Oviraptor",
+  "epithet": "philoceratops",
+  "status": "Extinct",
+  "namedBy": "Osborn, 1924",
+  "group": "Theropoda · Oviraptoridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    75,
+    71
+  ],
+  "ageLabel": "≈75–71 Ma",
+  "region": [
+    "Mongolia"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "omnivore",
+  "dietLabel": "Omnivore · inferred",
+  "dietEvidence": {
+    "body": "The jaws are deep, edentulous and robust, but toothlessness alone does not identify diet. No direct stomach contents are known for the holotype, and small vertebrates, eggs and plants have all been proposed for oviraptorosaurs. The species’ feeding ecology remains unresolved.",
+    "evidence": "inference",
+    "refs": [
+      "osborn1924",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈1.5–2 m",
+  "mass": "≈30–50 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "oviraptor-living",
+  "featured": false,
+  "tagline": "A small oviraptorid with a deep, toothless beak and a crest. The name reflects an old interpretation of egg theft; the animal was likely associated with its own nests.",
+  "summary": "A small oviraptorid with a deep, toothless beak and a crest. The name reflects an old interpretation of egg theft; the animal was likely associated with its own nests.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Maniraptora"
+    },
+    {
+      "rank": "Family",
+      "value": "Oviraptoridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Oviraptor"
+    },
+    {
+      "rank": "Species",
+      "value": "O. philoceratops"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Osborn, 1924. The holotype, AMNH 6517, is a partial skeleton with a skull and lower jaws from the Djadochta Formation, Mongolia. The name reflects an old egg-thief interpretation that later work has not supported.",
+    "evidence": "fossil",
+    "refs": [
+      "osborn1924",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several skulls and partial skeletons, including nest associations.",
+      "evidence": "fossil",
+      "refs": [
+        "osborn1924",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Djadochta Formation, Gobi Desert records the species in the Late Cretaceous. The numeric range used here is ≈75–71 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is short and deep with a toothless beak, and the forelimbs are long; the tail is short.",
+      "evidence": "fossil",
+      "refs": [
+        "osborn1924",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The original egg-thief interpretation rested on the holotype’s proximity to a nest; later work showed the eggs were theropod eggs and that the association is compatible with brooding or nesting. Proximity alone does not establish parental care, and no trackway or social group is known. The crest is broken in the holotype.",
+    "evidence": "inference",
+    "refs": [
+      "osborn1924",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several skulls and partial skeletons, including nest associations. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "osborn1924",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "osborn1924",
+    "pbdb",
+    "paul2016",
+    "v19-oviraptor-179",
+    "v19-oviraptor-180",
+    "v19-oviraptor-181"
+  ],
+  "related": [
+    "citipati",
+    "gigantoraptor",
+    "protoceratops"
+  ],
+  "confidenceNote": "Confidence is high for the toothless skull and beak, and for the history of the egg-thief interpretation. It is low for diet, crest soft tissue, parental behaviour and the completeness of the holotype. The nest association is not proof of brooding.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Arid sand dune field",
+  "ancientContext": "Djadochta Formation, Gobi Desert",
+  "locality": [
+    "Djadochta Formation, Gobi Desert"
+  ],
+  "researchStatus": "partially-verified"
+}

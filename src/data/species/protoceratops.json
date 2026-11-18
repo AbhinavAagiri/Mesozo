@@ -1,0 +1,169 @@
+{
+  "slug": "protoceratops",
+  "accession": "MZ-053",
+  "scientificName": "Protoceratops andrewsi",
+  "commonName": "First horned face",
+  "genus": "Protoceratops",
+  "epithet": "andrewsi",
+  "status": "Extinct",
+  "namedBy": "Granger & Gregory, 1923",
+  "group": "Ornithischia · Protoceratopsidae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    75,
+    71
+  ],
+  "ageLabel": "≈75–71 Ma",
+  "region": [
+    "Mongolia"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The beak and dental battery indicate herbivory. No gut contents are known; the diet is inferred from anatomy.",
+    "evidence": "inference",
+    "refs": [
+      "primary-protoceratops",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈1.8–2.5 m",
+  "mass": "≈100–200 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "protoceratops-living",
+  "featured": false,
+  "tagline": "A small early ceratopsian with a modest frill and no large facial horns. It is known from abundant material, including nests and eggs.",
+  "summary": "A small early ceratopsian with a modest frill and no large facial horns. It is known from abundant material, including nests and eggs.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Marginocephalia"
+    },
+    {
+      "rank": "Family",
+      "value": "Protoceratopsidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Protoceratops"
+    },
+    {
+      "rank": "Species",
+      "value": "P. andrewsi"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Granger & Gregory, 1923. The record is known from Djadochta Formation, Gobi Desert. Many skeletons, skulls, nests and eggs from the Gobi Desert.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-protoceratops"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Many skeletons, skulls, nests and eggs from the Gobi Desert.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-protoceratops",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Djadochta Formation, Gobi Desert records the species in the Late Cretaceous. The numeric range used here is ≈75–71 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull has a small rostral bone and a short frill. The frill is weakly integrated with the rest of the skull and has high morphological variance; these are the features used to argue for a socio-sexual signal.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-protoceratops",
+        "v19-protoceratops-96"
+      ]
+    },
+    {
+      "title": "Body plan",
+      "body": "Subadult limb anatomy is intermediate between bipedal Psittacosaurus and fully quadrupedal adult Protoceratops. The change is inferred from ontogenetic comparison, not from observed gait.",
+      "evidence": "inference",
+      "refs": [
+        "v19-protoceratops-97"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Nests and eggs are known, but the cited sources do not establish parental care. The frill's function is a hypothesis; display and species recognition are plausible, but combat is not demonstrated.",
+    "evidence": "inference",
+    "refs": [
+      "primary-protoceratops",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from many skeletons, skulls, nests and eggs from the Gobi desert. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-protoceratops",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-protoceratops",
+    "pbdb",
+    "paul2016",
+    "v19-protoceratops-96",
+    "v19-protoceratops-97",
+    "v19-protoceratops-98",
+    "v19-protoceratops-99"
+  ],
+  "related": [
+    "psittacosaurus",
+    "triceratops",
+    "centrosaurus"
+  ],
+  "confidenceNote": "The frill is well sampled, but its function is inferred. Knapp et al. (2021) found low integration with the skull, high shape variance and a high ontogenetic rate of change, consistent with socio-sexual signalling; they did not find sexual dimorphism. Słowiak et al. (2019) show that subadults are intermediate between bipedal Psittacosaurus and quadrupedal adults.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Arid sand dune field",
+  "ancientContext": "Djadochta Formation, Gobi Desert",
+  "locality": [
+    "Djadochta Formation, Gobi Desert"
+  ],
+  "researchStatus": "partially-verified"
+}

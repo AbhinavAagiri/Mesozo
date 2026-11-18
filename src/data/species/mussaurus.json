@@ -1,0 +1,185 @@
+{
+  "slug": "mussaurus",
+  "accession": "MZ-113",
+  "scientificName": "Mussaurus patagonicus",
+  "commonName": "Mouse lizard",
+  "genus": "Mussaurus",
+  "epithet": "patagonicus",
+  "status": "Extinct",
+  "namedBy": "Bonaparte & Vince, 1979",
+  "group": "Sauropodomorpha · Massospondylidae",
+  "groupKey": "Sauropodomorpha",
+  "period": "jurassic",
+  "periodLabel": "Early Jurassic",
+  "stage": "Sinemurian",
+  "ageMa": [
+    193,
+    192.6
+  ],
+  "ageLabel": "≈192.8 Ma",
+  "region": [
+    "Argentina"
+  ],
+  "regionKeys": [
+    "South America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The skull and dentition indicate herbivory. No gut contents are known; the diet is inferred from anatomy.",
+    "evidence": "inference",
+    "refs": [
+      "primary-mussaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈6–8 m",
+  "mass": "≈1.2–1.6 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "mussaurus-living",
+  "featured": false,
+  "tagline": "An early sauropodomorph known from hatchlings, juveniles and adults. The name refers to the tiny size of the first specimens, which were hatchlings.",
+  "summary": "An early sauropodomorph known from hatchlings, juveniles and adults. The name refers to the tiny size of the first specimens, which were hatchlings.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropodomorpha"
+    },
+    {
+      "rank": "Clade",
+      "value": "Plateosauria"
+    },
+    {
+      "rank": "Family",
+      "value": "Massospondylidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Mussaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "M. patagonicus"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Bonaparte & Vince, 1979. The record is known from the Laguna Colorada Formation, Santa Cruz, Argentina. A growth series includes eggs, embryos, hatchlings, juveniles and adult material.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-mussaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "A growth series including eggs, embryos, hatchlings and adult material.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-mussaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Laguna Colorada Formation, Santa Cruz, Argentina. U–Pb CA-ID-TIMS zircon dates from tuffaceous siltstones in the bearing interval give 192.78 ± 0.14 and 192.74 ± 0.14 Ma, an Early Jurassic (Sinemurian) maximum age. The older Norian assignment was based on associated Dicroidium flora; the radiometric dates supersede it for this interval.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb",
+        "v19-mussaurus-216"
+      ]
+    },
+    {
+      "title": "Nesting and herd assemblage",
+      "body": "More than 100 eggs and remains of about 80 individuals, ranging from embryos to adults, were recovered from a restricted stratigraphic interval. Some skeletons are clustered by age class. The eggs and bones are directly preserved; colonial nesting and herd behaviour are interpretations of that assemblage.",
+      "evidence": "inference",
+      "refs": [
+        "v19-mussaurus-216"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "Hatchlings have proportionally large heads and short limbs; adults are robust with a moderately long neck. The growth series includes embryos, hatchlings, juveniles and adults.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-mussaurus",
+        "v19-mussaurus-216",
+        "v19-mussaurus-218"
+      ]
+    },
+    {
+      "title": "Body plan",
+      "body": "Hatchlings were quadrupedal and adults bipedal. The shift is inferred from digital models, limb proportions and the position of the centre of mass, not from trackways.",
+      "evidence": "inference",
+      "refs": [
+        "v19-mussaurus-218"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Eggs and a bonebed of at least 80 individuals, from embryos to adults, show that Mussaurus nested and congregated in age-segregated groups. Pol et al. (2021) interpret this as colonial nesting and herd structure; the behaviour is inferred from the assemblage, not observed directly. Herbivory is inferred from skull and dental anatomy. General social, parental or migratory behaviour beyond this assemblage is not asserted.",
+    "evidence": "inference",
+    "refs": [
+      "primary-mussaurus",
+      "pbdb",
+      "paul2016",
+      "v19-mussaurus-216"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a growth series including eggs, embryos, hatchlings and adult material. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-mussaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-mussaurus",
+    "pbdb",
+    "paul2016",
+    "v19-mussaurus-216",
+    "v19-mussaurus-217",
+    "v19-mussaurus-218",
+    "v19-mussaurus-219",
+    "v19-mussaurus-220"
+  ],
+  "related": [
+    "massospondylus",
+    "plateosaurus",
+    "eoraptor"
+  ],
+  "confidenceNote": "The Laguna Colorada Formation is now dated by U–Pb CA-ID-TIMS zircon geochronology to about 192.8 Ma (Early Jurassic, Sinemurian), not the Late Triassic Norian age used in older sources. Adults reached roughly 6–8 m and 1.2–1.6 t; the first specimens were hatchlings about the size of a mouse, which explains the name. Adults are reconstructed as bipedal and hatchlings as quadrupedal. The 2021 bonebed supports colonial nesting and age-segregated grouping; those are inferences from the assemblage, not direct observations of behaviour. The 2021 study reports more than 100 eggs and 80 individuals; age segregation is an inference from clustering, not observed behaviour. The 2021 study reports more than 100 eggs and 80 individuals; age segregation is an inference from clustering, not observed behaviour.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal as an adult; quadrupedal as a hatchling",
+  "habitat": "Seasonal river plain",
+  "ancientContext": "Laguna Colorada Formation, Santa Cruz, Argentina",
+  "locality": [
+    "Laguna Colorada Formation, Santa Cruz"
+  ],
+  "researchStatus": "partially-verified"
+}

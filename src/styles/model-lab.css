@@ -1,0 +1,358 @@
+.lab {
+  position: fixed;
+  inset: 0;
+  background: #141513;
+  color: var(--bone);
+  overflow: hidden;
+  z-index: 500;
+}
+
+.lab__stage {
+  position: absolute;
+  inset: 0;
+}
+
+.lab__stage canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+  cursor: crosshair;
+}
+
+.lab__bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1.15rem 1.5rem;
+  font-size: 0.58rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #d9d2c1;
+  pointer-events: none;
+}
+
+.lab__bar > div p:first-child {
+  color: var(--orange);
+}
+
+.lab__sub {
+  margin-top: 0.3rem;
+  color: #8f8b7e;
+  font-size: 0.52rem;
+  letter-spacing: 0.06em;
+  text-transform: none;
+}
+
+.lab__exit {
+  pointer-events: auto;
+  color: #d9d2c1;
+  border-bottom: 1px solid #4a4841;
+  padding-bottom: 0.15rem;
+  align-self: flex-start;
+}
+
+.lab__exit:hover {
+  color: var(--orange);
+}
+
+.lab__panel {
+  position: absolute;
+  left: 1.5rem;
+  bottom: 1.5rem;
+  width: min(21rem, calc(100vw - 3rem));
+  border: 1px solid #35342e;
+  background: rgb(20 21 19 / 0.86);
+  backdrop-filter: blur(6px);
+  padding: 0.85rem;
+}
+
+.lab__modes {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  background: #35342e;
+}
+
+.lab__modes button {
+  padding: 0.55rem 0.2rem;
+  background: #1c1d1a;
+  color: #b8b1a1;
+  font-family: var(--font-mono);
+  font-size: 0.52rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.lab__modes button.is-active {
+  background: var(--orange);
+  color: #141513;
+}
+
+.lab__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.75rem;
+  font-size: 0.5rem;
+  color: #8f8b7e;
+}
+
+.lab__ghost {
+  border: 1px solid #35342e;
+  padding: 0.35rem 0.5rem;
+  color: #8f8b7e;
+  font-family: var(--font-mono);
+  font-size: 0.46rem;
+  letter-spacing: 0.06em;
+}
+
+.lab__calib {
+  margin-top: 0.7rem;
+  border-top: 1px solid #2a2925;
+  padding-top: 0.55rem;
+}
+
+.lab__calib summary {
+  cursor: pointer;
+  font-size: 0.5rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #b8b1a1;
+}
+
+.lab__slider {
+  display: grid;
+  grid-template-columns: 3rem 1fr 2.4rem;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.45rem;
+  font-size: 0.48rem;
+}
+
+.lab__slider input {
+  accent-color: var(--orange);
+  width: 100%;
+}
+
+.lab__slider em {
+  color: #d9d2c1;
+  font-style: normal;
+  text-align: right;
+}
+
+.lab__status {
+  margin-top: 0.65rem;
+  font-size: 0.46rem;
+  letter-spacing: 0.04em;
+  color: #77746a;
+}
+
+.lab__caption {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  text-align: right;
+  font-size: 0.5rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #8f8b7e;
+  line-height: 1.9;
+}
+
+@media (max-width: 760px) {
+  .lab__caption {
+    display: none;
+  }
+
+  .lab__panel {
+    right: 1.5rem;
+    width: auto;
+  }
+
+  .lab__bar {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .lab__exit {
+    align-self: flex-start;
+  }
+}
+
+.lab__vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgb(0 0 0 / 0.82) 0%, rgb(0 0 0 / 0.45) 26%, transparent 52%),
+    linear-gradient(90deg, rgb(0 0 0 / 0.78) 0%, rgb(0 0 0 / 0.35) 34%, transparent 60%),
+    radial-gradient(120% 90% at 62% 38%, transparent 35%, rgb(0 0 0 / 0.6) 100%),
+    linear-gradient(180deg, rgb(0 0 0 / 0.25), transparent 30%, transparent 62%, rgb(0 0 0 / 0.78));
+}
+
+.lab--clean .lab__bar,
+.lab--clean .lab__panel,
+.lab--clean .lab__caption {
+  display: none;
+}
+
+.lab__overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  color: var(--bone);
+  padding: 2rem 2.4rem;
+}
+
+.lab__overlay-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid rgb(228 221 204 / 0.18);
+  font-size: 0.52rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgb(228 221 204 / 0.65);
+}
+
+.lab__mark {
+  font-family: var(--font-display);
+  font-size: 1.65rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--bone);
+}
+
+.lab__overlay-copy {
+  position: absolute;
+  left: 2.4rem;
+  bottom: 8.2rem;
+  width: min(27rem, 44vw);
+}
+
+.lab__overlay-copy .mono {
+  font-size: 0.52rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--orange);
+}
+
+.lab__overlay-copy h1 {
+  margin: 0.8rem 0 0.7rem;
+  font-family: var(--font-serif);
+  font-optical-sizing: auto;
+  font-size: clamp(2.6rem, 4.4vw, 4.6rem);
+  font-weight: 400;
+  line-height: 0.94;
+  letter-spacing: -0.02em;
+}
+
+.lab__overlay-copy h1 em {
+  font-style: italic;
+  color: var(--orange);
+}
+
+.lab__meta {
+  margin-bottom: 1.1rem;
+  color: rgb(228 221 204 / 0.72) !important;
+  letter-spacing: 0.1em !important;
+}
+
+.lab__lede {
+  max-width: 23rem;
+  font-family: var(--font-serif);
+  font-size: 1.02rem;
+  line-height: 1.5;
+  color: rgb(228 221 204 / 0.78);
+}
+
+.lab__overlay-foot {
+  position: absolute;
+  left: 2.4rem;
+  right: 2.4rem;
+  bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgb(228 221 204 / 0.14);
+  font-size: 0.47rem;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgb(228 221 204 / 0.5);
+}
+
+.lab__overlay-foot em {
+  font-family: var(--font-serif);
+  font-size: 0.72rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.lab--mirror .lab__stage canvas {
+  transform: scaleX(-1);
+}
+
+@media (max-width: 760px) {
+  .lab__overlay {
+    padding: 1.1rem 1.2rem;
+  }
+
+  .lab__overlay-copy {
+    left: 1.2rem;
+    bottom: 7.4rem;
+    width: calc(100% - 2.4rem);
+  }
+
+  .lab__overlay-head .mono {
+    display: none;
+  }
+
+  .lab__overlay-copy {
+    bottom: 5.6rem;
+  }
+
+  .lab__overlay-copy h1 {
+    font-size: 2.15rem;
+    margin: 0.55rem 0 0.5rem;
+  }
+
+  .lab__overlay-copy .mono {
+    font-size: 0.46rem;
+  }
+
+  .lab__meta {
+    margin-bottom: 0.7rem;
+  }
+
+  .lab__lede {
+    font-size: 0.82rem;
+    line-height: 1.45;
+    max-width: 19rem;
+  }
+
+  .lab__overlay-foot {
+    left: 1.2rem;
+    right: 1.2rem;
+    bottom: 1rem;
+  }
+
+  .lab__overlay-foot p:last-child {
+    display: none;
+  }
+}
+
+.lab--bare .lab__overlay,
+.lab--bare .lab__vignette {
+  display: none;
+}

@@ -1,0 +1,169 @@
+{
+  "slug": "edmontosaurus",
+  "accession": "MZ-061",
+  "scientificName": "Edmontosaurus regalis",
+  "commonName": "Edmonton lizard",
+  "genus": "Edmontosaurus",
+  "epithet": "regalis",
+  "status": "Extinct",
+  "namedBy": "Lambe, 1917",
+  "group": "Ornithischia · Hadrosauridae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "late Campanian–early Maastrichtian",
+  "ageMa": [
+    73,
+    68
+  ],
+  "ageLabel": "≈73–68 Ma",
+  "region": [
+    "Canada"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The dental battery and broad snout indicate herbivory. No gut contents are known; the plants eaten and the feeding style are inferred from jaw morphology.",
+    "evidence": "inference",
+    "refs": [
+      "primary-edmontosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈11–13 m",
+  "mass": "≈4–6 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "edmontosaurus-living",
+  "featured": false,
+  "tagline": "A large hadrosaurid with a long, low skull and a dental battery. Some specimens preserve a soft-tissue crest on the head, showing that the bony skull is not the whole animal.",
+  "summary": "A large hadrosaurid with a long, low skull and a dental battery. Some specimens preserve a soft-tissue crest on the head, showing that the bony skull is not the whole animal.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithopoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Hadrosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Edmontosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "E. regalis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Lambe, 1917. The record is known from Horseshoe Canyon Formation, Alberta. Many skeletons, including articulated individuals and skin impressions.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-edmontosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Many skeletons, including articulated individuals and skin impressions.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-edmontosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Horseshoe Canyon Formation, Alberta records the species in the Late Cretaceous. The age used here is ≈73–68 Ma, a formation-level range for E. regalis, not the 68–66 Ma range of E. annectens. The specimen is not directly dated.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is long and flat, the snout is broad, and the jaws carry hundreds of tightly packed teeth. A juvenile skull about 500 mm long shows that the deep postorbital fossa is acquired during growth.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-edmontosaurus",
+        "v19-edmontosaurus-115"
+      ]
+    },
+    {
+      "title": "Body plan",
+      "body": "The species is reconstructed as facultatively bipedal; juveniles and adults could probably use both postures. The inference comes from limb proportions and bone histology, not from trackways.",
+      "evidence": "inference",
+      "refs": [
+        "v19-edmontosaurus-113"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Bonebeds show that many individuals accumulated together, but that is not proof of herding. Histology suggests overwintering at high latitudes, but the evidence is indirect. No parental care or migration is demonstrated.",
+    "evidence": "inference",
+    "refs": [
+      "primary-edmontosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from many skeletons, including articulated individuals and skin impressions. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-edmontosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-edmontosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-edmontosaurus-113",
+    "v19-edmontosaurus-114",
+    "v19-edmontosaurus-115",
+    "v19-pachyrhinosaurus-102"
+  ],
+  "related": [
+    "parasaurolophus",
+    "corythosaurus",
+    "gryposaurus"
+  ],
+  "confidenceNote": "The age in this record was corrected from 68–66 Ma, which is the range of E. annectens, to the late Campanian–early Maastrichtian range of E. regalis (≈73–68 Ma). Vanderven et al. (2014) found that somatic maturity began at about 10–15 years in the Danek Bonebed sample. Sharpe et al. (2023) described a juvenile skull about 500 mm long and showed that the diagnostic postorbital fossa develops during growth.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Facultatively bipedal; quadrupedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Horseshoe Canyon Formation, Alberta",
+  "locality": [
+    "Horseshoe Canyon Formation, Alberta"
+  ],
+  "researchStatus": "partially-verified"
+}

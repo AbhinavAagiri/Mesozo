@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MESOZO — model preview</title>
+    <style>
+      :root { color-scheme: dark; }
+      html, body { margin: 0; height: 100%; background: #14150f; color: #f2f0e8; font: 12px/1.5 ui-monospace, monospace; }
+      canvas { display: block; }
+      #hud { position: fixed; inset: 16px auto auto 16px; display: grid; gap: 8px; max-width: 46ch; pointer-events: none; }
+      #hud b { color: #d65b36; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; font-size: 10px; }
+      #hud pre { margin: 0; white-space: pre-wrap; opacity: .75; }
+      #bar { position: fixed; inset: auto 16px 16px 16px; display: flex; gap: 8px; flex-wrap: wrap; }
+      button, a { border: 1px solid rgb(242 240 232 / .24); background: rgb(20 21 15 / .7); color: inherit; padding: 7px 12px; font: inherit; text-decoration: none; cursor: pointer; }
+      button[data-on='1'] { border-color: #d65b36; color: #f2f0e8; }
+    </style>
+  </head>
+  <body>
+    <div id="hud">
+      <b>MESOZO · model preview</b>
+      <pre id="info">loading…</pre>
+    </div>
+    <div id="bar">
+      <button data-view="front">Front</button>
+      <button data-view="three">Three-quarter</button>
+      <button data-view="side">Side</button>
+      <button data-view="top">Top</button>
+      <button data-mode="both">Both</button>
+      <button data-mode="living">Living</button>
+      <button data-mode="skull">Skull</button>
+    </div>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "/node_modules/three/build/three.module.js",
+          "three/addons/": "/node_modules/three/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module">
+      import * as THREE from 'three';
+      import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
+      const params = new URLSearchParams(location.search);
+      let view = params.get('view') || 'front';
+      let mode = params.get('mode') || 'both';
+      let skullScaleParam = params.get('skullScale');
+      let skullOffsetParam = params.get('skullOffset');
+
+      const renderer = new THREE.WebGLRenderer({ antialias: true });
+      renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+      renderer.setSize(innerWidth, innerHeight);
+      renderer.toneMapping = THREE.ACESFilmicToneMapping;
+      renderer.toneMappingExposure = 1.05;
+      document.body.append(renderer.domElement);
+
+      const scene = new THREE.Scene();
+      scene.background = new THREE.Color('#14150f');
+      const camera = new THREE.PerspectiveCamera(32, innerWidth / innerHeight, 0.1, 4000);
+
+      scene.add(new THREE.HemisphereLight('#cdd3c0', '#20221a', 1.1));
+      const key = new THREE.DirectionalLight('#fff4e0', 2.4);
+      key.position.set(14, 18, 16);
+      scene.add(key);
+      const rim = new THREE.DirectionalLight('#9fb6c6', 1.6);
+      rim.position.set(-16, 8, -12);
+      scene.add(rim);
+      const fill = new THREE.DirectionalLight('#e8dfc8', 0.6);
+      fill.position.set(-6, -10, 10);
+      scene.add(fill);
+
+      const grid = new THREE.GridHelper(80, 16, '#3a3d30', '#25271f');
+      scene.add(grid);
+
+      const loader = new GLTFLoader();
+      const info = document.getElementById('info');
+      const livingRoot = new THREE.Group();
+      const skullRoot = new THREE.Group();
+      scene.add(livingRoot, skullRoot);
+
+      const measure = (object) => {
+        object.updateWorldMatrix(true, true);
+        const box = new THREE.Box3();
+        object.traverse((node) => {
+          if (!node.isMesh || !node.geometry) return;
+          const geometry = node.geometry;
+          if (!geometry.boundingBox) geometry.computeBoundingBox();
+          const b = geometry.boundingBox.clone().applyMatrix4(node.matrixWorld);
+          box.union(b);
+        });
+        const size = box.getSize(new THREE.Vector3());
+        return { box, size, centre: box.getCenter(new THREE.Vector3()) };
+      };
+
+      const living = await loader.loadAsync('/assets/model/spinosaurus/scene.gltf');
+      livingRoot.add(living.scene);
+      living.scene.traverse((n) => { if (n.isMesh) n.frustumCulled = false; });
+      const lb = measure(livingRoot);
+
+      const skull = await loader.loadAsync('/assets/model/oxalaia-skull.glb');
+      skullRoot.add(skull.scene);
+      const sbRaw = measure(skullRoot);
+
+      // Fit the skull to the living animal's head: longest horizontal axis of
+      // the head, not an arbitrary multiplier.
+      const target = params.get('len') ? Number(params.get('len')) : lb.size.x * 0.22;
+      const k = target / Math.max(sbRaw.size.x, sbRaw.size.z);
+      skullRoot.scale.setScalar(k * (skullScaleParam ? Number(skullScaleParam) : 1));
+      skullRoot.updateWorldMatrix(true, true);
+
+      const anchor = params.get('anchor') === '0'
+        ? new THREE.Vector3(lb.box.max.x, lb.box.max.y * 0.72, lb.centre.z)
+        : new THREE.Vector3(lb.box.max.x - lb.size.x * 0.08, lb.box.min.y + lb.size.y * 0.72, lb.centre.z);
+      if (skullOffsetParam) {
+        const [ox, oy, oz] = skullOffsetParam.split(',').map(Number);
+        anchor.x += ox; anchor.y += oy; anchor.z += oz;
+      }
+      const sb = measure(skullRoot);
+      skullRoot.position.add(anchor.sub(sb.centre));
+      skullRoot.updateWorldMatrix(true, true);
+      const sbFit = measure(skullRoot);
+
+      const fmt = (v) => `${v.x.toFixed(2)} × ${v.y.toFixed(2)} × ${v.z.toFixed(2)}`;
+      info.textContent = [
+        `living   ${fmt(lb.size)}  centre ${fmt(lb.centre)}`,
+        `skull    ${fmt(sbRaw.size)} (raw) → ${fmt(sbFit.size)} (fitted)`,
+        `skull box ${fmt(sbFit.box.min)} .. ${fmt(sbFit.box.max)}`,
+        `view ${view} · mode ${mode}`,
+      ].join('\n');
+
+      const focus = mode === 'skull' ? sbFit : lb;
+      const maxDim = Math.max(focus.size.x, focus.size.y, focus.size.z, 1);
+      const distance = maxDim * 2.2;
+      const targetPoint = mode === 'living' ? lb.centre.clone() : mode === 'skull' ? sbFit.centre.clone() : lb.centre.clone();
+      const dirs = {
+        front: new THREE.Vector3(0, 0.12, 1),
+        three: new THREE.Vector3(0.75, 0.25, 1),
+        side: new THREE.Vector3(1, 0.12, 0),
+        top: new THREE.Vector3(0.001, 1, 0.02),
+      };
+      const dir = dirs[view].clone().normalize();
+      camera.position.copy(targetPoint).addScaledVector(dir, distance);
+      camera.lookAt(targetPoint);
+      camera.near = maxDim / 200;
+      camera.far = maxDim * 200;
+      camera.updateProjectionMatrix();
+      grid.position.copy(lb.box.min);
+      grid.visible = mode !== 'skull';
+
+      const paint = () => {
+        livingRoot.visible = mode !== 'skull';
+        skullRoot.visible = mode !== 'living';
+      };
+      paint();
+
+      for (const button of document.querySelectorAll('[data-view]')) {
+        button.dataset.on = String(button.dataset.view === view);
+        button.onclick = () => {
+          const next = new URL(location.href);
+          next.searchParams.set('view', button.dataset.view);
+          location.href = next.toString();
+        };
+      }
+      for (const button of document.querySelectorAll('[data-mode]')) {
+        button.dataset.on = String(button.dataset.mode === mode);
+        button.onclick = () => {
+          mode = button.dataset.mode;
+          paint();
+          for (const other of document.querySelectorAll('[data-mode]')) other.dataset.on = String(other.dataset.mode === mode);
+        };
+      }
+
+      addEventListener('resize', () => {
+        camera.aspect = innerWidth / innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(innerWidth, innerHeight);
+      });
+
+      let spin = Number(params.get('spin') || 0);
+      renderer.setAnimationLoop(() => {
+        if (spin) {
+          livingRoot.rotation.y += 0.004;
+          skullRoot.rotation.y += 0.004;
+        }
+        renderer.render(scene, camera);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,174 @@
+{
+  "slug": "brachiosaurus",
+  "scientificName": "Brachiosaurus altithorax",
+  "commonName": "Arm lizard",
+  "namedBy": "Riggs, 1903",
+  "group": "Sauropodomorpha · Brachiosauridae",
+  "groupKey": "Sauropodomorpha",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Kimmeridgian–Tithonian",
+  "ageMa": [
+    154,
+    150
+  ],
+  "ageLabel": "≈154–150 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "length": "≈18–22 m",
+  "mass": "≈29–47 t (published estimates)",
+  "sizeNote": "Brachiosaurus altithorax is known from a partial skeleton, so its total length and mass are reconstructed. Taylor’s 2009 volumetric model gave about 28.7 t for the holotype; museum figures reach about 46.9 t, and some models are higher. Many popular figures conflate it with the African Giraffatitan, which is known from much more complete material.",
+  "image": "brachiosaurus-living",
+  "fossilImage": "brachiosaurus-mount",
+  "featured": false,
+  "tagline": "A high-shouldered sauropod from the Morrison Formation, reconstructed from an incomplete but unmistakable skeleton.",
+  "summary": "Brachiosaurus altithorax is a brachiosaurid sauropod from the Morrison Formation, known from a partial postcranial skeleton. Its forelimbs are longer than its hindlimbs, giving a high-shouldered profile. The African material formerly called B. brancai is now Giraffatitan, and the skull of Brachiosaurus is known mainly from a referred specimen.",
+  "taxonomy": [
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropodomorpha"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Brachiosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Brachiosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "B. altithorax"
+    }
+  ],
+  "discovery": {
+    "body": "Elmer Riggs collected the type specimen in 1900 near Grand Junction, Colorado. He described it in 1903 as Brachiosaurus altithorax. The specimen, FMNH P 25107, is a partial postcranial skeleton. A composite mount at the Field Museum in Chicago presents the animal as it is usually seen, but the mount includes reconstructed and cast elements.",
+    "evidence": "fossil",
+    "refs": [
+      "riggs1903",
+      "taylor2009"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "The type skeleton",
+      "body": "The holotype preserves parts of the vertebral column, ribs, pelvis and limbs, but not a complete skull or full tail. This limits estimates of total length and neck posture. The mount is a reconstruction, not a single excavated individual.",
+      "evidence": "fossil",
+      "refs": [
+        "riggs1903"
+      ]
+    },
+    {
+      "title": "A referred skull",
+      "body": "Cranial material confidently referable to Brachiosaurus is limited. A large skull from the Felch Quarry, USNM 5730, has been referred to the species; the referral is based on overlapping but incomplete material and is not universally accepted. Many museum skulls labelled Brachiosaurus are reconstructed or based on related sauropods. The shape of the skull and the position of the nostrils in life are therefore less certain than the limb anatomy.",
+      "evidence": "inference",
+      "refs": [
+        "taylor2009",
+        "demic2020"
+      ]
+    },
+    {
+      "title": "Giraffatitan",
+      "body": "The famous mounted skeleton in Berlin, long called Brachiosaurus brancai, was separated into the genus Giraffatitan by Taylor (2009). It is known from much more complete material from Tendaguru, Tanzania. Images and size figures for 'Brachiosaurus' often refer to this animal.",
+      "evidence": "fossil",
+      "refs": [
+        "taylor2009"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Neck and shoulders",
+      "body": "The neck is long and the shoulders are high, with forelimbs longer than hindlimbs. Neck posture is debated: a raised, giraffe-like pose is mechanically possible, but the habitual posture may have been lower. The animal likely browsed across a range of heights rather than holding one extreme pose.",
+      "evidence": "contested",
+      "refs": [
+        "taylor2009neck"
+      ]
+    },
+    {
+      "title": "Teeth and diet",
+      "body": "Sauropod teeth are typically spatulate or peg-like and are not adapted for chewing. Brachiosaurus would have cropped vegetation and swallowed it largely whole, relying on a large gut to ferment plant material.",
+      "evidence": "inference",
+      "refs": [
+        "taylor2009"
+      ]
+    },
+    {
+      "title": "Air sacs",
+      "body": "Sauropod vertebrae are highly pneumatic, with fossae and camerae that housed air sacs connected to the lungs. Pneumaticity lightened the skeleton; how much it contributed to the evolution of giant body size is inferred rather than directly demonstrated.",
+      "evidence": "inference",
+      "refs": [
+        "taylor2009"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Direct evidence for Brachiosaurus behaviour is very limited. Trackways from the Morrison Formation show that sauropods walked on land, but they cannot be assigned to this genus with confidence. Herding, parental care and vocalisation are inferences, not observations.",
+    "evidence": "unknown",
+    "refs": [
+      "taylor2009"
+    ]
+  },
+  "reconstruction": {
+    "body": "Early 20th-century sauropods were often reconstructed as amphibious, with nostrils at the top of the skull and bodies half-submerged. From the 1970s onward, they were restored as fully terrestrial animals. Brachiosaurus is now usually shown with a high shoulder and a neck held in a broad arc; the exact angle is a model, not a fossil. The African Giraffatitan is frequently mistaken for Brachiosaurus in popular images.",
+    "evidence": "reconstruction",
+    "refs": [
+      "taylor2009",
+      "taylor2009neck"
+    ]
+  },
+  "references": [
+    "riggs1903",
+    "taylor2009",
+    "taylor2009neck",
+    "demic2020",
+    "nhmBrachiosaurus"
+  ],
+  "related": [
+    "allosaurus"
+  ],
+  "confidenceNote": "The limb and shoulder anatomy is well supported. The skull is known mainly from a referred specimen, and total length and mass are reconstructed from incomplete material. Neck posture and social behaviour are hypotheses. Many “Brachiosaurus” images actually depict Giraffatitan.",
+  "updated": "2026-11-17",
+  "dietEvidence": {
+    "body": "Spatulate teeth and a very large gut indicate herbivory. The long neck may have allowed browsing at height, but the habitual feeding posture is debated. No direct gut contents are known for Brachiosaurus.",
+    "evidence": "inference",
+    "refs": [
+      "taylor2009",
+      "taylor2009neck"
+    ]
+  },
+  "sizeRefs": [
+    "riggs1903",
+    "taylor2009",
+    "nhmBrachiosaurus"
+  ],
+  "genus": "Brachiosaurus",
+  "epithet": "altithorax",
+  "status": "Extinct",
+  "added": "2026-11-13",
+  "accession": "MZ-004",
+  "locomotion": "Quadrupedal",
+  "habitat": "Floodplain woodland",
+  "ancientContext": "Morrison Formation, western North America",
+  "locality": [
+    "Grand Junction, Colorado, United States"
+  ]
+}

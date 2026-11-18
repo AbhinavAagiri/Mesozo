@@ -1,0 +1,165 @@
+{
+  "slug": "mapusaurus",
+  "accession": "MZ-030",
+  "scientificName": "Mapusaurus roseae",
+  "commonName": "Mapu lizard",
+  "genus": "Mapusaurus",
+  "epithet": "roseae",
+  "status": "Extinct",
+  "namedBy": "Coria & Currie, 2006",
+  "group": "Theropoda · Carcharodontosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Cenomanian–Turonian",
+  "ageMa": [
+    96,
+    92
+  ],
+  "ageLabel": "≈96–92 Ma",
+  "region": [
+    "Argentina"
+  ],
+  "regionKeys": [
+    "South America"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The skull, serrated teeth and carcharodontosaurid anatomy support a predatory, flesh-slicing diet. No gut contents, coprolites or feeding traces are tied to Mapusaurus, so prey choice and hunting method remain inferences. Pathologies document injury and feeding-related damage, not a hunting strategy.",
+    "evidence": "inference",
+    "refs": [
+      "primary-mapusaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈10–12 m",
+  "mass": "≈3–5 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "mapusaurus-living",
+  "featured": false,
+  "tagline": "A large carcharodontosaurid known from a bonebed of several individuals. The accumulation may reflect a group or a predator trap; it does not prove coordinated hunting.",
+  "summary": "A large carcharodontosaurid known from a bonebed of several individuals. The accumulation may reflect a group or a predator trap; it does not prove coordinated hunting.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Tetanurae"
+    },
+    {
+      "rank": "Family",
+      "value": "Carcharodontosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Mapusaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "M. roseae"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Coria & Currie, 2006. The holotype, MCF-PVPH-108.1, is a right nasal. The hypodigm comes from a bonebed in the Huincul Formation and includes multiple individuals; the mounted skeleton is a composite.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-mapusaurus",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "A bonebed with multiple partial skeletons, including cranial material.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-mapusaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Huincul Formation, Neuquén records the species in the Late Cretaceous. The numeric range used here is ≈96–92 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is large and lightly built, with narrow, serrated teeth; the appendicular skeleton is robust.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-mapusaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The Huincul bonebed contains at least seven individuals, which is direct evidence that several animals were buried together. It does not demonstrate cooperative hunting: a predator trap, a carcass accumulation or a social group are all compatible with the association. The mounted skeleton is a composite, and no trackway or nest is known.",
+    "evidence": "inference",
+    "refs": [
+      "primary-mapusaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a bonebed with multiple partial skeletons, including cranial material. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-mapusaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-mapusaurus",
+    "pbdb",
+    "paul2016",
+    "v19-mapusaurus-43",
+    "v19-mapusaurus-44"
+  ],
+  "related": [
+    "giganotosaurus",
+    "carcharodontosaurus",
+    "argentinosaurus"
+  ],
+  "confidenceNote": "Confidence is high for the cranial anatomy, the bonebed association and the composite nature of the mount. It is low for the cause of the accumulation, pack hunting, prey selection and the completeness of any single individual. The name-bearing specimen is a right nasal, not a skeleton.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Riverine floodplain",
+  "ancientContext": "Huincul Formation, Neuquén",
+  "locality": [
+    "Huincul Formation, Neuquén"
+  ],
+  "researchStatus": "partially-verified"
+}

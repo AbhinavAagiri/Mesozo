@@ -1,0 +1,224 @@
+{
+  "slug": "spinosaurus",
+  "scientificName": "Spinosaurus aegyptiacus",
+  "commonName": "Spinosaurus",
+  "namedBy": "Stromer, 1915",
+  "group": "Theropoda · Spinosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Cenomanian",
+  "ageMa": [
+    99.6,
+    93.5
+  ],
+  "ageLabel": "≈99–94 Ma",
+  "region": [
+    "Egypt",
+    "Morocco"
+  ],
+  "regionKeys": [
+    "Africa"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore · fish-focused",
+  "length": "≈14 m (estimate)",
+  "mass": "≈4–8 t (wide estimate)",
+  "sizeNote": "No complete skeleton is known. The most complete individual is partial and reconstructed, and length and mass change with the reconstruction used. Treat these figures as estimates, not measurements.",
+  "image": "spinosaurus-living",
+  "fossilImage": "spinosaurus-skull",
+  "featured": true,
+  "tagline": "A long-snouted predator from the rivers of North Africa, and a case study in how fossils change a reconstruction.",
+  "summary": "Spinosaurus is known from fragmentary remains from the Cenomanian of Egypt and Morocco. Its narrow, crocodile-like snout, tall neural spines and dense limb bones have made it one of the most debated dinosaurs alive: a fish-eating shoreline hunter, a swimming pursuit predator, or something in between. The evidence is real; the degree of aquatic specialization is not settled.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Tetanurae"
+    },
+    {
+      "rank": "Superfamily",
+      "value": "Megalosauroidea"
+    },
+    {
+      "rank": "Family",
+      "value": "Spinosauridae"
+    },
+    {
+      "rank": "Subfamily",
+      "value": "Spinosaurinae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Spinosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "S. aegyptiacus"
+    }
+  ],
+  "discovery": {
+    "body": "Ernst Stromer’s expeditions excavated at the Bahariya Oasis in Egypt between 1912 and 1914. The holotype, BSP 1912 VIII 19, was a partial skeleton preserving jaw fragments, teeth, vertebrae, ribs and gastralia — not a complete animal. Stromer named the species in 1915 and described further material in 1934. The Munich collections were destroyed during bombing in 1944, leaving drawings, photographs and casts. A partial skeleton from the Kem Kem Group of Morocco, FSAC-KK 11888, was proposed as a neotype by Ibrahim and colleagues in 2014. Evers and colleagues disputed that designation in 2015, and it remains contested. The specimen nonetheless underpins most recent reconstructions.",
+    "evidence": "fossil",
+    "refs": [
+      "stromer1915",
+      "stromer1934",
+      "ibrahim2014",
+      "evers2015"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "A long, narrow skull",
+      "body": "The known skull material includes premaxillary and maxillary fragments, a distinctive terminal rosette of teeth, and conical, slightly recurved teeth. The snout is much longer and narrower than in typical large theropods. A well-preserved partial skull from Morocco, MSNM V4047, clarified the shape of the rostrum and the position of the nares.",
+      "evidence": "fossil",
+      "refs": [
+        "dalsasso2005",
+        "stromer1915"
+      ]
+    },
+    {
+      "title": "Neural spines and a paddle tail",
+      "body": "The dorsal vertebrae carry very tall neural spines, the basis of the ’sail’. The caudal series of FSAC-KK 11888 also preserves tall neural spines and elongated chevrons in the distal tail, producing a broad, paddle-like profile. Stromer’s original material included sail spines; the tail paddle is a 2020 addition to the picture.",
+      "evidence": "fossil",
+      "refs": [
+        "stromer1934",
+        "ibrahim2020"
+      ]
+    },
+    {
+      "title": "Limb bones and bone density",
+      "body": "The hind limbs are relatively short and robust. Cross-sections and CT data have been used to argue for elevated bone density, a condition seen in some secondarily aquatic tetrapods. The inference from bone density to lifestyle is itself contested, and the sampling and statistical methods have been criticised.",
+      "evidence": "inference",
+      "refs": [
+        "ibrahim2014",
+        "fabbri2022",
+        "myhrvold2024"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Skull and teeth",
+      "body": "The rostrum is elongated and laterally compressed, with a terminal rosette of enlarged teeth and numerous smaller, conical teeth behind it. The shape is convergent with those of long-snouted crocodilians and is consistent with capturing slippery aquatic prey. It does not, by itself, prove that Spinosaurus was a dedicated swimmer.",
+      "evidence": "inference",
+      "refs": [
+        "dalsasso2005"
+      ]
+    },
+    {
+      "title": "The sail",
+      "body": "The sail is formed by elongated neural spines of the dorsal and sacral vertebrae, not by a membrane supported on a separate skeleton. Its function is unresolved: display, thermoregulation, and hydrodynamic or biomechanical roles have all been proposed. The spines are bone; the soft tissue that covered them is not preserved.",
+      "evidence": "contested",
+      "refs": [
+        "stromer1934",
+        "honeholtz2021"
+      ]
+    },
+    {
+      "title": "Tail",
+      "body": "The distal tail has tall neural spines and long chevrons, giving it a deep, paddle-like outline. Ibrahim and colleagues argued that this could generate thrust in water. The tail is genuinely unusual; how much propulsion it provided, and whether it was used habitually, remain questions.",
+      "evidence": "contested",
+      "refs": [
+        "ibrahim2020",
+        "sereno2022"
+      ]
+    },
+    {
+      "title": "Limbs and posture",
+      "body": "The hind limbs are short relative to the body, and the forelimbs are robust with large claws. A quadrupedal posture was proposed in 2014, but the limb proportions, joint mobility and centre of mass have been debated. Recent work has argued for a more conventional bipedal stance on land.",
+      "evidence": "contested",
+      "refs": [
+        "ibrahim2014",
+        "sereno2022",
+        "honeholtz2021"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Direct evidence for behaviour is limited to anatomy and associated fossils. Fish bones and teeth occur in the same deposits, and the snout and teeth are consistent with piscivory. Whether Spinosaurus actively swam after prey, waded in shallow water, or hunted primarily from shore is disputed. The 2014 and 2020 studies argued for a semi-aquatic animal with a swimming tail; Hone and Holtz (2021) and Sereno and colleagues (2022) argued that the skeleton was too buoyant and the limbs poorly suited to pursuit swimming. A 2024 critique questioned the bone-density methods used to support aquatic habits. There is no fossil evidence of social behaviour, parental care or vocalisation.",
+    "evidence": "contested",
+    "refs": [
+      "ibrahim2014",
+      "ibrahim2020",
+      "honeholtz2021",
+      "sereno2022",
+      "myhrvold2024"
+    ]
+  },
+  "reconstruction": {
+    "body": "Spinosaurus has been redrawn more radically than almost any other dinosaur. Stromer reconstructed a long-snouted, bipedal predator with a sail. Later 20th-century popular reconstructions kept the sail but often made the animal a generic large theropod. The 2014 description of FSAC-KK 11888 introduced a short-legged, dense-boned, possibly quadrupedal animal; the 2020 tail study added a paddle. The 2022 rebuttal restored a more conventional bipedal posture and questioned habitual swimming. The images on this page are artistic reconstructions, not photographs of the living animal, and they encode hypotheses.",
+    "evidence": "reconstruction",
+    "refs": [
+      "stromer1915",
+      "ibrahim2014",
+      "ibrahim2020",
+      "sereno2022"
+    ]
+  },
+  "references": [
+    "stromer1915",
+    "stromer1934",
+    "dalsasso2005",
+    "ibrahim2014",
+    "evers2015",
+    "ibrahim2020",
+    "fabbri2022",
+    "sereno2022",
+    "honeholtz2021",
+    "myhrvold2024"
+  ],
+  "related": [
+    "baryonyx",
+    "suchomimus",
+    "tyrannosaurus",
+    "triceratops"
+  ],
+  "confidenceNote": "The material is fragmentary and the most complete skeleton is partial and reconstructed; published mounts combine preserved material with reconstructed parts. Its proposed neotype status is disputed, so the identification of the Moroccan specimen with the Egyptian holotype should not be treated as settled. The animal’s existence and its distinctive skull, sail and tail are well supported. Its posture, swimming ability and hunting method are active research questions. This page distinguishes those categories rather than presenting one reconstruction as the animal.",
+  "updated": "2026-11-13",
+  "dietEvidence": {
+    "body": "The long, narrow snout, terminal rosette and conical teeth are consistent with catching fish, and fish remains occur in the same deposits. Direct stomach contents are not known. The animal may also have taken other prey or scavenged; the dietary evidence is stronger than the evidence for a particular hunting method.",
+    "evidence": "inference",
+    "refs": [
+      "dalsasso2005",
+      "ibrahim2014",
+      "honeholtz2021"
+    ]
+  },
+  "sizeRefs": [
+    "ibrahim2014",
+    "ibrahim2020",
+    "sereno2022"
+  ],
+  "genus": "Spinosaurus",
+  "epithet": "aegyptiacus",
+  "status": "Extinct",
+  "added": "2026-11-13",
+  "accession": "MZ-007",
+  "locomotion": "Bipedal; semiaquatic habits debated",
+  "habitat": "River and coastal wetlands",
+  "ancientContext": "Kem Kem Group and Bahariya Formation, North Africa",
+  "locality": [
+    "Kem Kem Group, Morocco",
+    "Bahariya Oasis, Egypt"
+  ]
+}

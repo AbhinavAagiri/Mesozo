@@ -1,0 +1,162 @@
+{
+  "slug": "leaellynasaura",
+  "accession": "MZ-072",
+  "scientificName": "Leaellynasaura amicagraphica",
+  "commonName": "Leaellyn’s lizard",
+  "genus": "Leaellynasaura",
+  "epithet": "amicagraphica",
+  "status": "Extinct",
+  "namedBy": "Rich & Rich, 1989",
+  "group": "Ornithischia · Ornithopoda incertae sedis",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Aptian–Albian",
+  "ageMa": [
+    118,
+    110
+  ],
+  "ageLabel": "≈118–110 Ma",
+  "region": [
+    "Australia"
+  ],
+  "regionKeys": [
+    "Australia"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "Herbivory is inferred from the small maxilla and teeth of the holotype, NMV P185991. No gut contents or coprolites are known; the plants eaten and the feeding height are not preserved. Because the postcranial material is disputed, the diet cannot be tied to the long-tailed reconstruction.",
+    "evidence": "inference",
+    "refs": [
+      "primary-leaellynasaura",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈1–1.5 m",
+  "mass": "≈3–5 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "leaellynasaura-living",
+  "featured": false,
+  "tagline": "A small ornithopod from a high-latitude Australian environment. The name is based on a partial juvenile skull; the long-tailed postcranial reconstruction is disputed.",
+  "summary": "A small ornithopod from a high-latitude Australian environment. The holotype is a partial juvenile cheek and maxilla; postcranial fossils once referred to the species are not securely assigned to it.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithopoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Ornithopoda incertae sedis"
+    },
+    {
+      "rank": "Genus",
+      "value": "Leaellynasaura"
+    },
+    {
+      "rank": "Species",
+      "value": "L. amicagraphica"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Rich & Vickers-Rich, 1989. The holotype, NMV P185991, is a partial left cheek and maxilla of a juvenile from the Eumeralla Formation at Dinosaur Cove, Victoria. The skull roof NMV P185990 and postcranial fragments NMV P185992–P185993 were collected nearby, but their referral to the species is disputed.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-leaellynasaura",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The holotype, NMV P185991, is a partial left cheek and maxilla of a juvenile. The skull roof NMV P185990 and postcranial fragments NMV P185992–P185993 were collected nearby, but later work questions whether the postcrania belong to Leaellynasaura. The long-tailed body reconstruction is therefore not securely tied to the name-bearing specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-leaellynasaura",
+        "v19-leaellynasaura-140",
+        "herne2019"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Eumeralla Formation, Victoria records the species in the Early Cretaceous. The numeric range used here is ≈118–110 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "Referred postcranial material is lightly built, with long hindlimbs and a long tail, but those fossils are not securely assigned to Leaellynasaura. The skull is incompletely known and the holotype preserves only part of the cheek and maxilla.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-leaellynasaura",
+        "v19-leaellynasaura-140",
+        "herne2019"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The only direct evidence is skeletal. The polar setting is geological, not behavioural: no feathers, skin, burrow or hibernation trace is known, and the postcranial fragments once used to reconstruct a long-tailed body are not securely referable to the species. Social behaviour and seasonal activity remain unknown.",
+    "evidence": "inference",
+    "refs": [
+      "primary-leaellynasaura",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from the holotype skull material and disputed postcranial referrals from the Eumeralla Formation. The reconstruction is an artist’s interpretation of appearance, not a direct observation from the fossil record; preserved integument is not known, and the long-tailed body outline depends on referred material.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-leaellynasaura",
+      "v19-leaellynasaura-140",
+      "herne2019"
+    ]
+  },
+  "references": [
+    "primary-leaellynasaura",
+    "pbdb",
+    "paul2016",
+    "v19-leaellynasaura-140",
+    "herne2019",
+    "nmv-p185991"
+  ],
+  "related": [
+    "hypsilophodon",
+    "orodromeus",
+    "muttaburrasaurus"
+  ],
+  "confidenceNote": "The holotype is a small individual about 1 m long, and the species is reconstructed here at 1–1.5 m and 3–5 kg. Larger referred materials exist, but the 2–3 m and 20–40 kg figures used in the earlier draft were not supported. Its family placement is unresolved, hence Ornithopoda incertae sedis.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Polar woodland",
+  "ancientContext": "Eumeralla Formation, Victoria",
+  "locality": [
+    "Eumeralla Formation, Victoria"
+  ],
+  "researchStatus": "partially-verified"
+}

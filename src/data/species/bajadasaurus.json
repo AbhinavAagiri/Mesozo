@@ -1,0 +1,162 @@
+{
+  "slug": "bajadasaurus",
+  "accession": "MZ-107",
+  "scientificName": "Bajadasaurus pronuspinax",
+  "commonName": "Forward-spined Bajada lizard",
+  "genus": "Bajadasaurus",
+  "epithet": "pronuspinax",
+  "status": "Extinct",
+  "namedBy": "Gallina et al., 2019",
+  "group": "Sauropodomorpha · Dicraeosauridae",
+  "groupKey": "Sauropodomorpha",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Berriasian–Valanginian",
+  "ageMa": [
+    140,
+    134
+  ],
+  "ageLabel": "≈140–134 Ma",
+  "region": [
+    "Argentina"
+  ],
+  "regionKeys": [
+    "South America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The dentition is consistent with herbivory. No gut contents are known, and the plants eaten and feeding height are inferred from tooth shape and neck anatomy.",
+    "evidence": "inference",
+    "refs": [
+      "v19-bajadasaurus-201",
+      "primary-bajadasaurus"
+    ]
+  },
+  "length": "≈9–10 m",
+  "mass": "≈2–3 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "bajadasaurus-living",
+  "featured": false,
+  "tagline": "A dicraeosaurid with extremely long, forward-curving neural spines on the neck. The spines are bone; their display or defensive role is inferred.",
+  "summary": "Bajadasaurus pronuspinax is a dicraeosaurid sauropod from the Bajada Colorada Formation of Argentina. It is known from a partial skull and skeleton, including extremely long cervical neural spines that curve forward. The spine function—display, defence or both—remains unresolved.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropodomorpha"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Dicraeosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Bajadasaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "B. pronuspinax"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Gallina et al., 2019. The record is known from Bajada Colorada Formation, Neuquén. A partial skull and skeleton with well-preserved cervical spines.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-bajadasaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Bajada Colorada Formation, Neuquén records the species in the Early Cretaceous. The numeric range used here is ≈140–134 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    },
+    {
+      "title": "Cervical spine series",
+      "body": "The holotype preserves a partial skull and skeleton, including the elongated cervical neural spines. The spines are bone; the soft tissue that covered them is not preserved.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-bajadasaurus",
+        "v19-bajadasaurus-199"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The cervical neural spines are long and curved forward, and the neck is relatively short.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-bajadasaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The forward-curving neck spines are unusual and may have supported display structures or defensive spines. Neither function is demonstrated. Social behaviour and parental care are unknown.",
+    "evidence": "debate",
+    "refs": [
+      "primary-bajadasaurus",
+      "v19-bajadasaurus-199"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a partial skull and skeleton with well-preserved cervical spines. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-bajadasaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-bajadasaurus",
+    "pbdb",
+    "paul2016",
+    "v19-bajadasaurus-199",
+    "v19-bajadasaurus-200",
+    "v19-bajadasaurus-201"
+  ],
+  "related": [
+    "dicraeosaurus",
+    "diplodocus",
+    "nigersaurus"
+  ],
+  "confidenceNote": "The material is incomplete and the sample is small. The elongated spines are direct evidence, but their soft-tissue covering and function are inferred. No gut contents or behaviour traces are known.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Riverine floodplain",
+  "ancientContext": "Bajada Colorada Formation, Neuquén",
+  "locality": [
+    "Bajada Colorada Formation, Neuquén"
+  ],
+  "researchStatus": "partially-verified"
+}

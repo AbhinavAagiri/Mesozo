@@ -1,0 +1,166 @@
+{
+  "slug": "diplodocus",
+  "accession": "MZ-014",
+  "scientificName": "Diplodocus carnegii",
+  "commonName": "Double beam",
+  "genus": "Diplodocus",
+  "epithet": "carnegii",
+  "status": "Extinct",
+  "namedBy": "Hatcher, 1901",
+  "group": "Sauropodomorpha · Diplodocidae",
+  "groupKey": "Sauropodomorpha",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Kimmeridgian–Tithonian",
+  "ageMa": [
+    154,
+    152
+  ],
+  "ageLabel": "≈154–152 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The small skull and peg-like teeth are consistent with herbivory, but no gut contents are known. Browse height and the plants eaten are reconstructed from anatomy and the Morrison flora, not from a preserved meal.",
+    "evidence": "inference",
+    "refs": [
+      "tschopp2015",
+      "v19-diplodocus-3"
+    ]
+  },
+  "length": "≈24–27 m",
+  "mass": "≈11–16 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "diplodocus-living",
+  "featured": false,
+  "tagline": "A very long, low-slung diplodocid with a whip-like tail and a small head. It is one of the best-known sauropods from the Morrison Formation.",
+  "summary": "A very long, low-slung diplodocid with a whip-like tail and a small head. It is one of the best-known sauropods from the Morrison Formation.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropodomorpha"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Diplodocidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Diplodocus"
+    },
+    {
+      "rank": "Species",
+      "value": "D. carnegii"
+    }
+  ],
+  "discovery": {
+    "body": "Named by John Bell Hatcher in 1901 from the Morrison Formation at Sheep Creek, Wyoming. The holotype is CM 84, a partial, mostly articulated skeleton; CM 94 is a paratype from the same quarry. The familiar Carnegie mount is a composite of several specimens, casts and sculpted elements.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-diplodocus",
+      "taylor2025"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "CM 84 is a partial, mostly articulated skeleton; CM 94 is a paratype from the same quarry. The skull and many parts of the mounted skeleton come from other specimens or reconstructions. No single complete individual is known.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-diplodocus",
+        "taylor2025"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Morrison Formation, Sheep Creek, Albany County, Wyoming. The horizon is Late Jurassic; the numeric range is an occurrence estimate, not a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "v19-diplodocus-3",
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The neck is long but not strongly elevated, the forelimbs are shorter than the hindlimbs, and the tail has a long, tapering distal section.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-diplodocus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Herbivory is inferred from the dentition and jaw apparatus. No gut contents or nesting sites are known. The “whip-like” tail and habitual neck posture are functional hypotheses, not observed behaviours.",
+    "evidence": "inference",
+    "refs": [
+      "tschopp2015",
+      "v19-diplodocus-3"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons and skull elements, but no single complete individual. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-diplodocus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-diplodocus",
+    "pbdb",
+    "paul2016",
+    "v19-diplodocus-1",
+    "v19-diplodocus-2",
+    "v19-diplodocus-3",
+    "tschopp2015",
+    "taylor2025"
+  ],
+  "related": [
+    "camarasaurus",
+    "apatosaurus",
+    "brachiosaurus"
+  ],
+  "confidenceNote": "The species is well known from the Carnegie quarry sample, but the holotype is incomplete and the familiar mount is composite. D. carnegii is not the type species of Diplodocus. Skull, neck posture and tail function involve reconstruction beyond the preserved bones.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Floodplain woodland",
+  "ancientContext": "Morrison Formation, western North America",
+  "locality": [
+    "Morrison Formation, western North America"
+  ],
+  "researchStatus": "partially-verified"
+}

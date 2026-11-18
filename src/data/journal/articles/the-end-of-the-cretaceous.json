@@ -1,0 +1,206 @@
+{
+  "id": "the-end-of-the-cretaceous",
+  "slug": "the-end-of-the-cretaceous",
+  "number": 6,
+  "headline": "The End of the Cretaceous",
+  "subtitle": "A boundary, an impact and the difference between the end of the non-avian dinosaurs and the end of dinosaurs.",
+  "standfirst": "At about 66 million years ago, the fossil record changes. Non-avian dinosaurs disappear, marine ecosystems are reorganised and the age of mammals begins in earnest. The boundary is one of the best-studied events in Earth history, and it is still not a single-cause story.",
+  "category": "ancient-worlds",
+  "tags": [
+    "Extinction",
+    "Chicxulub",
+    "Birds",
+    "Cretaceous",
+    "Hell Creek"
+  ],
+  "byline": "MESOZO Editorial",
+  "editorialCredit": "Research, writing and editing by the MESOZO editorial desk.",
+  "publishedAt": "2026-09-24",
+  "readingMinutes": 5,
+  "featured": false,
+  "hero": {
+    "variant": "cover",
+    "tone": "dark",
+    "label": "Museum cast · Tyrannosaurus rex",
+    "assetId": "tyrannosaurus-skull",
+    "alt": "Large Tyrannosaurus rex skull cast with open jaws, displayed in a museum.",
+    "caption": "Tyrannosaurus rex skull cast. Photograph by Gary Todd, CC0. This is a cast and display specimen, not a photograph of the original fossil in the field.",
+    "fit": "cover",
+    "position": "52% 50%"
+  },
+  "blocks": [
+    {
+      "type": "heading",
+      "id": "the-boundary",
+      "kicker": "01 — The boundary",
+      "title": "A boundary you can touch."
+    },
+    {
+      "type": "text",
+      "dropCap": true,
+      "paragraphs": [
+        "The Cretaceous–Paleogene boundary is a physical horizon in the rock record at about 66 million years ago. It separates the Mesozoic from the Cenozoic. In many places it is marked by a thin clay layer, a change in fossils and a distinctive geochemical signal. [[ics2026]][[gradstein2020]]",
+        "Above and below that line, the fossil assemblages are different. Non-avian dinosaurs are present below and absent above. Birds, mammals and many other lineages continue. The boundary does not mark the end of all dinosaurs; it marks the end of the non-avian ones. [[schulte2010]][[xu2014]]"
+      ]
+    },
+    {
+      "type": "diagram",
+      "variant": "kpg-boundary",
+      "title": "Reading the boundary",
+      "caption": "A diagrammatic boundary section. It shows the kinds of evidence used to identify the horizon, not a measured stratigraphic column from one quarry.",
+      "refs": [
+        "schulte2010"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "impact-case",
+      "kicker": "02 — The cause",
+      "title": "The impact case."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "The Chicxulub impact hypothesis is supported by several independent lines of evidence: a buried impact structure on the Yucatán Peninsula, shocked minerals, melt spherules, an iridium anomaly and a global boundary layer. Together they describe an impact event, not merely a local catastrophe. [[schulte2010]]",
+        "The Deccan Traps volcanism in India also overlapped the boundary interval. Its role in the extinction, and the relative contribution of impact and volcanism, remain part of the debate. The impact is the best-supported immediate trigger; the extinction was a complex event with more than one stressor. [[schulte2010]]"
+      ]
+    },
+    {
+      "type": "data",
+      "title": "Four lines of boundary evidence",
+      "entries": [
+        {
+          "label": "Impact structure",
+          "value": "Chicxulub",
+          "detail": "A buried impact crater on the Yucatán Peninsula.",
+          "refs": [
+            "schulte2010"
+          ]
+        },
+        {
+          "label": "Shocked minerals",
+          "value": "Global layer",
+          "detail": "Quartz and other minerals record shock conditions.",
+          "refs": [
+            "schulte2010"
+          ]
+        },
+        {
+          "label": "Melt and ejecta",
+          "value": "Boundary deposit",
+          "detail": "Spherules and ejecta mark the event horizon.",
+          "refs": [
+            "schulte2010"
+          ]
+        },
+        {
+          "label": "Iridium anomaly",
+          "value": "Worldwide signal",
+          "detail": "An enrichment associated with extraterrestrial material.",
+          "refs": [
+            "schulte2010"
+          ]
+        }
+      ],
+      "note": "The evidence supports an impact at the boundary. It does not by itself decide how much each environmental consequence contributed to every extinction."
+    },
+    {
+      "type": "evidence",
+      "stance": "established",
+      "title": "What is secure",
+      "body": "A large impact occurred at Chicxulub at approximately the Cretaceous–Paleogene boundary, and the boundary coincides with a mass extinction that removed the non-avian dinosaurs and many marine groups.",
+      "refs": [
+        "schulte2010"
+      ]
+    },
+    {
+      "type": "evidence",
+      "stance": "debate",
+      "title": "What is still argued",
+      "body": "The relative importance of impact effects, Deccan volcanism and longer-term environmental change remains an active question. The kill mechanisms differed across environments and regions.",
+      "refs": [
+        "schulte2010"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "what-ended",
+      "kicker": "03 — The losses",
+      "title": "What ended, what continued."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "Non-avian dinosaurs, ammonites, mosasaurs and many other marine groups disappear from the fossil record around the boundary. The losses were not uniform: some lineages vanish abruptly, while others decline before the boundary or persist longer than the simplest story allows. [[schulte2010]]",
+        "Birds are dinosaurs, and they survive. Mammals survive and later diversify into terrestrial, marine and aerial niches. The end of the Cretaceous is therefore both a boundary and a continuity. It closed one distribution of animals and opened another. [[xu2014]][[meredith2011]]"
+      ]
+    },
+    {
+      "type": "image",
+      "assetId": "triceratops-skull",
+      "alt": "Adolescent Triceratops horridus skull in a museum display, with horns and a broad frill.",
+      "label": "Museum specimen · non-avian dinosaur",
+      "layout": "wide",
+      "fit": "cover",
+      "caption": "An adolescent Triceratops horridus skull, Redpath Museum. Triceratops is one of the non-avian dinosaur lineages that does not continue past the boundary.",
+      "refs": [
+        "schulte2010"
+      ]
+    },
+    {
+      "type": "heading",
+      "id": "after",
+      "kicker": "04 — The aftermath",
+      "title": "After the boundary."
+    },
+    {
+      "type": "text",
+      "paragraphs": [
+        "The Paleogene fossil record documents a substantial diversification of mammals. Primates, bats, whales and many modern orders appear in the aftermath, but the pattern is not a simple replacement of dinosaurs by mammals. It is a reorganisation of surviving lineages across a changed world. [[meredith2011]]",
+        "The boundary is a useful corrective to the idea that evolution moves in a single direction. The same event that removed one dominant terrestrial group created opportunities for another. The survivors were not the animals best adapted to the Cretaceous; they were the ones that could persist through what came next."
+      ]
+    },
+    {
+      "type": "pullquote",
+      "label": "The distinction",
+      "text": "The non-avian dinosaurs ended. The dinosaur lineage did not.",
+      "attribution": "MESOZO editorial"
+    }
+  ],
+  "references": [
+    "ics2026",
+    "gradstein2020",
+    "schulte2010",
+    "xu2014",
+    "meredith2011"
+  ],
+  "relatedSpeciesIds": [
+    "tyrannosaurus",
+    "triceratops"
+  ],
+  "relatedPeriodIds": [
+    "cretaceous"
+  ],
+  "relatedSpecimenIds": [
+    "cm-9380"
+  ],
+  "relatedAnatomy": [
+    {
+      "speciesId": "tyrannosaurus",
+      "structureIds": [
+        "trex-cranium",
+        "trex-jaws",
+        "trex-dentition"
+      ]
+    }
+  ],
+  "relatedArticleIds": [
+    "a-world-before-the-dinosaurs",
+    "the-feather-question",
+    "the-shape-of-ancient-worlds"
+  ],
+  "readingPathIds": [
+    "feather-path",
+    "deep-time-path"
+  ]
+}

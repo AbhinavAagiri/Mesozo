@@ -1,0 +1,192 @@
+{
+  "slug": "tyrannosaurus",
+  "scientificName": "Tyrannosaurus rex",
+  "commonName": "Tyrant lizard king",
+  "namedBy": "Osborn, 1905",
+  "group": "Theropoda · Tyrannosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Maastrichtian",
+  "ageMa": [
+    68,
+    66
+  ],
+  "ageLabel": "68–66 Ma",
+  "region": [
+    "United States",
+    "Canada"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "length": "≈12–13 m",
+  "mass": "≈6–9 t (estimate)",
+  "sizeNote": "Mass estimates vary with the model and the specimen. The largest known skulls are about 1.5 m long; body mass has been estimated at roughly 6–9 tonnes, but this is a modelled figure, not a measurement.",
+  "image": "tyrannosaurus-living",
+  "fossilImage": "tyrannosaurus-skull",
+  "featured": true,
+  "tagline": "The largest land predator of its world, and one of the best-known dinosaurs in the fossil record.",
+  "summary": "Tyrannosaurus rex lived in western North America at the very end of the Cretaceous. More than fifty individuals are known, including skulls, partial skeletons and growth series, making it one of the best-sampled large theropods. Its anatomy is well established; its behaviour, social structure and soft-tissue covering are still argued from indirect evidence.",
+  "taxonomy": [
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Coelurosauria"
+    },
+    {
+      "rank": "Family",
+      "value": "Tyrannosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Tyrannosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "T. rex"
+    }
+  ],
+  "discovery": {
+    "body": "Barnum Brown collected the first recognised remains in 1902 in the Hell Creek region of Montana. Henry Fairfield Osborn named Tyrannosaurus rex in 1905. Later discoveries from Montana, Wyoming, South Dakota, North Dakota and Canada added skulls, complete limbs and juvenile material. The growth series described by Carr (2020) is one of the strongest ontogenetic datasets for any non-avian dinosaur.",
+    "evidence": "fossil",
+    "refs": [
+      "osborn1905",
+      "carr2020"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Skulls and skeletons",
+      "body": "Multiple nearly complete skulls are known, along with associated postcranial skeletons. The skull is deep and robust, with a fused snout, large jaw muscles and thick, conical teeth. Both upper and lower jaws preserve evidence of powerful adduction; bite-force estimates vary widely with the model used.",
+      "evidence": "fossil",
+      "refs": [
+        "osborn1905",
+        "carr2020"
+      ]
+    },
+    {
+      "title": "Feeding traces",
+      "body": "A large coprolite from Saskatchewan contains fragmented bone, consistent with bone-crushing feeding. Bones with healed and unhealed tooth marks, including hadrosaur tail vertebrae with embedded tyrannosaur teeth, record feeding on large herbivores. These traces show that T. rex fed on other dinosaurs; they do not by themselves show whether it killed them or scavenged them.",
+      "evidence": "inference",
+      "refs": [
+        "chin1998",
+        "depalma2013"
+      ]
+    },
+    {
+      "title": "Growth and variation",
+      "body": "A series of specimens from juveniles to adults shows major changes in skull proportions, tooth counts and body mass during growth. This makes 'T. rex' a moving target: a small, slender juvenile and a massive adult can look like different animals.",
+      "evidence": "fossil",
+      "refs": [
+        "carr2020"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Skull and bite",
+      "body": "The skull is deep, with a narrow snout and expanded posterior region for jaw musculature. The teeth are thick and serrated, and the lower jaw is robust. Biomechanical models confirm a strong bite, but the exact force and the role of bone-crushing versus slicing remain modelled estimates.",
+      "evidence": "inference",
+      "refs": [
+        "rayfield2001"
+      ]
+    },
+    {
+      "title": "Arms",
+      "body": "The forelimbs are remarkably short but muscular, with two functional fingers and a limited range of motion. Proposed uses — grasping prey, stabilising a mate, display, or protecting the arms during group feeding — remain hypotheses; no function is established. Short arms evolved independently in several giant theropod lineages.",
+      "evidence": "inference",
+      "refs": [
+        "canale2022",
+        "padian2022"
+      ]
+    },
+    {
+      "title": "Skin",
+      "body": "Skin impressions from several parts of the body show a mosaic of small scales. There is currently no direct evidence of feathers in Tyrannosaurus. Whether sparse filamentous feathers were present is unknown; depictions with a fully feathered body are artistic choices, not fossil observations.",
+      "evidence": "fossil",
+      "refs": [
+        "bell2017"
+      ]
+    },
+    {
+      "title": "Face and lips",
+      "body": "A 2023 study argued that theropod teeth were covered by soft tissue, producing a lipped profile rather than permanently exposed teeth. The inference is based on tooth wear, enamel and comparative anatomy; it is a hypothesis, not a preserved feature.",
+      "evidence": "contested",
+      "refs": [
+        "cullen2023"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "T. rex was a large carnivore and certainly fed on other dinosaurs. Direct evidence of predation includes embedded teeth and healed bone damage; scavenging is also plausible, and most large predators do both. Claims of cooperative pack hunting are not supported by direct evidence: bonebeds can accumulate without social groups, and the growth-series data show that some assemblages mix ages. Parental care and vocalisation are unknown.",
+    "evidence": "inference",
+    "refs": [
+      "depalma2013",
+      "chin1998",
+      "carr2020"
+    ]
+  },
+  "reconstruction": {
+    "body": "Early 20th-century mounts stood T. rex upright with a dragging tail. From the 1970s onward, biomechanical work and new skeletons produced the modern horizontal posture, with the tail held off the ground. The animal's scaly skin is directly sampled; its lips and any filamentous covering are reconstructions based on inference. Popular film versions are cultural artefacts, not scientific evidence.",
+    "evidence": "reconstruction",
+    "refs": [
+      "osborn1905",
+      "bell2017",
+      "cullen2023"
+    ]
+  },
+  "references": [
+    "osborn1905",
+    "chin1998",
+    "depalma2013",
+    "carr2020",
+    "cullen2023",
+    "rayfield2001",
+    "canale2022",
+    "bell2017",
+    "padian2022"
+  ],
+  "related": [
+    "triceratops",
+    "ankylosaurus",
+    "allosaurus"
+  ],
+  "confidenceNote": "The skeleton and growth series are exceptionally well documented. DePalma et al. (2013) described a tooth crown embedded in a hadrosaur vertebra with healed bone, direct evidence of predation. The coprolite attributed to T. rex is indirect because the animal itself is not preserved. Social behaviour, feather coverage and lips remain debated.",
+  "updated": "2026-11-17",
+  "dietEvidence": {
+    "body": "T. rex was a large carnivore. Direct evidence includes an embedded tooth in a hadrosaur vertebra with healed bone and a large coprolite containing bone fragments. The coprolite's attribution to T. rex is indirect. Scavenging is also plausible; most large predators do both.",
+    "evidence": "inference",
+    "refs": [
+      "chin1998",
+      "depalma2013"
+    ]
+  },
+  "sizeRefs": [
+    "carr2020"
+  ],
+  "genus": "Tyrannosaurus",
+  "epithet": "rex",
+  "status": "Extinct",
+  "added": "2026-11-13",
+  "accession": "MZ-011",
+  "locomotion": "Bipedal",
+  "habitat": "Coastal floodplain",
+  "ancientContext": "Hell Creek and Lance formations, western North America",
+  "locality": [
+    "Hell Creek Formation, Montana, United States"
+  ]
+}

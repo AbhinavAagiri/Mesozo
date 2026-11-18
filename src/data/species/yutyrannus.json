@@ -1,0 +1,171 @@
+{
+  "slug": "yutyrannus",
+  "accession": "MZ-091",
+  "scientificName": "Yutyrannus huali",
+  "commonName": "Feathered tyrant",
+  "genus": "Yutyrannus",
+  "epithet": "huali",
+  "status": "Extinct",
+  "namedBy": "Xu et al., 2012",
+  "group": "Theropoda · Proceratosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Barremian",
+  "ageMa": [
+    125,
+    124
+  ],
+  "ageLabel": "≈125–124 Ma",
+  "region": [
+    "China"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The skull and dentition indicate carnivory. No gut contents are known; prey choice and hunting behaviour are not preserved.",
+    "evidence": "inference",
+    "refs": [
+      "primary-yutyrannus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈8–9 m",
+  "mass": "≈1.4 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "yutyrannus-living",
+  "featured": false,
+  "tagline": "A large tyrannosauroid known from three individuals with preserved filamentous integument. It shows that large body size and a feathered covering coexisted.",
+  "summary": "A large tyrannosauroid known from three individuals with preserved filamentous integument. It shows that large body size and a feathered covering coexisted.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Coelurosauria"
+    },
+    {
+      "rank": "Family",
+      "value": "Proceratosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Yutyrannus"
+    },
+    {
+      "rank": "Species",
+      "value": "Y. huali"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Xu et al., 2012. The record is known from the Yixian Formation, Liaoning. The holotype, ZCDM V5000, is a nearly complete adult skeleton; paratypes ZCDM V5001 and ELDM V1001 represent a smaller individual and a juvenile.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-yutyrannus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Three nearly complete skeletons are known: the holotype ZCDM V5000 and the paratypes ZCDM V5001 and ELDM V1001. All preserve filamentous integument.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-yutyrannus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Yixian Formation, Liaoning records the species in the Early Cretaceous. The numeric range used here is ≈125–124 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is deep and bears a midline nasal crest; the forelimbs are relatively short and three-fingered. Filamentous feathers are preserved on the body and tail of all three individuals.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-yutyrannus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No direct evidence of social or parental behaviour. The filaments are direct evidence of a body covering, but their function and colour are unknown.",
+    "evidence": "inference",
+    "refs": [
+      "primary-yutyrannus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from three partial skeletons with extensive integument impressions. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-yutyrannus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-yutyrannus",
+    "v20-brusatte2016",
+    "pbdb",
+    "paul2016"
+  ],
+  "related": [
+    "dilong",
+    "guanlong",
+    "tyrannosaurus"
+  ],
+  "confidenceNote": "Yutyrannus is known from three nearly complete skeletons, all preserving filamentous integument. The specimens were purchased from commercial collectors, so their exact quarry provenance is uncertain. Brusatte & Carr (2016) recovered it within Proceratosauridae, but other analyses place it outside.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Temperate forest and lake margin",
+  "ancientContext": "Yixian Formation, Liaoning",
+  "locality": [
+    "Yixian Formation, Liaoning"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Yutyrannus huali was a large feathered tyrannosauroid from the [Early Cretaceous](/deep-time?period=cretaceous) of Liaoning, China. At about 9 metres long, it is one of the largest known dinosaurs with direct evidence of a feather-like covering.",
+    "paragraphs": [
+      "Three nearly complete skeletons are known, and all preserve filamentous integument. The skull is deep and bears a midline nasal crest. The specimens were purchased from commercial collectors, so their exact quarry provenance is uncertain.",
+      "Its teeth indicate carnivory, but no gut contents are known. The family placement is debated: some analyses put Yutyrannus in Proceratosauridae, while others place it outside. The feathers are direct evidence; their function and colour are not."
+    ],
+    "takeaway": "A large feathered tyrannosauroid that shows feathers were not limited to small dinosaurs."
+  }
+}

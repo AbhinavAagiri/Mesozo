@@ -1,0 +1,174 @@
+{
+  "slug": "plateosaurus",
+  "accession": "MZ-039",
+  "scientificName": "Plateosaurus engelhardti",
+  "commonName": "Broad lizard",
+  "genus": "Plateosaurus",
+  "epithet": "engelhardti",
+  "status": "Extinct",
+  "namedBy": "Meyer, 1837",
+  "group": "Sauropodomorpha · Plateosauridae",
+  "groupKey": "Sauropodomorpha",
+  "period": "triassic",
+  "periodLabel": "Late Triassic",
+  "stage": "Norian–Rhaetian",
+  "ageMa": [
+    214,
+    204
+  ],
+  "ageLabel": "≈214–204 Ma",
+  "region": [
+    "Germany"
+  ],
+  "regionKeys": [
+    "Europe"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The skull and jaw mechanics are consistent with herbivory, but the feeding apparatus differs from that of later sauropods. No gut contents are known; occasional omnivory is not resolved by the preserved anatomy alone.",
+    "evidence": "inference",
+    "refs": [
+      "primary-plateosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈4.8–10 m",
+  "mass": "≈0.6–4 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "plateosaurus-living",
+  "featured": false,
+  "tagline": "A large early sauropodomorph with a long neck and a robust body. Hundreds of individuals are known, but the accumulations may be drought or flood assemblages.",
+  "summary": "A large early sauropodomorph with a long neck and a robust body. Hundreds of individuals are known, but the accumulations may be drought or flood assemblages.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropodomorpha"
+    },
+    {
+      "rank": "Clade",
+      "value": "Plateosauria"
+    },
+    {
+      "rank": "Family",
+      "value": "Plateosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Plateosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "P. engelhardti"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Meyer, 1837. The record is known from Knollenmergel, southern Germany. Many partial and articulated skeletons from European bonebeds.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-plateosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Hundreds of individuals are known from the Knollenmergel of Germany and the Frick quarry in Switzerland. The sample includes juveniles and adults but is time-averaged.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-plateosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Knollenmergel, southern Germany records the species in the Late Triassic. The numeric range used here is ≈214–204 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is relatively small, the neck is long, and the body is robust. The forelimbs are shorter than the hindlimbs, and the hand bears a large thumb claw.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-plateosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The bonebeds show that many individuals accumulated together. Whether they congregated in life or were concentrated by drought, flood or mudflow is debated. No nesting or parental behaviour is known.",
+    "evidence": "inference",
+    "refs": [
+      "primary-plateosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from many partial and articulated skeletons from european bonebeds. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-plateosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-plateosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-plateosaurus-60",
+    "v19-plateosaurus-61",
+    "v19-plateosaurus-62",
+    "v19-plateosaurus-63"
+  ],
+  "related": [
+    "massospondylus",
+    "eoraptor",
+    "herrerasaurus"
+  ],
+  "confidenceNote": "Plateosaurus is known from hundreds of individuals, including the Frick and Knollenmergel accumulations. Body mass estimates range from about 0.6 t for a 6 m individual to about 4 t for the largest adults. Growth was plastic, and the bonebed accumulations may reflect drought, flood or mudflow rather than social behaviour.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Facultatively bipedal; quadrupedal",
+  "habitat": "Seasonal floodplain",
+  "ancientContext": "Knollenmergel, southern Germany",
+  "locality": [
+    "Knollenmergel, southern Germany"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Plateosaurus engelhardti was a large early sauropodomorph from the [Late Triassic](/deep-time?period=triassic) of Central Europe. It lived before the giant sauropods, but it already had a long neck, a robust body and a partly bipedal stance.",
+    "paragraphs": [
+      "Hundreds of individuals are known from the Knollenmergel of Germany and the Frick quarry in Switzerland. That abundance makes Plateosaurus one of the best-sampled early dinosaurs, but the bonebeds may have formed through drought, flood or mudflow rather than social behaviour.",
+      "Body mass estimates range from about 0.6 tonnes for a 6 m individual to about 4 tonnes for the largest adults. Growth was plastic, and the jaw mechanics are consistent with herbivory. No gut contents are known."
+    ],
+    "takeaway": "An abundant Triassic early sauropodomorph with a long neck and a contested body mass."
+  }
+}

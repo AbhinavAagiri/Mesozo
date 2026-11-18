@@ -1,0 +1,169 @@
+{
+  "slug": "gigantspinosaurus",
+  "accession": "MZ-044",
+  "scientificName": "Gigantspinosaurus sichuanensis",
+  "commonName": "Giant-spined lizard",
+  "genus": "Gigantspinosaurus",
+  "epithet": "sichuanensis",
+  "status": "Extinct",
+  "namedBy": "Ouyang, 1992",
+  "group": "Ornithischia · Huayangosauridae",
+  "groupKey": "Ornithischia",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Oxfordian",
+  "ageMa": [
+    161,
+    155
+  ],
+  "ageLabel": "≈161–155 Ma",
+  "region": [
+    "China"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The jaws and teeth indicate herbivory. No gut contents are known, and the plants eaten and the feeding posture are not preserved.",
+    "evidence": "inference",
+    "refs": [
+      "primary-gigantspinosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈4–4.5 m",
+  "mass": "≈500–1,000 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "gigantspinosaurus-living",
+  "featured": false,
+  "tagline": "A stegosaur with very large shoulder spines and relatively small dorsal plates. The spines are preserved; their display or defensive role is inferred.",
+  "summary": "A stegosaur with very large shoulder spines and relatively small dorsal plates. The spines are preserved; their display or defensive role is inferred.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Thyreophora"
+    },
+    {
+      "rank": "Family",
+      "value": "Huayangosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Gigantspinosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "G. sichuanensis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Ouyang, 1992. The record is known from Shaximiao Formation, Sichuan. A partial skeleton from the Shaximiao Formation.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-gigantspinosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The holotype, ZDM 0019, is a partial skeleton from the Upper Shaximiao Formation, Sichuan. It preserves jaws, vertebrae, limb material, plates and the parascapular spines.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-gigantspinosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Shaximiao Formation, Sichuan records the species in the Late Jurassic. The numeric range used here is ≈161–155 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skeleton bears a pair of very large parascapular spines and relatively small dorsal plates. The 2018 redescription also documents the external mandibular foramen and a high femur-to-humerus ratio.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-gigantspinosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No direct evidence of social or display behaviour. The parascapular spines are preserved bone; display and defence are hypotheses, not observations. The femoral osteopathy records an injury or chronic condition, not its cause.",
+    "evidence": "inference",
+    "refs": [
+      "primary-gigantspinosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a partial skeleton from the Shaximiao formation. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-gigantspinosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-gigantspinosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-gigantspinosaurus-74",
+    "v19-gigantspinosaurus-75",
+    "maidment2006"
+  ],
+  "related": [
+    "huayangosaurus",
+    "kentrosaurus",
+    "stegosaurus"
+  ],
+  "confidenceNote": "Ouyang (1992) named Gigantspinosaurus in a short abstract; Hao et al. (2018) redescribed the holotype, ZDM 0019, and recovered it as a stegosaur more derived than Huayangosaurus. The enormous parascapular spines are preserved; their function is inferred. A femoral osteopathy is direct evidence of pathology.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Riverine woodland",
+  "ancientContext": "Shaximiao Formation, Sichuan",
+  "locality": [
+    "Shaximiao Formation, Sichuan"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Gigantspinosaurus sichuanensis was a stegosaur from the [Upper Shaximiao Formation](/prehistoric-world#worlds) of Sichuan, China, during the [Late Jurassic](/deep-time?period=jurassic). It is named for the enormous spines that projected from its shoulder region.",
+    "paragraphs": [
+      "The holotype, ZDM 0019, preserves jaws, vertebrae, limb bones, small dorsal plates and a pair of very large parascapular spines. A 2018 redescription placed Gigantspinosaurus as a stegosaur more derived than Huayangosaurus but less derived than Tuojiangosaurus. The animal also preserves a femoral osteopathy — a bone abnormality that records injury or disease.",
+      "The spines are preserved bone, but their function is not. Display and defence are both plausible. Its plant diet is inferred from the jaws and teeth, and there is no direct evidence of its social behaviour."
+    ],
+    "takeaway": "A stegosaur whose shoulder spines are more dramatic than its plates."
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "hero": {
+    "kicker": "Specimen dossier — 01",
+    "intro": "A long-snouted predator from the rivers of North Africa, and the dinosaur whose shape has been argued over more than almost any other. This dossier separates the bones from the body built around them.",
+    "image": "spinosaurus-living",
+    "imageLabel": "Life reconstruction — not a photograph"
+  },
+  "overview": {
+    "intro": "Spinosaurus is known from fragmentary material, much of it lost. The figures below distinguish what the fossils record from what published reconstructions estimate, and the notes say where the record stops.",
+    "fields": [
+      {
+        "label": "Scientific name",
+        "value": "Spinosaurus aegyptiacus",
+        "note": "Named by Ernst Stromer in 1915. The holotype is BSP 1912 VIII 19, excavated at Bahariya and destroyed in 1944.",
+        "refs": [
+          "stromer1915",
+          "ibrahim2014"
+        ]
+      },
+      {
+        "label": "Common name",
+        "value": "Spinosaurus",
+        "note": "From the Latin spina, for the tall neural spines of the back."
+      },
+      {
+        "label": "Classification",
+        "value": "Theropoda · Spinosauridae",
+        "note": "A spinosaurine theropod. The full hierarchy is set out below.",
+        "refs": [
+          "stromer1915"
+        ]
+      },
+      {
+        "label": "Period",
+        "value": "Late Cretaceous · Cenomanian",
+        "note": "The deposits that yield the animal are Cenomanian in age.",
+        "refs": [
+          "ics2026"
+        ]
+      },
+      {
+        "label": "Approximate age",
+        "value": "≈99–94 Ma",
+        "note": "A range, not a single date. Boundary ages follow the International Chronostratigraphic Chart.",
+        "refs": [
+          "ics2026"
+        ]
+      },
+      {
+        "label": "Geographic range",
+        "value": "Egypt · Morocco",
+        "note": "Bahariya Oasis in Egypt and the Kem Kem Group of Morocco.",
+        "refs": [
+          "stromer1915",
+          "ibrahim2014",
+          "dalsasso2005"
+        ]
+      },
+      {
+        "label": "Diet",
+        "value": "Carnivore · fish-focused",
+        "note": "The snout and teeth are consistent with catching fish, and fish remains occur in the same deposits. Direct stomach contents are not known.",
+        "refs": [
+          "dalsasso2005",
+          "ibrahim2014",
+          "honeholtz2021"
+        ]
+      },
+      {
+        "label": "Estimated length",
+        "value": "≈14 m — estimate",
+        "note": "Not a measurement. No complete skeleton is known, and published reconstructions differ in proportions. The archive does not average incompatible figures.",
+        "refs": [
+          "ibrahim2014",
+          "ibrahim2020",
+          "sereno2022"
+        ]
+      },
+      {
+        "label": "Estimated mass",
+        "value": "≈4–8 t — wide estimate",
+        "note": "The range reflects different reconstructions and methods. Treat it as an order of magnitude, not a weighing.",
+        "refs": [
+          "ibrahim2014",
+          "ibrahim2020",
+          "sereno2022"
+        ]
+      },
+      {
+        "label": "Known material",
+        "value": "Cranial and postcranial fragments",
+        "note": "No complete skull or skeleton is known. The most complete individual is partial and reconstructed, and the holotype no longer exists.",
+        "refs": [
+          "stromer1915",
+          "dalsasso2005",
+          "ibrahim2014",
+          "evers2015"
+        ]
+      }
+    ],
+    "material": "The name rests on a fragmentary holotype from Egypt, destroyed in Munich in 1944. Later work depends on Stromer’s drawings and photographs, a partial skull from Morocco, and a partial skeleton from the Kem Kem Group. There is still no complete Spinosaurus."
+  },
+  "taxonomy": {
+    "intro": "Spinosaurus is a theropod, and specifically a spinosaurine: one of the long-snouted, often fish-eating dinosaurs. The hierarchy below is the classification used across this archive. Open a note where the placement needs a word of explanation.",
+    "notes": [
+      {
+        "value": "Animalia",
+        "note": "Animals: multicellular organisms that feed on other organisms. The rank names above Dinosauria are conventional rather than dinosaur-specific."
+      },
+      {
+        "value": "Chordata",
+        "note": "The phylum defined by a notochord at some stage of life — in vertebrates, the backbone."
+      },
+      {
+        "value": "Dinosauria",
+        "note": "The group defined by the common ancestor of birds and Triceratops. Birds are living dinosaurs, not their descendants in a separate category."
+      },
+      {
+        "value": "Saurischia",
+        "note": "One of the two major dinosaur branches in the traditional division, containing theropods and sauropodomorphs."
+      },
+      {
+        "value": "Theropoda",
+        "note": "Mostly bipedal, mostly carnivorous dinosaurs. Theropoda includes birds."
+      },
+      {
+        "value": "Tetanurae",
+        "note": "The large theropod clade that includes allosaurs, spinosaurids, tyrannosaurs and birds."
+      },
+      {
+        "value": "Megalosauroidea",
+        "note": "A clade of tetanuran theropods to which spinosaurids are referred in many analyses. Higher-level theropod relationships are revised as new analyses are published."
+      },
+      {
+        "value": "Spinosauridae",
+        "note": "Long-snouted theropods with conical teeth, including Spinosaurus, Baryonyx and Suchomimus. The family’s closest relatives outside it remain part of the debate about megalosauroid relationships."
+      },
+      {
+        "value": "Spinosaurinae",
+        "note": "The spinosaurid subgroup containing Spinosaurus and its closest relatives."
+      },
+      {
+        "value": "Spinosaurus",
+        "note": "The genus. Spinosaurus aegyptiacus is its type species."
+      },
+      {
+        "value": "S. aegyptiacus",
+        "note": "The species epithet means ’from Egypt’, after the Bahariya Oasis where the type was found."
+      }
+    ]
+  },
+  "anatomy": {
+    "image": "spinosaurus-skeletal-2020",
+    "intro": "The skeleton is the strongest evidence in this dossier. Select a numbered marker on the reconstruction to read what is preserved, what is inferred, and what the difference means.",
+    "note": "The plate is a composite skeletal reconstruction after Ibrahim et al. 2020, not a single excavated skeleton. Marker positions are diagrammatic: they locate a region, not a measured point on one fossil."
+  },
+  "ecology": {
+    "intro": "Spinosaurus lived in the Cenomanian of North Africa, in landscapes of rivers, deltas and coastlines. The deposits preserve an ecosystem; reconstructing the animal’s place in it is a separate argument.",
+    "paragraphs": [
+      "The fossils come from the Bahariya Oasis of Egypt and the Kem Kem Group of Morocco. These deposits sample river and coastal settings. Which of those settings Spinosaurus preferred, and how much time it spent in or near water, is contested rather than settled by the rocks.",
+      "Fish bones and teeth occur in the same deposits. The long, narrow rostrum and the terminal rosette of teeth are consistent with catching fish, and the animal is usually reconstructed as fish-focused. Yet tooth shape alone does not establish diet, and there are no known stomach contents to settle the question.",
+      "Other terrestrial and aquatic organisms are preserved alongside Spinosaurus. Co-occurrence is not proof of a relationship: a predator and its prey have to be connected by more than sharing a fossil bed."
+    ],
+    "image": "spinosaurus-art-aquatic",
+    "imageLabel": "Interpretive drawing — not evidence",
+    "imageCaption": "Spinosaurus with prey. Drawing by Antonio Rares Mihaila, CC BY-SA 4.0. The scene is an ecological interpretation, not a photograph of the past.",
+    "refs": [
+      "dalsasso2005",
+      "ibrahim2014",
+      "honeholtz2021",
+      "sereno2022"
+    ],
+    "limits": [
+      "Whether it swam habitually or fed from the water’s edge",
+      "How much of its life was spent in water",
+      "What it ate besides fish",
+      "Soft-tissue display, colour and vocalisation"
+    ]
+  },
+  "fossilRecord": {
+    "intro": "Every reconstruction of Spinosaurus begins with a small, damaged collection. The record is a sequence of discovery, loss and partial recovery — and each specimen below carries a different kind of weight.",
+    "specimens": [
+      {
+        "identifier": "BSP 1912 VIII 19",
+        "status": "Holotype — partial skeleton, lost",
+        "material": "Jaw fragments, teeth, vertebrae, ribs and gastralia. It did not preserve the limbs or a complete skull.",
+        "locality": "Bahariya Oasis, Egypt",
+        "date": "Excavated 1912–14 · described 1915 · destroyed 1944",
+        "repository": "Munich collections — destroyed",
+        "significance": "The name-bearing holotype. Because it was destroyed in bombing during the Second World War, subsequent work depends on Stromer’s drawings, photographs and casts rather than the bones themselves.",
+        "image": "spinosaurus-mandible-1915",
+        "imageCaption": "Stromer’s 1915 drawing of the holotype mandible, one of the surviving records of the lost type. Public domain.",
+        "refs": [
+          "stromer1915",
+          "stromer1934",
+          "ibrahim2014",
+          "evers2015"
+        ]
+      },
+      {
+        "identifier": "MSNM V4047",
+        "status": "Referred specimen",
+        "material": "Partial skull, including the rostrum and the terminal rosette of teeth.",
+        "locality": "Kem Kem Group, Morocco",
+        "date": "Described 2005",
+        "repository": "Museo di Storia Naturale di Milano (MSNM)",
+        "significance": "Clarified the shape of the rostrum and the position of the nares, and prompted revised size estimates. The skull is still incomplete, and estimates derived from it vary with the reconstruction.",
+        "image": "spinosaurus-skull",
+        "imageCaption": "A privately held Spinosaurus skull from Morocco, not MSNM V4047. Photo: Didier Descouens, CC BY-SA 4.0. It is shown as a comparative skull, not as the Milan specimen.",
+        "refs": [
+          "dalsasso2005"
+        ]
+      },
+      {
+        "identifier": "FSAC-KK 11888",
+        "status": "Proposed neotype — partial skeleton (disputed)",
+        "material": "Partial skeleton preserving skull and jaw fragments, limb bones and caudal vertebrae.",
+        "locality": "Kem Kem Group, Morocco",
+        "date": "Described 2014 · tail described 2020",
+        "significance": "Proposed as the neotype in 2014 and used as the basis of most recent reconstructions. Evers and colleagues rejected the designation in 2015; the specimen’s referral to the Egyptian species remains contested. Its tail preserves the tall distal neural spines and elongated chevrons that give the paddle-like profile. The specimen is partial, and the full skeleton is reconstructed rather than excavated.",
+        "image": "spinosaurus-skeletal-2020",
+        "imageCaption": "Skeletal reconstruction published with the 2020 tail study. Drawing: Marco Auditore, CC BY 4.0. A reconstruction, not the fossil.",
+        "refs": [
+          "ibrahim2014",
+          "evers2015",
+          "ibrahim2020"
+        ]
+      }
+    ]
+  },
+  "history": {
+    "intro": "Each entry in this record states what changed, and what evidence the change rested on. None of these stages represents a universal consensus at the time it was published."
+  },
+  "historyImages": {
+    "1915": {
+      "id": "spinosaurus-mandible-1915",
+      "caption": "Stromer’s 1915 drawing of the mandible. Public domain."
+    },
+    "1934": {
+      "id": "spinosaurus-plate-1934",
+      "caption": "Stromer’s 1934 plates of ‘Spinosaurus B’, a separate partial skeleton — not the holotype. Public domain."
+    },
+    "1944": {
+      "id": "spinosaurus-mandible-1915",
+      "caption": "Stromer’s 1915 drawing of the holotype mandible. The bones themselves were lost in 1944. Public domain."
+    },
+    "2005": {
+      "id": "spinosaurus-skull",
+      "caption": "A privately held Spinosaurus skull from Morocco, not MSNM V4047. Photo: Didier Descouens, CC BY-SA 4.0."
+    },
+    "2014": {
+      "id": "spinosaurus-art-aquatic",
+      "caption": "An interpretive drawing of a fish-eating Spinosaurus. Antonio Rares Mihaila, CC BY-SA 4.0. Art, not evidence."
+    },
+    "2020": {
+      "id": "spinosaurus-skeletal-2020",
+      "caption": "Skeletal reconstruction published with the 2020 tail study. Drawing: Marco Auditore, CC BY 4.0."
+    }
+  },
+  "debates": {
+    "intro": "These are the questions the fossils have not closed. Each interpretation below is argued from the same fragmentary record. The page sets out what supports each one and what each one still has to explain — it does not manufacture a winner.",
+    "questions": {
+      "aquatic": "How much of its life was spent in water?",
+      "shoreline": "Did it hunt from the water’s edge?",
+      "posture": "How did it stand and move on land?"
+    },
+    "commonGround": "The skull, the sail and the paddle-like tail are well supported by fossil material. A fish-focused diet is better supported than any particular hunting method. The degree of aquatic specialisation, the habitual posture and the ecology remain contested.",
+    "whatWouldChange": "A more complete skeleton — especially associated forelimbs and a complete tail — together with independent tests of bone density and sedimentology would narrow the possibilities. Until then, the competing models describe the same bones differently."
+  },
+  "relatedNote": "Close relatives here are the other spinosaurids in the archive. The Late Cretaceous animals are shared-time context, not close relatives: they lived at different stages and on different continents."
+}

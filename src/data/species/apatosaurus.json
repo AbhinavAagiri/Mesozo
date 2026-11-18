@@ -1,0 +1,171 @@
+{
+  "slug": "apatosaurus",
+  "accession": "MZ-015",
+  "scientificName": "Apatosaurus louisae",
+  "commonName": "Deceptive lizard",
+  "genus": "Apatosaurus",
+  "epithet": "louisae",
+  "status": "Extinct",
+  "namedBy": "Holland, 1915",
+  "group": "Sauropodomorpha · Diplodocidae",
+  "groupKey": "Sauropodomorpha",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Kimmeridgian–Tithonian",
+  "ageMa": [
+    152,
+    151
+  ],
+  "ageLabel": "≈152–151 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The dentition is consistent with herbivory. No gut contents are known, and feeding height and plant choice are inferred from neck anatomy and comparisons with other diplodocids.",
+    "evidence": "inference",
+    "refs": [
+      "primary-apatosaurus",
+      "v19-apatosaurus-6"
+    ]
+  },
+  "length": "≈21–23 m",
+  "mass": "≈16–22 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "apatosaurus-living",
+  "featured": false,
+  "tagline": "A bulky diplodocid distinguished by robust cervical ribs and a deep tail. The old name Brontosaurus is now used for a separate, closely related genus by many researchers.",
+  "summary": "Apatosaurus louisae is a diplodocid sauropod from the Morrison Formation. It is known from partial skeletons and skull material, and its anatomical history includes a famous reconstruction error: an early mount used a Camarasaurus-like skull. Later work established the diplodocid skull and documented prolonged growth.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropodomorpha"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Diplodocidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Apatosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "A. louisae"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Holland, 1915. The record is known from Morrison Formation, Colorado and Utah. Several partial skeletons, including cranial and postcranial material.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-apatosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several partial skeletons, including cranial and postcranial material.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-apatosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Morrison Formation, Colorado and Utah records the species in the Late Jurassic. The numeric range used here is ≈152–151 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    },
+    {
+      "title": "The skull problem",
+      "body": "Early reconstructions gave Apatosaurus a Camarasaurus-like skull. Later work established a diplodocid-style skull, and the old mount is now a classic example of reconstruction error.",
+      "evidence": "fossil",
+      "refs": [
+        "v19-apatosaurus-6"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The cervical vertebrae are massive and the limb bones are exceptionally stout for a diplodocid.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-apatosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Behaviour is reconstructed from the skeleton: the neck and tail are anatomically capable of a wide range of postures, but habitual posture is not preserved. No bonebed or trackway establishes social behaviour for this species.",
+    "evidence": "unknown",
+    "refs": [
+      "v19-apatosaurus-4"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons, including cranial and postcranial material. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-apatosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-apatosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-apatosaurus-4",
+    "v19-apatosaurus-5",
+    "v19-apatosaurus-6",
+    "v19-apatosaurus-7"
+  ],
+  "related": [
+    "diplodocus",
+    "brachiosaurus",
+    "camarasaurus"
+  ],
+  "confidenceNote": "The postcranium is well known, but the skull and soft tissue are less completely sampled. Growth is inferred from histology, and the species’ taxonomy has a complicated history.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Floodplain woodland",
+  "ancientContext": "Morrison Formation, Colorado and Utah",
+  "locality": [
+    "Morrison Formation, Colorado and Utah"
+  ],
+  "researchStatus": "partially-verified"
+}

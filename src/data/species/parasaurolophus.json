@@ -1,0 +1,160 @@
+{
+  "slug": "parasaurolophus",
+  "accession": "MZ-016",
+  "scientificName": "Parasaurolophus walkeri",
+  "commonName": "Near-crested lizard",
+  "genus": "Parasaurolophus",
+  "epithet": "walkeri",
+  "status": "Extinct",
+  "namedBy": "Parks, 1922",
+  "group": "Ornithischia · Hadrosauridae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    77,
+    73
+  ],
+  "ageLabel": "≈77–73 Ma",
+  "region": [
+    "Canada"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "Herbivory is inferred from the hadrosaur dentition and jaw apparatus. No gut contents are known for P. walkeri, and the plants eaten are not preserved; the diet is a comparative inference.",
+    "evidence": "inference",
+    "refs": [
+      "primary-parasaurolophus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈9.5–11 m",
+  "mass": "≈2.5–3.5 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "parasaurolophus-living",
+  "featured": false,
+  "tagline": "A hadrosaur with a long, hollow crest that extends back from the skull. The crest is a real bony structure, but its soft-tissue covering and function are reconstructed.",
+  "summary": "A hadrosaur with a long, hollow crest that extends back from the skull. The crest is a real bony structure, but its soft-tissue covering and function are reconstructed.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithopoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Hadrosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Parasaurolophus"
+    },
+    {
+      "rank": "Species",
+      "value": "P. walkeri"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Parks, 1922. The holotype, ROM 768, is a nearly complete skeleton with a skull and crest from the Dinosaur Park Formation, Alberta. The crest is a hollow tube connected to the nasal passages.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-parasaurolophus",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several skulls and partial skeletons, with the crest preserved.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-parasaurolophus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Dinosaur Park Formation, Alberta records the species in the Late Cretaceous. The numeric range used here is ≈77–73 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The supracranial crest is formed by elongated nasal and frontal bones and connects to the nasal passages.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-parasaurolophus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The crest is a hollow bony tube connected to the nasal passages, but its soft-tissue covering and function are reconstructed. Sound production, display and thermoregulation have been proposed; none is directly demonstrated. The holotype preserves a gap in the neural spines, but its cause is not established. No nest or social group is known.",
+    "evidence": "inference",
+    "refs": [
+      "primary-parasaurolophus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several skulls and partial skeletons, with the crest preserved. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-parasaurolophus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-parasaurolophus",
+    "pbdb",
+    "paul2016",
+    "v19-parasaurolophus-8"
+  ],
+  "related": [
+    "lambeosaurus",
+    "corythosaurus",
+    "edmontosaurus"
+  ],
+  "confidenceNote": "Confidence is high for the crest’s internal anatomy and the nearly complete holotype, ROM 768. It is low for the soft tissue, vocalization, crest function and social behaviour. The spinal defect is observable; its cause is not.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Facultatively bipedal; quadrupedal",
+  "habitat": "Coastal plain and river woodland",
+  "ancientContext": "Dinosaur Park Formation, Alberta",
+  "locality": [
+    "Dinosaur Park Formation, Alberta"
+  ],
+  "researchStatus": "partially-verified"
+}

@@ -1,0 +1,174 @@
+{
+  "slug": "falcarius",
+  "accession": "MZ-102",
+  "scientificName": "Falcarius utahensis",
+  "commonName": "Sickle maker",
+  "genus": "Falcarius",
+  "epithet": "utahensis",
+  "status": "Extinct",
+  "namedBy": "Kirkland et al., 2005",
+  "group": "Theropoda · Therizinosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Hauterivian–Barremian",
+  "ageMa": [
+    130,
+    125
+  ],
+  "ageLabel": "≈130–125 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore · inferred",
+  "dietEvidence": {
+    "body": "The reduced, leaf-shaped teeth and jaw apparatus are consistent with herbivory, but no gut contents are known. The plants eaten and the feeding mechanics remain inferences.",
+    "evidence": "inference",
+    "refs": [
+      "primary-falcarius",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈3.5–4.5 m",
+  "mass": "≈100–200 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "falcarius-living",
+  "featured": false,
+  "tagline": "An early therizinosaur known from a large bonebed. It has a mix of predatory and herbivorous features, documenting the transition to herbivory.",
+  "summary": "An early therizinosaur known from a large bonebed. It has a mix of predatory and herbivorous features, documenting the transition to herbivory.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Maniraptora"
+    },
+    {
+      "rank": "Family",
+      "value": "Therizinosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Falcarius"
+    },
+    {
+      "rank": "Species",
+      "value": "F. utahensis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Kirkland et al., 2005. The record is known from Cedar Mountain Formation, Utah. A large bonebed with many individuals and partial skeletons.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-falcarius"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The species is known from a large bonebed in the Crystal Geyser quarry, Cedar Mountain Formation, Utah, with multiple individuals and growth stages.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-falcarius",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Cedar Mountain Formation, Utah records the species in the Early Cretaceous. The numeric range used here is ≈130–125 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull has reduced, leaf-shaped teeth, the forelimbs are relatively long, and the hindlimbs are robust. The mosaic of features is central to its position as an early therizinosaur.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-falcarius",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The bonebed is direct evidence that many individuals accumulated at one site. It does not show that they lived together. Hindlimb reconstruction supports a habitual bipedal stance, not a recorded gait.",
+    "evidence": "inference",
+    "refs": [
+      "primary-falcarius",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a large bonebed with many individuals and partial skeletons. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-falcarius",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-falcarius",
+    "pbdb",
+    "paul2016",
+    "v19-falcarius-192",
+    "v19-falcarius-193",
+    "v19-falcarius-194",
+    "v19-falcarius-195"
+  ],
+  "related": [
+    "therizinosaurus",
+    "nothronychus",
+    "beipiaosaurus"
+  ],
+  "confidenceNote": "Falcarius is known from a large bonebed in the Cedar Mountain Formation, including multiple individuals and growth stages. Its skeleton combines therizinosaur features with more primitive theropod anatomy. The family placement is provisional, and no gut contents are known.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Cedar Mountain Formation, Utah",
+  "locality": [
+    "Cedar Mountain Formation, Utah"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Falcarius utahensis was an early therizinosaur from the [Early Cretaceous](/deep-time?period=cretaceous) of Utah. It is important because it preserves a mosaic of features: its ancestors were meat-eating theropods, but its own anatomy is closer to the plant-eating therizinosaurs.",
+    "paragraphs": [
+      "A large bonebed in the Cedar Mountain Formation has produced many individuals and growth stages. The skull has reduced, leaf-shaped teeth, and the hindlimb reconstruction supports a habitual bipedal stance. These features are used to reconstruct the transition toward herbivory.",
+      "No gut contents are known, so the diet is inferred from the teeth and from other therizinosaurs. The bonebed shows that many animals accumulated at one place; it does not prove that they lived in a herd."
+    ],
+    "takeaway": "A transitional therizinosaur that helps document the shift from carnivory toward plant eating."
+  }
+}

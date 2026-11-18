@@ -1,0 +1,165 @@
+{
+  "slug": "anchiornis",
+  "accession": "MZ-095",
+  "scientificName": "Anchiornis huxleyi",
+  "commonName": "Near bird",
+  "genus": "Anchiornis",
+  "epithet": "huxleyi",
+  "status": "Extinct",
+  "namedBy": "Xu et al., 2009",
+  "group": "Theropoda · Anchiornithidae",
+  "groupKey": "Theropoda",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Oxfordian",
+  "ageMa": [
+    161,
+    158
+  ],
+  "ageLabel": "≈161–158 Ma",
+  "region": [
+    "China"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The dentition indicates carnivory. No gut contents are known; prey choice is not established.",
+    "evidence": "inference",
+    "refs": [
+      "primary-anchiornis",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈0.4–0.6 m",
+  "mass": "≈0.5–1 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "anchiornis-living",
+  "featured": false,
+  "tagline": "A small maniraptoran with pennaceous feathers on the arms, legs and tail. Pigment structures preserved in some specimens indicate a contrastingly patterned body.",
+  "summary": "A small maniraptoran with pennaceous feathers on the arms, legs and tail. Pigment structures preserved in some specimens indicate a contrastingly patterned body.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Maniraptora"
+    },
+    {
+      "rank": "Family",
+      "value": "Anchiornithidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Anchiornis"
+    },
+    {
+      "rank": "Species",
+      "value": "A. huxleyi"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Xu et al., 2009. The record is known from Tiaojishan Formation, Liaoning. Many complete skeletons with feather and melanosome preservation.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-anchiornis"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Many complete skeletons with feather and melanosome preservation.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-anchiornis",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Tiaojishan Formation, Liaoning records the species in the Late Jurassic. The numeric range used here is ≈161–158 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skeleton is small and lightly built, with long feathered limbs and a short tail. The arms, legs and tail bear pennaceous feathers; the plumage is preserved as impressions.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-anchiornis",
+        "v19-anchiornis-172"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The feathers are direct evidence of appearance. Their function — display, insulation or gliding — is not established. No social behaviour is asserted.",
+    "evidence": "inference",
+    "refs": [
+      "primary-anchiornis",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from many complete skeletons with feather and melanosome preservation. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-anchiornis",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-anchiornis",
+    "pbdb",
+    "paul2016",
+    "v19-anchiornis-172",
+    "v19-anchiornis-173",
+    "v19-anchiornis-174",
+    "v19-anchiornis-175"
+  ],
+  "related": [
+    "microraptor",
+    "epidexipteryx",
+    "yi"
+  ],
+  "confidenceNote": "The plumage is directly preserved, but the family placement is contested. Pei et al. (2017) described new specimens that share derived features with avialans but lack some deinonychosaur features. Other analyses recover Anchiornis as a troodontid. The wing feather arrangement is preserved; flight capability is not established.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Temperate forest",
+  "ancientContext": "Tiaojishan Formation, Liaoning",
+  "locality": [
+    "Tiaojishan Formation, Liaoning"
+  ],
+  "researchStatus": "partially-verified"
+}

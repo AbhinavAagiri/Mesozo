@@ -1,0 +1,163 @@
+{
+  "slug": "gallimimus",
+  "accession": "MZ-022",
+  "scientificName": "Gallimimus bullatus",
+  "commonName": "Chicken mimic",
+  "genus": "Gallimimus",
+  "epithet": "bullatus",
+  "status": "Extinct",
+  "namedBy": "Osmólska, Roniewicz & Barsbold, 1972",
+  "group": "Theropoda · Ornithomimidae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Maastrichtian",
+  "ageMa": [
+    70,
+    66
+  ],
+  "ageLabel": "≈70–66 Ma",
+  "region": [
+    "Mongolia"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "omnivore",
+  "dietLabel": "Omnivore · inferred",
+  "dietEvidence": {
+    "body": "The small, toothless head and beak are consistent with herbivory or omnivory. No gut contents are known, and the diet is not established.",
+    "evidence": "inference",
+    "refs": [
+      "primary-gallimimus",
+      "kobayashi2006"
+    ]
+  },
+  "length": "≈4.5–6 m",
+  "mass": "≈150–250 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "gallimimus-living",
+  "featured": false,
+  "tagline": "A long-legged ornithomimosaur with a small, toothless head and a slender body. The diet is inferred as omnivorous or herbivorous; direct gut contents are not known.",
+  "summary": "A long-legged ornithomimosaur with a small, toothless head and a slender body. The diet is inferred as omnivorous or herbivorous; direct gut contents are not known.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Maniraptora"
+    },
+    {
+      "rank": "Family",
+      "value": "Ornithomimidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Gallimimus"
+    },
+    {
+      "rank": "Species",
+      "value": "G. bullatus"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Osmólska, Roniewicz and Barsbold in 1972 from the Nemegt Formation at Tsagan Khushu, Mongolia. The holotype is G.I. No. DPS 100/11, now widely cited as IGM 100/11, a nearly complete skeleton with skull. The original sample includes a growth series from juvenile to adult.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-gallimimus",
+      "kobayashi2006"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several partial skeletons and skulls, including juvenile material.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-gallimimus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Nemegt Formation, Gobi Desert records the species in the Late Cretaceous. The numeric range used here is ≈70–66 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is small and edentulous, the neck is moderately long, and the hindlimbs are built for cursorial locomotion.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-gallimimus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The limb proportions suggest a cursorial animal, but speed is not measured. A foot skeleton associated with trackways links the animal to tracks; social and nesting behaviour are unknown.",
+    "evidence": "inference",
+    "refs": [
+      "primary-gallimimus",
+      "v19-gallimimus-19"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons and skulls, including juvenile material. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-gallimimus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-gallimimus",
+    "pbdb",
+    "paul2016",
+    "v19-gallimimus-19",
+    "kobayashi2006"
+  ],
+  "related": [
+    "deinocheirus",
+    "therizinosaurus",
+    "compsognathus"
+  ],
+  "confidenceNote": "The skull, limb proportions and growth series are well documented, but the diet is inferred and no gut contents or feathers are preserved. The trackway association is direct evidence of a foot and tracks, not of speed or social behaviour.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Riverine floodplain",
+  "ancientContext": "Nemegt Formation, Gobi Desert",
+  "locality": [
+    "Nemegt Formation, Gobi Desert"
+  ],
+  "researchStatus": "partially-verified"
+}

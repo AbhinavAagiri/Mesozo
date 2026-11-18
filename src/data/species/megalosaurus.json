@@ -1,0 +1,190 @@
+{
+  "slug": "megalosaurus",
+  "accession": "MZ-105",
+  "scientificName": "Megalosaurus bucklandii",
+  "commonName": "Great lizard",
+  "genus": "Megalosaurus",
+  "epithet": "bucklandii",
+  "status": "Extinct",
+  "namedBy": "Buckland, 1824 (genus); Mantell, 1827 (species)",
+  "group": "Theropoda · Megalosauridae",
+  "groupKey": "Theropoda",
+  "period": "jurassic",
+  "periodLabel": "Middle Jurassic",
+  "stage": "Bathonian",
+  "ageMa": [
+    168.2,
+    165.3
+  ],
+  "ageLabel": "≈168–165 Ma",
+  "region": [
+    "United Kingdom"
+  ],
+  "regionKeys": [
+    "Europe"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The curved, serrated teeth indicate carnivory. No gut contents are known, and the hunting or scavenging behaviour of this animal is not preserved.",
+    "evidence": "inference",
+    "refs": [
+      "buckland1824",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈6–9 m",
+  "mass": "≈1 t",
+  "sizeNote": "Length and mass are estimates, not measurements of a complete individual. The lectotype is a partial right dentary, and many historical referrals are contested; treat the figures as approximate.",
+  "sizeRefs": [
+    "paul2016",
+    "benson2014"
+  ],
+  "image": "megalosaurus-living",
+  "featured": false,
+  "tagline": "The first non-avian dinosaur genus to be validly named, known from Middle Jurassic fossils at Stonesfield, England. Its original material is fragmentary, so its appearance has been revised many times.",
+  "summary": "The genus Megalosaurus was named by William Buckland in 1824, making it the first non-avian dinosaur genus to be validly named. Gideon Mantell named the species Megalosaurus bucklandii in 1827, using fossils from the Middle Jurassic of Stonesfield, Oxfordshire. It was a large bipedal megalosaurid predator. The original material is fragmentary and many historical referrals are contested, so its size, classification and life appearance remain subjects of revision.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Tetanurae"
+    },
+    {
+      "rank": "Clade",
+      "value": "Megalosauroidea"
+    },
+    {
+      "rank": "Family",
+      "value": "Megalosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Megalosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "M. bucklandii"
+    }
+  ],
+  "discovery": {
+    "body": "William Buckland named the genus Megalosaurus in 1824 from fossils collected at Stonesfield, Oxfordshire, making it the first non-avian dinosaur genus to be validly named. Gideon Mantell named the species Megalosaurus bucklandii in 1827. The lectotype is OUMNH J.13505, a partial right dentary; the original material also included vertebrae and limb bones.",
+    "evidence": "fossil",
+    "refs": [
+      "buckland1824",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The lectotype, OUMNH J.13505, is a partial right dentary. The historical hypodigm includes skull, vertebral and limb material from several individuals; many referrals are contested.",
+      "evidence": "fossil",
+      "refs": [
+        "buckland1824",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "The material comes from the Taynton Limestone Formation at Stonesfield, Oxfordshire, in the Bathonian Stage of the Middle Jurassic. The range used here, ≈168–165 Ma, is an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Skull and dentition",
+      "body": "The lectotype is a partial right dentary with diagnostic grooves and a slit-like anterior Meckelian foramen. Referred Stonesfield material includes skull bones, vertebrae and limb elements, but the hypodigm is fragmentary.",
+      "evidence": "fossil",
+      "refs": [
+        "buckland1824",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Postcranial anatomy",
+      "body": "Megalosaurus was a robust bipedal theropod with powerful hind limbs. Forelimb material is limited, so the arm proportions and hand anatomy are less securely known than the pelvis and hind limbs.",
+      "evidence": "inference",
+      "refs": [
+        "buckland1824",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No direct evidence of social or parental behaviour. The Stonesfield deposits indicate a lowland, coastal-margin environment; this is habitat context, not a record of hunting.",
+    "evidence": "inference",
+    "refs": [
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. No skin covering is preserved for Megalosaurus, so the soft-tissue outline and integument in the reconstruction are an artist's interpretation rather than direct fossil evidence.",
+    "evidence": "reconstruction",
+    "refs": [
+      "buckland1824",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "buckland1824",
+    "pbdb",
+    "paul2016",
+    "benson2014",
+    "benson2008",
+    "benson2010",
+    "mantell1827"
+  ],
+  "related": [
+    "torvosaurus",
+    "eustreptospondylus"
+  ],
+  "confidenceNote": "Megalosaurus was the first non-avian dinosaur genus to be validly named, but its lectotype is only a partial right dentary, OUMNH J.13505. Benson (2008, 2010) diagnosed the dentary and treated many historical referrals as uncertain. The Stonesfield material is Bathonian; size and life appearance are estimates.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Lowland floodplain and coastal margin",
+  "ancientContext": "Stonesfield, Oxfordshire; Taynton Limestone Formation",
+  "locality": [
+    "Stonesfield, Oxfordshire, England"
+  ],
+  "researchStatus": "partially-verified",
+  "synonyms": [
+    "Megalosaurus bucklandi (spelling variant)"
+  ],
+  "primer": {
+    "lead": "Megalosaurus bucklandii was the first non-avian dinosaur genus to be validly named. It lived in the [Middle Jurassic](/deep-time?period=jurassic) of England, about 167 million years ago, and was a large bipedal predator.",
+    "paragraphs": [
+      "The name has a long history. William Buckland named the genus in 1824, and Gideon Mantell named the species in 1827. The lectotype is a partial right dentary, OUMNH J.13505. Many other fossils were referred to Megalosaurus over the centuries, but modern work treats many of those referrals as uncertain.",
+      "The teeth indicate carnivory, but no gut contents are known. Its size is estimated at roughly one tonne, and its life appearance is reconstructed from fragmentary remains. The dossier below separates the historical name from the animal’s actual anatomy."
+    ],
+    "takeaway": "The first named dinosaur — and a lesson in how fragmentary evidence can grow into a legend."
+  }
+}

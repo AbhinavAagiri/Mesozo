@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.vite/
+*.log
+
+# Local owner configuration; use .env.example as the template.
+.env
+.env.local
+.env.*.local
+screenshot-*.png
+.DS_Store
+Thumbs.db
+
+# The originals are kept locally for the asset pipeline. The generated,
+# licence-checked derivatives in public/assets/img are committed instead.
+public/assets/raw/
+scripts/preview/

@@ -1,0 +1,153 @@
+{
+  "slug": "eoraptor",
+  "accession": "MZ-038",
+  "scientificName": "Eoraptor lunensis",
+  "commonName": "Dawn thief",
+  "genus": "Eoraptor",
+  "epithet": "lunensis",
+  "status": "Extinct",
+  "namedBy": "Sereno et al., 1993",
+  "group": "Saurischia · Saurischia incertae sedis",
+  "groupKey": "Saurischia",
+  "period": "triassic",
+  "periodLabel": "Late Triassic",
+  "stage": "Carnian",
+  "ageMa": [
+    231.4,
+    228
+  ],
+  "ageLabel": "≈231.4–228 Ma",
+  "region": [
+    "Argentina"
+  ],
+  "regionKeys": [
+    "South America"
+  ],
+  "diet": "omnivore",
+  "dietLabel": "Omnivore · debated",
+  "dietEvidence": {
+    "body": "The heterodont dentition combines leaf-shaped anterior crowns with more recurved posterior teeth. Herbivory or omnivory is inferred from tooth shape and wear; no gut contents are known.",
+    "evidence": "inference",
+    "refs": [
+      "v19-eoraptor-59"
+    ]
+  },
+  "length": "≈1–1.5 m",
+  "mass": "≈5–10 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "eoraptor-living",
+  "featured": false,
+  "tagline": "A small early dinosaur with a lightly built skull and a mix of predatory and herbivorous dental features. Its diet and phylogenetic position remain debated.",
+  "summary": "A small early dinosaur with a lightly built skull and a mix of predatory and herbivorous dental features. Its diet and phylogenetic position remain debated.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Family",
+      "value": "Saurischia incertae sedis"
+    },
+    {
+      "rank": "Genus",
+      "value": "Eoraptor"
+    },
+    {
+      "rank": "Species",
+      "value": "E. lunensis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Paul Sereno and colleagues in 1993 from the Ischigualasto Formation of San Juan, Argentina. The holotype, PVSJ 512, is a nearly complete articulated skeleton lacking the distal tail. The original description was brief; the 2013 monograph supplies the detailed osteology.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-eoraptor",
+      "v19-eoraptor-59"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several partial skeletons from the Ischigualasto Formation.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-eoraptor",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Ischigualasto Formation, San Juan records the species in the Late Triassic. The numeric range used here is ≈231.4–228 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is small with heterodont teeth; the forelimbs are relatively long and the hindlimbs are slender.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-eoraptor",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Bipedality is well supported by the limb proportions. Hand function, social behaviour and nesting are not directly recorded.",
+    "evidence": "inference",
+    "refs": [
+      "v19-eoraptor-59"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons from the Ischigualasto formation. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-eoraptor",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-eoraptor",
+    "pbdb",
+    "paul2016",
+    "v19-eoraptor-59",
+    "langer2006"
+  ],
+  "related": [
+    "herrerasaurus",
+    "coelophysis",
+    "plateosaurus"
+  ],
+  "confidenceNote": "Eoraptor is known from a well-preserved but crushed skeleton. Its phylogenetic position is contested: some analyses place it among basal theropods, others among basal sauropodomorphs. The dentition supports a mixed or plant-inclusive diet, but no gut contents are known.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Seasonal river plain",
+  "ancientContext": "Ischigualasto Formation, San Juan",
+  "locality": [
+    "Ischigualasto Formation, San Juan"
+  ],
+  "researchStatus": "partially-verified"
+}

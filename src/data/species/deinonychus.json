@@ -1,0 +1,179 @@
+{
+  "slug": "deinonychus",
+  "scientificName": "Deinonychus antirrhopus",
+  "commonName": "Terrible claw",
+  "namedBy": "Ostrom, 1969",
+  "group": "Theropoda · Dromaeosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Aptian–Albian",
+  "ageMa": [
+    115,
+    108
+  ],
+  "ageLabel": "≈115–108 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "length": "≈3–3.4 m",
+  "mass": "≈60–100 kg (published estimates)",
+  "sizeNote": "Ostrom’s original estimate was 60–75 kg; later volumetric and limb-proportion estimates reach about 100 kg. Length is reconstructed from several incomplete individuals. Deinonychus was a medium-sized dromaeosaur, much larger than Velociraptor.",
+  "image": "deinonychus-living",
+  "fossilImage": "deinonychus-skull",
+  "featured": false,
+  "tagline": "The predator that helped restart the study of living, active dinosaurs.",
+  "summary": "Deinonychus antirrhopus is a dromaeosaurid from the Early Cretaceous of western North America. John Ostrom's 1969 monograph used its bird-like skeleton and sickle claw to argue for an active, warm-blooded dinosaur, a key moment in the 'Dinosaur Renaissance'. Its feathers are inferred from its phylogenetic position; its pack-hunting reputation is much less secure.",
+  "taxonomy": [
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Coelurosauria"
+    },
+    {
+      "rank": "Family",
+      "value": "Dromaeosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Deinonychus"
+    },
+    {
+      "rank": "Species",
+      "value": "D. antirrhopus"
+    }
+  ],
+  "discovery": {
+    "body": "Barnum Brown collected fragmentary remains in southern Montana in 1931, but the material was not described as a new genus. From 1964 onward, John Ostrom’s Yale Peabody Museum expeditions recovered multiple individuals from the Cloverly Formation. Ostrom named Deinonychus antirrhopus in 1969. The holotype, YPM 5205, is a complete left pes and an incomplete right pes; the quarry’s other bones were catalogued separately.",
+    "evidence": "fossil",
+    "refs": [
+      "ostrom1969"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Skeletal sample",
+      "body": "Several individuals are known, including skulls, forelimbs and hindlimbs. The skeleton is lightly built with a long, stiffened tail, long arms and a strongly curved second-toe claw. The foot and hand morphology are among the most completely documented of any dromaeosaur. The holotype itself is a pair of feet, not a complete skeleton.",
+      "evidence": "fossil",
+      "refs": [
+        "ostrom1969"
+      ]
+    },
+    {
+      "title": "Tenontosaurus associations",
+      "body": "Deinonychus teeth and skeletal elements occur in association with the large iguanodontian Tenontosaurus at several sites. These associations show that Deinonychus fed on or around Tenontosaurus; they do not prove coordinated pack killing.",
+      "evidence": "inference",
+      "refs": [
+        "maxwell1995",
+        "roach2007"
+      ]
+    },
+    {
+      "title": "Feathers",
+      "body": "No feather impressions are known from Deinonychus itself. Feathers are inferred from its position within a clade in which feathers are widely preserved, and from quill knobs in close relatives. This is a strong phylogenetic inference, not a direct observation for this species.",
+      "evidence": "inference",
+      "refs": [
+        "ostrom1969",
+        "turner2007"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Sickle claw",
+      "body": "The second toe carries a large, recurved claw. Ostrom interpreted it as a slashing weapon; later work proposed a grasping or pinning role. A 2011 study argued that Deinonychus used its feet to pin prey while flapping its feathered arms, a possible precursor to flight behaviour.",
+      "evidence": "contested",
+      "refs": [
+        "ostrom1969",
+        "fowler2011"
+      ]
+    },
+    {
+      "title": "Arms and feathers",
+      "body": "The forelimbs are long and robust, with three clawed fingers. Large feathers are inferred for the arms and tail. The arm morphology is consistent with grasping and with the display or balance functions proposed for other dromaeosaurs.",
+      "evidence": "inference",
+      "refs": [
+        "fowler2011"
+      ]
+    },
+    {
+      "title": "Tail",
+      "body": "The tail is reinforced by long ossified tendons and has a series of interlocking chevrons, giving it stiffness. This would have helped stabilise the body during rapid running or while grappling prey.",
+      "evidence": "fossil",
+      "refs": [
+        "ostrom1969"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Deinonychus is often described as a pack hunter, but the evidence is not decisive. Multiple individuals associated with a single Tenontosaurus could represent group feeding, a predator trap or scavenging. Roach and Brinkman (2007) argued that the case for cooperative pack hunting is weak. The predatory ecology study by Fowler and colleagues (2011) proposed a kick-and-pin method, but this is a biomechanical hypothesis, not observed behaviour.",
+    "evidence": "contested",
+    "refs": [
+      "maxwell1995",
+      "roach2007",
+      "fowler2011"
+    ]
+  },
+  "reconstruction": {
+    "body": "Ostrom's 1969 monograph reconstructed Deinonychus as an agile, bird-like predator, a sharp break from the slow, cold-blooded dinosaurs of earlier museum displays. Later artists added feathers, first as a phylogenetic inference and then with increasing confidence as feathered dromaeosaurs were discovered. The animal's exact plumage pattern and colour remain unknown.",
+    "evidence": "reconstruction",
+    "refs": [
+      "ostrom1969"
+    ]
+  },
+  "references": [
+    "ostrom1969",
+    "fowler2011",
+    "maxwell1995",
+    "roach2007",
+    "turner2007",
+    "nhmDeinonychus",
+    "parsons2015"
+  ],
+  "related": [
+    "velociraptor",
+    "allosaurus",
+    "tyrannosaurus"
+  ],
+  "confidenceNote": "The skeleton and foot anatomy are well documented, but the holotype is a pair of feet rather than a whole skeleton. Feathers are inferred from phylogeny, not preserved. Pack hunting is widely repeated but not firmly supported, and the sickle-claw function remains debated.",
+  "updated": "2026-11-17",
+  "dietEvidence": {
+    "body": "Deinonychus teeth and bones are associated with Tenontosaurus at several sites, showing that it fed on or around this animal. Whether it killed Tenontosaurus, alone or cooperatively, is a separate question. Direct stomach contents are not known.",
+    "evidence": "inference",
+    "refs": [
+      "maxwell1995",
+      "roach2007"
+    ]
+  },
+  "sizeRefs": [
+    "ostrom1969",
+    "nhmDeinonychus"
+  ],
+  "genus": "Deinonychus",
+  "epithet": "antirrhopus",
+  "status": "Extinct",
+  "added": "2026-11-13",
+  "accession": "MZ-006",
+  "locomotion": "Bipedal",
+  "habitat": "Floodplain and riverine woodland",
+  "ancientContext": "Cloverly Formation, western North America",
+  "locality": [
+    "Cloverly Formation, Montana, United States"
+  ]
+}

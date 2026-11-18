@@ -1,0 +1,174 @@
+{
+  "slug": "argentinosaurus",
+  "accession": "MZ-076",
+  "scientificName": "Argentinosaurus huinculensis",
+  "commonName": "Argentine lizard",
+  "genus": "Argentinosaurus",
+  "epithet": "huinculensis",
+  "status": "Extinct",
+  "namedBy": "Bonaparte & Coria, 1993",
+  "group": "Sauropodomorpha · Titanosauridae",
+  "groupKey": "Sauropodomorpha",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Cenomanian–Turonian",
+  "ageMa": [
+    96,
+    92
+  ],
+  "ageLabel": "≈96–92 Ma",
+  "region": [
+    "Argentina"
+  ],
+  "regionKeys": [
+    "South America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "No skull, gut contents or coprolites are known. Herbivory is inferred from titanosaur anatomy; the plants eaten, the feeding height and the jaw mechanics remain unknown.",
+    "evidence": "inference",
+    "refs": [
+      "primary-argentinosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈30–35 m",
+  "mass": "≈60–80 t",
+  "sizeNote": "Length and mass are published estimates, not measurements of a complete individual. Body-mass estimates vary widely (roughly 60–100 t in different studies; 73 t was preferred by Mazzetta et al. 2004). Treat these as modelled ranges.",
+  "sizeRefs": [
+    "mazzetta2004",
+    "paul2016"
+  ],
+  "image": "argentinosaurus-living",
+  "featured": false,
+  "tagline": "A giant titanosaur known from partial vertebrae, ribs and limb bones. Its enormous size is estimated from a fragmentary holotype, so the upper range is uncertain.",
+  "summary": "A giant titanosaur known from partial vertebrae, ribs and limb bones. Its enormous size is estimated from a fragmentary holotype, so the upper range is uncertain.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropodomorpha"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Titanosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Argentinosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "A. huinculensis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Bonaparte & Coria, 1993. The record is known from the Huincul Formation, Neuquén. The holotype, MCF-PVPH 1, is a partial postcranial skeleton including dorsal vertebrae, sacrum and ribs; no skull is known. An isolated femur has been referred, but the holotype lacks a complete femur.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-argentinosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The holotype, MCF-PVPH 1, preserves three anterior and three posterior dorsal vertebrae, sacral material, a rib and the right tibia. No skull is known; an isolated femur has been referred separately.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-argentinosaurus",
+        "pbdb",
+        "paul2016",
+        "mazzetta2004"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Huincul Formation, Neuquén records the species in the Late Cretaceous. The numeric range used here is ≈96–92 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The preserved dorsal and sacral vertebrae are massive and highly pneumatised; the ribs are robust and the right tibia is relatively slender. No skull is known, so the jaws and teeth cannot be described.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-argentinosaurus",
+        "pbdb",
+        "paul2016",
+        "mazzetta2004"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No direct evidence of social, parental or migratory behaviour. The Huincul Formation indicates a riverine floodplain, which is habitat context rather than a record of how the animal lived.",
+    "evidence": "inference",
+    "refs": [
+      "primary-argentinosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a partial postcranial skeleton; no skull is known and the holotype lacks a complete femur. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-argentinosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-argentinosaurus",
+    "mazzetta2004",
+    "pbdb",
+    "paul2016"
+  ],
+  "related": [
+    "patagotitan",
+    "dreadnoughtus",
+    "puertasaurus"
+  ],
+  "confidenceNote": "The holotype, MCF-PVPH 1, preserves dorsal and sacral vertebrae, ribs and part of a hindlimb, but no skull. Body mass is a model rather than a measurement: Mazzetta et al. (2004) preferred about 73 t within a wider 60–88 t range, and later estimates differ. There is no direct evidence of herding, nesting or feeding.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Riverine floodplain",
+  "ancientContext": "Huincul Formation, Neuquén",
+  "locality": [
+    "Huincul Formation, Neuquén"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Argentinosaurus huinculensis was one of the largest land animals ever to live. It was a [sauropodomorph](/learn/major-dinosaur-groups) — a long-necked, plant-eating dinosaur — from the [Late Cretaceous](/deep-time?period=cretaceous) of what is now Argentina.",
+    "paragraphs": [
+      "The only well-established skeleton is very incomplete: a set of huge back and hip vertebrae, ribs and part of a hindlimb. There is no skull. Even so, the size of the bones shows that this was an enormous animal, and palaeontologists have used the limb dimensions to estimate a mass of roughly 60–88 tonnes.",
+      "Because the skull and gut are unknown, its diet is inferred from other titanosaurs rather than observed. There is no direct evidence of herding, nesting or the plants it ate. The dossier below separates those certainties from the estimates."
+    ],
+    "takeaway": "A giant known from a fragmentary skeleton — its size is clear, but much of its life is not."
+  }
+}

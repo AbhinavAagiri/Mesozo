@@ -1,0 +1,172 @@
+{
+  "slug": "tenontosaurus",
+  "accession": "MZ-067",
+  "scientificName": "Tenontosaurus tilletti",
+  "commonName": "Sinew lizard",
+  "genus": "Tenontosaurus",
+  "epithet": "tilletti",
+  "status": "Extinct",
+  "namedBy": "Ostrom, 1970",
+  "group": "Ornithischia · Tenontosauridae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Aptian–Albian",
+  "ageMa": [
+    115,
+    108
+  ],
+  "ageLabel": "≈115–108 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The dentition and jaw indicate herbivory. No gut contents are known; the diet is inferred from anatomy.",
+    "evidence": "inference",
+    "refs": [
+      "ostrom1970",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈6–7 m",
+  "mass": "≈1–2 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "tenontosaurus-living",
+  "featured": false,
+  "tagline": "A medium-sized iguanodontian with a long tail and a low, deep body. It is often found with Deinonychus remains, but the association does not prove a predator-prey encounter.",
+  "summary": "A medium-sized iguanodontian with a long tail and a low, deep body. It is often found with Deinonychus remains, but the association does not prove a predator-prey encounter.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithopoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Tenontosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Tenontosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "T. tilletti"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Ostrom, 1970. The record is known from Cloverly Formation, Montana and Wyoming. Many partial skeletons, including juveniles and associated Deinonychus material.",
+    "evidence": "fossil",
+    "refs": [
+      "ostrom1970"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Many partial skeletons, including juveniles and associated Deinonychus material.",
+      "evidence": "fossil",
+      "refs": [
+        "ostrom1970",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Cloverly Formation, Montana and Wyoming records the species in the Early Cretaceous. The numeric range used here is ≈115–108 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The tail is long and deep, the forelimbs are moderately long, and the skull is small relative to the body. The skull was poorly known before the 2015 description.",
+      "evidence": "fossil",
+      "refs": [
+        "ostrom1970",
+        "v19-tenontosaurus-128",
+        "v19-tenontosaurus-129"
+      ]
+    },
+    {
+      "title": "Body plan",
+      "body": "The species is reconstructed as facultatively bipedal from limb proportions and the deep tail. No trackway or direct observation establishes the preferred gait.",
+      "evidence": "inference",
+      "refs": [
+        "v19-tenontosaurus-128"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Multiple Tenontosaurus specimens are associated with Deinonychus remains, but the association could reflect scavenging or independent accumulation. It does not demonstrate a predator-prey encounter or social behaviour.",
+    "evidence": "inference",
+    "refs": [
+      "ostrom1970",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from many partial skeletons, including juveniles and associated deinonychus material. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "ostrom1970",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "ostrom1970",
+    "pbdb",
+    "paul2016",
+    "v19-tenontosaurus-127",
+    "v19-tenontosaurus-128",
+    "v19-tenontosaurus-129",
+    "v19-tenontosaurus-130",
+    "maxwell1995",
+    "roach2007"
+  ],
+  "related": [
+    "iguanodon",
+    "dryosaurus",
+    "camptosaurus"
+  ],
+  "confidenceNote": "The growth series is well sampled: histology shows rapid early growth, sustained growth through subadults, and an extended slow-growth phase before maturity. The skull was poorly known until the 2015 description. The association with Deinonychus is not proof of predation.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Facultatively bipedal; quadrupedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Cloverly Formation, Montana and Wyoming",
+  "locality": [
+    "Cloverly Formation, Montana and Wyoming"
+  ],
+  "researchStatus": "partially-verified"
+}

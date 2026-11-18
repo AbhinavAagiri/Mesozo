@@ -1,0 +1,216 @@
+{
+  "slug": "giganotosaurus",
+  "scientificName": "Giganotosaurus carolinii",
+  "commonName": "Giganotosaurus",
+  "namedBy": "Coria & Salgado, 1995",
+  "group": "Theropoda · Carcharodontosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Cenomanian",
+  "ageMa": [
+    99.6,
+    95
+  ],
+  "ageLabel": "≈99.6–95 Ma",
+  "region": [
+    "Argentina"
+  ],
+  "regionKeys": [
+    "South America"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "length": "≈13 m (estimate)",
+  "mass": "≈6–8 t (most estimates; higher models exist)",
+  "sizeNote": "No complete skeleton is known. The holotype is about 70% complete; a larger referred dentary suggests some individuals were bigger. Most volumetric and limb-based estimates put the holotype around 6–8 tonnes, while some older models reach about 14 tonnes. These are modelled ranges, not measurements.",
+  "image": "giganotosaurus-living",
+  "featured": false,
+  "tagline": "A giant carcharodontosaurid from Patagonia, known from a partial skeleton and a formidable set of blade-like teeth.",
+  "summary": "Giganotosaurus carolinii is a large carcharodontosaurid theropod from the Cenomanian of Patagonia. It is known from a partial skeleton from the Candeleros Formation and from referred jaw material. Its skull was long and low, its teeth were laterally compressed and serrated, and its forelimbs were short but functional. The species is important for understanding the diversity of giant predatory dinosaurs outside the tyrannosaur lineage.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Tetanurae"
+    },
+    {
+      "rank": "Superfamily",
+      "value": "Allosauroidea"
+    },
+    {
+      "rank": "Family",
+      "value": "Carcharodontosauridae"
+    },
+    {
+      "rank": "Subfamily",
+      "value": "Carcharodontosaurinae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Giganotosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "G. carolinii"
+    }
+  ],
+  "discovery": {
+    "body": "The first specimen was discovered in 1993 by Rubén Carolini near Villa El Chocón in Neuquén Province, Argentina, in the Candeleros Formation. Coria and Salgado named the species in 1995. The holotype, MUCPv-CH1, preserves a partial skull, axial skeleton, pelvis and hind limbs, and is often described as about 70% complete. A larger dentary, MUCPv-95, was referred to the species and has been used in discussions of its maximum size.",
+    "evidence": "fossil",
+    "refs": [
+      "coria1995",
+      "pbdbGiganotosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "A partial skeleton from Patagonia",
+      "body": "MUCPv-CH1 comes from the Cenomanian Candeleros Formation and preserves a substantial part of the skull and postcranial skeleton. The specimen is the principal basis for the species' anatomy. The formation is exposed in the Neuquén Basin and represents fluvial and aeolian settings.",
+      "evidence": "fossil",
+      "refs": [
+        "coria1995",
+        "pbdbGiganotosaurus"
+      ]
+    },
+    {
+      "title": "Blade-like, serrated teeth",
+      "body": "The upper and lower jaws carry laterally compressed teeth with serrated edges. This tooth form is characteristic of carcharodontosaurids and is consistent with slicing flesh, but it does not identify particular prey or a hunting method.",
+      "evidence": "fossil",
+      "refs": [
+        "coria1995",
+        "nhmGiganotosaurus"
+      ]
+    },
+    {
+      "title": "Size and growth",
+      "body": "The holotype is a large individual, and the referred dentary MUCPv-95 is larger still. Estimates of maximum length and mass vary because no complete skeleton is known and different methods reconstruct missing parts differently. Most published estimates for the holotype fall between about 6 and 8 tonnes; a 13.8-tonne figure comes from a different model and should not be treated as a measurement. The figures here are estimates, not direct measurements of a complete animal.",
+      "evidence": "inference",
+      "refs": [
+        "coria1995",
+        "mazzetta2004",
+        "nhmGiganotosaurus",
+        "pbdbGiganotosaurus"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Skull and jaws",
+      "body": "The skull is long, low and deep at the back, with large openings for jaw muscles and a narrow snout. The lower jaw is robust. The preserved skull material is incomplete, so reconstructions of the snout and jaw muscles combine several specimens and comparisons with close relatives.",
+      "evidence": "inference",
+      "refs": [
+        "coria1995",
+        "nhmGiganotosaurus"
+      ]
+    },
+    {
+      "title": "Forelimbs",
+      "body": "The forelimbs are short relative to the hind limbs but retain three functional fingers and large claws. They are not reduced to the extent seen in tyrannosaurids. Their range of motion and possible use are inferred from anatomy, not observed behaviour.",
+      "evidence": "inference",
+      "refs": [
+        "coria1995"
+      ]
+    },
+    {
+      "title": "Tail and balance",
+      "body": "The tail is long and muscular, with a broad base of attachment for the caudal muscles. In a bipedal animal, the tail counterbalances the trunk and head. The preserved caudal series is incomplete, so the reconstructed tail profile is an inference from related theropods.",
+      "evidence": "inference",
+      "refs": [
+        "coria1995"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The skull and serrated teeth are consistent with a predatory, flesh-slicing diet, but no gut contents, coprolites or tracks are tied to the species. Pack hunting and sauropod predation are hypotheses, not established behaviours.",
+    "evidence": "debate",
+    "refs": [
+      "coria1995",
+      "mazzetta2004"
+    ]
+  },
+  "reconstruction": {
+    "body": "The image on this dossier is an artistic life reconstruction with a white background removed for display. It is not a photograph of a fossil and it is not fossil evidence. The body outline follows carcharodontosaurid skeletal reconstructions, but soft tissues, skin colour and integument are not preserved. Different artists and researchers reconstruct the animal's proportions differently.",
+    "evidence": "reconstruction",
+    "refs": [
+      "coria1995",
+      "nhmGiganotosaurus"
+    ]
+  },
+  "references": [
+    "coria1995",
+    "mazzetta2004",
+    "nhmGiganotosaurus",
+    "pbdbGiganotosaurus",
+    "coria2002",
+    "paulina2020"
+  ],
+  "related": [
+    "spinosaurus",
+    "carnotaurus",
+    "allosaurus",
+    "tyrannosaurus"
+  ],
+  "relationships": [
+    {
+      "slug": "spinosaurus",
+      "kind": "period",
+      "reason": "Both are recorded from overlapping numerical age ranges in the early Late Cretaceous, but Giganotosaurus is known from South America and Spinosaurus from North Africa. Temporal overlap is not evidence that they met."
+    },
+    {
+      "slug": "carnotaurus",
+      "kind": "region",
+      "reason": "Both are known from Argentina, but from different parts of the Cretaceous. This is a geographic comparison, not evidence of coexistence."
+    },
+    {
+      "slug": "allosaurus",
+      "kind": "clade",
+      "reason": "Both belong to Allosauroidea, a broad theropod group, but they are separated by tens of millions of years. This is a distant relationship, not a close family link."
+    }
+  ],
+  "confidenceNote": "The skull and postcranium are well supported, but the skeleton is incomplete and size estimates vary widely. The central estimate is 6–8 tonnes, not a single 13.8-tonne figure. Hunting behaviour and social structure are not established.",
+  "updated": "2026-11-17",
+  "dietEvidence": {
+    "body": "The dentition is consistent with a predatory, flesh-slicing diet: the teeth are laterally compressed, recurved and serrated. Direct evidence of prey is absent, and no stomach contents are known.",
+    "evidence": "inference",
+    "refs": [
+      "coria1995",
+      "mazzetta2004"
+    ]
+  },
+  "sizeRefs": [
+    "coria1995",
+    "mazzetta2004",
+    "nhmGiganotosaurus"
+  ],
+  "genus": "Giganotosaurus",
+  "epithet": "carolinii",
+  "status": "Extinct",
+  "added": "2026-11-15",
+  "accession": "MZ-013",
+  "locomotion": "Bipedal",
+  "habitat": "Fluvial and aeolian settings",
+  "ancientContext": "Candeleros Formation, Neuquén Basin, Patagonia",
+  "locality": [
+    "Villa El Chocón, Neuquén Province, Argentina"
+  ]
+}

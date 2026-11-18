@@ -1,0 +1,1890 @@
+/* ================================================================== */
+/* MESOZO — Quarry Light                                              */
+/* A museum catalogue built from limestone, basalt, field light and   */
+/* specimen type. This layer never touches the protected opening.     */
+/* ================================================================== */
+
+:root {
+  --v2-stone: #d9dbd2;
+  --v2-stone-deep: #c7cbc0;
+  --v2-sheet: #e5e6de;
+  --v2-paper: #eff0e9;
+  --v2-basalt: #151a17;
+  --v2-basalt-raised: #202722;
+  --v2-ink: #1b211d;
+  --v2-muted: #4a5348;
+  --v2-quiet: #454d43;
+  --v2-line: rgb(24 31 26 / 0.16);
+  --v2-line-strong: rgb(24 31 26 / 0.32);
+  --v2-line-light: rgb(231 233 223 / 0.18);
+  --v2-accent: #3e5f4b;
+  --v2-accent-deep: #2b4636;
+  --v2-accent-light: #d7e5db;
+  --v2-rust: #8b5a45;
+  --v2-specimen: 'Bodoni Moda Variable', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  --v2-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+body {
+  background: var(--v2-stone);
+  color: var(--v2-ink);
+}
+
+::selection {
+  background: var(--v2-accent);
+  color: var(--v2-paper);
+}
+
+:focus-visible {
+  outline-color: var(--v2-accent);
+}
+
+/* The protected opening is outside this scope and inherits none of it. */
+.page,
+.home-after,
+.spx,
+.dsc-record {
+  --chalk: #d9dbd2;
+  --bone: #c8ccc1;
+  --bone-deep: #b8bcb1;
+  --ink: #1a211c;
+  --ink-soft: #232a24;
+  --ink-raised: #2a322b;
+  --fossil: #8a9288;
+  --fossil-deep: #464e45;
+  --orange: #3e5f4b;
+  --orange-ink: #2d4a39;
+  --orange-on-dark: #b3cdba;
+  --vermilion: #8b5a45;
+  --slate: #4e666b;
+  --paper: #d9dbd2;
+  --paper-deep: #c8ccc1;
+  --ink-mute: #454d44;
+  --line: rgb(26 33 28 / 0.16);
+  --line-strong: rgb(26 33 28 / 0.32);
+  --line-light: rgb(233 235 225 / 0.18);
+  --rule: var(--line);
+  --rule-strong: var(--line-strong);
+  --font-display: var(--v2-specimen);
+  --font-serif: var(--v2-specimen);
+  --geo-carbon: #151a17;
+  --geo-graphite: #202722;
+  --geo-shale: #2b332c;
+  --geo-mineral: #8d948b;
+  --geo-limestone: #c8ccc1;
+  --geo-bone: #d9dbd2;
+  --geo-paper: #e5e6de;
+  --geo-ink: #1b211d;
+  --geo-ivory: #eff0e9;
+  --geo-rust: #506a59;
+  --geo-rust-bright: #a8c3b2;
+  --geo-copper: #3e5f4b;
+  --geo-ochre: #a8ae9c;
+  --geo-sage: #788b7d;
+  background: var(--chalk);
+  color: var(--ink);
+}
+
+.home-after {
+  position: relative;
+  /* No transform animation here: it would create a containing block and
+     misposition the pinned, horizontally-scrolling specimen gallery. */
+}
+
+.page,
+.spx,
+.dsc-record {
+  animation: mesozo-enter 620ms var(--v2-ease) both;
+}
+
+@keyframes mesozo-enter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.page .serif,
+.home-after .serif,
+.spx .serif,
+.dsc-record .serif {
+  font-family: var(--v2-specimen);
+  font-weight: 450;
+  letter-spacing: -0.02em;
+  line-height: 0.98;
+}
+
+.page .label,
+.home-after .label,
+.spx .label,
+.dsc-record .label {
+  font-size: 0.62rem;
+  letter-spacing: 0.11em;
+}
+
+.page .lead,
+.home-after .lead,
+.spx .lead,
+.dsc-record .lead {
+  font-family: var(--font-sans);
+  font-size: clamp(1.05rem, 1.25vw, 1.25rem);
+  line-height: 1.55;
+  letter-spacing: -0.005em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page,
+  .home-after,
+  .spx,
+  .dsc-record {
+    animation: none;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Shared controls                                                     */
+/* ------------------------------------------------------------------ */
+
+.button-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  min-height: 2.5rem;
+  padding: 0 0 0.35rem;
+  border-bottom: 1px solid var(--v2-line-strong);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition:
+    color 220ms var(--v2-ease),
+    border-color 220ms var(--v2-ease);
+}
+
+.button-line:hover {
+  color: var(--v2-accent);
+  border-color: var(--v2-accent);
+}
+
+.page .text-link,
+.home-after .text-link {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  border-color: var(--v2-line-strong);
+}
+
+.page .eyebrow::before {
+  width: 5px;
+  height: 5px;
+  background: var(--v2-accent);
+  border-radius: 50%;
+}
+
+/* ------------------------------------------------------------------ */
+/* Masthead — inner pages only; the home opening is untouched          */
+/* ------------------------------------------------------------------ */
+
+.header[data-home='false'] {
+  border-bottom: 1px solid var(--v2-line);
+  background: rgb(217 219 210 / 0.97);
+  color: var(--v2-ink);
+  transition:
+    background 300ms var(--v2-ease),
+    border-color 300ms var(--v2-ease);
+}
+
+.header[data-home='false'][data-lifted='true'] {
+  background: var(--v2-stone);
+  backdrop-filter: none;
+  border-bottom-color: var(--v2-line-strong);
+}
+
+.header[data-home='false'][data-dark='true'],
+.header[data-home='false'][data-dark='true'][data-lifted='true'] {
+  background: var(--v2-basalt);
+  color: var(--v2-paper);
+  border-bottom-color: var(--v2-line-light);
+}
+
+.header[data-home='false'] .wordmark__mark {
+  color: var(--v2-accent);
+}
+
+.header[data-home='false'][data-dark='true'] .wordmark__mark {
+  color: var(--v2-accent-light);
+}
+
+.header[data-home='false'] .wordmark__text {
+  font-size: 0.76rem;
+  letter-spacing: 0.28em;
+  font-weight: 550;
+}
+
+.header[data-home='false'] .header__tagline {
+  font-family: var(--font-sans);
+  font-size: 0.56rem;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: var(--v2-muted);
+}
+
+.header[data-home='false'][data-dark='true'] .header__tagline {
+  color: rgb(233 235 225 / 0.58);
+}
+
+.header[data-home='false'] .nav {
+  gap: clamp(0.8rem, 1.8vw, 1.7rem);
+}
+
+.header[data-home='false'] .nav__link {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--v2-ink);
+}
+
+.header[data-home='false'] .nav__index {
+  font-family: var(--font-mono);
+  font-size: 0.46rem;
+  letter-spacing: 0.04em;
+  color: var(--v2-quiet);
+}
+
+.header[data-home='false'] .nav__link::after {
+  height: 1px;
+  background: var(--v2-accent);
+  transition: transform 300ms var(--v2-ease);
+}
+
+.header[data-home='false'] .nav__link:hover {
+  color: var(--v2-accent-deep);
+}
+
+.header[data-home='false'] .nav__link.is-active {
+  color: var(--v2-accent-deep);
+}
+
+.header[data-home='false'] .nav__link.is-active .nav__index {
+  color: var(--v2-accent);
+}
+
+.header[data-home='false'][data-dark='true'] .nav__link,
+.header[data-home='false'][data-dark='true'] .nav__link:not(.is-active) {
+  color: rgb(233 235 225 / 0.84);
+}
+
+.header[data-home='false'][data-dark='true'] .nav__link.is-active {
+  color: var(--v2-accent-light);
+}
+
+.header[data-home='false'][data-dark='true'] .nav__index {
+  color: rgb(233 235 225 / 0.5);
+}
+
+.header[data-home='false'] .header__search {
+  min-height: 1.95rem;
+  padding: 0.2rem 0.68rem;
+  border: 1px solid var(--v2-line-strong);
+  border-radius: 2px;
+  font-family: var(--font-sans);
+  font-size: 0.66rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.header[data-home='false'] .header__search:hover {
+  color: var(--v2-accent-deep);
+  border-color: var(--v2-accent);
+}
+
+.header[data-home='false'] .header__search-key {
+  padding-left: 0.4rem;
+  border-left-color: var(--v2-line);
+  font-family: var(--font-mono);
+  font-size: 0.54rem;
+  color: var(--v2-quiet);
+}
+
+.header[data-home='false'] .header__issue {
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: var(--v2-muted);
+}
+
+.header[data-home='false'][data-dark='true'] .header__search {
+  border-color: rgb(233 235 225 / 0.4);
+}
+
+.header[data-home='false'][data-dark='true'] .header__search-key,
+.header[data-home='false'][data-dark='true'] .header__issue {
+  color: rgb(233 235 225 / 0.55);
+}
+
+.header[data-home='false'] .menu-toggle {
+  border-radius: 2px;
+  border-color: var(--v2-line-strong);
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.header[data-home='false'][data-dark='true'] .menu-toggle {
+  border-color: rgb(233 235 225 / 0.4);
+}
+
+@media (max-width: 1180px) {
+  .header[data-home='false'] .header__issue {
+    display: none;
+  }
+}
+
+@media (max-width: 980px) {
+  .header[data-home='false'] .nav {
+    display: none;
+  }
+
+  .header[data-home='false'] .menu-toggle {
+    display: inline-flex;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Catalogue page header                                               */
+/* ------------------------------------------------------------------ */
+
+.phead {
+  position: relative;
+  padding-top: calc(var(--header-h) + clamp(2rem, 4vw, 3.6rem));
+  padding-bottom: clamp(2.2rem, 4.4vw, 4rem);
+  border-bottom: 1px solid var(--v2-line);
+  background: var(--v2-stone);
+  overflow: hidden;
+}
+
+.phead::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: min(30vw, 24rem);
+  border-left: 1px solid var(--v2-line);
+  pointer-events: none;
+}
+
+.phead__grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 10rem minmax(0, 1.25fr) minmax(17rem, 0.75fr);
+  gap: clamp(1.5rem, 4vw, 4.5rem);
+  align-items: start;
+}
+
+.phead__rail {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding-top: 0.5rem;
+  font-size: 0.68rem;
+  color: var(--v2-muted);
+}
+
+.phead__rail::before {
+  content: '';
+  width: 1.8rem;
+  height: 1px;
+  margin-bottom: 0.35rem;
+  background: var(--v2-accent);
+}
+
+.phead__index {
+  font-size: 0.62rem;
+  color: var(--v2-accent-deep);
+}
+
+.phead__kicker {
+  font-weight: 500;
+  color: var(--v2-ink);
+}
+
+.phead__edition {
+  margin-top: auto;
+  padding-top: 1.2rem;
+  font-size: 0.52rem;
+  letter-spacing: 0.08em;
+  color: var(--v2-quiet);
+}
+
+.phead__main {
+  min-width: 0;
+}
+
+.phead__title {
+  max-width: 16ch;
+  font-family: var(--v2-specimen);
+  font-size: clamp(3rem, 4.8vw, 5.4rem);
+  font-weight: 450;
+  line-height: 0.9;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+
+.phead__title em {
+  font-style: italic;
+  font-weight: 400;
+  color: inherit;
+}
+
+.phead__rule {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-top: clamp(1.4rem, 2.8vw, 2.4rem);
+}
+
+.phead__rule span {
+  height: 1px;
+  background: var(--v2-line);
+}
+
+.phead__rule span:nth-child(2) {
+  width: 76%;
+}
+
+.phead__rule span:nth-child(3) {
+  width: 48%;
+}
+
+.phead__aside {
+  align-self: end;
+  padding-top: 0.5rem;
+}
+
+.phead__intro {
+  max-width: 32ch;
+  font-size: clamp(0.98rem, 1.08vw, 1.12rem);
+  line-height: 1.58;
+  color: var(--v2-muted);
+}
+
+.phead__meta {
+  display: grid;
+  margin-top: clamp(1.4rem, 2.4vw, 2.2rem);
+  border-top: 1px solid var(--v2-line-strong);
+}
+
+.phead__meta > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: baseline;
+  padding-block: 0.52rem;
+  border-bottom: 1px solid var(--v2-line);
+}
+
+.phead__meta dt {
+  font-size: 0.58rem;
+  color: var(--v2-quiet);
+}
+
+.phead__meta dd {
+  font-size: 0.68rem;
+  text-align: right;
+  color: var(--v2-ink);
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 1080px) {
+  .phead__grid {
+    grid-template-columns: 7rem minmax(0, 1fr);
+  }
+
+  .phead__aside {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(14rem, 0.8fr);
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+
+  .phead__meta {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .phead {
+    padding-top: calc(var(--header-h) + 1.8rem);
+  }
+
+  .phead::after {
+    display: none;
+  }
+
+  .phead__grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.4rem;
+  }
+
+  .phead__rail {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.35rem 0.7rem;
+    padding-top: 0;
+  }
+
+  .phead__rail::before {
+    display: none;
+  }
+
+  .phead__edition {
+    margin-left: auto;
+    padding-top: 0;
+  }
+
+  .phead__title {
+    max-width: 12ch;
+    font-size: clamp(2.7rem, 12vw, 4rem);
+  }
+
+  .phead__aside {
+    grid-column: 1;
+    display: block;
+    margin-top: 0;
+  }
+
+  .phead__intro {
+    max-width: 42ch;
+  }
+
+  .phead__meta {
+    margin-top: 1.4rem;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Homepage — post-opening                                             */
+/* ------------------------------------------------------------------ */
+
+.home-after .ticker {
+  height: 2.85rem;
+  border-block: 1px solid var(--v2-line-light);
+  background: var(--v2-basalt);
+  color: var(--v2-paper);
+}
+
+.home-after .ticker__label {
+  border-right-color: var(--v2-line-light);
+  background: var(--v2-basalt);
+  font-family: var(--font-sans);
+  font-size: 0.58rem;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  color: var(--v2-accent-light);
+}
+
+.home-after .ticker__item {
+  font-family: var(--font-sans);
+  font-size: 0.64rem;
+  letter-spacing: 0.025em;
+  text-transform: none;
+  color: rgb(233 235 225 / 0.62);
+}
+
+.home-after .ticker__mark {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--v2-accent-light);
+}
+
+/* Deep time — core sample */
+
+.geo {
+  position: relative;
+  padding-block: clamp(4.6rem, 8vw, 8rem) clamp(3.4rem, 6vw, 5.4rem);
+  background-color: var(--v2-basalt);
+  background-image: url('/assets/img/texture/speckled-granite.jpg');
+  background-size: 640px;
+  background-blend-mode: soft-light;
+  color: var(--v2-paper);
+  overflow: hidden;
+}
+
+.geo::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-top: 1px solid rgb(233 235 225 / 0.1);
+  pointer-events: none;
+}
+
+.geo__masthead {
+  display: grid;
+  grid-template-columns: 9rem minmax(0, 1.4fr) minmax(18rem, 0.7fr);
+  gap: 1.4rem clamp(1.5rem, 4vw, 4.5rem);
+  align-items: start;
+  padding-bottom: clamp(2.2rem, 4vw, 3.4rem);
+  border-bottom: 1px solid var(--v2-line-light);
+}
+
+.geo__rail {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding-top: 0.55rem;
+  font-size: 0.7rem;
+  color: rgb(233 235 225 / 0.58);
+}
+
+.geo__rail .mono {
+  font-size: 0.58rem;
+  color: var(--v2-accent-light);
+}
+
+.geo__title {
+  max-width: 15ch;
+  font-family: var(--v2-specimen);
+  font-size: clamp(2.7rem, 5.5vw, 5.7rem);
+  font-weight: 450;
+  line-height: 0.92;
+  letter-spacing: -0.035em;
+  color: var(--v2-paper);
+}
+
+.geo__intro {
+  max-width: 35ch;
+  padding-top: 0.35rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: rgb(233 235 225 / 0.66);
+}
+
+.geo__scale {
+  margin-top: 1.9rem;
+}
+
+.geo__scale-bar {
+  display: flex;
+  height: 0.5rem;
+  border: 1px solid rgb(233 235 225 / 0.2);
+}
+
+.geo__scale-bar span {
+  display: block;
+  border-right: 1px solid rgb(233 235 225 / 0.18);
+  background: rgb(233 235 225 / 0.08);
+}
+
+.geo__scale-bar span:last-child {
+  border-right: 0;
+}
+
+.geo__scale-bar .is-mesozoic {
+  background: var(--v2-accent);
+}
+
+.geo__scale-labels {
+  display: grid;
+  grid-template-columns: 38.1% 34.5% 27.4%;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+  font-size: 0.48rem;
+  letter-spacing: 0.02em;
+  color: rgb(233 235 225 / 0.44);
+}
+
+.geo__scale-labels span:nth-child(2) {
+  color: var(--v2-accent-light);
+}
+
+.geo__core {
+  display: grid;
+  grid-template-columns: minmax(12.5rem, 0.36fr) minmax(0, 1.64fr);
+  gap: clamp(2rem, 4vw, 4rem);
+  margin-top: clamp(2rem, 4vw, 3.6rem);
+}
+
+.geo__column {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+
+.geo__column-label {
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid var(--v2-line-light);
+  font-size: 0.6rem;
+  color: rgb(233 235 225 / 0.46);
+}
+
+.geo__periods {
+  border-bottom: 1px solid var(--v2-line-light);
+}
+
+.geo__period {
+  position: relative;
+  display: grid;
+  grid-template-columns: 0.26rem minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+  min-height: 5.1rem;
+  padding: 0.8rem 0.4rem 0.8rem 0;
+  border-bottom: 1px solid var(--v2-line-light);
+  text-align: left;
+  color: rgb(233 235 225 / 0.62);
+  transition:
+    color 280ms var(--v2-ease),
+    background 280ms var(--v2-ease);
+}
+
+.geo__period:last-child {
+  border-bottom: 0;
+}
+
+.geo__period-band {
+  align-self: stretch;
+  width: 2px;
+  background: transparent;
+  transition: background 280ms var(--v2-ease);
+}
+
+.geo__period-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.geo__period-name {
+  font-family: var(--v2-specimen);
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  line-height: 1;
+}
+
+.geo__period-range {
+  font-size: 0.54rem;
+  color: rgb(233 235 225 / 0.42);
+}
+
+.geo__period-count {
+  align-self: start;
+  padding-top: 0.18rem;
+  font-size: 0.56rem;
+  color: rgb(233 235 225 / 0.38);
+}
+
+.geo__period:hover {
+  color: var(--v2-paper);
+  background: rgb(233 235 225 / 0.035);
+}
+
+.geo__period.is-active {
+  color: var(--v2-paper);
+  background: rgb(233 235 225 / 0.05);
+}
+
+.geo__period.is-active .geo__period-band {
+  background: var(--v2-accent-light);
+}
+
+.geo__period.is-active .geo__period-range,
+.geo__period.is-active .geo__period-count {
+  color: var(--v2-accent-light);
+}
+
+.geo__column-note {
+  margin-top: auto;
+  padding-top: 1.2rem;
+  max-width: 28ch;
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  line-height: 1.6;
+  color: rgb(233 235 225 / 0.38);
+}
+
+.geo__stage {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(17rem, 0.95fr);
+  gap: clamp(1.6rem, 3vw, 2.8rem);
+  min-width: 0;
+}
+
+.geo__figure {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.geo__figure img {
+  width: 100%;
+  height: clamp(21rem, 36vw, 34rem);
+  object-fit: cover;
+  filter: saturate(0.58) contrast(1.04);
+}
+
+.geo__caption {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding-top: 0.55rem;
+  border-top: 1px solid var(--v2-line-light);
+  font-family: var(--font-sans);
+  font-size: 0.56rem;
+  line-height: 1.5;
+  color: rgb(233 235 225 / 0.44);
+}
+
+.geo__caption span:first-child {
+  color: var(--v2-accent-light);
+}
+
+.geo__readout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 0.2rem;
+}
+
+.geo__readout-index {
+  font-size: 0.62rem;
+  color: var(--v2-accent-light);
+}
+
+.geo__readout-title {
+  margin-top: 0.65rem;
+  max-width: 16ch;
+  font-family: var(--v2-specimen);
+  font-size: clamp(1.75rem, 2.2vw, 2.25rem);
+  font-weight: 450;
+  line-height: 1.02;
+  letter-spacing: -0.025em;
+  color: var(--v2-paper);
+}
+
+.geo__readout-summary {
+  max-width: 43ch;
+  margin-top: 1.2rem;
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: rgb(233 235 225 / 0.68);
+}
+
+.geo__facts {
+  display: grid;
+  gap: 1rem;
+  width: 100%;
+  margin-top: 1.4rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--v2-line-light);
+}
+
+.geo__facts > div {
+  display: grid;
+  grid-template-columns: 5.3rem minmax(0, 1fr);
+  gap: 0.8rem;
+}
+
+.geo__facts dt {
+  font-size: 0.56rem;
+  color: rgb(233 235 225 / 0.4);
+}
+
+.geo__facts dd {
+  max-width: 34ch;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: rgb(233 235 225 / 0.72);
+}
+
+.geo__life {
+  width: 100%;
+  margin-top: 1.25rem;
+  border-top: 1px solid var(--v2-line-light);
+}
+
+.geo__life li {
+  position: relative;
+  padding: 0.55rem 0 0.55rem 1rem;
+  border-bottom: 1px solid var(--v2-line-light);
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: rgb(233 235 225 / 0.62);
+}
+
+.geo__life li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 1.02em;
+  width: 4px;
+  height: 1px;
+  background: var(--v2-accent-light);
+}
+
+.geo__enter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid rgb(233 235 225 / 0.38);
+  font-size: 0.74rem;
+  color: var(--v2-paper);
+  transition:
+    color 220ms var(--v2-ease),
+    border-color 220ms var(--v2-ease);
+}
+
+.geo__enter:hover {
+  color: var(--v2-accent-light);
+  border-color: var(--v2-accent-light);
+}
+
+.geo__foot {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2rem;
+  align-items: end;
+  margin-top: clamp(2.6rem, 5vw, 4.4rem);
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--v2-line-light);
+}
+
+.geo__not-dinosaurs dl {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 0.7rem;
+}
+
+.geo__not-dinosaurs dt {
+  font-size: 0.78rem;
+  font-weight: 550;
+  color: rgb(233 235 225 / 0.82);
+}
+
+.geo__not-dinosaurs dd {
+  margin-top: 0.2rem;
+  max-width: 30ch;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: rgb(233 235 225 / 0.44);
+}
+
+.geo__foot-label {
+  font-size: 0.58rem;
+  color: rgb(233 235 225 / 0.38);
+}
+
+.geo__source {
+  max-width: 21ch;
+  font-family: var(--font-sans);
+  font-size: 0.54rem;
+  line-height: 1.5;
+  text-align: right;
+  color: rgb(233 235 225 / 0.36);
+}
+
+.geo__source a {
+  border-bottom: 1px solid currentColor;
+}
+
+@media (max-width: 1180px) {
+  .geo__masthead {
+    grid-template-columns: 6rem minmax(0, 1fr);
+  }
+
+  .geo__intro {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(15rem, 0.8fr);
+    gap: 2rem;
+    max-width: none;
+  }
+
+  .geo__scale {
+    margin-top: 0;
+  }
+
+  .geo__core {
+    grid-template-columns: minmax(13rem, 0.5fr) minmax(0, 1.5fr);
+  }
+
+  .geo__stage {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .geo__figure img {
+    height: clamp(18rem, 38vw, 27rem);
+  }
+
+  .geo__readout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.3fr) minmax(13rem, 0.7fr);
+    gap: 0 2rem;
+  }
+
+  .geo__facts {
+    margin-top: 0.6rem;
+  }
+
+  .geo__life {
+    grid-column: 1;
+  }
+
+  .geo__enter {
+    grid-column: 2;
+    grid-row: 3 / 5;
+    align-self: end;
+    justify-self: start;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .geo__masthead,
+  .geo__intro,
+  .geo__core,
+  .geo__readout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .geo__masthead .geo__rail {
+    grid-column: 1;
+  }
+
+  .geo__intro {
+    grid-column: 1;
+    display: block;
+  }
+
+  .geo__scale {
+    margin-top: 1.4rem;
+  }
+
+  .geo__core {
+    gap: 1.8rem;
+  }
+
+  .geo__column-note {
+    margin-top: 1rem;
+  }
+
+  .geo__periods {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    border: 1px solid var(--v2-line-light);
+  }
+
+  .geo__period {
+    grid-template-columns: minmax(0, 1fr) auto;
+    min-height: 4.4rem;
+    padding: 0.8rem;
+    border-right: 1px solid var(--v2-line-light);
+    border-bottom: 0;
+  }
+
+  .geo__period:last-child {
+    border-right: 0;
+  }
+
+  .geo__period-band {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: auto;
+    bottom: 0;
+    width: auto;
+    height: 2px;
+  }
+
+  .geo__period-name {
+    font-size: 1.35rem;
+  }
+
+  .geo__period-count {
+    display: none;
+  }
+
+  .geo__figure img {
+    height: clamp(15rem, 52vw, 24rem);
+  }
+
+  .geo__readout {
+    display: flex;
+  }
+
+  .geo__facts {
+    margin-top: 1.2rem;
+  }
+
+  .geo__life {
+    margin-top: 1.2rem;
+  }
+
+  .geo__enter {
+    margin-top: 1.4rem;
+  }
+
+  .geo__foot,
+  .geo__not-dinosaurs dl {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .geo__foot {
+    gap: 1.5rem;
+  }
+
+  .geo__source {
+    max-width: none;
+    text-align: left;
+  }
+}
+
+@media (max-width: 520px) {
+  .geo__periods {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .geo__period {
+    border-right: 0;
+    border-bottom: 1px solid var(--v2-line-light);
+  }
+
+  .geo__period:last-child {
+    border-bottom: 0;
+  }
+
+  .geo__period-band {
+    grid-column: 1 / -1;
+    width: 2px;
+    height: auto;
+    inset: 0 auto 0 0;
+    left: 0;
+  }
+
+  .geo__scale-labels {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+
+  .geo__scale-bar {
+    height: 0.4rem;
+  }
+}
+
+/* Existing homepage sections, re-cut for the catalogue */
+
+.home-after .section-head {
+  grid-template-columns: minmax(7.5rem, 0.25fr) minmax(0, 1fr);
+  gap: 1rem clamp(1.5rem, 4vw, 4rem);
+  padding-bottom: clamp(1.5rem, 3vw, 2.4rem);
+  border-bottom-color: var(--v2-line);
+}
+
+.home-after .section-head__title {
+  font-family: var(--v2-specimen);
+  max-width: 18ch;
+  font-size: clamp(2.5rem, 4.7vw, 4.7rem);
+  font-weight: 450;
+  line-height: 0.96;
+  letter-spacing: -0.03em;
+}
+
+.home-after .section-head__aside {
+  grid-template-columns: minmax(7.5rem, 0.25fr) minmax(0, 1fr);
+  gap: clamp(1.5rem, 4vw, 4rem);
+}
+
+.home-after .section-head__aside p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--v2-muted);
+}
+
+.home-after .section-head__index .label {
+  font-size: 0.56rem;
+  color: var(--v2-quiet);
+  text-transform: none;
+  letter-spacing: 0.04em;
+}
+
+.home-after .section-head__index .label:first-child {
+  color: var(--v2-accent-deep);
+}
+
+/* Specimens */
+
+.home-after .specimens {
+  background: var(--v2-stone);
+}
+
+.home-after .specimens__head {
+  grid-template-columns: 9rem minmax(0, 1fr) auto;
+  align-items: start;
+}
+
+.home-after .specimens__title {
+  font-family: var(--v2-specimen);
+  font-size: clamp(2.7rem, 5vw, 5rem);
+  font-weight: 450;
+  letter-spacing: -0.035em;
+}
+
+.home-after .specimens__intro {
+  max-width: 44ch;
+  font-size: 0.88rem;
+  color: var(--v2-muted);
+}
+
+.home-after .specimens__all {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.home-after .specimen__figure {
+  background: var(--v2-basalt);
+  border: 0;
+  padding: 6%;
+}
+
+.home-after .specimen__figure img {
+  filter: drop-shadow(0 28px 24px rgb(0 0 0 / 0.32));
+}
+
+.home-after .specimen__figure-index {
+  top: 0.8rem;
+  left: 0.9rem;
+  right: auto;
+  color: rgb(233 235 225 / 0.52);
+}
+
+.home-after .specimen__meta {
+  border-top-color: var(--v2-line-strong);
+}
+
+.home-after .specimen__name {
+  font-family: var(--v2-specimen);
+  font-weight: 450;
+  letter-spacing: -0.025em;
+}
+
+.home-after .specimen__sci {
+  font-family: var(--font-sans);
+  letter-spacing: 0;
+}
+
+.home-after .specimen__period {
+  font-family: var(--font-sans);
+  font-size: 0.62rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.home-after .specimen__arrow {
+  color: var(--v2-accent);
+}
+
+.home-after .specimen__end-link {
+  font-family: var(--v2-specimen);
+}
+
+.home-after .specimens__foot {
+  border-top-color: var(--v2-line-strong);
+}
+
+.home-after .specimens__foot .label {
+  font-family: var(--font-sans);
+  font-size: 0.64rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* Evidence */
+
+.home-after .evidence {
+  background: var(--v2-stone-deep);
+  border-block-color: var(--v2-line);
+}
+
+.home-after .evidence__title {
+  font-family: var(--v2-specimen);
+  font-size: clamp(2.6rem, 4.8vw, 4.8rem);
+  font-weight: 450;
+  letter-spacing: -0.03em;
+}
+
+.home-after .evidence__title--indent {
+  padding-left: 0;
+  font-style: normal;
+  color: var(--v2-muted);
+}
+
+.home-after .evidence__quote {
+  max-width: 24ch;
+  padding-top: 1.1rem;
+  border-top-color: var(--v2-line-strong);
+  font-family: var(--v2-specimen);
+  font-size: clamp(1.55rem, 2.4vw, 2.3rem);
+  line-height: 1.08;
+  font-style: normal;
+}
+
+.home-after .evidence__image {
+  background: var(--v2-paper);
+  border-color: var(--v2-line-strong);
+}
+
+.home-after .evidence__hotspot {
+  border-radius: 50%;
+  border-color: var(--v2-ink);
+  background: var(--v2-paper);
+}
+
+.home-after .evidence__hotspot::after {
+  inset: 5px;
+  border-radius: 50%;
+  background: var(--v2-accent);
+}
+
+.home-after .evidence__hotspot.is-active {
+  background: var(--v2-basalt);
+  border-color: var(--v2-basalt);
+}
+
+.home-after .evidence__structure {
+  font-family: var(--v2-specimen);
+  font-weight: 450;
+}
+
+.home-after .evidence__key li {
+  grid-template-columns: 11rem minmax(0, 1fr);
+  font-size: 0.8rem;
+  border-bottom-color: var(--v2-line);
+}
+
+/* Reconstruction */
+
+.home-after .recon {
+  background-color: var(--v2-basalt);
+  background-image: url('/assets/img/texture/speckled-granite.jpg');
+  background-size: 640px;
+  background-blend-mode: soft-light;
+}
+
+.home-after .recon .section-head__title {
+  font-family: var(--v2-specimen);
+  font-weight: 450;
+}
+
+.home-after .recon .section-head__aside p,
+.home-after .recon .section-head__index {
+  color: rgb(233 235 225 / 0.54);
+}
+
+.home-after .recon__step-year {
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  letter-spacing: 0;
+}
+
+.home-after .recon__step-year::before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-right: 0.5rem;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  vertical-align: 0.1em;
+}
+
+.home-after .recon__step.is-active .recon__step-year::before {
+  background: var(--v2-accent-light);
+  border-color: var(--v2-accent-light);
+}
+
+.home-after .recon__step.is-active .recon__step-line {
+  background: var(--v2-accent-light);
+}
+
+.home-after .recon__image {
+  background: var(--v2-stone-deep);
+  border: 0;
+}
+
+.home-after .recon__title {
+  font-family: var(--v2-specimen);
+  font-weight: 450;
+}
+
+.home-after .recon__hypothesis-head h4 {
+  font-family: var(--v2-specimen);
+  font-weight: 450;
+}
+
+.home-after .recon__status {
+  color: var(--v2-accent-light);
+}
+
+.home-after .recon__step-line {
+  height: 1px;
+}
+
+.home-after .recon__hypothesis {
+  border-top-color: var(--v2-line-light);
+}
+
+/* Discoveries */
+
+.home-after .discoveries {
+  background: var(--v2-stone);
+}
+
+.home-after .discovery-list {
+  border-top-color: var(--v2-line-strong);
+}
+
+.home-after .discovery-row {
+  grid-template-columns: 5.4rem minmax(0, 1fr) minmax(11rem, 0.42fr) 1rem;
+  border-bottom-color: var(--v2-line);
+}
+
+.home-after .discovery-row:hover {
+  background: var(--v2-sheet);
+}
+
+.home-after .discovery-row__year {
+  font-size: 0.68rem;
+  color: var(--v2-accent-deep);
+}
+
+.home-after .discovery-row__title {
+  font-family: var(--v2-specimen);
+  font-size: clamp(1.25rem, 1.8vw, 1.75rem);
+  font-weight: 450;
+  letter-spacing: -0.015em;
+}
+
+.home-after .discovery-row__summary {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--v2-muted);
+}
+
+.home-after .discovery-row__meta .label {
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--v2-accent-deep);
+}
+
+.home-after .discovery-row__meta .mono {
+  font-family: var(--v2-specimen);
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.home-after .discoveries__foot .mono {
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  letter-spacing: 0;
+}
+
+/* Closing */
+
+.home-after .closing {
+  background-color: var(--v2-basalt);
+  background-image: url('/assets/img/texture/speckled-granite.jpg');
+  background-size: 700px;
+  background-blend-mode: soft-light;
+}
+
+.home-after .closing__strata {
+  height: 1px;
+  background: var(--v2-line-light);
+}
+
+.home-after .closing__eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.66rem;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: var(--v2-accent-light);
+}
+
+.home-after .closing__eyebrow::before {
+  border-radius: 50%;
+  background: var(--v2-accent-light);
+}
+
+.home-after .closing__statement {
+  font-family: var(--v2-specimen);
+  font-weight: 450;
+  max-width: 20ch;
+  letter-spacing: -0.038em;
+}
+
+.home-after .closing__statement em {
+  color: var(--v2-accent-light);
+}
+
+.home-after .closing__foot {
+  align-items: end;
+  border-top-color: var(--v2-line-light);
+}
+
+.home-after .closing__note {
+  color: rgb(233 235 225 / 0.54);
+}
+
+.home-after .closing__cta {
+  padding: 0.8rem 0;
+  border-top: 1px solid rgb(233 235 225 / 0.32);
+  border-bottom: 1px solid rgb(233 235 225 / 0.32);
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.home-after .closing__journal {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  letter-spacing: 0;
+  text-transform: none;
+  color: rgb(233 235 225 / 0.58);
+}
+
+@media (max-width: 900px) {
+  .home-after .specimens__head {
+    grid-template-columns: minmax(7rem, 0.3fr) minmax(0, 1fr);
+  }
+
+  .home-after .specimens__head .section-head__index {
+    grid-row: 1 / 3;
+  }
+
+  .home-after .specimens__title,
+  .home-after .specimens__intro {
+    grid-column: 2;
+  }
+
+  .home-after .specimens__all {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .home-after .section-head,
+  .home-after .section-head__aside,
+  .home-after .specimens__head {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .home-after .specimens__head .section-head__index {
+    grid-row: auto;
+  }
+
+  .home-after .specimens__title,
+  .home-after .specimens__intro {
+    grid-column: 1;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Footer                                                              */
+/* ------------------------------------------------------------------ */
+
+.footer {
+  position: relative;
+  padding-top: clamp(3.4rem, 6vw, 6rem);
+  background-color: var(--v2-basalt);
+  color: var(--v2-paper);
+  border-top: 1px solid rgb(233 235 225 / 0.12);
+}
+
+.footer .shell {
+  width: min(100% - (var(--gutter) * 2), 1600px);
+}
+
+.footer__top {
+  display: grid;
+  grid-template-columns: minmax(22rem, 1fr) minmax(34rem, 0.98fr);
+  gap: clamp(2.5rem, 6vw, 7rem);
+  align-items: start;
+  padding-bottom: clamp(2.8rem, 5vw, 4.6rem);
+}
+
+.footer__eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  letter-spacing: 0.06em;
+  color: var(--v2-accent-light);
+}
+
+.footer__eyebrow::before {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--v2-accent-light);
+}
+
+.footer__statement {
+  max-width: 15ch;
+  margin-top: 1.2rem;
+  font-family: var(--v2-specimen);
+  font-size: clamp(2.2rem, 4.2vw, 4.25rem);
+  font-weight: 450;
+  line-height: 0.96;
+  letter-spacing: -0.035em;
+  color: var(--v2-paper);
+}
+
+.footer__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-top: clamp(1.6rem, 3vw, 2.4rem);
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid rgb(233 235 225 / 0.35);
+  font-size: 0.82rem;
+  color: var(--v2-paper);
+  transition:
+    color 220ms var(--v2-ease),
+    border-color 220ms var(--v2-ease);
+}
+
+.footer__cta:hover {
+  color: var(--v2-accent-light);
+  border-color: var(--v2-accent-light);
+}
+
+.footer__cta-arrow {
+  font-size: 0.9rem;
+  transition: transform 280ms var(--v2-ease);
+}
+
+.footer__cta:hover .footer__cta-arrow {
+  transform: translate(3px, -3px);
+}
+
+.footer__columns {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  padding-top: 0.5rem;
+}
+
+.footer__column .label {
+  margin-bottom: 1rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid var(--v2-line-light);
+  font-family: var(--font-sans);
+  font-size: 0.62rem;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: rgb(233 235 225 / 0.44);
+}
+
+.footer__column li + li {
+  margin-top: 0.15rem;
+}
+
+.footer__column a {
+  display: inline-flex;
+  min-height: 2rem;
+  align-items: center;
+  font-size: 0.76rem;
+  color: rgb(233 235 225 / 0.74);
+  transition: color 200ms var(--v2-ease);
+}
+
+.footer__count {
+  margin-top: 0.9rem;
+  font-size: 0.55rem;
+  letter-spacing: 0.04em;
+  color: rgb(233 235 225 / 0.42);
+}
+
+.footer__column a:hover {
+  color: var(--v2-accent-light);
+}
+
+.footer__wordmark::before {
+  content: 'Mesozo';
+}
+
+.footer__wordmark {
+  display: block;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--v2-line-light);
+  font-family: var(--v2-specimen);
+  font-size: clamp(6rem, 21vw, 22rem);
+  font-weight: 400;
+  line-height: 0.72;
+  letter-spacing: -0.06em;
+  color: rgb(233 235 225 / 0.07);
+  overflow: hidden;
+  user-select: none;
+}
+
+.footer__base {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: clamp(1rem, 2vw, 1.6rem);
+  padding-block: 1.2rem 1.4rem;
+  border-top: 1px solid var(--v2-line-light);
+  font-size: 0.62rem;
+  color: rgb(233 235 225 / 0.4);
+}
+
+.footer__base a {
+  color: rgb(233 235 225 / 0.62);
+  border-bottom: 1px solid rgb(233 235 225 / 0.24);
+}
+
+@media (max-width: 900px) {
+  .footer__top {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2.8rem;
+  }
+
+  .footer__columns {
+    padding-top: 0;
+  }
+
+  .footer__base {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.45rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer__columns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 540px) {
+  .footer__columns {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.7rem;
+  }
+
+  .footer__wordmark {
+    font-size: 34vw;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Menu and search — chrome outside .page                              */
+/* ------------------------------------------------------------------ */
+
+.menu__panel {
+  background-color: var(--v2-basalt);
+  background-image: url('/assets/img/texture/speckled-granite.jpg');
+  background-size: 700px;
+  background-blend-mode: soft-light;
+  color: var(--v2-paper);
+}
+
+.menu__head {
+  border-bottom: 1px solid var(--v2-line-light);
+}
+
+.menu__head .label {
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: rgb(233 235 225 / 0.44);
+}
+
+.menu__nav {
+  border-top: 1px solid var(--v2-line-light);
+}
+
+.menu__item {
+  border-bottom: 1px solid var(--v2-line-light);
+}
+
+.menu__item:hover,
+.menu__item:focus-visible {
+  background: rgb(233 235 225 / 0.04);
+}
+
+.menu__num {
+  font-family: var(--font-sans);
+  font-size: 0.58rem;
+  letter-spacing: 0.02em;
+  color: var(--v2-accent-light);
+}
+
+.menu__label {
+  font-family: var(--v2-specimen);
+  font-weight: 450;
+  letter-spacing: -0.025em;
+}
+
+.menu__note {
+  font-family: var(--font-sans);
+  font-size: 0.62rem;
+  letter-spacing: 0;
+  text-transform: none;
+  color: rgb(233 235 225 / 0.4);
+}
+
+.menu__item.is-active .menu__label {
+  color: var(--v2-accent-light);
+}
+
+.menu__foot {
+  border-top: 1px solid var(--v2-line-light);
+}
+
+.menu__foot .label,
+.menu__foot-note {
+  font-family: var(--font-sans);
+  letter-spacing: 0;
+  text-transform: none;
+  color: rgb(233 235 225 / 0.42);
+}
+
+.search-loading {
+  background: rgb(21 26 23 / 0.88);
+  color: var(--v2-paper);
+  backdrop-filter: blur(10px);
+}
+
+.search-loading .serif {
+  font-family: var(--v2-specimen);
+}
+
+/* Focus must remain visible on both the limestone and the basalt bands. */
+.page [data-theme='dark'] :focus-visible,
+.home-after [data-theme='dark'] :focus-visible,
+.header[data-home='false'][data-dark='true'] :focus-visible,
+.footer :focus-visible,
+.menu__panel :focus-visible {
+  outline-color: var(--v2-accent-light);
+}

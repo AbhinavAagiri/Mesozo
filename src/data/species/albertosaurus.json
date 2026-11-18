@@ -1,0 +1,173 @@
+{
+  "slug": "albertosaurus",
+  "accession": "MZ-023",
+  "scientificName": "Albertosaurus sarcophagus",
+  "commonName": "Alberta lizard",
+  "genus": "Albertosaurus",
+  "epithet": "sarcophagus",
+  "status": "Extinct",
+  "namedBy": "Osborn, 1905",
+  "group": "Theropoda · Tyrannosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    77,
+    74
+  ],
+  "ageLabel": "≈77–74 Ma",
+  "region": [
+    "Canada"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The teeth and jaws are consistent with carnivory, and growth-series work shows changes in mandibular force and tooth morphology through ontogeny. No gut contents are known; prey choice is inferred from anatomy and from other tyrannosaurids.",
+    "evidence": "inference",
+    "refs": [
+      "v19-albertosaurus-22",
+      "osborn1905"
+    ]
+  },
+  "length": "≈8–9 m",
+  "mass": "≈1.7–2.5 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "albertosaurus-living",
+  "featured": false,
+  "tagline": "A tyrannosaurid from Alberta, known from many individuals across several bonebeds. The bonebeds record an accumulation, not necessarily a social group.",
+  "summary": "Albertosaurus sarcophagus is an albertosaurine tyrannosaurid from the Horseshoe Canyon Formation of Alberta. The Dry Island bonebed has produced at least 26 individuals, and growth-series studies document changes in jaw force and tooth morphology. The bonebed is direct evidence of accumulation; social behaviour is an inference.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Coelurosauria"
+    },
+    {
+      "rank": "Family",
+      "value": "Tyrannosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Albertosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "A. sarcophagus"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Osborn, 1905. The record is known from Horseshoe Canyon Formation, Alberta. Numerous skulls and partial skeletons, including a growth series.",
+    "evidence": "fossil",
+    "refs": [
+      "osborn1905"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Numerous skulls and partial skeletons, including a growth series.",
+      "evidence": "fossil",
+      "refs": [
+        "osborn1905",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Horseshoe Canyon Formation, Alberta records the species in the Late Cretaceous. The numeric range used here is ≈77–74 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    },
+    {
+      "title": "Dry Island bonebed",
+      "body": "The bonebed is monodominant and preserves at least 26 Albertosaurus individuals. It is the strongest population sample for the species, but the taphonomic cause of the concentration is debated.",
+      "evidence": "fossil",
+      "refs": [
+        "v19-albertosaurus-20",
+        "v19-albertosaurus-21"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is relatively gracile for a tyrannosaurid, with a narrow snout and a deep, powerful jaw.",
+      "evidence": "fossil",
+      "refs": [
+        "osborn1905",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The Dry Island bonebed contains at least 26 individuals, including several growth stages. That is direct evidence of a mass accumulation, but a flood, drought or predator trap could concentrate animals that did not live as a group. Pack hunting and parental care are not demonstrated.",
+    "evidence": "inference",
+    "refs": [
+      "v19-albertosaurus-20",
+      "v19-albertosaurus-21"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from numerous skulls and partial skeletons, including a growth series. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "osborn1905",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "osborn1905",
+    "pbdb",
+    "paul2016",
+    "v19-albertosaurus-20",
+    "v19-albertosaurus-21",
+    "v19-albertosaurus-22",
+    "v19-albertosaurus-23"
+  ],
+  "related": [
+    "daspletosaurus",
+    "tarbosaurus",
+    "tyrannosaurus"
+  ],
+  "confidenceNote": "The skeleton and growth series are well sampled, and the Dry Island bonebed provides a population sample. The cause of the accumulation, the extent of social behaviour and the soft-tissue profile remain uncertain.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Coastal plain and river woodland",
+  "ancientContext": "Horseshoe Canyon Formation, Alberta",
+  "locality": [
+    "Horseshoe Canyon Formation, Alberta"
+  ],
+  "researchStatus": "partially-verified"
+}

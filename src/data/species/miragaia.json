@@ -1,0 +1,169 @@
+{
+  "slug": "miragaia",
+  "accession": "MZ-042",
+  "scientificName": "Miragaia longicollum",
+  "commonName": "Long-necked wonder",
+  "genus": "Miragaia",
+  "epithet": "longicollum",
+  "status": "Extinct",
+  "namedBy": "Mateus et al., 2009",
+  "group": "Ornithischia · Stegosauridae",
+  "groupKey": "Ornithischia",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Kimmeridgian–Tithonian",
+  "ageMa": [
+    150,
+    145
+  ],
+  "ageLabel": "≈150–145 Ma",
+  "region": [
+    "Portugal"
+  ],
+  "regionKeys": [
+    "Europe"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The skull and dentition indicate herbivory. No gut contents are known. The long neck has been interpreted as a browsing adaptation, but the function is not demonstrated.",
+    "evidence": "inference",
+    "refs": [
+      "primary-miragaia",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈6–6.5 m",
+  "mass": "≈2–3 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "miragaia-living",
+  "featured": false,
+  "tagline": "A stegosaur with an unusually long neck for its clade. The elongation is real, but its ecological significance is not established.",
+  "summary": "A stegosaur with an unusually long neck for its clade. The elongation is real, but its ecological significance is not established.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Thyreophora"
+    },
+    {
+      "rank": "Family",
+      "value": "Stegosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Miragaia"
+    },
+    {
+      "rank": "Species",
+      "value": "M. longicollum"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Mateus et al., 2009. The record is known from Lourinhã Formation. A partial skeleton and skull from Portugal.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-miragaia"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The holotype is a partial articulated skeleton with cranial remains. A second, more complete specimen, MG 4863, was excavated in 1959 and prepared in the 2010s; it preserves anterior and posterior portions of the skeleton and is central to the validity debate.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-miragaia",
+        "v19-miragaia-71",
+        "costa2025"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Lourinhã Formation records the species in the Late Jurassic. The numeric range used here is ≈150–145 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The neck contains at least 17 cervical vertebrae, eight more than the ancestral ornithischian condition. Elongation involved cervicalization of anterior dorsal vertebrae and probable lengthening of the centra; the plates and tail spikes remain characteristic.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-miragaia",
+        "v19-miragaia-71"
+      ]
+    },
+    {
+      "title": "Body plan",
+      "body": "The species is reconstructed as quadrupedal from the preserved limb skeleton. The posture is not observed, and the long neck's function is unresolved.",
+      "evidence": "inference",
+      "refs": [
+        "primary-miragaia",
+        "costa2025"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Neck elongation is direct anatomy; low browsing is a hypothesis. No social or display behaviour is established.",
+    "evidence": "inference",
+    "refs": [
+      "primary-miragaia",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a partial skeleton and skull from Portugal. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-miragaia",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-miragaia",
+    "pbdb",
+    "paul2016",
+    "v19-miragaia-71",
+    "sanchezfenollosa2024",
+    "costa2025"
+  ],
+  "related": [
+    "stegosaurus",
+    "kentrosaurus",
+    "huayangosaurus"
+  ],
+  "confidenceNote": "The neck is directly preserved: at least 17 cervical vertebrae, eight more than basal ornithischians and more than most sauropods. The validity of the species is contested: Sánchez-Fenollosa et al. (2024) proposed it as a junior synonym of Dacentrurus armatus, while Costa et al. (2025) argued that MG 4863 preserves differences supporting distinction. The functional significance of the long neck is not established.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal floodplain",
+  "ancientContext": "Lourinhã Formation",
+  "locality": [
+    "Lourinhã Formation"
+  ],
+  "researchStatus": "partially-verified"
+}

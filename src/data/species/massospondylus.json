@@ -1,0 +1,173 @@
+{
+  "slug": "massospondylus",
+  "accession": "MZ-040",
+  "scientificName": "Massospondylus carinatus",
+  "commonName": "Massive vertebra",
+  "genus": "Massospondylus",
+  "epithet": "carinatus",
+  "status": "Extinct",
+  "namedBy": "Owen, 1854",
+  "group": "Sauropodomorpha · Massospondylidae",
+  "groupKey": "Sauropodomorpha",
+  "period": "jurassic",
+  "periodLabel": "Early Jurassic",
+  "stage": "Hettangian–Pliensbachian",
+  "ageMa": [
+    199,
+    183
+  ],
+  "ageLabel": "≈199–183 Ma",
+  "region": [
+    "South Africa"
+  ],
+  "regionKeys": [
+    "Africa"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The skull and dentition indicate herbivory. No gut contents are known; the diet is inferred from anatomy.",
+    "evidence": "inference",
+    "refs": [
+      "primary-massospondylus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈4–6 m",
+  "mass": "≈500–1,000 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "massospondylus-living",
+  "featured": false,
+  "tagline": "An early sauropodomorph known from many individuals, including eggs and embryos. The embryos show that hatchlings had proportionally large heads and short limbs.",
+  "summary": "An early sauropodomorph known from many individuals, including eggs and embryos. The embryos show that hatchlings had proportionally large heads and short limbs.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Sauropodomorpha"
+    },
+    {
+      "rank": "Clade",
+      "value": "Plateosauria"
+    },
+    {
+      "rank": "Family",
+      "value": "Massospondylidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Massospondylus"
+    },
+    {
+      "rank": "Species",
+      "value": "M. carinatus"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Owen, 1854. The record is known from Elliot Formation, Karoo Basin. Numerous partial skeletons, eggs and embryos from the Karoo Basin.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-massospondylus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Numerous partial skeletons, eggs and embryos from the Karoo Basin.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-massospondylus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Elliot Formation, Karoo Basin records the species in the Early Jurassic. The numeric range used here is ≈199–183 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The neck is moderately long, the skull has a proportionally large orbit and a short antorbital region, and the forelimbs are shorter than the hindlimbs. The skull description is based on four well-preserved specimens.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-massospondylus",
+        "v19-massospondylus-66"
+      ]
+    },
+    {
+      "title": "Body plan",
+      "body": "The species is reconstructed as facultatively bipedal. Growth was plastic and the ontogenetic pattern of posture is unresolved; the reconstruction is not a direct observation of gait.",
+      "evidence": "inference",
+      "refs": [
+        "v19-massospondylus-64",
+        "v19-massospondylus-65"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Eggs and embryos show nesting, but the nesting site and parental behaviour are not established by the sources cited here. The 2022 study removes support for a simple postural shift; locomotion likely changed with growth, but the pattern is not resolved.",
+    "evidence": "inference",
+    "refs": [
+      "primary-massospondylus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from numerous partial skeletons, eggs and embryos from the Karoo basin. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-massospondylus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-massospondylus",
+    "pbdb",
+    "paul2016",
+    "v19-massospondylus-64",
+    "v19-massospondylus-65",
+    "v19-massospondylus-66"
+  ],
+  "related": [
+    "plateosaurus",
+    "lesothosaurus",
+    "heterodontosaurus"
+  ],
+  "confidenceNote": "The growth series is large, but growth was plastic: 20 femora show major variation in growth-mark spacing, and a 27-specimen multielement study found that growth trajectories vary by bone. The 2022 study found no evidence of differential forelimb/hindlimb growth rates and rejected a simple ontogenetic postural shift. Eggs and embryos are known but are not treated in these claims.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Facultatively bipedal; quadrupedal",
+  "habitat": "Seasonal floodplain",
+  "ancientContext": "Elliot Formation, Karoo Basin",
+  "locality": [
+    "Elliot Formation, Karoo Basin"
+  ],
+  "researchStatus": "partially-verified"
+}

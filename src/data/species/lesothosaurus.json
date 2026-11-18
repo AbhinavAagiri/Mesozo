@@ -1,0 +1,163 @@
+{
+  "slug": "lesothosaurus",
+  "accession": "MZ-112",
+  "scientificName": "Lesothosaurus diagnosticus",
+  "commonName": "Lesotho lizard",
+  "genus": "Lesothosaurus",
+  "epithet": "diagnosticus",
+  "status": "Extinct",
+  "namedBy": "Galton, 1978",
+  "group": "Ornithischia · Lesothosauridae",
+  "groupKey": "Ornithischia",
+  "period": "jurassic",
+  "periodLabel": "Early Jurassic",
+  "stage": "Sinemurian–Pliensbachian",
+  "ageMa": [
+    199,
+    190
+  ],
+  "ageLabel": "≈199–190 Ma",
+  "region": [
+    "Lesotho"
+  ],
+  "regionKeys": [
+    "Africa"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The dentition and jaw apparatus support herbivory, but no gut contents are known. CT work clarified the skull and palate while leaving the snout and jaw muscles partly reconstructed; the plants eaten and the feeding style are therefore inferences.",
+    "evidence": "inference",
+    "refs": [
+      "primary-lesothosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈1–2 m",
+  "mass": "≈5–10 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "lesothosaurus-living",
+  "featured": false,
+  "tagline": "A small, lightly built early ornithischian with a short beak and long hindlimbs. Its relationships to other early ornithischians are debated.",
+  "summary": "A small, lightly built early ornithischian with a short beak and long hindlimbs. Its relationships to other early ornithischians are debated.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Neornithischia"
+    },
+    {
+      "rank": "Family",
+      "value": "Lesothosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Lesothosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "L. diagnosticus"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Galton, 1978. The syntypes are NHMUK PV RU B17 and NHMUK PV RU B23 from the Upper Elliot Formation. NHMUK PV R8501 is referred material, not the name-bearing type. No complete articulated skeleton is known.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-lesothosaurus",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several partial skeletons and skulls from the Karoo Basin.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-lesothosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Elliot Formation, Karoo Basin records the species in the Early Jurassic. The numeric range used here is ≈199–190 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is small and short, the hindlimbs are long, and the forelimbs are short.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-lesothosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Muscle-moment-arm modelling supports a bipedal, cursorial posture, but this is a functional reconstruction from an incomplete skeleton, not a measured speed or a trackway. No nests, social associations or direct feeding traces are known. The available sample is dominated by juveniles, which complicates interpretation of adult behaviour.",
+    "evidence": "inference",
+    "refs": [
+      "primary-lesothosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons and skulls from the Karoo basin. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-lesothosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-lesothosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-lesothosaurus-212",
+    "v19-lesothosaurus-213",
+    "v19-lesothosaurus-214",
+    "v19-lesothosaurus-215"
+  ],
+  "related": [
+    "heterodontosaurus",
+    "kulindadromeus",
+    "scelidosaurus"
+  ],
+  "confidenceNote": "Confidence is high for the disarticulated skull and postcranial anatomy and for the 1978 type designation. It is low for adult variation, the proposed synonymy of Stormbergia, and any social or feeding behaviour. The species is known from several individuals, but no complete articulated skeleton.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Seasonal floodplain",
+  "ancientContext": "Elliot Formation, Karoo Basin",
+  "locality": [
+    "Elliot Formation, Karoo Basin"
+  ],
+  "researchStatus": "partially-verified"
+}

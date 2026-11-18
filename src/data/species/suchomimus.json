@@ -1,0 +1,191 @@
+{
+  "slug": "suchomimus",
+  "scientificName": "Suchomimus tenerensis",
+  "commonName": "Crocodile mimic",
+  "namedBy": "Sereno et al., 1998",
+  "group": "Theropoda · Spinosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Barremian–Albian",
+  "ageMa": [
+    125,
+    112
+  ],
+  "ageLabel": "≈125–112 Ma",
+  "region": [
+    "Niger"
+  ],
+  "regionKeys": [
+    "Africa"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore · fish-focused",
+  "length": "≈9.5–11 m",
+  "mass": "≈3–5 t (estimate)",
+  "sizeNote": "Suchomimus is known from a partial skeleton and referred material. Length and mass are estimates, and the upper figures depend on how much of the missing skeleton is reconstructed.",
+  "image": "suchomimus-living",
+  "featured": false,
+  "tagline": "An African spinosaurid with a crocodile-like snout and a low sail, from the river systems of the Early Cretaceous Sahara.",
+  "summary": "Suchomimus tenerensis is a large spinosaurid from the Elrhaz Formation of Niger. It combines a long, narrow snout and conical teeth with tall neural spines over the hips and tail. These features place it among the baryonychine spinosaurids, close to Baryonyx. Its fish-eating habits are inferred from anatomy and its riverine setting; direct stomach contents are not known.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Megalosauroidea"
+    },
+    {
+      "rank": "Family",
+      "value": "Spinosauridae"
+    },
+    {
+      "rank": "Subfamily",
+      "value": "Baryonychinae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Suchomimus"
+    },
+    {
+      "rank": "Species",
+      "value": "S. tenerensis"
+    }
+  ],
+  "discovery": {
+    "body": "A 1997 expedition to the Ténéré Desert of Niger recovered a partial large theropod skeleton from the Elrhaz Formation at Gadoufaoua. Paul Sereno and colleagues named Suchomimus tenerensis in 1998. The material includes a long snout, teeth, parts of the axial skeleton and a large manual claw. Later work has treated Suchomimus as a baryonychine spinosaurid.",
+    "evidence": "fossil",
+    "refs": [
+      "sereno1998",
+      "nhmSuchomimus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "A partial skeleton",
+      "body": "The known material includes cranial and postcranial elements from one principal individual and referred specimens. The snout is elongated and the teeth are conical. The skeleton is incomplete, so the animal's total length and the full shape of the sail are reconstructed.",
+      "evidence": "fossil",
+      "refs": [
+        "sereno1998"
+      ]
+    },
+    {
+      "title": "Tall neural spines",
+      "body": "The dorsal and sacral vertebrae carry elongated neural spines that would have supported a low sail or ridge. The spines are bone; the soft tissue between them is not preserved, and the height of the living profile is an inference.",
+      "evidence": "fossil",
+      "refs": [
+        "sereno1998"
+      ]
+    },
+    {
+      "title": "A riverine fossil assemblage",
+      "body": "The Elrhaz Formation preserves fish, crocodyliforms, turtles and dinosaurs in river and floodplain deposits. This setting is consistent with a fish-focused predator, but association with fish does not by itself prove what Suchomimus ate.",
+      "evidence": "inference",
+      "refs": [
+        "sereno1998"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Snout and teeth",
+      "body": "The snout is long and narrow, with a terminal rosette and numerous conical teeth. The shape resembles those of other spinosaurids and of long-snouted crocodilians. It is well suited to gripping slippery prey, but the teeth do not preserve a record of the diet.",
+      "evidence": "fossil",
+      "refs": [
+        "sereno1998"
+      ]
+    },
+    {
+      "title": "Forelimbs and claw",
+      "body": "The forelimbs are robust and the first finger bears a large claw. The arm and claw are consistent with grasping or hooking prey. As in Baryonyx, the exact behaviour is inferred rather than observed.",
+      "evidence": "inference",
+      "refs": [
+        "sereno1998"
+      ]
+    },
+    {
+      "title": "The sail",
+      "body": "Elongated neural spines form a low sail over the back and hips. Possible functions include display, thermoregulation and body stiffening, but none is established. The soft tissue covering and the animal's colour are unknown.",
+      "evidence": "contested",
+      "refs": [
+        "sereno1998"
+      ]
+    },
+    {
+      "title": "Furcula",
+      "body": "A furcula (wishbone) is preserved in the shoulder girdle. Its presence is direct anatomical evidence; it does not by itself establish the function of the forelimbs.",
+      "evidence": "fossil",
+      "refs": [
+        "v19-suchomimus-221"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Suchomimus is reconstructed as a fish-focused predator that lived in and around large river systems. The long snout, conical teeth and large claw support that interpretation, and the Elrhaz assemblage shows that fish were abundant. Direct evidence of feeding, swimming or social behaviour is not preserved. The animal should not be described as a dedicated swimmer on current evidence.",
+    "evidence": "inference",
+    "refs": [
+      "sereno1998",
+      "nhmSuchomimus"
+    ]
+  },
+  "reconstruction": {
+    "body": "The original description presented Suchomimus as a large, long-snouted spinosaurid with a low sail. Later phylogenetic work placed it with Baryonyx in Baryonychinae. Its fish-eating profile is based on skull and tooth anatomy and the riverine setting, not on stomach contents. The colour and the exact outline of the sail are artistic reconstructions.",
+    "evidence": "reconstruction",
+    "refs": [
+      "sereno1998"
+    ]
+  },
+  "references": [
+    "sereno1998",
+    "nhmSuchomimus",
+    "v19-suchomimus-221"
+  ],
+  "related": [
+    "baryonyx",
+    "spinosaurus",
+    "tyrannosaurus"
+  ],
+  "confidenceNote": "The skull, teeth, furcula and sail supports are known from fossils. A furcula is preserved in the shoulder girdle. The fish-focused diet, the hunting method and the soft-tissue profile are inferred. The skeleton is incomplete, so size estimates vary.",
+  "updated": "2026-11-17",
+  "dietEvidence": {
+    "body": "The long snout, terminal rosette and conical teeth are consistent with a fish-focused diet, and the Elrhaz Formation preserves abundant fish. No stomach contents are known for Suchomimus, so the diet is an inference from anatomy and context rather than direct evidence.",
+    "evidence": "inference",
+    "refs": [
+      "sereno1998"
+    ]
+  },
+  "sizeRefs": [
+    "sereno1998",
+    "nhmSuchomimus"
+  ],
+  "genus": "Suchomimus",
+  "epithet": "tenerensis",
+  "status": "Extinct",
+  "accession": "MZ-009",
+  "added": "2026-11-15",
+  "locomotion": "Bipedal",
+  "habitat": "River and floodplain wetlands",
+  "ancientContext": "Elrhaz river systems of central Niger",
+  "locality": [
+    "Gadoufaoua, Ténéré Desert, Niger"
+  ],
+  "researchStatus": "partially-verified"
+}

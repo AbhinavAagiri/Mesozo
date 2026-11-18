@@ -1,0 +1,182 @@
+Q: Semiaquatic adaptations in a giant predatory dinosaur Ibrahim 2014
+  T: Semiaquatic adaptations in a giant predatory dinosaur
+  A: Ibrahim N, Sereno P, Dal Sasso C, Maganuco S, Fabbri M, Martill D, Zouhri S, Myhrvold N, Iurino D
+  Y: 2014
+  J: Science
+  DOI: 10.1126/science.1258750
+Q: Tail-propelled aquatic locomotion in a theropod dinosaur Ibrahim 2020
+  T: Tail-propelled aquatic locomotion in a theropod dinosaur
+  A: Ibrahim N, Maganuco S, Dal Sasso C, Fabbri M, Auditore M, Bindellini G, Martill D, Zouhri S, Mattarelli D, Unwin D, Wiemann J, Bonadonna D, Amane A, Jakubczak J, Joger U, Lauder G, Pierce S
+  Y: 2020
+  J: Nature
+  DOI: 10.1038/s41586-020-2190-3
+Q: Spinosaurus is not an aquatic dinosaur Sereno 2022
+  T: Editor's evaluation: Spinosaurus is not an aquatic dinosaur
+  A: Zhu M
+  Y: 2022
+  J: 
+  DOI: 10.7554/elife.80092.sa0
+Q: Subaqueous foraging among carnivorous dinosaurs Fabbri 2022
+  T: Subaqueous foraging among carnivorous dinosaurs
+  A: Fabbri M, Navalón G, Benson R, Pol D, O’Connor J, Bhullar B, Erickson G, Norell M, Orkney A, Lamanna M, Zouhri S, Becker J, Emke A, Dal Sasso C, Bindellini G, Maganuco S, Auditore M, Ibrahim N
+  Y: 2022
+  J: Nature
+  DOI: 10.1038/s41586-022-04528-0
+Q: Evaluating the ecology of Spinosaurus shoreline generalist or aquatic pursuit specialist Hone Holtz
+  T: Evaluating the ecology of Spinosaurus: shoreline generalist or aquatic pursuit specialist?
+  A: Hone D, Holtz T
+  Y: 2021
+  J: Palaeontologia Electronica
+  DOI: 10.26879/1110
+Q: Diving dinosaurs caveats on the use of bone compactness and pFDA Myhrvold
+  T: Diving dinosaurs? Caveats on the use of bone compactness and pFDA for inferring lifestyle
+  A: Myhrvold N, Sereno P, Baumgart S, Vidal D, Fish F, Henderson D, Saitta E
+  Y: 2023
+  J: 
+  DOI: 10.1101/2023.05.04.539484
+Q: New information on the skull of the enigmatic theropod Spinosaurus Dal Sasso 2005
+  T: New information on the skull of the enigmatic theropod<i>Spinosaurus</i>, with remarks on its size and affinities
+  A: Sasso C, Maganuco S, Buffetaut E, Mendez M
+  Y: 2005
+  J: Journal of Vertebrate Paleontology
+  DOI: 10.1671/0272-4634(2005)025[0888:niotso]2.0.co;2
+Q: The predatory ecology of Deinonychus and the origin of flapping in birds Fowler 2011
+  T: The Predatory Ecology of Deinonychus and the Origin of Flapping in Birds
+  A: Fowler D, Freedman E, Scannella J, Kambic R
+  Y: 2011
+  J: PLoS ONE
+  DOI: 10.1371/journal.pone.0028964
+Q: Taphonomy and paleobiological implications of Tenontosaurus Deinonychus associations Maxwell Ostrom
+  T: Taphonomy and paleobiological implications of<i>Tenontosaurus-Deinonychus</i>associations
+  A: Maxwell W, Ostrom J
+  Y: 1995
+  J: Journal of Vertebrate Paleontology
+  DOI: 10.1080/02724634.1995.10011256
+Q: A reevaluation of cooperative pack hunting and gregariousness in Deinonychus antirrhopus Roach Brinkman
+  T: A Reevaluation of Cooperative Pack Hunting and Gregariousness in Deinonychus antirrhopus and Other Nonavian Theropod Dinosaurs
+  A: Roach B, Brinkman D
+  Y: 2007
+  J: Bulletin of the Peabody Museum of Natural History
+  DOI: 10.3374/0079-032x(2007)48[103:arocph]2.0.co;2
+Q: Feather quill knobs in the dinosaur Velociraptor Turner 2007
+  T: Feather Quill Knobs in the Dinosaur
+            <i>Velociraptor</i>
+  A: Turner A, Makovicky P, Norell M
+  Y: 2007
+  J: Science
+  DOI: 10.1126/science.1145076
+Q: A king-sized theropod coprolite Chin 1998
+  T: A king-sized theropod coprolite
+  A: Chin K, Tokaryk T, Erickson G, Calk L
+  Y: 1998
+  J: Nature
+  DOI: 10.1038/31461
+Q: Physical evidence of predatory behavior in Tyrannosaurus rex DePalma 2013
+  T: Physical evidence of predatory behavior in
+                    <i>Tyrannosaurus rex</i>
+  A: DePalma R, Burnham D, Martin L, Rothschild B, Larson P
+  Y: 2013
+  J: Proceedings of the National Academy of Sciences
+  DOI: 10.1073/pnas.1216534110
+Q: A high-resolution growth series of Tyrannosaurus rex Carr 2020
+  T: A high-resolution growth series of
+                    <i>Tyrannosaurus rex</i>
+                    obtained from multiple lines of evidence
+  A: Carr T
+  Y: 2020
+  J: PeerJ
+  DOI: 10.7717/peerj.9192
+Q: Theropod dinosaur facial reconstruction and the importance of soft tissues Cullen 2023
+  T: Theropod dinosaur facial reconstruction and the importance of soft tissues in paleobiology
+  A: Cullen T, Larson D, Witton M, Scott D, Maho T, Brink K, Evans D, Reisz R
+  Y: 2023
+  J: Science
+  DOI: 10.1126/science.abo7877
+Q: Evidence of combat in Triceratops Farke 2009
+  T: Evidence of Combat in Triceratops
+  A: Farke A, Wolff E, Tanke D
+  Y: 2009
+  J: PLoS ONE
+  DOI: 10.1371/journal.pone.0004252
+Q: Major cranial changes during Triceratops ontogeny Horner Goodwin 2006
+  T: Major cranial changes during
+            <i>Triceratops</i>
+            ontogeny
+  A: Horner J, Goodwin M
+  Y: 2006
+  J: Proceedings of the Royal Society B: Biological Sciences
+  DOI: 10.1098/rspb.2006.3643
+Q: Torosaurus is not Triceratops Longrich Field 2012
+  T: Torosaurus Is Not Triceratops: Ontogeny in Chasmosaurine Ceratopsids as a Case Study in Dinosaur Taxonomy
+  A: Longrich N, Field D
+  Y: 2012
+  J: PLoS ONE
+  DOI: 10.1371/journal.pone.0032623
+Q: A re-evaluation of Brachiosaurus altithorax Riggs 1903 and its generic separation from Giraffatitan brancai Taylor
+  T: Correction: A re-evaluation of<i>Brachiosaurus altithorax</i>Riggs, 1903 (Dinosauria, Sauropoda) and its generic separation from<i>Giraffatitan brancai</i>(Janensch, 1914)
+  A: Taylor M
+  Y: 2011
+  J: Journal of Vertebrate Paleontology
+  DOI: 10.1080/02724634.2011.557115
+Q: Head and neck posture in sauropod dinosaurs inferred from extant animals Taylor Wedel Naish
+  T: Head and Neck Posture in Sauropod Dinosaurs Inferred from Extant Animals
+  A: Taylor M, Wedel M, Naish D
+  Y: 2009
+  J: Acta Palaeontologica Polonica
+  DOI: 10.4202/app.2009.0007
+Q: Cranial design and function in a large theropod dinosaur Rayfield 2001
+  T: Cranial design and function in a large theropod dinosaur
+  A: Rayfield E, Norman D, Horner C, Horner J, Smith P, Thomason J, Upchurch P
+  Y: 2001
+  J: Nature
+  DOI: 10.1038/35059070
+Q: Feeding behaviour and bone utilization by theropod dinosaurs Hone Rauhut
+  T: Feeding behaviour and bone utilization by theropod dinosaurs
+  A: Hone D, Rauhut O
+  Y: 2010
+  J: Lethaia
+  DOI: 10.1111/j.1502-3931.2009.00187.x
+Q: Redescription of Ankylosaurus magniventris Brown 1908 Carpenter 2004
+  T: Redescription of
+                    <i>Ankylosaurus magniventris</i>
+                    Brown 1908 (Ankylosauridae) from the Upper Cretaceous of the Western Interior of North America
+  A: Carpenter K
+  Y: 2004
+  J: Canadian Journal of Earth Sciences
+  DOI: 10.1139/e04-043
+Q: A giant tyrannosaur from the Campanian Maastrichtian of southern North America Dalman 2024
+  T: A giant tyrannosaur from the Campanian–Maastrichtian of southern North America and the evolution of tyrannosaurid gigantism
+  A: Dalman S, Loewen M, Pyron R, Jasinski S, Malinzak D, Lucas S, Fiorillo A, Currie P, Longrich N
+  Y: 2024
+  J: Scientific Reports
+  DOI: 10.1038/s41598-023-47011-0
+Q: Lokiceratops rangiformis a new centrosaurine Loewen 2024
+  T: <i>Lokiceratops rangiformis</i> gen. et sp. nov. (Ceratopsidae: Centrosaurinae) from the Campanian Judith River Formation of Montana reveals rapid regional radiations and extreme endemism within centrosaurine dinosaurs
+  A: Loewen M, Sertich J, Sampson S, O’Connor J, Carpenter S, Sisson B, Øhlenschlæger A, Farke A, Makovicky P, Longrich N, Evans D
+  Y: 2024
+  J: PeerJ
+  DOI: 10.7717/peerj.17224
+Q: Fona herzogae a new burrowing thescelosaurine Avrahami 2024
+  T: Cranial Osteology of Fona herzogae (Dinosauria: Thescelosaurinae) from the Mussentuchit Member of the Cedar Mountain Formation
+  A: Avrahami H, Zanno L
+  Y: 2026
+  J: PLOS One
+  DOI: 10.1371/journal.pone.0353169
+Q: Alpkarakush kyrgyzicus a new giant theropod from the Middle Jurassic Rauhut 2024
+  T: A new megalosaurid theropod dinosaur from the late Middle Jurassic (Callovian) of north-western Germany: implications for theropod evolution and faunal turnover in the Jurassic (project)
+  A: Rauhut W, Hübner H, Lanser L
+  Y: 2016
+  J: MorphoBank datasets
+  DOI: 10.7934/p2368
+Q: Iani smithi a mid-Cretaceous ornithopod Zanno 2023
+  T: A mid-Cretaceous ornithopod from central Honduras
+  A: Horne G
+  Y: 1994
+  J: Journal of Vertebrate Paleontology
+  DOI: 10.1080/02724634.1994.10011548
+Q: Meraxes gigas a giant carcharodontosaurid Canale 2022
+  T: Cranial endocast of the carcharodontosaurid theropod Giganotosaurus carolinii Coria Salgado, 1995
+  A: Carabajal A, Canale J
+  Y: 2010
+  J: Neues Jahrbuch für Geologie und Paläontologie - Abhandlungen
+  DOI: 10.1127/0077-7749/2010/0104

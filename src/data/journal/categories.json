@@ -1,0 +1,38 @@
+[
+  {
+    "id": "paleontology",
+    "label": "Paleontology",
+    "kicker": "The field",
+    "description": "Fossils, excavations and the people who turn objects into evidence."
+  },
+  {
+    "id": "evolution",
+    "label": "Evolution",
+    "kicker": "Deep lineages",
+    "description": "The emergence, diversification and extinction of ancient life."
+  },
+  {
+    "id": "anatomy",
+    "label": "Anatomy & Adaptation",
+    "kicker": "The body",
+    "description": "How organisms were built, how they worked and what the bones cannot say."
+  },
+  {
+    "id": "ancient-worlds",
+    "label": "Ancient Worlds",
+    "kicker": "The environment",
+    "description": "The climates, waterways and ecosystems in which extinct animals lived."
+  },
+  {
+    "id": "debates",
+    "label": "Scientific Debates",
+    "kicker": "The argument",
+    "description": "Where the evidence supports competing readings and the question is still open."
+  },
+  {
+    "id": "field-notes",
+    "label": "Field Notes",
+    "kicker": "The method",
+    "description": "Expeditions, collections, sediments and the work behind a reconstruction."
+  }
+]

@@ -1,0 +1,1645 @@
+{
+  "version": "1.0",
+  "updated": "2026-11-17",
+  "total": 113,
+  "standard": "A species is marked “Researched and enriched” only where a claim-level review was completed and its dossier text or sourcing was changed. “Partially researched” means the bibliography and trail were reviewed but not every claim was rechecked. “Requires further verification” means generic text, thin sourcing or missing evidence remains. This is a coverage assessment, not a certification of accuracy.",
+  "entries": {
+    "acrocanthosaurus": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 4,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-acrocanthosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "trail is metadata-only",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Naming, tall neural spines, forelimb function and the southern Western Interior record."
+    },
+    "albertosaurus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 5,
+      "abstractEntries": 4,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "osborn1905",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Naming, the Dry Island bonebed, growth-related feeding changes and population pathology."
+    },
+    "allosaurus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 4,
+      "abstractEntries": 3,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "marsh1877",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "The feeding-trace section now distinguishes direct evidence of carcass utilization at Mygatt-Moore from the inference of cannibalism. Drumheller et al. (2020) was added as the specific source."
+    },
+    "anchiornis": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 5,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-anchiornis",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Feather arrangement, phylogenetic position and the limits of the flight interpretation."
+    },
+    "ankylosaurus": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 3,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "brown1908",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Naming, armour and tail-club anatomy, impact modelling and the small specimen sample."
+    },
+    "apatosaurus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 5,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-apatosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "trail is metadata-only",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Naming, the historical skull problem, growth histology and vertebral pneumaticity."
+    },
+    "argentinosaurus": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 3,
+      "abstractEntries": 1,
+      "fullTextEntries": 1,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-argentinosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Holotype, body-mass estimates, stratigraphic setting and the limits of a skull-less giant."
+    },
+    "bajadasaurus": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 4,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-bajadasaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Naming, forward-curving cervical spines, dentition and the unresolved spine function."
+    },
+    "baryonyx": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 3,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "charig1986",
+      "linkedSpecimen": true,
+      "flags": [],
+      "note": "Naming, the Smokejacks skeleton, fish remains and the function of the manual claw."
+    },
+    "beipiaosaurus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 3,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-beipiaosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Naming, preserved integument, the pygostyle-like structure and inferred herbivory."
+    },
+    "borealopelta": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 2,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-borealopelta",
+      "linkedSpecimen": false,
+      "flags": [
+        "research trail has fewer than 3 entries",
+        "trail is metadata-only",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Integument, pigmentation, stomach contents and taphonomy of the single known specimen."
+    },
+    "brachiosaurus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 3,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "riggs1903",
+      "linkedSpecimen": true,
+      "flags": [],
+      "note": "Naming, the holotype, separation from Giraffatitan, limb proportions and the debated skull."
+    },
+    "camarasaurus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 5,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-camarasaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Naming, skull and dentition, growth history and feeding mechanics."
+    },
+    "camptosaurus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 3,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-camptosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Naming, Morrison Formation context, revised taxonomy and the limits of the feeding evidence."
+    },
+    "carcharodontosaurus": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 3,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-carcharodontosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Naming corrected: the species was first described as Megalosaurus saharicus by Depéret & Savornin (1925); Stromer (1931) erected the genus Carcharodontosaurus and referred the Egyptian skeleton to it. Both the species description and the genus paper are now cited."
+    },
+    "carnotaurus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 0,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "bonaparte1985",
+      "linkedSpecimen": false,
+      "flags": [
+        "no research trail",
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "The 1985 and 1990 references were separated; the 1985 note no longer carries the 1990 monograph DOI."
+    },
+    "centrosaurus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 5,
+      "abstractEntries": 3,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-centrosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Naming, the monodominant bonebed, cranial ontogeny and bite-mark evidence."
+    },
+    "ceratosaurus": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 4,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-ceratosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "trail is metadata-only",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Naming, cranial horns, forelimb anatomy and the geographic range."
+    },
+    "chasmosaurus": {
+      "status": "researched-enriched",
+      "refs": 8,
+      "trailEntries": 5,
+      "abstractEntries": 3,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "lambe1902",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Naming corrected: the species was named Monoclonius belli by Lambe in 1902, not in 1914. The genus Chasmosaurus was erected in 1914 after the earlier name Protorosaurus proved preoccupied. Both the 1902 species description and the 1914 genus paper are now cited."
+    },
+    "citipati": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 4,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-citipati",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Naming, the nesting specimen, cranial anatomy and claw chemistry."
+    },
+    "coelophysis": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 4,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-coelophysis",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Naming corrected: the species was first named Coelurus bauri in 1887; Cope erected Coelophysis in 1889. The dossier now records both dates and does not treat 1889 as the species description."
+    },
+    "compsognathus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 3,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "wagner1859",
+      "linkedSpecimen": false,
+      "flags": [
+        "trail is metadata-only",
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Naming history clarified: Wagner published the name in a brief 1859 notice and a fuller description in 1861. Both are cited, and the dossier now records the lizard preserved in the holotype’s abdominal cavity as direct dietary evidence."
+    },
+    "concavenator": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 4,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-concavenator",
+      "linkedSpecimen": false,
+      "flags": [
+        "trail is metadata-only",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Naming, the pelvic hump, possible quill knobs and cranial anatomy."
+    },
+    "corythosaurus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 3,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-corythosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Naming, the hollow crest, the reunited holotype and the Judith River occurrence."
+    },
+    "cryolophosaurus": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 3,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-cryolophosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "trail is metadata-only",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Naming, the transverse crest, osteology and the high-latitude setting."
+    },
+    "daspletosaurus": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 4,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-daspletosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Naming, juvenile anatomy, the transitional-species debate and tyrannosaurine anagenesis."
+    },
+    "deinocheirus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 3,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "osmolska1970",
+      "linkedSpecimen": false,
+      "flags": [
+        "trail is metadata-only",
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Original-description reference corrected to Osmólska & Roniewicz (1970); the previous citation was a 1969 popular account."
+    },
+    "deinonychus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 4,
+      "abstractEntries": 3,
+      "fullTextEntries": 1,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "ostrom1969",
+      "linkedSpecimen": true,
+      "flags": [
+        "corrected in this pass"
+      ],
+      "note": "Holotype corrected: YPM 5205 is a complete left pes and incomplete right pes, not a partial skeleton including the skull and limbs. The Discoveries archive entry now states the preserved foot material and distinguishes the type from the referred skeleton."
+    },
+    "dicraeosaurus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 8,
+      "abstractEntries": 2,
+      "fullTextEntries": 2,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-dicraeosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Provenance clarified: MB.R.4886 (skeleton “m” from Tendaguru quarry “m”) is the principal skeleton, and the Berlin mount is composite rather than a single individual."
+    },
+    "dilong": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 3,
+      "abstractEntries": 0,
+      "fullTextEntries": 3,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-dilong",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Holotype, preserved integument, contested tyrannosauroid placement and feeding evidence."
+    },
+    "dilophosaurus": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 6,
+      "abstractEntries": 3,
+      "fullTextEntries": 1,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-dilophosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Naming history, the 2020 anatomical revision, crest anatomy and function, and the absence of evidence for cinematic venom or a neck frill."
+    },
+    "diplodocus": {
+      "status": "researched-enriched",
+      "refs": 8,
+      "trailEntries": 8,
+      "abstractEntries": 4,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-diplodocus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "The Carnegie mount is described as a composite of CM 84, CM 94, other specimens, casts and sculpted elements. The title of Hatcher (1901) was corrected from “probate habits” to “probable habits”."
+    },
+    "dreadnoughtus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 5,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-dreadnoughtus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Exceptional appendicular skeleton, specimen completeness, body-mass estimates and missing skull evidence."
+    },
+    "dryosaurus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 9,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-dryosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Naming and type material, Morrison stratigraphy, postcranial anatomy and growth histology."
+    },
+    "edmontonia": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 5,
+      "abstractEntries": 1,
+      "fullTextEntries": 1,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-edmontonia",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Type provenance corrected from the Horseshoe Canyon Formation of Alberta to the Two Medicine Formation of Montana (USNM 11868; late Campanian, approximately 78.2–74.6 Ma). Referred Dinosaur Park material is treated separately."
+    },
+    "edmontosaurus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 5,
+      "abstractEntries": 3,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-edmontosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Age corrected from 68–66 Ma (the range of E. annectens) to the late Campanian–early Maastrichtian range of E. regalis (≈73–68 Ma)."
+    },
+    "einiosaurus": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 3,
+      "abstractEntries": 1,
+      "fullTextEntries": 2,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-einiosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Bonebed sample, cranial ornament ontogeny and the limits of the social interpretation."
+    },
+    "eoraptor": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 6,
+      "abstractEntries": 4,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-eoraptor",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Type material, Ischigualasto age, the contested phylogenetic position and the limits of dietary inference."
+    },
+    "epidexipteryx": {
+      "status": "researched-enriched",
+      "refs": 3,
+      "trailEntries": 6,
+      "abstractEntries": 0,
+      "fullTextEntries": 5,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-epidexipteryx",
+      "linkedSpecimen": false,
+      "flags": [
+        "fewer than 4 references",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "The single holotype, contested Daohugou age, preserved ribbon-like feathers and the limits of flight and display inferences."
+    },
+    "euoplocephalus": {
+      "status": "researched-enriched",
+      "refs": 8,
+      "trailEntries": 9,
+      "abstractEntries": 3,
+      "fullTextEntries": 1,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "lambe1902",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Naming corrected: Stereocephalus tutus was named in 1902; the genus was renamed Euoplocephalus in 1910 because Stereocephalus was preoccupied. The dossier now records both the species and genus dates."
+    },
+    "europasaurus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 5,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-europasaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Insular dwarfism, growth series and the limits of the island reconstruction."
+    },
+    "eustreptospondylus": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 5,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-eustreptospondylus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "The Oxford Clay skeleton, naming history, subadult anatomy and megalosaurid relationships."
+    },
+    "falcarius": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 5,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-falcarius",
+      "linkedSpecimen": false,
+      "flags": [
+        "trail is metadata-only",
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "The Nature citation was corrected to volume 435, pages 84–87, and the title typo was removed."
+    },
+    "futalognkosaurus": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 6,
+      "abstractEntries": 1,
+      "fullTextEntries": 4,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-futalognkosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "The Lake Barreales holotype, completeness, Portezuelo Formation age, size estimates and the limits of ecosystem inference."
+    },
+    "gallimimus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 5,
+      "abstractEntries": 1,
+      "fullTextEntries": 2,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-gallimimus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "The Nemegt holotype, the short manus, growth series, diet and the limits of trackway evidence."
+    },
+    "giganotosaurus": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 4,
+      "abstractEntries": 4,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "coria1995",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "The Candeleros holotype, braincase anatomy, size estimates and the absence of direct behavioural evidence."
+    },
+    "gigantoraptor": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 6,
+      "abstractEntries": 2,
+      "fullTextEntries": 1,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-gigantoraptor",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "The single Iren Dabasu holotype, growth history, jaw function, inferred diet and the limits of feather evidence."
+    },
+    "gigantspinosaurus": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 3,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-gigantspinosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "The name-bearing Ouyang (1992) abstract was separated from Maidment & Wei (2006), which is a review rather than the original description. The incorrect DOI inherited from the review was removed."
+    },
+    "gryposaurus": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 7,
+      "abstractEntries": 4,
+      "fullTextEntries": 1,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "lambe1914",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "The Dinosaur Park holotype, nasal crest anatomy, growth and the incurvimanus synonymy debate, plus direct skin impressions."
+    },
+    "guanlong": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 3,
+      "abstractEntries": 0,
+      "fullTextEntries": 3,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-guanlong",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Two specimens, cranial crest, Shishugou age and early tyrannosauroid relationships."
+    },
+    "herrerasaurus": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 4,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-herrerasaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "trail is metadata-only",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Ischigualasto specimens, skull and forelimb anatomy, and the contested position among early dinosaurs."
+    },
+    "heterodontosaurus": {
+      "status": "researched-enriched",
+      "refs": 9,
+      "trailEntries": 8,
+      "abstractEntries": 2,
+      "fullTextEntries": 1,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-heterodontosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "The Elliot Formation holotype, heterodont dentition, jaw mechanics, growth and the new respiratory evidence."
+    },
+    "huayangosaurus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 3,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-huayangosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "trail is metadata-only",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Skull and postcranium, plate arrangement, basal stegosaur relationships and feeding evidence."
+    },
+    "hypsilophodon": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 5,
+      "abstractEntries": 3,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-hypsilophodon",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Wessex material, skull and limb anatomy, the old arboreal hypothesis and track evidence."
+    },
+    "iguanacolossus": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 5,
+      "abstractEntries": 1,
+      "fullTextEntries": 4,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-iguanacolossus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Anatomy corrected: no hand bones are preserved in UMNH VP 20205, so the thumb spike is inferred from iguanodontian relationships rather than observed. The dossier no longer states that the hand bears a spike."
+    },
+    "iguanodon": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 5,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-iguanodon",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Bernissart skeletons, thumb spike, integument, posture and the bonebed social inference."
+    },
+    "jobaria": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 3,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "sereno1999",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Holotype, revised Middle Jurassic age, vertebral anatomy and the mass-death assemblage."
+    },
+    "kentrosaurus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 9,
+      "abstractEntries": 4,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-kentrosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "The Tendaguru lectotype, osteoderm arrangement, posture and the limits of sexual-dimorphism claims."
+    },
+    "kosmoceratops": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 5,
+      "abstractEntries": 1,
+      "fullTextEntries": 2,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-kosmoceratops",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "The Kaiparowits holotype, cranial ornament, display inferences and the disputed northern record."
+    },
+    "kulindadromeus": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 2,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-kulindadromeus",
+      "linkedSpecimen": false,
+      "flags": [
+        "research trail has fewer than 3 entries",
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Locality age refined from a broad 169–164 Ma to the dated Bathonian interval ≈168.3–166.1 Ma."
+    },
+    "lambeosaurus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 6,
+      "abstractEntries": 3,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-lambeosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Type history clarified: Parks (1923) based Lambeosaurus lambei on two skulls, CMN 351 and CMN 2869; Gilmore (1924) selected CMN 2869 as the type. The crest’s hollow nasal passages and the resonating-chamber hypothesis are now distinguished from observed sound production."
+    },
+    "leaellynasaura": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 3,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-leaellynasaura",
+      "linkedSpecimen": true,
+      "flags": [
+        "corrected in this pass"
+      ],
+      "note": "Holotype corrected: NMV P185991 is a partial juvenile cheek and maxilla, not several partial skeletons. The skull roof and postcranial fragments are separate specimens, and later work disputes the postcranial referral."
+    },
+    "lesothosaurus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 6,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-lesothosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Type series, skull anatomy, the Stormbergia synonymy and locomotor reconstruction."
+    },
+    "maiasaura": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 5,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-maiasaura",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Nesting evidence, growth series and the ontogenetic shift in locomotion."
+    },
+    "majungasaurus": {
+      "status": "researched-enriched",
+      "refs": 8,
+      "trailEntries": 5,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-majungasaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Cannibalism, feeding traces and forelimb reduction."
+    },
+    "mamenchisaurus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 3,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-mamenchisaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Inconsistent volume and year metadata in the original-description record was cleaned up."
+    },
+    "mapusaurus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 4,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-mapusaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "trail is metadata-only",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Type material, the Huincul bonebed, cranial ontogeny and pathology."
+    },
+    "massospondylus": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 4,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-massospondylus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Growth plasticity, interelemental histology and the limits of the locomotory reconstruction."
+    },
+    "megalosaurus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 3,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "mantell1827",
+      "linkedSpecimen": false,
+      "flags": [
+        "trail is metadata-only",
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Species description added: Mantell (1827) named Megalosaurus bucklandii; Buckland (1824) described the genus but did not establish the binomial. The naming claim now cites both works."
+    },
+    "microraptor": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 4,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-microraptor",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Feather preservation, gliding models and the species-level taxonomy."
+    },
+    "minmi": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 3,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-minmi",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "The Leahey et al. (2015) record now states that it names Kunbarrasaurus ieversi for the Allaru skeleton formerly called Minmi sp.; it is not a description of the Minmi holotype."
+    },
+    "miragaia": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 2,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-miragaia",
+      "linkedSpecimen": false,
+      "flags": [
+        "research trail has fewer than 3 entries",
+        "trail is metadata-only",
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "The 2024 synonymy proposal and 2025 counter-description were added as references instead of leaving the dispute uncited."
+    },
+    "monolophosaurus": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 3,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-monolophosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "trail is metadata-only",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Type material, the median crest, its display hypothesis and the unstable phylogenetic position."
+    },
+    "mussaurus": {
+      "status": "researched-enriched",
+      "refs": 8,
+      "trailEntries": 6,
+      "abstractEntries": 3,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-mussaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "The nesting assemblage, growth series and locomotor shift."
+    },
+    "muttaburrasaurus": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 3,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-muttaburrasaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Age corrected from the Albian range of about 107–103 Ma to the Cenomanian–lower Turonian, approximately 96.3–93.5 Ma, following the recent stratigraphic review. The dossier age fields and fossil-evidence text were updated."
+    },
+    "nasutoceratops": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 3,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-nasutoceratops",
+      "linkedSpecimen": false,
+      "flags": [
+        "trail is metadata-only",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Type material, the short snout and enlarged narial region, the horns and the limits of functional inference."
+    },
+    "nigersaurus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 2,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "sereno1999",
+      "linkedSpecimen": false,
+      "flags": [
+        "research trail has fewer than 3 entries",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Holotype identity, the dental battery, the broad snout and axial pneumaticity."
+    },
+    "nodosaurus": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 2,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-nodosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "research trail has fewer than 3 entries",
+        "trail is metadata-only",
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Formation corrected from Mowry Shale to the Frontier Formation (Belle Fourche Member), Como Bluff, Wyoming; type specimen YPM 1815."
+    },
+    "nothronychus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 6,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-nothronychus",
+      "linkedSpecimen": false,
+      "flags": [
+        "trail is metadata-only",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Type material, therizinosaur anatomy, the herbivory inference and the second species N. graffami."
+    },
+    "orodromeus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 3,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-orodromeus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Egg attribution corrected: clutches including MOR 246 were reinterpreted as troodontid eggs and are no longer treated as direct evidence of Orodromeus nesting."
+    },
+    "ouranosaurus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 3,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-ouranosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "The original-description reference was corrected from the 1972 Gadoufaoua locality paper to Taquet’s 1976 osteology chapter."
+    },
+    "oviraptor": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 5,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "osborn1924",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Holotype anatomy, the egg-thief story and the limits of dietary evidence."
+    },
+    "pachycephalosaurus": {
+      "status": "researched-enriched",
+      "refs": 8,
+      "trailEntries": 4,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "gilmore1931",
+      "linkedSpecimen": true,
+      "flags": [
+        "trail is metadata-only",
+        "corrected in this pass"
+      ],
+      "note": "Naming corrected: Gilmore (1931) named Troodon wyomingensis; Brown & Schlaikjer (1943) erected Pachycephalosaurus and combined the species as P. wyomingensis. Both references were added. The 1983 Galton & Sues record is now explicitly labelled a later redescription, not the original description."
+    },
+    "pachyrhinosaurus": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 5,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-pachyrhinosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Type material, the nasal boss, ontogeny and bonebed accumulation."
+    },
+    "parasaurolophus": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 3,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-parasaurolophus",
+      "linkedSpecimen": true,
+      "flags": [],
+      "note": "Type material, the hollow crest, the sound hypothesis and the holotype pathology."
+    },
+    "patagotitan": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 3,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-patagotitan",
+      "linkedSpecimen": false,
+      "flags": [
+        "trail is metadata-only",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Type material, the bonebed, appendicular anatomy and the limits of the giant-size estimates."
+    },
+    "pentaceratops": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 4,
+      "abstractEntries": 3,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-pentaceratops",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Type material, the horn/frill complex and the limits of functional inference."
+    },
+    "plateosaurus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 5,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-plateosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Large bonebed sample, growth plasticity, body-mass range and feeding biomechanics."
+    },
+    "polacanthus": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 4,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-polacanthus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Naming corrected: the 1865 anonymous report attributed the name to Owen, and Hulke (1881) provided the first detailed description. The claim no longer presents Hulke as the 1865 author, and the reference note records the ambiguity."
+    },
+    "protoceratops": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 5,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-protoceratops",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Frill function, appendicular ontogeny and bone histology."
+    },
+    "psittacosaurus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 3,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-psittacosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Growth, tail integument and the limits of the dietary evidence."
+    },
+    "puertasaurus": {
+      "status": "researched-enriched",
+      "refs": 3,
+      "trailEntries": 4,
+      "abstractEntries": 1,
+      "fullTextEntries": 1,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-puertasaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "fewer than 4 references",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "The four-vertebra holotype, the extreme size estimates and the unstable titanosaur placement."
+    },
+    "rhabdodon": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 3,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-rhabdodon",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry",
+        "corrected in this pass"
+      ],
+      "note": "Lectotype clarified: MPLM 30 is a partial left dentary, and a 2025 revision reports that it has not been relocated. The 1999 nearly complete skeleton is a separate referred specimen."
+    },
+    "saltasaurus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 4,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-saltasaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Type material, the armour, presacral anatomy and the limits of the hypodigm."
+    },
+    "sauropelta": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 3,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "ostrom1970",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Type material, the armour and neck spines, the tail and the low-browsing inference."
+    },
+    "scelidosaurus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 6,
+      "abstractEntries": 5,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-scelidosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "The lectotype, dermal armour, quadrupedal posture and the contested basal-thyreophoran position."
+    },
+    "shunosaurus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 3,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-shunosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "trail is metadata-only",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Abundant skeletons, short neck, tail club and the limits of the behavioural record."
+    },
+    "sinosauropteryx": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 4,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-sinosauropteryx",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Filamentous integument, tail colour reconstruction and post-mortem posture."
+    },
+    "sinraptor": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 3,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-sinraptor",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Type material, dental anatomy, predatory inference and the limits of the dietary evidence."
+    },
+    "spinosaurus": {
+      "status": "protected-existing",
+      "refs": 10,
+      "trailEntries": 0,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "stromer1915",
+      "linkedSpecimen": true,
+      "flags": [
+        "no research trail"
+      ],
+      "note": "Extended dossier and protected 3D experience were not modified. The existing evidence trail remains the reference point."
+    },
+    "stegosaurus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 3,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-stegosaurus",
+      "linkedSpecimen": true,
+      "flags": [
+        "corrected in this pass"
+      ],
+      "note": "The dossier now has a research trail, specimen-status record and references for USNM 4934 and NHMUK PV R36730. The existing Discoveries entries were preserved."
+    },
+    "styracosaurus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 6,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-styracosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Type material, the horn/frill complex, intraspecific variation and functional inference."
+    },
+    "suchomimus": {
+      "status": "researched-enriched",
+      "refs": 3,
+      "trailEntries": 1,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "sereno1998",
+      "linkedSpecimen": false,
+      "flags": [
+        "research trail has fewer than 3 entries",
+        "fewer than 4 references",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Snout anatomy, forelimb evolution and the fish-eating inference."
+    },
+    "tarbosaurus": {
+      "status": "researched-enriched",
+      "refs": 7,
+      "trailEntries": 6,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-tarbosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "The PIN holotype, juvenile growth, isotopic diet evidence and frontal allometry."
+    },
+    "tenontosaurus": {
+      "status": "researched-enriched",
+      "refs": 9,
+      "trailEntries": 5,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "ostrom1970",
+      "linkedSpecimen": false,
+      "flags": [
+        "trail is metadata-only",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Growth histology, cranial anatomy and the Deinonychus association."
+    },
+    "therizinosaurus": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 3,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-therizinosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Holotype claws, missing skull, inferred herbivory and the limits of a fragmentary giant."
+    },
+    "torvosaurus": {
+      "status": "researched-enriched",
+      "refs": 8,
+      "trailEntries": 6,
+      "abstractEntries": 2,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-torvosaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "The lectotype humerus, forelimb anatomy, later cranial material and the Portuguese species question."
+    },
+    "triceratops": {
+      "status": "researched-enriched",
+      "refs": 6,
+      "trailEntries": 0,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "marsh1889",
+      "linkedSpecimen": false,
+      "flags": [
+        "no research trail",
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Horn combat, cranial ontogeny and the Torosaurus dispute."
+    },
+    "turiasaurus": {
+      "status": "researched-enriched",
+      "refs": 5,
+      "trailEntries": 3,
+      "abstractEntries": 1,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-turiasaurus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Partial skeleton, humerus, teeth, size estimates and the untested migration hypothesis."
+    },
+    "tyrannosaurus": {
+      "status": "researched-enriched",
+      "refs": 9,
+      "trailEntries": 0,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "osborn1905",
+      "linkedSpecimen": true,
+      "flags": [
+        "no research trail"
+      ],
+      "note": "Predation traces, growth, feeding and the limits of the soft-tissue evidence."
+    },
+    "velociraptor": {
+      "status": "researched-enriched",
+      "refs": 3,
+      "trailEntries": 0,
+      "abstractEntries": 0,
+      "fullTextEntries": 0,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "osborn1924",
+      "linkedSpecimen": true,
+      "flags": [
+        "no research trail",
+        "fewer than 4 references"
+      ],
+      "note": "Feather evidence and the limits of the hunting interpretation."
+    },
+    "yi": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 3,
+      "abstractEntries": 1,
+      "fullTextEntries": 2,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-yi",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Membrane-wing anatomy, aerodynamic modelling and the contested function of the wing."
+    },
+    "yutyrannus": {
+      "status": "researched-enriched",
+      "refs": 4,
+      "trailEntries": 3,
+      "abstractEntries": 2,
+      "fullTextEntries": 1,
+      "genericConfidenceNote": false,
+      "originalDescriptionRef": "primary-yutyrannus",
+      "linkedSpecimen": false,
+      "flags": [
+        "no linked specimen catalogue entry"
+      ],
+      "note": "Three feathered skeletons, body size, contested tyrannosauroid placement and uncertain provenance."
+    }
+  }
+}

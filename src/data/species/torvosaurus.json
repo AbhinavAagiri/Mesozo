@@ -1,0 +1,169 @@
+{
+  "slug": "torvosaurus",
+  "accession": "MZ-035",
+  "scientificName": "Torvosaurus tanneri",
+  "commonName": "Savage lizard",
+  "genus": "Torvosaurus",
+  "epithet": "tanneri",
+  "status": "Extinct",
+  "namedBy": "Galton & Jensen, 1979",
+  "group": "Theropoda · Megalosauridae",
+  "groupKey": "Theropoda",
+  "period": "jurassic",
+  "periodLabel": "Late Jurassic",
+  "stage": "Kimmeridgian–Tithonian",
+  "ageMa": [
+    152,
+    148
+  ],
+  "ageLabel": "≈152–148 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "Carnivory is inferred from the dentition and jaw apparatus. No gut contents or feeding traces are known for T. tanneri; the prey species and hunting method are inferred from anatomy and comparison with other megalosaurids.",
+    "evidence": "inference",
+    "refs": [
+      "primary-torvosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈9–10 m",
+  "mass": "≈2–3 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "torvosaurus-living",
+  "featured": false,
+  "tagline": "A large megalosaurid with a long, deep skull and powerful forelimbs. It was one of the largest Jurassic predators in North America.",
+  "summary": "A large megalosaurid with a long, deep skull and powerful forelimbs. It was one of the largest Jurassic predators in North America.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Tetanurae"
+    },
+    {
+      "rank": "Family",
+      "value": "Megalosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Torvosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "T. tanneri"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Galton & Jensen, 1979. The type series includes BYU-VP 2002; Britt (1991) designated its left humerus as the lectotype. The original material was disarticulated and represented more than one individual.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-torvosaurus",
+      "britt1991",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several partial skeletons and skull elements from the Morrison Formation.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-torvosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Morrison Formation, Colorado and Wyoming records the species in the Late Jurassic. The numeric range used here is ≈152–148 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skull is elongated and robust, with large serrated teeth; the forelimbs are proportionally large for a tetanuran.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-torvosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The forelimb bones are robust, but their use in prey capture is inferred. The skull is less complete than the postcranium and the reconstruction depends on several specimens. No trackway, nest or social association is known. Portuguese material may belong to a separate species, T. gurneyi.",
+    "evidence": "inference",
+    "refs": [
+      "primary-torvosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several partial skeletons and skull elements from the Morrison formation. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-torvosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-torvosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-torvosaurus-49",
+    "v19-torvosaurus-50",
+    "v19-torvosaurus-51",
+    "v19-torvosaurus-52",
+    "britt1991"
+  ],
+  "related": [
+    "eustreptospondylus",
+    "spinosaurus",
+    "allosaurus"
+  ],
+  "confidenceNote": "Confidence is high for the lectotype humerus and the forelimb anatomy. It is lower for the skull, the Portuguese species assignment and hunting behaviour. The type series was disarticulated and represented more than one individual.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Floodplain woodland",
+  "ancientContext": "Morrison Formation, Colorado and Wyoming",
+  "locality": [
+    "Morrison Formation, Colorado and Wyoming"
+  ],
+  "researchStatus": "partially-verified"
+}

@@ -1,0 +1,171 @@
+{
+  "slug": "dilong",
+  "accession": "MZ-093",
+  "scientificName": "Dilong paradoxus",
+  "commonName": "Paradoxical emperor dragon",
+  "genus": "Dilong",
+  "epithet": "paradoxus",
+  "status": "Extinct",
+  "namedBy": "Xu et al., 2004",
+  "group": "Theropoda · Proceratosauridae",
+  "groupKey": "Theropoda",
+  "period": "cretaceous",
+  "periodLabel": "Early Cretaceous",
+  "stage": "Barremian",
+  "ageMa": [
+    126,
+    125
+  ],
+  "ageLabel": "≈126–125 Ma",
+  "region": [
+    "China"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "The curved, serrated teeth indicate carnivory. No gut contents are known, so the prey taken, hunting versus scavenging, and feeding frequency remain unknown.",
+    "evidence": "inference",
+    "refs": [
+      "primary-dilong",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈1.5–2 m",
+  "mass": "≈10–20 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "dilong-living",
+  "featured": false,
+  "tagline": "A small early tyrannosauroid with preserved filamentous integument. It provides evidence that feathers were present in the tyrannosauroid lineage.",
+  "summary": "A small early tyrannosauroid with preserved filamentous integument. It provides evidence that feathers were present in the tyrannosauroid lineage.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Coelurosauria"
+    },
+    {
+      "rank": "Family",
+      "value": "Proceratosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Dilong"
+    },
+    {
+      "rank": "Species",
+      "value": "D. paradoxus"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Xu et al., 2004. The record is known from the Lujiatun Unit of the Yixian Formation, Liaoning. The holotype, IVPP V14243, is a semi-articulated skeleton with an almost complete skull; IVPP V14242 and TNP01109 are referred.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-dilong"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The holotype, IVPP V14243, is a semi-articulated skeleton with an almost complete skull. IVPP V14242 and TNP01109 are referred specimens; IVPP V11579 is a referred skull, not the holotype.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-dilong",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "The Lujiatun Unit of the Yixian Formation, Liaoning, records the species in the Early Cretaceous. The numeric range used here is ≈126–125 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The skeleton is lightly built, the forelimbs are relatively long and three-fingered, and filamentous integument is preserved around the tail and body. The skull is almost complete.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-dilong",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "No direct evidence of social, nesting or parental behaviour. The filaments are direct evidence of a body covering, but their function is not established. The Lujiatun lake-margin setting is habitat context, not a behavioural record.",
+    "evidence": "inference",
+    "refs": [
+      "primary-dilong",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a partial skeleton with integument impressions. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-dilong",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-dilong",
+    "v20-brusatte2016",
+    "pbdb",
+    "paul2016"
+  ],
+  "related": [
+    "yutyrannus",
+    "guanlong",
+    "compsognathus"
+  ],
+  "confidenceNote": "The holotype is IVPP V14243, a semi-articulated skeleton with an almost complete skull from the Lujiatun Unit of the Yixian Formation. Filamentous integument is preserved. Brusatte & Carr (2016) recovered Dilong outside Proceratosauridae, so the family label is provisional; no gut contents are known.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Temperate forest and lake margin",
+  "ancientContext": "Yixian Formation, Liaoning",
+  "locality": [
+    "Yixian Formation, Liaoning"
+  ],
+  "researchStatus": "partially-verified",
+  "primer": {
+    "lead": "Dilong paradoxus was a small, feathered [theropod](/learn/major-dinosaur-groups) from the [Early Cretaceous](/deep-time?period=cretaceous) of Liaoning, China. It is an early relative of Tyrannosaurus, but it was about the size of a large dog rather than a giant predator.",
+    "paragraphs": [
+      "The best specimen preserves an almost complete skull and a lightly built skeleton. Filamentous integument is preserved around the body and tail, showing that a feather-like covering was present in this part of the tyrannosauroid family tree. The filaments are not modern flight feathers, and their function is unknown.",
+      "Its teeth indicate a meat-eating diet, but no gut contents are known. The exact family placement is debated: some analyses put Dilong outside Proceratosauridae, and others place it outside Tyrannosauroidea altogether."
+    ],
+    "takeaway": "A small feathered cousin of Tyrannosaurus, important for the early history of the group."
+  }
+}

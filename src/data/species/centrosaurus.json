@@ -1,0 +1,169 @@
+{
+  "slug": "centrosaurus",
+  "accession": "MZ-051",
+  "scientificName": "Centrosaurus apertus",
+  "commonName": "Sharp-pointed lizard",
+  "genus": "Centrosaurus",
+  "epithet": "apertus",
+  "status": "Extinct",
+  "namedBy": "Lambe, 1904",
+  "group": "Ornithischia · Ceratopsidae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    77,
+    75
+  ],
+  "ageLabel": "≈77–75 Ma",
+  "region": [
+    "Canada"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The beak and dentition are consistent with herbivory. No gut contents are known; the plants eaten and feeding height are inferred from anatomy and comparisons with other ceratopsids.",
+    "evidence": "inference",
+    "refs": [
+      "primary-centrosaurus",
+      "v19-centrosaurus-89"
+    ]
+  },
+  "length": "≈5–6 m",
+  "mass": "≈2–3 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "centrosaurus-living",
+  "featured": false,
+  "tagline": "A centrosaurine ceratopsian with a short frill and a large nasal horn. Bonebeds preserve many individuals, but they may be accumulations around water.",
+  "summary": "Centrosaurus apertus is a centrosaurine ceratopsid from the Dinosaur Park and Oldman formations of Alberta. A monodominant bonebed has produced many individuals, and cranial ontogeny has been reconstructed from a size series. Bite marks on a juvenile frill record a direct carnivore interaction.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Marginocephalia"
+    },
+    {
+      "rank": "Family",
+      "value": "Ceratopsidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Centrosaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "C. apertus"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Lambe, 1904. The record is known from Dinosaur Park Formation, Alberta. Several bonebeds with skulls and partial skeletons.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-centrosaurus"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several bonebeds with skulls and partial skeletons.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-centrosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Dinosaur Park Formation, Alberta records the species in the Late Cretaceous. The numeric range used here is ≈77–75 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    },
+    {
+      "title": "Bonebed and bite-marked juvenile",
+      "body": "A monodominant Centrosaurus bonebed preserves many individuals. A separate juvenile frill preserves bite marks, direct evidence of a carnivore interaction.",
+      "evidence": "fossil",
+      "refs": [
+        "v19-centrosaurus-88",
+        "v19-centrosaurus-91"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The nasal horn is large, the frill is relatively short, and the postcranial skeleton is robust.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-centrosaurus",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "A monodominant bonebed containing many individuals is direct evidence of a mass accumulation. Herding is an inference; a drought, flood or other concentrating event could produce the same pattern. The frill and horns are usually interpreted as display or species-recognition structures, but their function is not demonstrated.",
+    "evidence": "inference",
+    "refs": [
+      "v19-centrosaurus-88",
+      "v19-centrosaurus-89"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several bonebeds with skulls and partial skeletons. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-centrosaurus",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-centrosaurus",
+    "pbdb",
+    "paul2016",
+    "v19-centrosaurus-88",
+    "v19-centrosaurus-89",
+    "v19-centrosaurus-90",
+    "v19-centrosaurus-91"
+  ],
+  "related": [
+    "styracosaurus",
+    "pachyrhinosaurus",
+    "einiosaurus"
+  ],
+  "confidenceNote": "The bonebed provides a large sample, but herding is inferred from the accumulation. Ornament function and the cause of the bonebed remain debated. The bite-marked frill records damage, not the identity of the attacker.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Dinosaur Park Formation, Alberta",
+  "locality": [
+    "Dinosaur Park Formation, Alberta"
+  ],
+  "researchStatus": "partially-verified"
+}

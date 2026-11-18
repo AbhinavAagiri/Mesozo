@@ -1,0 +1,160 @@
+{
+  "slug": "gryposaurus",
+  "accession": "MZ-065",
+  "scientificName": "Gryposaurus notabilis",
+  "commonName": "Hooked-nose lizard",
+  "genus": "Gryposaurus",
+  "epithet": "notabilis",
+  "status": "Extinct",
+  "namedBy": "Lambe, 1914",
+  "group": "Ornithischia · Hadrosauridae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    77,
+    75
+  ],
+  "ageLabel": "≈77–75 Ma",
+  "region": [
+    "Canada"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "The dental batteries and jaw apparatus are consistent with herbivory. No gut contents are known, and the plants eaten are not preserved.",
+    "evidence": "inference",
+    "refs": [
+      "v19-gryposaurus-123",
+      "v19-gryposaurus-124"
+    ]
+  },
+  "length": "≈8–9 m",
+  "mass": "≈3–4 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "gryposaurus-living",
+  "featured": false,
+  "tagline": "A hadrosaurid with a prominent arched nasal crest. The crest is a bony structure; its soft-tissue covering is not preserved.",
+  "summary": "A hadrosaurid with a prominent arched nasal crest. The crest is a bony structure; its soft-tissue covering is not preserved.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithopoda"
+    },
+    {
+      "rank": "Family",
+      "value": "Hadrosauridae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Gryposaurus"
+    },
+    {
+      "rank": "Species",
+      "value": "G. notabilis"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Lawrence Lambe in 1914 from the Dinosaur Park Formation of Alberta. The holotype, CMN 2278, is a nearly complete articulated skull and postcranium including skin impressions. The original “Belly River Formation” is now generally treated as the Dinosaur Park Formation.",
+    "evidence": "fossil",
+    "refs": [
+      "lambe1914",
+      "v19-gryposaurus-123"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several skulls and partial skeletons from Alberta and Montana.",
+      "evidence": "fossil",
+      "refs": [
+        "lambe1914",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Dinosaur Park Formation, Alberta records the species in the Late Cretaceous. The numeric range used here is ≈77–75 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The nasal region is strongly arched, the skull is large, and the dental battery is extensive.",
+      "evidence": "fossil",
+      "refs": [
+        "lambe1914",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "Herbivory is inferred from the dental batteries and jaw apparatus. No gut contents, nesting sites or social behaviour are recorded.",
+    "evidence": "inference",
+    "refs": [
+      "v19-gryposaurus-123",
+      "v19-gryposaurus-124"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several skulls and partial skeletons from Alberta and montana. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "lambe1914",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "lambe1914",
+    "pbdb",
+    "paul2016",
+    "v19-gryposaurus-123",
+    "v19-gryposaurus-124",
+    "lowi2020"
+  ],
+  "related": [
+    "edmontosaurus",
+    "corythosaurus",
+    "maiasaura"
+  ],
+  "confidenceNote": "The skull, crest and skin impressions are well documented, but the growth series is incomplete at the smallest sizes and the incurvimanus synonymy is not universally settled. No gut contents are known.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Facultatively bipedal; quadrupedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Dinosaur Park Formation, Alberta",
+  "locality": [
+    "Dinosaur Park Formation, Alberta"
+  ],
+  "researchStatus": "partially-verified"
+}

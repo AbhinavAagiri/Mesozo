@@ -1,0 +1,161 @@
+{
+  "slug": "pentaceratops",
+  "accession": "MZ-058",
+  "scientificName": "Pentaceratops sternbergii",
+  "commonName": "Five-horned face",
+  "genus": "Pentaceratops",
+  "epithet": "sternbergii",
+  "status": "Extinct",
+  "namedBy": "Osborn, 1923",
+  "group": "Ornithischia · Ceratopsidae",
+  "groupKey": "Ornithischia",
+  "period": "cretaceous",
+  "periodLabel": "Late Cretaceous",
+  "stage": "Campanian",
+  "ageMa": [
+    76,
+    73
+  ],
+  "ageLabel": "≈76–73 Ma",
+  "region": [
+    "United States"
+  ],
+  "regionKeys": [
+    "North America"
+  ],
+  "diet": "herbivore",
+  "dietLabel": "Herbivore",
+  "dietEvidence": {
+    "body": "Herbivory is inferred from the ceratopsian dentition and jaw apparatus. No gut contents are known, and the plants eaten are not preserved; the broad diet is a group-level inference.",
+    "evidence": "inference",
+    "refs": [
+      "primary-pentaceratops",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈6–7 m",
+  "mass": "≈3–4 t",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "pentaceratops-living",
+  "featured": false,
+  "tagline": "A large chasmosaurine with a long frill and three facial horns; the two additional epijugal horns give the genus its name. The frill is thin and highly fenestrated.",
+  "summary": "A large chasmosaurine with a long frill and three facial horns; the two additional epijugal horns give the genus its name. The frill is thin and highly fenestrated.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Ornithischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Marginocephalia"
+    },
+    {
+      "rank": "Family",
+      "value": "Ceratopsidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Pentaceratops"
+    },
+    {
+      "rank": "Species",
+      "value": "P. sternbergii"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Osborn, 1923. The holotype, AMNH 6325, is a skull from the Kirtland Formation, New Mexico. Later material includes a very large skull and partial skeleton.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-pentaceratops",
+      "pbdb"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "Several skulls and partial skeletons from the San Juan Basin.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-pentaceratops",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "Kirtland Formation, New Mexico records the species in the Late Cretaceous. The numeric range used here is ≈76–73 Ma, an occurrence estimate rather than a direct date on every specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The frill is long and broad, the brow horns are large, and the snout is deep.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-pentaceratops",
+        "pbdb",
+        "paul2016"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The frill and horns are preserved bone, but their function — display, species recognition or combat — is not demonstrated. No trackway, nest or bonebed establishes herding. The postcranium is less complete than the skull, which limits locomotion and social inference.",
+    "evidence": "inference",
+    "refs": [
+      "primary-pentaceratops",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from several skulls and partial skeletons from the san juan basin. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-pentaceratops",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-pentaceratops",
+    "pbdb",
+    "paul2016",
+    "v19-pentaceratops-107",
+    "v19-pentaceratops-108"
+  ],
+  "related": [
+    "chasmosaurus",
+    "triceratops",
+    "kosmoceratops"
+  ],
+  "confidenceNote": "Confidence is high for the skull and the large skull specimen. It is lower for the postcranium, body size, horn and frill function, and social behaviour. No direct evidence of herding is known.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Quadrupedal",
+  "habitat": "Coastal plain",
+  "ancientContext": "Kirtland Formation, New Mexico",
+  "locality": [
+    "Kirtland Formation, New Mexico"
+  ],
+  "researchStatus": "partially-verified"
+}

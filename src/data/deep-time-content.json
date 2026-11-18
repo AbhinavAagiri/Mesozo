@@ -1,0 +1,526 @@
+{
+  "measure": {
+    "yearLabel": "4.567 billion years",
+    "kicker": "The measure",
+    "standfirst": "Earth's history is not a backdrop to human history. It is the whole book, and we occupy a footnote.",
+    "analogy": "If all 4.567 billion years were a single day, the Phanerozoic — the time of abundant animal life — would begin in the last 2.8 hours. Homo sapiens would appear in the final six seconds. Recorded history would occupy about a tenth of a second.",
+    "analogyNote": "An illustrative thought experiment, not a geological diagram. The overview bar below is drawn to scale; the Phanerozoic timeline further down is expanded so its periods can be read.",
+    "scaleNote": "The Precambrian occupies 4,028.2 million years — 88.2% of Earth history. The Phanerozoic occupies the remaining 538.8 million years, 11.8%."
+  },
+  "units": {
+    "precambrian": {
+      "tagline": "Most of Earth history happened before complex life.",
+      "summary": "The Precambrian spans 4,567 to 538.8 Ma and contains the Hadean, Archean and Proterozoic eons. It includes the formation of the planet, the origin of oceans and continents, the earliest life, the rise of oxygen, the first eukaryotes, and the Ediacaran organisms. It is not a single period, and it is not a single world.",
+      "environment": "The early planet was hot, impacted and initially without a stable crust. Conditions changed profoundly across four billion years: a magma ocean gave way to oceans and growing continents, atmospheric oxygen rose, and global glaciations alternated with warm intervals.",
+      "geography": "Very little Hadean crust survives. The oldest terrestrial minerals are detrital zircons from Jack Hills, Western Australia, dated to about 4.4 Ga. Archean and Proterozoic rocks record the growth and assembly of continents, but their palaeogeography is reconstructed from fragments rather than preserved directly.",
+      "life": [
+        "Microbial ecosystems were established in shallow marine settings by the Archean; the oldest widely accepted stromatolite reefs date to about 3.43 Ga.",
+        "Oxygenic photosynthesis altered the atmosphere and oceans, beginning the Great Oxidation Event around 2.4 Ga.",
+        "Eukaryotic cells appear in the Proterozoic fossil record; the Ediacaran biota, from about 575 Ma, includes some of the earliest large, complex organisms.",
+        "The first unambiguous animals appear near the end of the Proterozoic; the Cambrian diversification follows immediately after 538.8 Ma."
+      ],
+      "refs": ["ics2026", "gradstein2020", "wilde2001", "allwood2006", "lyons2014", "droser2015"]
+    },
+    "hadean": {
+      "tagline": "A planet without a preserved surface record.",
+      "summary": "The Hadean (4,567–4,031 Ma) covers Earth's formation and its earliest evolution. No Hadean rock surface survives intact. Evidence comes from meteorites, lunar samples, and rare detrital minerals, so the interval is known through indirect records rather than a conventional stratigraphic sequence.",
+      "environment": "Earth formed by accretion and was probably molten at the surface for part of its early history. A giant impact is thought to have formed the Moon. By the late Hadean, liquid water and continental crust may already have existed, but the timing and extent are debated.",
+      "geography": "The oldest terrestrial material is a detrital zircon from the Jack Hills of Western Australia with an age of about 4.4 Ga. It shows that evolved continental crust existed, not what the planet's surface looked like.",
+      "life": [
+        "No Hadean body fossils are known.",
+        "Some chemical and isotopic signals have been proposed as evidence for very early life, but none is widely accepted as a body-fossil record.",
+        "The origin of life is not dated by a single fossil horizon; it is inferred to fall somewhere between the Hadean and the Archean."
+      ],
+      "refs": ["ics2026", "gradstein2020", "wilde2001"]
+    },
+    "archean": {
+      "tagline": "Oceans, continents and the first widespread ecosystems.",
+      "summary": "The Archean (4,031–2,500 Ma) records the growth of continental crust, the establishment of oceans, and the first widespread microbial ecosystems. It is also the interval in which oxygen-producing photosynthesis began to change the chemistry of the ocean and atmosphere.",
+      "environment": "The Archean atmosphere lacked abundant free oxygen. Oceans were widespread, and the climate was warm enough for liquid water despite a fainter Sun. Volcanic and hydrothermal activity was extensive.",
+      "geography": "Small continents and volcanic arcs grew and collided. Greenstone belts and granite–greenstone terranes preserve fragments of Archean crust; the oldest well-preserved rocks date to about 4.0 Ga.",
+      "life": [
+        "Stromatolite reefs from the Strelley Pool Formation, about 3.43 Ga, are among the oldest widely accepted evidence of microbial ecosystems.",
+        "Microbial mats and filamentous microfossils occur in Archean rocks; claims of older or more complex life are contested.",
+        "Oxygenic photosynthesis probably evolved before the Great Oxidation Event, but the exact timing remains under investigation."
+      ],
+      "refs": ["ics2026", "gradstein2020", "allwood2006", "lyons2014"]
+    },
+    "proterozoic": {
+      "tagline": "Oxygen, eukaryotes and the first large organisms.",
+      "summary": "The Proterozoic (2,500–538.8 Ma) is the long interval between the Archean and the Cambrian. Atmospheric oxygen rose, eukaryotic life diversified, global glaciations occurred, and the Ediacaran biota appeared in the final 100 million years.",
+      "environment": "The Great Oxidation Event around 2.4 Ga permanently changed the atmosphere and ocean chemistry. Oxygen levels later fluctuated, and at least two Cryogenian glaciations may have reached low latitudes. The Ediacaran world was warmer and more oxygenated than the earlier Proterozoic.",
+      "geography": "Continents assembled into supercontinents and dispersed again. Rodinia formed and broke apart; Gondwana assembled near the end of the Proterozoic. Shallow continental seas expanded and contracted across the interval.",
+      "life": [
+        "Eukaryotic microfossils and macroscopic algae appear in the Proterozoic record.",
+        "The Ediacaran biota, from about 575 Ma, includes large frond-like, disc-shaped and mobile organisms; their relationships to living animal groups are debated.",
+        "The first unambiguous animals and the first mineralized skeletons appear close to the Proterozoic–Phanerozoic boundary."
+      ],
+      "refs": ["ics2026", "gradstein2020", "lyons2014", "droser2015"]
+    },
+    "phanerozoic": {
+      "tagline": "The eon of abundant, skeletonized life.",
+      "summary": "The Phanerozoic (538.8–0 Ma) contains the Paleozoic, Mesozoic and Cenozoic eras. It is the interval in which animals with skeletons, land plants, forests, tetrapods, dinosaurs, birds and mammals became prominent in the fossil record. Its base is also the base of the Cambrian Period.",
+      "environment": "Phanerozoic climates have alternated between greenhouse and icehouse states. Sea level, atmospheric oxygen and carbon dioxide have changed repeatedly, and several mass extinctions reset the course of evolution.",
+      "geography": "Continents have moved from dispersed Paleozoic landmasses to the supercontinent Pangaea, then back to the modern configuration. The Atlantic and Indian oceans opened during the Mesozoic and Cenozoic.",
+      "life": [
+        "The Cambrian diversification establishes many major animal groups in the seas.",
+        "Plants, arthropods and tetrapods colonize the land; forests and amniotes follow.",
+        "Dinosaurs dominate the Mesozoic land before the end-Cretaceous extinction, while birds survive and mammals diversify.",
+        "Hominins appear in the Neogene, and Homo sapiens in the Quaternary."
+      ],
+      "refs": ["ics2026", "gradstein2020", "wood2019", "schulte2010"]
+    },
+    "paleozoic": {
+      "tagline": "Life leaves the sea, then nearly disappears.",
+      "summary": "The Paleozoic (538.8–251.902 Ma) begins with the Cambrian diversification and ends with the largest extinction in Earth history. Across the era, plants and animals colonize land, forests develop, vertebrates acquire limbs and amniotic reproduction, and Pangaea assembles.",
+      "environment": "The era spans warm, high-sea-level intervals and major glaciations. Atmospheric oxygen rose as land plants spread, then fluctuated. The end-Permian crisis coincided with massive volcanism and rapid climate change.",
+      "geography": "Gondwana, Laurentia, Baltica and Siberia were dispersed early in the era. Their collisions assembled Pangaea by the late Paleozoic, creating extensive mountain belts and a vast continental interior.",
+      "life": [
+        "Marine invertebrates dominate the early Paleozoic seas; fish diversify and vertebrates acquire jaws.",
+        "Plants move onto land, then form the first forests; arthropods and tetrapods follow.",
+        "Amniotes appear in the Carboniferous, freeing reproduction from standing water.",
+        "Synapsids and other tetrapods diversify in the Permian before the end-Permian extinction."
+      ],
+      "refs": ["ics2026", "gradstein2020", "scotese2021", "kenrick1997"]
+    },
+    "mesozoic": {
+      "tagline": "The age of dinosaurs, and of the birds inside them.",
+      "summary": "The Mesozoic (251.902–66 Ma) contains the Triassic, Jurassic and Cretaceous periods. It opens after the end-Permian extinction, records the rise and global spread of dinosaurs, the origin of birds, the diversification of mammals and flowering plants, and ends at the Cretaceous–Paleogene boundary.",
+      "environment": "The Mesozoic was predominantly warm, with high sea levels and extensive continental seas. Climate varied from arid Pangaean interiors in the Triassic to humid greenhouse worlds in the Jurassic and Cretaceous.",
+      "geography": "Pangaea began to rift in the Triassic and broke apart through the Jurassic and Cretaceous. The Atlantic opened, the Tethys narrowed, and India moved northward toward Asia.",
+      "life": [
+        "The first dinosaurs, pterosaurs and mammal relatives appear in the Triassic.",
+        "Sauropods, theropods, stegosaurs and other dinosaurs dominate Jurassic terrestrial faunas.",
+        "Birds arise from feathered dinosaurs; flowering plants and social insects diversify in the Cretaceous.",
+        "Marine reptiles such as ichthyosaurs, plesiosaurs and mosasaurs occupy the seas.",
+        "The end-Cretaceous impact and volcanism remove the non-avian dinosaurs, but birds survive."
+      ],
+      "refs": ["ics2026", "gradstein2020", "scotese2021", "langer2010", "schulte2010"]
+    },
+    "cenozoic": {
+      "tagline": "Mammals, grasslands and the rise of humans.",
+      "summary": "The Cenozoic (66–0 Ma) begins after the end-Cretaceous extinction with the Paleogene, Neogene and Quaternary periods. Mammals and birds diversify, grasslands spread, continents approach their modern positions, and hominins appear in the late Neogene.",
+      "environment": "The early Cenozoic was warm, including the Paleocene–Eocene Thermal Maximum. Climate cooled through the Oligocene and Neogene, and Northern Hemisphere ice sheets expanded in the Quaternary, producing repeated glacial–interglacial cycles.",
+      "geography": "India collided with Asia, the Atlantic continued to widen, and the Isthmus of Panama closed. The modern continental arrangement was largely established by the late Neogene.",
+      "life": [
+        "Mammals radiate into terrestrial, marine and aerial niches; birds diversify alongside them.",
+        "Grasses and grasslands expand in the Neogene, reshaping herbivore ecosystems.",
+        "Hominins appear in Africa by about 7 Ma; Homo sapiens appears much later, in the Quaternary.",
+        "The Quaternary is marked by repeated glaciations and human-driven extinctions."
+      ],
+      "refs": ["ics2026", "gradstein2020", "zachos2001", "edwards2010", "hublin2017"]
+    },
+    "cambrian": {
+      "tagline": "The sea fills with animals.",
+      "summary": "The Cambrian (538.8–486.85 Ma) records the rapid diversification of animals with skeletons and complex body plans. Trilobites, brachiopods, archaeocyaths and early chordates appear in the seas. The land remained largely bare, with microbial mats and simple plants at the water's edge.",
+      "climate": "Warm, largely ice-free seas with rising atmospheric oxygen. Shallow continental shelves were extensive. There is no evidence for vascular land plants or large terrestrial animals.",
+      "geography": "Gondwana, Laurentia, Baltica and Siberia were separate landmasses at low to intermediate latitudes. Shallow epicontinental seas covered large parts of the continents.",
+      "life": [
+        "Trilobites, brachiopods, archaeocyaths, echinoderms and other marine invertebrates diversify.",
+        "The first chordates and early vertebrates appear; fish remain small and marine.",
+        "The oldest widely accepted body fossils of many animal groups occur in Cambrian rocks.",
+        "Microbial reefs and mats are common; land ecosystems remain simple."
+      ],
+      "endedBy": "No single mass extinction defines the Cambrian–Ordovician boundary. The transition is marked by changing sea level, ocean chemistry, and the turnover of marine faunas.",
+      "refs": ["ics2026", "gradstein2020", "wood2019"]
+    },
+    "ordovician": {
+      "tagline": "Diverse seas and the first plants on land.",
+      "summary": "The Ordovician (486.85–443.1 Ma) is a period of marine diversification. Reefs expand, cephalopods and crinoids become abundant, and the first jawed fishes appear. On land, the earliest cryptospores record simple plants. The period ends with a glacially driven mass extinction.",
+      "climate": "Warm early in the period, with high sea levels. Gondwana moved toward the South Pole, and continental glaciation at the end of the period contributed to the Late Ordovician extinction.",
+      "geography": "Gondwana lay across the south polar region; Laurentia, Baltica, Siberia and other terranes occupied lower latitudes. The Iapetus Ocean separated Laurentia from Baltica and Avalonia.",
+      "life": [
+        "Marine invertebrates diversify: corals, bryozoans, crinoids, brachiopods and nautiloid cephalopods.",
+        "The first jawed fishes appear in the fossil record.",
+        "Cryptospores from about 470 Ma are among the earliest evidence of land plants.",
+        "The Late Ordovician extinction removes many marine groups, especially in shallow seas."
+      ],
+      "endedBy": "The Late Ordovician mass extinction, about 445–443 Ma, associated with glaciation, sea-level fall and oceanographic change.",
+      "refs": ["ics2026", "gradstein2020", "kenrick1997"]
+    },
+    "silurian": {
+      "tagline": "Recovery, reefs and the first vascular plants.",
+      "summary": "The Silurian (443.1–419.62 Ma) is a period of recovery after the Late Ordovician extinction. Reef ecosystems rebuild, jawed fishes diversify, and vascular land plants appear. The first clearly terrestrial arthropods also enter the fossil record.",
+      "climate": "Generally warm, with high sea levels and extensive shallow carbonate platforms. The period was less glaciated than the late Ordovician, though climate oscillated.",
+      "geography": "Continents continued to converge. Laurentia and Baltica collided, closing the Iapetus Ocean and building the Caledonian mountains; Gondwana remained in the south.",
+      "life": [
+        "Reefs recover and diversify, built by corals, stromatoporoids and calcareous algae.",
+        "Jawed fishes diversify in marine and freshwater settings.",
+        "Vascular plants such as Cooksonia appear; early terrestrial arthropods are present.",
+        "Marine invertebrates, including brachiopods and graptolites, remain important."
+      ],
+      "endedBy": "The period closes with a series of late Silurian extinction pulses, but no single boundary event of comparable scale to the end-Permian or end-Cretaceous extinctions.",
+      "refs": ["ics2026", "gradstein2020", "kenrick1997"]
+    },
+    "devonian": {
+      "tagline": "Forests, fishes and the first steps on land.",
+      "summary": "The Devonian (419.62–358.86 Ma) is the age of early forests and the fin-to-limb transition. Vascular plants spread and diversify, roots and soils alter weathering, and lobe-finned fishes give rise to tetrapods. The period ends with a major marine extinction.",
+      "climate": "Warm and tropical over much of the period, with a strengthening monsoon and increasing seasonality. Late Devonian cooling and ocean anoxia contributed to the extinction.",
+      "geography": "The Old Red Sandstone continent formed as Laurentia and Baltica collided. Gondwana approached from the south; the Rheic Ocean narrowed. Extensive reefs developed in tropical seas.",
+      "life": [
+        "The first forests appear; lycopsids, ferns and early trees change landscapes and carbon cycling.",
+        "Lobe-finned fishes such as Tiktaalik document the fin-to-limb transition; the earliest tetrapod body fossils follow.",
+        "Ammonites and diverse reef organisms inhabit the seas.",
+        "The Late Devonian extinction removes many marine groups, including some reef builders."
+      ],
+      "endedBy": "The Late Devonian extinction, with a major pulse around 372 Ma, linked to ocean anoxia, cooling and sea-level change.",
+      "refs": ["ics2026", "gradstein2020", "kenrick1997", "daeschler2006"]
+    },
+    "carboniferous": {
+      "tagline": "Coal forests, giant arthropods and the amniotic egg.",
+      "summary": "The Carboniferous (358.86–298.9 Ma) contains the Mississippian and Pennsylvanian. Dense tropical forests produce major coal deposits, atmospheric oxygen reaches high levels, and the first amniotes appear. Pangaea is assembling, and the climate shifts from humid to more seasonal.",
+      "climate": "A tropical greenhouse early in the period gave way to icehouse conditions in the late Carboniferous. High plant productivity and carbon burial are linked to elevated atmospheric oxygen.",
+      "geography": "Gondwana and Laurussia converged, closing the Rheic Ocean and raising the Variscan mountains. Extensive equatorial coal swamps covered parts of Laurussia.",
+      "life": [
+        "Lycopsid, horsetail and fern forests dominate tropical wetlands and form coal beds.",
+        "Giant arthropods, including large winged insects, lived in high-oxygen atmospheres.",
+        "The first amniotes appear in the fossil record; their eggs could develop on land.",
+        "Amphibians and early reptiles diversify in wetland and upland habitats."
+      ],
+      "endedBy": "The Carboniferous ends amid the collapse of equatorial rainforests and increasing aridity as Pangaea assembled. No single boundary mass extinction defines the transition.",
+      "refs": ["ics2026", "gradstein2020", "benton2007", "scotese2021"]
+    },
+    "permian": {
+      "tagline": "One continent, extreme interiors, and the greatest extinction.",
+      "summary": "The Permian (298.9–251.902 Ma) begins with icehouse conditions and ends with the largest extinction in Earth history. Pangaea assembles into a single landmass, synapsids and other tetrapods diversify, and terrestrial interiors become arid. The end-Permian crisis removes most marine species and many land vertebrates.",
+      "climate": "Early Permian ice sheets persisted over Gondwana. Later, the climate warmed and continental interiors became strongly seasonal and arid. The end-Permian extinction coincided with rapid warming, ocean acidification and anoxia.",
+      "geography": "Pangaea was assembling; the Tethys Ocean opened to the east as Gondwana and Laurasia joined. The vast continental interior was far from moisture sources.",
+      "life": [
+        "Synapsids, including pelycosaurs and therapsids, dominate many terrestrial faunas.",
+        "Pareiasaurs, early archosauromorphs and diverse plant communities occupy Pangaea.",
+        "Marine reefs, brachiopods, fusulinids and ammonoids flourish before the crisis.",
+        "The end-Permian extinction eliminates most marine species and many tetrapod lineages."
+      ],
+      "endedBy": "The end-Permian mass extinction at 251.902 Ma, linked to Siberian Traps volcanism, rapid warming, ocean acidification and anoxia.",
+      "refs": ["ics2026", "gradstein2020", "scotese2021", "burgess2014"]
+    },
+    "triassic": {
+      "tagline": "A hot world after the greatest extinction.",
+      "summary": "The Triassic (251.902–201.4 Ma) opens after the end-Permian extinction. Life recovers slowly, then the first dinosaurs, pterosaurs and mammal relatives appear. Pangaea begins to rift, and the period ends with another mass extinction.",
+      "climate": "Hot and strongly seasonal over much of Pangaea, with arid continental interiors. The early Triassic was exceptionally warm; conditions moderated later, but the world remained largely ice-free.",
+      "geography": "Pangaea straddled the equator. Rifting began in the Late Triassic, opening the Central Atlantic and separating Laurasia from Gondwana. The Tethys Ocean lay to the east.",
+      "life": [
+        "Marine reefs and ammonites recover slowly after the end-Permian crisis.",
+        "The first dinosaurs appear in the Late Triassic, alongside pterosaurs and mammal relatives.",
+        "Ichthyosaurs and plesiosaurs diversify in the seas; crocodile-line archosaurs are diverse on land.",
+        "Dinosaurs remain a minority component of many Late Triassic faunas."
+      ],
+      "endedBy": "The end-Triassic mass extinction at 201.4 Ma, associated with Central Atlantic Magmatic Province volcanism and rapid climate change.",
+      "refs": ["ics2026", "gradstein2020", "langer2010", "blackburn2013"]
+    },
+    "jurassic": {
+      "tagline": "Giants, reefs and the first birds.",
+      "summary": "The Jurassic (201.4–143.1 Ma) is a warm greenhouse world of giant sauropods, diverse theropods and expanding seas. Pangaea breaks apart, the Atlantic opens, and the first birds appear within the dinosaur lineage. The period ends without a single mass extinction.",
+      "climate": "Warm and humid over much of the world, with high sea levels and extensive continental shelves. Cooler intervals occurred at higher latitudes, but polar ice was limited.",
+      "geography": "Pangaea rifted into Laurasia and Gondwana. The Central Atlantic widened, the Tethys Ocean expanded, and shallow seaways flooded parts of Europe and North America.",
+      "life": [
+        "Sauropods reach enormous body sizes; the Morrison Formation preserves a classic Late Jurassic fauna.",
+        "Large theropods, stegosaurs, small feathered dinosaurs and early mammals share terrestrial habitats.",
+        "Archaeopteryx and other early birds appear in the Late Jurassic; birds are nested within theropod dinosaurs.",
+        "Ammonites, belemnites, corals and marine reptiles are diverse in the seas."
+      ],
+      "endedBy": "No single mass extinction marks the Jurassic–Cretaceous boundary. The transition is a gradual turnover associated with sea-level and environmental change.",
+      "refs": ["ics2026", "gradstein2020", "scotese2021", "xu2014"]
+    },
+    "cretaceous": {
+      "tagline": "Flowering plants, familiar dinosaurs and a sudden end.",
+      "summary": "The Cretaceous (143.1–66 Ma) is the final period of the Mesozoic. Flowering plants diversify, dinosaurs such as ceratopsians, hadrosaurs, ankylosaurs and tyrannosaurs dominate many land faunas, and birds, mammals and marine reptiles diversify. The period ends at the Cretaceous–Paleogene boundary.",
+      "climate": "A warm greenhouse world with high sea levels and extensive epicontinental seas. Conditions cooled through the Late Cretaceous, but remained warmer than today.",
+      "geography": "The Atlantic continued to widen, Africa and South America separated, and India moved northward. Shallow seas divided North America and covered parts of Europe and Asia.",
+      "life": [
+        "Ceratopsians, hadrosaurs, ankylosaurs and tyrannosaurs dominate many Late Cretaceous land faunas.",
+        "Birds diversify; feathers are widespread among coelurosaurian dinosaurs.",
+        "Flowering plants and their insect pollinators reshape terrestrial ecosystems.",
+        "Mosasaurs, plesiosaurs and ammonites inhabit the seas."
+      ],
+      "endedBy": "The Cretaceous–Paleogene mass extinction at 66 Ma, following the Chicxulub impact and volcanism, removes non-avian dinosaurs and many marine groups. Birds and mammals survive.",
+      "refs": ["ics2026", "gradstein2020", "scotese2021", "schulte2010"]
+    },
+    "paleogene": {
+      "tagline": "Recovery, warmth and the rise of modern mammals.",
+      "summary": "The Paleogene (66–23.03 Ma) begins after the end-Cretaceous extinction. Mammals and birds radiate, the first whales and primates appear, and India collides with Asia. The early Eocene is exceptionally warm; the later Paleogene cools.",
+      "climate": "Warm early in the period, with the Paleocene–Eocene Thermal Maximum around 56 Ma. Cooling and Antarctic glaciation followed through the Eocene and Oligocene.",
+      "geography": "India moved rapidly northward and began colliding with Asia. The Atlantic opened wider, and the Tethys narrowed. Australia separated from Antarctica.",
+      "life": [
+        "Mammals radiate into terrestrial, marine and aerial niches; primates, bats and early whales appear.",
+        "Birds diversify into modern orders; large flightless birds and giant penguins occur.",
+        "Grasslands are not yet widespread; forests and woodland dominate many landscapes.",
+        "The PETM causes a geologically brief warming and shifts in marine and terrestrial ecosystems."
+      ],
+      "endedBy": "The Paleogene ends without a mass extinction. The Oligocene–Miocene transition is marked by cooling, Antarctic ice growth and faunal turnover.",
+      "refs": ["ics2026", "gradstein2020", "zachos2001", "meredith2011"]
+    },
+    "neogene": {
+      "tagline": "Grasslands, cooling and the first hominins.",
+      "summary": "The Neogene (23.03–2.58 Ma) records the expansion of grasslands, the diversification of modern mammal families, and the appearance of the first hominins. Global climate cooled, ice sheets grew, and the modern continental configuration took shape.",
+      "climate": "Generally cooler than the Paleogene, with major ice growth in Antarctica and the Arctic. C4 grasslands expanded in warm regions during the late Miocene and Pliocene.",
+      "geography": "The Tethys closed as Africa and Arabia collided with Eurasia. The Isthmus of Panama closed, connecting the Americas; India was already part of Asia.",
+      "life": [
+        "C4 grasslands spread from about 8 to 3 Ma, reshaping herbivore communities.",
+        "Horses, elephants, bovids and other modern mammal families diversify.",
+        "Hominins appear in Africa by about 7 Ma; the earliest candidate species are known from fragmentary fossils.",
+        "Marine mammals and seabirds diversify; kelp forests and seagrass ecosystems expand."
+      ],
+      "endedBy": "The Neogene ends as cooling intensifies and Northern Hemisphere ice sheets expand into the Quaternary. No single mass extinction defines the boundary.",
+      "refs": ["ics2026", "gradstein2020", "edwards2010", "brunet2002"]
+    },
+    "quaternary": {
+      "tagline": "Ice ages, Homo sapiens and the present.",
+      "summary": "The Quaternary (2.58–0 Ma) contains the Pleistocene and Holocene. Repeated glacial–interglacial cycles shape landscapes and ecosystems, Homo sapiens appears in Africa, and human populations spread across the planet. Many large-bodied animals disappear during the late Pleistocene and early Holocene.",
+      "climate": "The period is defined by large Northern Hemisphere ice sheets and repeated glacial–interglacial cycles. The Holocene, the current epoch, is a relatively warm interglacial interval.",
+      "geography": "Continents and oceans are close to their modern configuration. Ice sheets, sea level and coastlines changed repeatedly; the Holocene coastline is the one human societies have occupied.",
+      "life": [
+        "Homo sapiens appears in Africa by about 315,000 years ago and later disperses worldwide.",
+        "Late Pleistocene megafaunas include mastodons, mammoths, giant sloths and sabre-toothed cats.",
+        "Many large mammals and birds disappear during the late Quaternary; the causes vary by region and include human hunting, climate change and habitat change.",
+        "Domesticated plants and animals reshape ecosystems in the Holocene."
+      ],
+      "endedBy": "The Quaternary is ongoing. The Holocene is the current epoch; its later part is increasingly shaped by human activity.",
+      "refs": ["ics2026", "gradstein2020", "clark2009", "hublin2017"]
+    }
+  },
+  "events": [
+    {
+      "id": "oldest-minerals",
+      "title": "The oldest terrestrial minerals",
+      "dateMa": 4404,
+      "dateLabel": "≈4.40 Ga",
+      "unitId": "hadean",
+      "kind": "transition",
+      "basis": "proxy",
+      "body": "A detrital zircon from the Jack Hills in Western Australia records an age of about 4.4 Ga. It is the oldest dated terrestrial material, and it shows that evolved continental crust existed while the Hadean surface record was otherwise being destroyed.",
+      "note": "A mineral age is not a fossil or a direct observation of the Hadean landscape. It is a surviving fragment of an older rock.",
+      "refs": ["wilde2001"]
+    },
+    {
+      "id": "stromatolite-reefs",
+      "title": "Stromatolite reefs",
+      "dateMa": 3430,
+      "dateLabel": "≈3.43 Ga",
+      "unitId": "archean",
+      "kind": "first-evidence",
+      "basis": "fossil",
+      "body": "Layered carbonate reefs from the Strelley Pool Formation in Western Australia are among the oldest widely accepted evidence of microbial ecosystems. The structures were built by microbial mats trapping and binding sediment in shallow water.",
+      "note": "This is the earliest well-supported fossil evidence of life, not the moment life originated. Older chemical and isotopic claims remain contested.",
+      "refs": ["allwood2006"]
+    },
+    {
+      "id": "great-oxidation",
+      "title": "The Great Oxidation Event",
+      "dateMa": 2400,
+      "dateLabel": "≈2.4 Ga",
+      "unitId": "proterozoic",
+      "kind": "transition",
+      "basis": "proxy",
+      "body": "Atmospheric oxygen rose permanently around 2.4 Ga, transforming the chemistry of the ocean and atmosphere. The change is recorded in sulfur and carbon isotopes, banded iron formations and the loss of detrital minerals that require an oxygen-free environment.",
+      "note": "The rise of oxygen was not a single instant. It occurred in stages, and its timing and magnitude are reconstructed from geochemical proxies.",
+      "refs": ["lyons2014"]
+    },
+    {
+      "id": "ediacaran-biota",
+      "title": "The Ediacaran biota",
+      "dateMa": 575,
+      "dateLabel": "≈575 Ma",
+      "unitId": "proterozoic",
+      "kind": "first-evidence",
+      "basis": "fossil",
+      "body": "Large, soft-bodied organisms appear in Ediacaran rocks around 575 Ma. They include frond-like, disc-shaped and mobile forms. Some are probably animals; others may belong to extinct lineages with no clear living relatives.",
+      "note": "The oldest known Ediacaran fossils are a minimum age for these organisms, not the origin of animals. Their relationships are actively debated.",
+      "refs": ["droser2015"]
+    },
+    {
+      "id": "cambrian-diversification",
+      "title": "The Cambrian diversification",
+      "dateMa": 538.8,
+      "dateLabel": "538.8–~515 Ma",
+      "unitId": "cambrian",
+      "kind": "diversification",
+      "basis": "fossil",
+      "body": "The Cambrian fossil record documents the appearance of many major animal groups with mineralized skeletons and complex body plans. Trilobites, brachiopods, archaeocyaths, early chordates and predatory animals enter the record.",
+      "note": "The 'Cambrian explosion' was not a single moment. It unfolded over millions of years, and the fossil record samples it unevenly.",
+      "refs": ["wood2019"]
+    },
+    {
+      "id": "plants-on-land",
+      "title": "Plants on land",
+      "dateMa": 470,
+      "dateLabel": "≈470 Ma",
+      "unitId": "ordovician",
+      "kind": "first-evidence",
+      "basis": "fossil",
+      "body": "Cryptospores from Middle Ordovician rocks are among the earliest evidence of land plants. These early plants were small and probably lived close to water; vascular plants with conducting tissues appear later.",
+      "note": "The oldest spores date the presence of plants, not the origin of the land-plant lineage. The transition from aquatic algae to terrestrial plants was gradual.",
+      "refs": ["kenrick1997"]
+    },
+    {
+      "id": "fin-to-limb",
+      "title": "From fins to limbs",
+      "dateMa": 375,
+      "dateLabel": "≈375 Ma",
+      "unitId": "devonian",
+      "kind": "transition",
+      "basis": "fossil",
+      "body": "Tiktaalik and related lobe-finned fishes preserve a mosaic of fish and tetrapod features: a flattened head, robust pectoral fins and a neck. They document the anatomical transition that preceded the first fully terrestrial vertebrates.",
+      "note": "Tiktaalik is a fish, not a tetrapod, and it is not a direct ancestor of any living species. It is a close relative that illuminates a sequence of changes.",
+      "refs": ["daeschler2006"]
+    },
+    {
+      "id": "first-amniotes",
+      "title": "The first amniotes",
+      "dateMa": 312,
+      "dateLabel": "≈312 Ma",
+      "unitId": "carboniferous",
+      "kind": "first-evidence",
+      "basis": "fossil",
+      "body": "The earliest body fossils of amniotes appear in the late Carboniferous. Amniotes reproduce with an egg that protects the embryo from drying out, allowing them to live and reproduce away from standing water.",
+      "note": "The amniotic egg itself is rarely fossilized. Its evolution is inferred from the anatomy and reproductive biology of the earliest amniotes and their living relatives.",
+      "refs": ["benton2007"]
+    },
+    {
+      "id": "end-permian",
+      "title": "The end-Permian extinction",
+      "dateMa": 251.902,
+      "dateLabel": "251.902 Ma",
+      "unitId": "permian",
+      "kind": "extinction",
+      "basis": "fossil",
+      "body": "The largest mass extinction in Earth history removed most marine species and many land vertebrates. It coincided with the eruption of the Siberian Traps, rapid warming, ocean acidification and widespread anoxia.",
+      "note": "The numerical age is a boundary estimate, not an exact instant. The extinction unfolded over a geologically short but still complex interval.",
+      "refs": ["burgess2014"]
+    },
+    {
+      "id": "first-dinosaurs",
+      "title": "The first dinosaurs",
+      "dateMa": 233,
+      "dateLabel": "≈233 Ma",
+      "unitId": "triassic",
+      "kind": "first-evidence",
+      "basis": "fossil",
+      "body": "The oldest uncontested dinosaur body fossils come from Late Triassic rocks. Early dinosaurs were relatively small, bipedal animals living alongside a diverse cast of crocodile-line archosaurs, pterosaurs and mammal relatives.",
+      "note": "This is the age of the oldest known body fossils, not the moment the dinosaur lineage originated. Older footprint claims are debated.",
+      "refs": ["langer2010"]
+    },
+    {
+      "id": "end-triassic",
+      "title": "The end-Triassic extinction",
+      "dateMa": 201.4,
+      "dateLabel": "201.4 Ma",
+      "unitId": "triassic",
+      "kind": "extinction",
+      "basis": "fossil",
+      "body": "The end-Triassic extinction removed many marine and terrestrial species and opened ecological space for dinosaurs to diversify in the Jurassic. It coincided with the eruption of the Central Atlantic Magmatic Province.",
+      "note": "The extinction is well supported, but the relative roles of volcanism, warming and sea-level change are still being resolved.",
+      "refs": ["blackburn2013"]
+    },
+    {
+      "id": "pangaea-breakup",
+      "title": "Pangaea breaks apart",
+      "dateMa": 180,
+      "dateLabel": "≈180 Ma",
+      "unitId": "jurassic",
+      "kind": "transition",
+      "basis": "proxy",
+      "body": "Rifting split Pangaea into Laurasia and Gondwana and opened the Central Atlantic. New seaways changed ocean circulation, climate and the geographic connections between terrestrial faunas.",
+      "note": "Continental reconstructions are models constrained by magnetic, seismic and geological data, not maps drawn from direct observation.",
+      "refs": ["scotese2021"]
+    },
+    {
+      "id": "birds-among-dinosaurs",
+      "title": "Birds among dinosaurs",
+      "dateMa": 150,
+      "dateLabel": "≈150 Ma",
+      "unitId": "jurassic",
+      "kind": "first-evidence",
+      "basis": "fossil",
+      "body": "Archaeopteryx, from the Late Jurassic Solnhofen Limestone of Germany, combines feathers and wings with dinosaurian teeth, claws and a long bony tail. It is among the earliest known birds, and it is nested within the theropod dinosaurs.",
+      "note": "The origin of the bird crown group is not the same as the first known bird-like fossil. The exact sequence of feather and flight evolution is debated.",
+      "refs": ["xu2014"]
+    },
+    {
+      "id": "kpg-extinction",
+      "title": "The end-Cretaceous extinction",
+      "dateMa": 66,
+      "dateLabel": "66 Ma",
+      "unitId": "cretaceous",
+      "kind": "extinction",
+      "basis": "fossil",
+      "body": "The Cretaceous–Paleogene extinction removed the non-avian dinosaurs, ammonites, mosasaurs and many other groups. The Chicxulub impact and Deccan Traps volcanism are the leading causes; the impact is the best-supported immediate trigger.",
+      "note": "Birds are dinosaurs and survive the boundary. The extinction did not end all dinosaurs; it ended the non-avian lineages.",
+      "refs": ["schulte2010"]
+    },
+    {
+      "id": "petm",
+      "title": "The Paleocene–Eocene Thermal Maximum",
+      "dateMa": 56,
+      "dateLabel": "≈56 Ma",
+      "unitId": "paleogene",
+      "kind": "transition",
+      "basis": "proxy",
+      "body": "A geologically brief interval of rapid global warming around 56 Ma, associated with a large release of carbon. It shifted marine and terrestrial ecosystems and is studied as a possible analogue for rapid carbon release.",
+      "note": "The PETM was rapid in geological terms but unfolded over thousands of years. It is not a perfect analogue for modern climate change.",
+      "refs": ["zachos2001"]
+    },
+    {
+      "id": "mammal-radiation",
+      "title": "Mammals diversify",
+      "dateMa": 66,
+      "endMa": 23.03,
+      "dateLabel": "66–23 Ma",
+      "unitId": "paleogene",
+      "kind": "diversification",
+      "basis": "fossil",
+      "body": "After the end-Cretaceous extinction, mammals expanded into terrestrial, marine and aerial niches. Primates, bats, whales and many modern orders appear in the Paleogene fossil record.",
+      "note": "Molecular and fossil evidence disagree on the timing of some splits. The fossil record documents the appearance of lineages, not necessarily the moment they first evolved.",
+      "refs": ["meredith2011"]
+    },
+    {
+      "id": "c4-grasslands",
+      "title": "C4 grasslands spread",
+      "dateMa": 8,
+      "endMa": 3,
+      "dateLabel": "≈8–3 Ma",
+      "unitId": "neogene",
+      "kind": "diversification",
+      "basis": "proxy",
+      "body": "Grasses using the C4 photosynthetic pathway expanded in warm regions during the late Miocene and Pliocene, creating open grasslands that reshaped herbivore and hominin environments.",
+      "note": "The expansion was regional and asynchronous, not a single global event. Its causes include cooling, aridity and changing fire regimes.",
+      "refs": ["edwards2010"]
+    },
+    {
+      "id": "first-hominins",
+      "title": "The first hominins",
+      "dateMa": 7,
+      "dateLabel": "≈7 Ma",
+      "unitId": "neogene",
+      "kind": "first-evidence",
+      "basis": "fossil",
+      "body": "Sahelanthropus and other early candidates from Africa document hominin-like anatomy around 7 Ma. The fossils are fragmentary, and their position on the human lineage is debated.",
+      "note": "The oldest known fossil is a minimum age for a lineage, not the moment it split from the chimpanzee lineage.",
+      "refs": ["brunet2002"]
+    },
+    {
+      "id": "homo-sapiens",
+      "title": "Homo sapiens",
+      "dateMa": 0.315,
+      "dateLabel": "≈315,000 years ago",
+      "unitId": "quaternary",
+      "kind": "first-evidence",
+      "basis": "fossil",
+      "body": "Fossils from Jebel Irhoud, Morocco, show that early Homo sapiens was present in Africa by about 315,000 years ago. The species later dispersed across and beyond Africa.",
+      "note": "This is the oldest currently known fossil evidence of the species, not the exact origin of modern human behaviour or the first humans.",
+      "refs": ["hublin2017"]
+    },
+    {
+      "id": "last-glacial-maximum",
+      "title": "The Last Glacial Maximum",
+      "dateMa": 0.0265,
+      "dateLabel": "≈26,500 years ago",
+      "unitId": "quaternary",
+      "kind": "transition",
+      "basis": "proxy",
+      "body": "Global ice sheets reached their maximum extent around 26,500 years ago. Sea level was much lower, exposing continental shelves and land bridges, and ecosystems shifted toward the equator and coasts.",
+      "note": "The dating is a global synthesis, not a single layer at one site. Regional maxima differ by several thousand years.",
+      "refs": ["clark2009"]
+    }
+  ]
+}

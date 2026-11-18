@@ -1,0 +1,164 @@
+{
+  "slug": "yi",
+  "accession": "MZ-104",
+  "scientificName": "Yi qi",
+  "commonName": "Strange wing",
+  "genus": "Yi",
+  "epithet": "qi",
+  "status": "Extinct",
+  "namedBy": "Xu et al., 2015",
+  "group": "Theropoda · Scansoriopterygidae",
+  "groupKey": "Theropoda",
+  "period": "jurassic",
+  "periodLabel": "Middle–Late Jurassic",
+  "stage": "Callovian–Oxfordian",
+  "ageMa": [
+    165,
+    158
+  ],
+  "ageLabel": "≈165–158 Ma",
+  "region": [
+    "China"
+  ],
+  "regionKeys": [
+    "Asia"
+  ],
+  "diet": "carnivore",
+  "dietLabel": "Carnivore",
+  "dietEvidence": {
+    "body": "No gut contents are known. The diet is not established; insectivory or omnivory are hypotheses, not observations.",
+    "evidence": "inference",
+    "refs": [
+      "primary-yi",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "length": "≈0.3–0.4 m",
+  "mass": "≈0.3 kg",
+  "sizeNote": "Length and mass are estimates from incomplete material, not measurements of a whole animal.",
+  "sizeRefs": [
+    "paul2016"
+  ],
+  "image": "yi-living",
+  "featured": false,
+  "tagline": "A small scansoriopterygid with an elongated third finger supporting a membranous wing. The wing membrane is preserved, but its aerodynamic function is debated.",
+  "summary": "A small scansoriopterygid with an elongated third finger supporting a membranous wing. The wing membrane is preserved, but its aerodynamic function is debated.",
+  "taxonomy": [
+    {
+      "rank": "Kingdom",
+      "value": "Animalia"
+    },
+    {
+      "rank": "Phylum",
+      "value": "Chordata"
+    },
+    {
+      "rank": "Clade",
+      "value": "Dinosauria"
+    },
+    {
+      "rank": "Clade",
+      "value": "Saurischia"
+    },
+    {
+      "rank": "Clade",
+      "value": "Theropoda"
+    },
+    {
+      "rank": "Clade",
+      "value": "Maniraptora"
+    },
+    {
+      "rank": "Family",
+      "value": "Scansoriopterygidae"
+    },
+    {
+      "rank": "Genus",
+      "value": "Yi"
+    },
+    {
+      "rank": "Species",
+      "value": "Y. qi"
+    }
+  ],
+  "discovery": {
+    "body": "Named by Xu et al., 2015. The record is known from the Tiaojishan Formation at Mutoudeng, Qinglong County, Hebei. The holotype, STM 31-2, is an articulated partial skeleton with membranous wing tissue and feathers.",
+    "evidence": "fossil",
+    "refs": [
+      "primary-yi"
+    ]
+  },
+  "fossilEvidence": [
+    {
+      "title": "Preserved material",
+      "body": "The holotype, STM 31-2, is an articulated partial skeleton with membranous wing tissue and feathers preserved on a slab and counterpart.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-yi",
+        "pbdb",
+        "paul2016"
+      ]
+    },
+    {
+      "title": "Stratigraphic and geographic occurrence",
+      "body": "The Tiaojishan Formation at Mutoudeng, Qinglong County, Hebei, records the species in the Callovian–Oxfordian. The numeric range used here is ≈165–158 Ma, an occurrence estimate rather than a direct date on the specimen.",
+      "evidence": "fossil",
+      "refs": [
+        "pbdb"
+      ]
+    }
+  ],
+  "anatomy": [
+    {
+      "title": "Preserved anatomy",
+      "body": "The third manual digit is elongated; a rod-like styliform element extends from the wrist, and patches of membrane are preserved between the rod and digits. The tail is short. The aerodynamic function is contested.",
+      "evidence": "fossil",
+      "refs": [
+        "primary-yi",
+        "pbdb",
+        "paul2016",
+        "v20-dececchi2020"
+      ]
+    }
+  ],
+  "behaviour": {
+    "body": "The membranous wing is preserved; whether it supported gliding, flapping or display is debated. Dececchi et al. (2020) found powered flight highly unlikely and gliding limited. Diet is inferred from anatomy; no gut contents are known.",
+    "evidence": "inference",
+    "refs": [
+      "primary-yi",
+      "pbdb",
+      "paul2016",
+      "v20-dececchi2020"
+    ]
+  },
+  "reconstruction": {
+    "body": "A licensed life reconstruction is assigned to this record and credited in Sources and credits. The species is known from a single partial skeleton with membrane and feather impressions. The reconstruction is an artist's interpretation of appearance, not a direct observation from the fossil record; preserved integument, where present, is described in the anatomy section, and the soft-tissue outline is otherwise inferred.",
+    "evidence": "reconstruction",
+    "refs": [
+      "primary-yi",
+      "pbdb",
+      "paul2016"
+    ]
+  },
+  "references": [
+    "primary-yi",
+    "v20-dececchi2020",
+    "pbdb",
+    "paul2016"
+  ],
+  "related": [
+    "epidexipteryx",
+    "anchiornis"
+  ],
+  "confidenceNote": "V20 checked the original description’s abstract and holotype details, the open-access 2020 aerodynamic study, and the specimen record. The membrane and styliform element are direct evidence. The original authors suggested aerial locomotion; Dececchi et al. found the wing poorly suited to powered flight and limited for gliding. The functional interpretation remains contested.",
+  "updated": "2026-11-17",
+  "added": "2026-11-16",
+  "locomotion": "Bipedal",
+  "habitat": "Temperate forest",
+  "ancientContext": "Mutoudeng, Qinglong County, Hebei",
+  "locality": [
+    "Mutoudeng, Qinglong County, Hebei"
+  ],
+  "researchStatus": "partially-verified"
+}
